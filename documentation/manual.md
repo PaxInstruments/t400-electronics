@@ -68,11 +68,12 @@ This button cycles through the celclus, fahrenheight, and kelvin scales. While l
 
 ## Screens
 ### Default screen
-On device boot the screen should default to the image below.
+
+On device boot the screen should default to the image below. NOTE: The "NoTC" in this graphic need to be changed to "----".
 
 ![Primary Screenshot](screenshot-default-big.png?raw=true)
 
-* Thermocouples default to NoTC
+* Thermocouples default to ----
 * Ambient temperature sensor shows --.-C
 * Reading interval is one second
 * Battery is empty
@@ -82,7 +83,7 @@ On device boot the screen should default to the image below.
 
 
 ### Without thermocouples
-After the first screen frame is drawn the device determines the ambient temperature and the battery charge level.
+After the first screen frame is drawn the device determines the ambient temperature and the battery charge level. NOTE: The "NoTC" in this graphic need to be changed to "----". 
 
 ![Primary Screenshot](screenshot-notc-big.png?raw=true)
 
@@ -90,7 +91,7 @@ After the first screen frame is drawn the device determines the ambient temperat
 *  The battery charge level is displayed. In this example the battery charge level is approximately 75%.
 
 ### One thermocouple
-When one thermocouple is connected to the datalogger the screen should appear as below.
+When one thermocouple is connected to the datalogger the screen should appear as below. NOTE: The "NoTC" in this graphic need to be changed to "----".
 
 ![Primary Screenshot](screenshot-onetc-big.png?raw=true)
 
@@ -185,18 +186,18 @@ When the user pressed the logging button ![Primary Screenshot](logging_icon.png?
 ### Alice makes coffee
 Alice likes to make coffee in her French press. She used to bring water to a boil and wait a few minutes as it cooled. However, she could not determine if the water was at her ideal brewing temperature of 93°C. In addition to the temperature uncertainty, this wasted extra time and energy needlesly heating the water beyong 93°C and waiting for it to cool. Now the uses the Pax Instruments T4-DataLogger to monitor her water temperature to achieve her ideal brewnig temperature of 93°C.
 
-Alice Removes here Pax Instruments DL-T4 and stainelss steel temperature probe from the kitchen drawer. She turns on the unit and is presented with the screen below.
+Alice Removes here Pax Instruments DL-T4 and stainelss steel temperature probe from the kitchen drawer. She turns on the unit and is presented with the screen below. NOTE: The "NoTC" in this graphic need to be changed to "----".
 
 ![Primary Screenshot](screenshot-notc-big.png?raw=true)
 
-She then plugs her temperature probe connector into the DL-T4 and places the stainless steel probe into the room temperature water. Her screen appears below.
+She then plugs her temperature probe connector into the DL-T4 and places the stainless steel probe into the room temperature water. Her screen appears below. NOTE: The "NoTC" in this graphic need to be changed to "----".
 
 ![Primary Screenshot](screenshot-onetc-coffee-big.png?raw=true)
 
 Once the water reaches 93°C Alice removees it from the heat and begins brewing her coffee. Victory for Alice!
 
 ### Bob boils water
-Bob wants to boil water, so we does it. After some time the water reaches a boil. Victory!
+Bob wants to boil water, so we does it. After some time the water reaches a boil. Victory! NOTE: The "NoTC" in this graphic need to be changed to "----".
 
 ![Primary Screenshot](screenshot-onetc-boiling-big.png?raw=true)
 
