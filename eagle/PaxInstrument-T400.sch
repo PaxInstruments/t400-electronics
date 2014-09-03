@@ -7483,164 +7483,6 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Sensors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="HTU21D">
-<description>&lt;b&gt;Description:&lt;/b&gt; HTU21D is a very small, low cost, I2C digital humidity and temperature sensor.</description>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.2032" layer="21"/>
-<smd name="NC@6" x="1.5" y="1" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="GND" x="1.5" y="0" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="DATA" x="1.5" y="-1" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="SCK" x="-1.5" y="-1" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="VDD" x="-1.5" y="0" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="NC@1" x="-1.5" y="1" dx="0.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="7" x="0" y="0" dx="0.2" dy="0.2" layer="1"/>
-<polygon width="0.127" layer="1">
-<vertex x="-0.7" y="1.25"/>
-<vertex x="0.75" y="1.25"/>
-<vertex x="0.75" y="-0.8"/>
-<vertex x="0.3" y="-1.25"/>
-<vertex x="-0.7" y="-1.25"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-0.55" y="1.05"/>
-<vertex x="0.55" y="1.05"/>
-<vertex x="0.55" y="-0.65"/>
-<vertex x="0.1" y="-1.1"/>
-<vertex x="-0.55" y="-1.1"/>
-</polygon>
-<wire x1="-0.7" y1="-1.5" x2="0.7" y2="-1.5" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="1.2" x2="0.5" y2="1.2" width="0.127" layer="51"/>
-<wire x1="0.5" y1="1.2" x2="0.5" y2="0.5" width="0.127" layer="51"/>
-<wire x1="0.5" y1="0.5" x2="-0.5" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-0.5" y1="0.5" x2="-0.5" y2="1.2" width="0.127" layer="51"/>
-<polygon width="0.127" layer="29">
-<vertex x="-0.775" y="1.325"/>
-<vertex x="-0.775" y="-1.3"/>
-<vertex x="0.375" y="-1.3"/>
-<vertex x="0.825" y="-0.85"/>
-<vertex x="0.825" y="1.325"/>
-</polygon>
-<text x="-1.075" y="1.775" size="0.5" layer="25">&gt;Name</text>
-<text x="-1.325" y="-2.2" size="0.5" layer="27">&gt;Value</text>
-</package>
-<package name="LGA8">
-<description>&lt;h4&gt;LGA8 Package&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt; 5.0x3.0x1.2mm&lt;/li&gt;
-&lt;li&gt;8-pad&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;
-Used in MPL115A1 -</description>
-<wire x1="-1.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="-1.5" y2="2.5" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="1.1" x2="-1.5" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="2.5" x2="-1.5" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="2.5" x2="1.5" y2="2.4" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="1.1" x2="1.5" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-0.1" x2="-1.5" y2="0.1" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-1.4" x2="-1.5" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="-2.4" x2="-1.5" y2="-2.5" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-0.1" x2="1.5" y2="0.1" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-1.4" x2="1.5" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="1.5" y1="-2.4" x2="1.5" y2="-2.5" width="0.2032" layer="21"/>
-<circle x="0" y="-1.025" radius="0.7071" width="0.127" layer="51"/>
-<circle x="-0.26" y="2.01" radius="0.05" width="0.2032" layer="21"/>
-<smd name="1" x="-1.2" y="1.875" dx="1.2" dy="0.5" layer="1"/>
-<smd name="2" x="-1.2" y="0.625" dx="1.2" dy="0.5" layer="1"/>
-<smd name="3" x="-1.2" y="-0.625" dx="1.2" dy="0.5" layer="1"/>
-<smd name="4" x="-1.2" y="-1.875" dx="1.2" dy="0.5" layer="1"/>
-<smd name="8" x="1.2" y="1.875" dx="1.2" dy="0.5" layer="1"/>
-<smd name="7" x="1.2" y="0.625" dx="1.2" dy="0.5" layer="1"/>
-<smd name="6" x="1.2" y="-0.625" dx="1.2" dy="0.5" layer="1"/>
-<smd name="5" x="1.2" y="-1.875" dx="1.2" dy="0.5" layer="1"/>
-<text x="-1.524" y="2.667" size="0.4064" layer="25" font="vector" ratio="15">&gt;Name</text>
-<text x="-1.524" y="-3.048" size="0.4064" layer="27" font="vector" ratio="15">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="HTU21D">
-<description>&lt;b&gt;Description:&lt;/b&gt; The HTU21D is a very small, low cost, I2D digitally controlled humidity and temperature sensor.</description>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="5.588" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="-7.62" size="1.778" layer="95">&gt;Value</text>
-<pin name="SCK" x="10.16" y="0" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="DATA" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="GND@2" x="-10.16" y="0" visible="pin" length="short" direction="pwr"/>
-<pin name="VDD" x="-10.16" y="2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="GND@7" x="-10.16" y="-2.54" visible="pin" length="short" direction="pwr"/>
-</symbol>
-<symbol name="MPL3115A2">
-<wire x1="-10.16" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<text x="-10.16" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VDD" x="-12.7" y="2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="CAP" x="-12.7" y="0" visible="pin" length="short" direction="pwr"/>
-<pin name="GND" x="-12.7" y="-2.54" visible="pin" length="short" direction="pwr"/>
-<pin name="VDDIO" x="-12.7" y="-5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="SCL" x="10.16" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="SDA" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="INT1" x="10.16" y="-2.54" visible="pin" length="short" direction="out" rot="R180"/>
-<pin name="INT2" x="10.16" y="-5.08" visible="pin" length="short" direction="out" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="HTU21D" prefix="U">
-<gates>
-<gate name="U$1" symbol="HTU21D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="HTU21D">
-<connects>
-<connect gate="U$1" pin="DATA" pad="DATA"/>
-<connect gate="U$1" pin="GND@2" pad="GND"/>
-<connect gate="U$1" pin="GND@7" pad="7"/>
-<connect gate="U$1" pin="SCK" pad="SCK"/>
-<connect gate="U$1" pin="VDD" pad="VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MPL3115A2" prefix="U">
-<description>Altimeter/Pressure Sensor, I2C, 1.95V-3.6V supply, 50 to 110kPa</description>
-<gates>
-<gate name="G$1" symbol="MPL3115A2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="LGA8" package="LGA8">
-<connects>
-<connect gate="G$1" pin="CAP" pad="2"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="INT1" pad="6"/>
-<connect gate="G$1" pin="INT2" pad="5"/>
-<connect gate="G$1" pin="SCL" pad="8"/>
-<connect gate="G$1" pin="SDA" pad="7"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-<connect gate="G$1" pin="VDDIO" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Passives">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
@@ -8721,30 +8563,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="MPN" value="CCV-084B16"/>
 <attribute name="OC_DIGIKEY" value="102-1265-1-ND"/>
 </part>
-<part name="U2" library="SparkFun-Sensors" deviceset="HTU21D" device="SMD">
-<attribute name="MPN" value="HPP828E031"/>
-<attribute name="OC_DIGIKEY" value="223-1144-1-ND"/>
-</part>
-<part name="P+10" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C20" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
-</part>
-<part name="U6" library="SparkFun-Sensors" deviceset="MPL3115A2" device="LGA8">
-<attribute name="MPN" value="MPL3115A2"/>
-<attribute name="OC_DIGIKEY" value="MPL3115A2-ND"/>
-</part>
-<part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="P+11" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="C21" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
-</part>
-<part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
-</part>
-<part name="C23" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
-<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
-</part>
 <part name="U8" library="SparkFun-DigitalIC" deviceset="74*32" device="" value="NC7S32">
 <attribute name="MPN" value="NC7S32M5X"/>
 <attribute name="OC_DIGIKEY" value="NC7S32M5XTR-ND"/>
@@ -8998,16 +8816,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="111.76" y1="154.94" x2="111.76" y2="193.04" width="0.2032" layer="94"/>
 <text x="114.3" y="187.96" size="3.81" layer="94">Temp sensor</text>
 <text x="297.18" y="187.96" size="3.81" layer="94">Buzzer</text>
-<wire x1="172.72" y1="193.04" x2="231.14" y2="193.04" width="0.2032" layer="94"/>
-<wire x1="231.14" y1="193.04" x2="231.14" y2="154.94" width="0.2032" layer="94"/>
-<wire x1="231.14" y1="154.94" x2="172.72" y2="154.94" width="0.2032" layer="94"/>
-<wire x1="172.72" y1="154.94" x2="172.72" y2="193.04" width="0.2032" layer="94"/>
-<text x="175.26" y="187.96" size="3.81" layer="94">Humidity</text>
-<wire x1="172.72" y1="152.4" x2="231.14" y2="152.4" width="0.2032" layer="94"/>
-<wire x1="231.14" y1="152.4" x2="231.14" y2="114.3" width="0.2032" layer="94"/>
-<wire x1="231.14" y1="114.3" x2="172.72" y2="114.3" width="0.2032" layer="94"/>
-<wire x1="172.72" y1="114.3" x2="172.72" y2="152.4" width="0.2032" layer="94"/>
-<text x="175.26" y="147.32" size="3.81" layer="94">Pressure</text>
 <text x="330.2" y="15.24" size="2.54" layer="94" align="center-left">0.7</text>
 <wire x1="172.72" y1="73.66" x2="231.14" y2="73.66" width="0.2032" layer="94"/>
 <wire x1="172.72" y1="111.76" x2="172.72" y2="73.66" width="0.2032" layer="94"/>
@@ -9237,37 +9045,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="NAME" x="307.34" y="175.26" size="1.778" layer="95" rot="MR270"/>
 <attribute name="MPN" x="312.42" y="172.72" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="OC_DIGIKEY" x="312.42" y="172.72" size="1.778" layer="96" rot="MR270" display="off"/>
-</instance>
-<instance part="U2" gate="U$1" x="205.74" y="172.72" smashed="yes">
-<attribute name="MPN" x="205.74" y="172.72" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="205.74" y="172.72" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="198.12" y="165.1" size="1.778" layer="95"/>
-</instance>
-<instance part="P+10" gate="G$1" x="193.04" y="180.34" rot="MR0"/>
-<instance part="GND16" gate="1" x="193.04" y="160.02"/>
-<instance part="C20" gate="G$1" x="182.88" y="170.18">
-<attribute name="OC_DIGIKEY" x="182.88" y="170.18" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U6" gate="G$1" x="210.82" y="137.16">
-<attribute name="MPN" x="210.82" y="137.16" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="210.82" y="137.16" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="GND22" gate="1" x="195.58" y="116.84"/>
-<instance part="P+11" gate="G$1" x="193.04" y="142.24" rot="MR0"/>
-<instance part="C21" gate="G$1" x="177.8" y="129.54" smashed="yes">
-<attribute name="OC_DIGIKEY" x="177.8" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="177.419" y="133.604" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="177.419" y="123.444" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C22" gate="G$1" x="187.96" y="129.54" smashed="yes">
-<attribute name="OC_DIGIKEY" x="187.96" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="187.579" y="133.604" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="187.579" y="123.444" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C23" gate="G$1" x="182.88" y="129.54" smashed="yes">
-<attribute name="OC_DIGIKEY" x="182.88" y="129.54" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="182.499" y="133.604" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="182.499" y="123.444" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U8" gate="G$1" x="200.66" y="220.98">
 <attribute name="MPN" x="200.66" y="220.98" size="1.778" layer="96" display="off"/>
@@ -9548,16 +9325,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="U$14" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
-<pinref part="U2" gate="U$1" pin="SCK"/>
-<wire x1="215.9" y1="172.72" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
-<label x="218.44" y="172.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="SCL"/>
-<wire x1="220.98" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
-<label x="223.52" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <label x="210.82" y="88.9" size="1.778" layer="95"/>
 <pinref part="ICSP1" gate="G$1" pin="4"/>
 <wire x1="210.82" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
@@ -9584,16 +9351,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="276.86" y1="172.72" x2="287.02" y2="172.72" width="0.1524" layer="91"/>
 <label x="281.94" y="172.72" size="1.778" layer="95"/>
 <pinref part="U$14" gate="G$1" pin="SDA"/>
-</segment>
-<segment>
-<pinref part="U2" gate="U$1" pin="DATA"/>
-<wire x1="215.9" y1="175.26" x2="218.44" y2="175.26" width="0.1524" layer="91"/>
-<label x="218.44" y="175.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="SDA"/>
-<wire x1="220.98" y1="137.16" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
-<label x="223.52" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="210.82" y="86.36" size="1.778" layer="95"/>
@@ -9730,34 +9487,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="368.3" y1="243.84" x2="365.76" y2="243.84" width="0.1524" layer="91"/>
 <junction x="365.76" y="243.84"/>
-</segment>
-<segment>
-<pinref part="U2" gate="U$1" pin="VDD"/>
-<wire x1="195.58" y1="175.26" x2="193.04" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="175.26" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="P+10" gate="G$1" pin="3.3V"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="177.8" x2="193.04" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="175.26" x2="182.88" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="177.8" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
-<junction x="193.04" y="177.8"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="VDDIO"/>
-<wire x1="198.12" y1="132.08" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="132.08" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="VDD"/>
-<wire x1="193.04" y1="139.7" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<junction x="193.04" y="139.7"/>
-<pinref part="P+11" gate="G$1" pin="3.3V"/>
-<wire x1="193.04" y1="139.7" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<pinref part="C23" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="134.62" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
-<junction x="182.88" y="139.7"/>
-<wire x1="182.88" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="139.7" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="330.2" y1="139.7" x2="317.5" y2="139.7" width="0.1524" layer="91"/>
@@ -9997,40 +9726,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="203.2" x2="180.34" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="203.2" x2="180.34" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U2" gate="U$1" pin="GND@2"/>
-<wire x1="195.58" y1="172.72" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="172.72" x2="193.04" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="U2" gate="U$1" pin="GND@7"/>
-<wire x1="193.04" y1="170.18" x2="193.04" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="165.1" x2="193.04" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="170.18" x2="193.04" y2="170.18" width="0.1524" layer="91"/>
-<junction x="193.04" y="170.18"/>
-<pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="167.64" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="165.1" x2="193.04" y2="165.1" width="0.1524" layer="91"/>
-<junction x="193.04" y="165.1"/>
-</segment>
-<segment>
-<pinref part="U6" gate="G$1" pin="GND"/>
-<wire x1="198.12" y1="134.62" x2="195.58" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="134.62" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-<pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="121.92" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<junction x="195.58" y="121.92"/>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="127" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="121.92" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="182.88" y1="127" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
-<junction x="182.88" y="121.92"/>
-<wire x1="182.88" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="127" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<junction x="187.96" y="121.92"/>
 </segment>
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
@@ -10661,14 +10356,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="U$3" gate="G$1" pin="PC7"/>
 <wire x1="81.28" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
 <label x="83.82" y="119.38" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="C22" gate="G$1" pin="1"/>
-<pinref part="U6" gate="G$1" pin="CAP"/>
-<wire x1="187.96" y1="134.62" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BATT_STAT" class="0">
