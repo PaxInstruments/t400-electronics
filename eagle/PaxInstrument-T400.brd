@@ -866,23 +866,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="BUZZER-CCV">
-<wire x1="2.6" y1="-6" x2="-2.6" y2="-6" width="0.127" layer="51"/>
-<wire x1="2.6" y1="-6" x2="2.6" y2="-3.7" width="0.127" layer="51"/>
-<wire x1="-2.6" y1="-6" x2="-2.6" y2="-3.7" width="0.127" layer="51"/>
-<wire x1="-4.2" y1="1.6" x2="1.27" y2="4.318" width="0.2032" layer="21" curve="-86.141052"/>
-<wire x1="3.048" y1="3.302" x2="4.191" y2="1.651" width="0.2032" layer="21" curve="-25.69541"/>
-<wire x1="4.2" y1="-1.6" x2="2.6" y2="-3.7" width="0.2032" layer="21" curve="-31.605028"/>
-<wire x1="-3.302" y1="-3.048" x2="-2.6" y2="-3.6" width="0.2032" layer="21" curve="12.917633"/>
-<wire x1="-2.6" y1="-6" x2="2.6" y2="-6" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="-6" x2="2.6" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="-6" x2="-2.6" y2="-3.6" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="4.5" width="0.127" layer="51"/>
-<smd name="-" x="-4" y="0" dx="3.2" dy="2.5" layer="1"/>
-<smd name="+" x="4" y="0" dx="3.2" dy="2.5" layer="1"/>
-<hole x="-3.9" y="-2.25" drill="0.8"/>
-<hole x="2.25" y="3.9" drill="0.8"/>
-</package>
 <package name="TACTILE_SWITCH_SMD">
 <wire x1="-1.54" y1="-2.54" x2="-2.54" y2="-1.54" width="0.2032" layer="51"/>
 <wire x1="-2.54" y1="-1.24" x2="-2.54" y2="1.27" width="0.2032" layer="21"/>
@@ -1317,10 +1300,6 @@ These are the default Design Rules for LumberDAQ.</description>
 </element>
 <element name="R16" library="SparkFun-Passives" package="0805" value="10k" x="82.55" y="31.496">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="82.55" y="31.496" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="SG1" library="SparkFun-Electromechanical" package="BUZZER-CCV" value="BUZZERSMD2" x="19.05" y="29.21" rot="R180">
-<attribute name="MPN" value="CCV-084B16" x="19.05" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_DIGIKEY" value="102-1265-1-ND" x="19.05" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U8" library="SparkFun-DigitalIC" package="SOT23-5" value="NC7S32" x="85.09" y="19.304" rot="R270">
 <attribute name="MPN" value="NC7S32M5X" x="85.09" y="19.304" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1849,7 +1828,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="77.216" y1="25.908" x2="79.248" y2="25.908" width="0.8128" layer="16"/>
 <contactref element="ICSP1" pad="1"/>
 <wire x1="26.162" y1="19.05" x2="33.274" y2="19.05" width="0.8128" layer="1"/>
-<contactref element="SG1" pad="+"/>
 <contactref element="R29" pad="2"/>
 <contactref element="R27" pad="2"/>
 <contactref element="R30" pad="2"/>
@@ -1866,7 +1844,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="43.942" y1="44.08" x2="43.942" y2="46.99" width="0.8128" layer="1"/>
 <wire x1="77.724" y1="46.99" x2="79.502" y2="45.212" width="0.8128" layer="1"/>
 <wire x1="79.502" y1="45.212" x2="79.502" y2="44.08" width="0.8128" layer="1"/>
-<wire x1="15.05" y1="29.21" x2="14.796" y2="29.464" width="0.8128" layer="1"/>
 <wire x1="14.796" y1="29.464" x2="9.652" y2="29.464" width="0.8128" layer="1"/>
 <wire x1="8.89" y1="29.21" x2="9.144" y2="29.464" width="0.8128" layer="1"/>
 <wire x1="9.144" y1="29.464" x2="9.652" y2="29.464" width="0.8128" layer="1"/>
@@ -2958,7 +2935,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="25.516" y1="34.29" x2="9.398" y2="34.29" width="0.3048" layer="1"/>
 </signal>
 <signal name="BUZZER">
-<contactref element="SG1" pad="-"/>
 <contactref element="U$3" pad="32"/>
 <wire x1="65.311490625" y1="28.12608125" x2="64.735571875" y2="28.702" width="0.3048" layer="1"/>
 <wire x1="64.735571875" y1="28.702" x2="61.976" y2="28.702" width="0.3048" layer="1"/>
@@ -2972,7 +2948,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="46.482" y1="19.812" x2="45.974" y2="19.304" width="0.3048" layer="16"/>
 <wire x1="45.974" y1="19.304" x2="36.068" y2="19.304" width="0.3048" layer="16"/>
 <wire x1="36.068" y1="19.304" x2="35.814" y2="19.304" width="0.3048" layer="16"/>
-<wire x1="23.05" y1="29.21" x2="22.796" y2="28.956" width="0.3048" layer="1"/>
 <wire x1="22.796" y1="28.956" x2="20.574" y2="28.956" width="0.3048" layer="1"/>
 <via x="20.574" y="28.956" extent="1-16" drill="0.3302"/>
 <wire x1="20.574" y1="28.956" x2="21.844" y2="27.686" width="0.3048" layer="16"/>
@@ -3676,10 +3651,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="3,1,3bff0fc70f893bb1"/>
 <approved hash="18,29,a1914c1a0830f80a"/>
 <approved hash="18,29,3c2fe4a24d4a840a"/>
-<approved hash="18,29,b2630755da10e693"/>
 <approved hash="18,29,8b76073aafc5a640"/>
-<approved hash="18,29,1d6e408fc43769c5"/>
+<approved hash="18,29,b2630755da10e693"/>
 <approved hash="18,29,1571409dc5e561fc"/>
+<approved hash="18,29,1d6e408fc43769c5"/>
 <approved hash="18,29,62a13217321b6755"/>
 <approved hash="18,29,62e33211324566b7"/>
 <approved hash="18,29,e6e7b619b64de2b3"/>
@@ -3722,43 +3697,43 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="5,16,fb50c35812c2b14c"/>
 <approved hash="19,16,d0a5ce6fcc27ded1"/>
 <approved hash="19,16,e36ce246e09eed18"/>
-<approved hash="5,16,6f9fc52c90eb3e44"/>
-<approved hash="5,16,e208b166902944db"/>
-<approved hash="19,16,bd06917c9f30bf7e"/>
-<approved hash="5,16,3011855ed0692144"/>
-<approved hash="19,16,fd84cefec0b6fff0"/>
-<approved hash="5,16,fd08f1e4d0af5bdb"/>
-<approved hash="5,16,874198b4a5d377b6"/>
-<approved hash="5,16,8841d83aea5178b6"/>
-<approved hash="5,16,af1d05aa516d3f44"/>
-<approved hash="5,16,e30870f851a345db"/>
-<approved hash="19,16,7cf051ea5fb27efc"/>
 <approved hash="5,16,8641592e655576a6"/>
-<approved hash="19,16,41e53c0ddcd1ebcd"/>
-<approved hash="19,16,1763ab8212d139ca"/>
-<approved hash="19,16,c2e93e1ddee168e1"/>
-<approved hash="19,16,946fa99210e1bae6"/>
+<approved hash="5,16,af1d05aa516d3f44"/>
+<approved hash="19,16,7cf051ea5fb27efc"/>
+<approved hash="5,16,e30870f851a345db"/>
+<approved hash="5,16,6f9fc52c90eb3e44"/>
+<approved hash="19,16,bd06917c9f30bf7e"/>
+<approved hash="5,16,e208b166902944db"/>
+<approved hash="5,16,874198b4a5d377b6"/>
+<approved hash="5,16,3011855ed0692144"/>
+<approved hash="5,16,fd08f1e4d0af5bdb"/>
+<approved hash="19,16,fd84cefec0b6fff0"/>
+<approved hash="5,16,8841d83aea5178b6"/>
 <approved hash="19,16,806f3c19dddd2b5f"/>
 <approved hash="19,16,d6e9ab9613ddf958"/>
+<approved hash="19,16,c2e93e1ddee168e1"/>
+<approved hash="19,16,946fa99210e1bae6"/>
+<approved hash="19,16,41e53c0ddcd1ebcd"/>
+<approved hash="19,16,1763ab8212d139ca"/>
 <approved hash="19,16,e594ad9a41f4b586"/>
 <approved hash="19,16,b769f81ec7f584fb"/>
+<approved hash="19,16,6570ac7a5ff42a82"/>
+<approved hash="19,16,378df9fed9f51bff"/>
+<approved hash="5,16,6dc565e287e22856"/>
 <approved hash="19,16,25f6ac7e5ef86b0c"/>
 <approved hash="19,16,770bf9fad8f95a71"/>
 <approved hash="5,16,72c53a6cc764285a"/>
 <approved hash="19,16,e594ad9a41f4b586"/>
 <approved hash="19,16,b769f81ec7f584fb"/>
 <approved hash="5,16,73c5faf606ee285e"/>
-<approved hash="19,16,6570ac7a5ff42a82"/>
-<approved hash="19,16,378df9fed9f51bff"/>
-<approved hash="5,16,6dc565e287e22856"/>
 <approved hash="19,16,d6e9ab9613ddf958"/>
 <approved hash="19,16,aa19e66b4db01e22"/>
 <approved hash="5,16,8665f6379d80f0f2"/>
 <approved hash="5,16,0391f7baabd9a71b"/>
 <approved hash="5,16,6ede0391f80245d8"/>
+<approved hash="19,16,2343c189c3cc2d3a"/>
 <approved hash="19,16,63cd9e0f9c4e6db8"/>
 <approved hash="19,16,a24f5e8d5cd8ac4e"/>
-<approved hash="19,16,2343c189c3cc2d3a"/>
 <approved hash="5,16,be4e38cbce023cbf"/>
 </errors>
 </board>
