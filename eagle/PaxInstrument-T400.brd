@@ -27,16 +27,16 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -48,8 +48,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -198,21 +198,12 @@ v0.7</text>
 <text x="30.988" y="19.05" size="0.762" layer="21" font="vector" ratio="15" rot="R180" align="center-left">3.3V</text>
 <text x="40.132" y="13.97" size="0.762" layer="21" font="vector" ratio="15" align="center-left">SDA</text>
 <text x="40.132" y="16.51" size="0.762" layer="21" font="vector" ratio="15" align="center-left">SCL</text>
-<text x="81.28" y="6.35" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">Battery</text>
 <text x="64.77" y="18.542" size="1.27" layer="21" font="vector" ratio="15" rot="R90">RTC</text>
 <text x="59.182" y="6.604" size="1.016" layer="21" font="vector" ratio="15" rot="R90">Humidity</text>
 <text x="65.532" y="17.78" size="1.016" layer="21" font="vector" ratio="15">Pressure</text>
 <text x="43.18" y="5.588" size="1.27" layer="21" font="vector" ratio="15" rot="R90">LCD</text>
 <text x="18.034" y="23.114" size="1.27" layer="21" font="vector" ratio="15">Buzzer</text>
 <text x="54.102" y="30.734" size="1.27" layer="21" font="vector" ratio="15" rot="R90">ADC</text>
-<wire x1="34.29" y1="35.56" x2="38.1" y2="35.56" width="0.3048" layer="22"/>
-<wire x1="82.55" y1="35.56" x2="78.74" y2="35.56" width="0.3048" layer="22"/>
-<wire x1="82.55" y1="35.56" x2="82.55" y2="31.75" width="0.3048" layer="22"/>
-<wire x1="82.55" y1="5.08" x2="82.55" y2="8.89" width="0.3048" layer="22"/>
-<wire x1="82.55" y1="5.08" x2="78.74" y2="5.08" width="0.3048" layer="22"/>
-<wire x1="34.29" y1="5.08" x2="38.1" y2="5.08" width="0.3048" layer="22"/>
-<wire x1="34.29" y1="35.56" x2="34.29" y2="31.75" width="0.3048" layer="22"/>
-<wire x1="34.29" y1="5.08" x2="34.29" y2="8.89" width="0.3048" layer="22"/>
 <text x="53.848" y="0.762" size="0.7112" layer="21" font="vector" ratio="15" rot="R90" align="top-left">Arduino pin map
 D0  SW_D
 D1  SW_E
@@ -1218,7 +1209,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="C9" library="SparkFun-Passives" package="0805" value="4.7uF" x="20.32" y="6.35" rot="R90">
 <attribute name="OC_DIGIKEY" value="490-3297-2-ND" x="20.32" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="SparkFun-Passives" package="0805" value="10k" x="84.582" y="12.446" rot="R270">
+<element name="R3" library="SparkFun-Passives" package="0805" value="2k" x="84.582" y="12.446" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="84.582" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC1" library="JeeLabs" package="SO14" value="MCP3424" x="48.26" y="33.02" rot="R270">
@@ -1851,6 +1842,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="27.316" y1="32.766" x2="27.316" y2="31.242" width="0.8128" layer="1"/>
 <wire x1="27.316" y1="31.242" x2="28.702" y2="31.242" width="0.8128" layer="1"/>
 <wire x1="28.702" y1="31.242" x2="29.464" y2="30.48" width="0.8128" layer="1"/>
+<contactref element="X2" pad="1"/>
+<wire x1="49.01" y1="12.61" x2="45.51" y2="12.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3EN">
 <contactref element="U4" pad="3"/>
@@ -1945,7 +1938,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="S3" pad="1"/>
 <contactref element="S4" pad="1"/>
 <contactref element="S5" pad="1"/>
-<contactref element="X2" pad="2"/>
 <contactref element="X2" pad="9"/>
 <contactref element="C36" pad="1"/>
 <contactref element="C9" pad="2"/>
@@ -2046,7 +2038,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="68.58" y1="19.05" x2="68.141" y2="19.489" width="0.3048" layer="1"/>
 <wire x1="67.956" y1="19.304" x2="65.902" y2="19.304" width="0.3048" layer="1"/>
 <wire x1="65.902" y1="19.304" x2="65.786" y2="19.42" width="0.3048" layer="1"/>
-<wire x1="46.01" y1="12.61" x2="46.01" y2="14.442" width="0.3048" layer="1"/>
 <wire x1="46.01" y1="14.442" x2="45.466" y2="14.986" width="0.3048" layer="1"/>
 <wire x1="49.51" y1="12.61" x2="49.51" y2="14.712" width="0.3048" layer="1"/>
 <wire x1="49.51" y1="14.712" x2="51.689" y2="16.891" width="0.3048" layer="1"/>
@@ -2132,7 +2123,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="86.106" y1="7.366" x2="86.614" y2="6.858" width="0.3048" layer="16"/>
 <wire x1="86.614" y1="6.858" x2="87.376" y2="7.62" width="0.3048" layer="1"/>
 <wire x1="87.376" y1="7.62" x2="90.816" y2="7.62" width="0.3048" layer="1"/>
-<wire x1="46.01" y1="12.61" x2="46.01" y2="11.466" width="0.3048" layer="1"/>
 <wire x1="46.01" y1="11.466" x2="45.466" y2="10.922" width="0.3048" layer="1"/>
 <via x="45.466" y="10.922" extent="1-16" drill="0.3302"/>
 <wire x1="45.466" y1="10.922" x2="50.8" y2="10.922" width="0.3048" layer="16"/>
@@ -2198,7 +2188,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="49.51" y1="11.45" x2="50.038" y2="10.922" width="0.3048" layer="1"/>
 <wire x1="50.038" y1="10.922" x2="50.8" y2="10.922" width="0.3048" layer="1"/>
 <wire x1="90.816" y1="7.62" x2="91.694" y2="8.498" width="0.3048" layer="1"/>
-<wire x1="70.358" y1="12.192" x2="71.374" y2="11.176" width="0" layer="19" extent="1-16"/>
 <wire x1="71.374" y1="11.176" x2="74.422" y2="11.176" width="0.3048" layer="1"/>
 <contactref element="U$1" pad="PIN$5"/>
 <contactref element="U$1" pad="PAD$2"/>
@@ -2253,11 +2242,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="95.504" y1="15.1655" x2="94.996" y2="15.6735" width="0.3048" layer="1"/>
 <wire x1="55.118" y1="30.596" x2="54.748" y2="30.596" width="0.3048" layer="1"/>
 <wire x1="54.748" y1="30.596" x2="54.61" y2="30.734" width="0.3048" layer="1"/>
-<contactref element="R25" pad="2"/>
 <contactref element="U$2" pad="P$3"/>
 <contactref element="U$2" pad="P$4"/>
 <contactref element="U$2" pad="P$5"/>
-<wire x1="70.474" y1="10.16" x2="70.474" y2="10.276" width="0.3048" layer="1"/>
 <wire x1="70.474" y1="10.276" x2="71.374" y2="11.176" width="0.3048" layer="1"/>
 <wire x1="15.494" y1="13.462" x2="15.494" y2="13.256" width="0.3048" layer="1"/>
 <via x="12.954" y="3.81" extent="1-16" drill="0.3302"/>
@@ -2310,6 +2297,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="17.018" y1="27.432" x2="18.542" y2="28.956" width="0.3048" layer="1"/>
 <wire x1="18.542" y1="28.956" x2="18.542" y2="31.242" width="0.3048" layer="1"/>
 <wire x1="65.162" y1="18.796" x2="62.23" y2="14.732" width="0" layer="19" extent="1-1"/>
+<wire x1="46.01" y1="14.442" x2="46.01" y2="11.466" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USBVCC">
 <contactref element="ICSP" pad="2"/>
@@ -2934,30 +2922,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="9.398" y1="37.846" x2="6.985" y2="37.846" width="0.3048" layer="16"/>
 <wire x1="25.516" y1="34.29" x2="9.398" y2="34.29" width="0.3048" layer="1"/>
 </signal>
-<signal name="BUZZER">
-<contactref element="U$3" pad="32"/>
-<wire x1="65.311490625" y1="28.12608125" x2="64.735571875" y2="28.702" width="0.3048" layer="1"/>
-<wire x1="64.735571875" y1="28.702" x2="61.976" y2="28.702" width="0.3048" layer="1"/>
-<wire x1="61.976" y1="28.702" x2="57.912" y2="24.638" width="0.3048" layer="1"/>
-<wire x1="57.912" y1="24.638" x2="52.578" y2="24.638" width="0.3048" layer="1"/>
-<wire x1="52.578" y1="24.638" x2="49.784" y2="21.844" width="0.3048" layer="1"/>
-<wire x1="49.784" y1="21.844" x2="46.736" y2="21.844" width="0.3048" layer="1"/>
-<wire x1="46.736" y1="21.844" x2="46.482" y2="21.59" width="0.3048" layer="1"/>
-<wire x1="46.482" y1="21.59" x2="46.482" y2="19.812" width="0.3048" layer="1"/>
-<via x="46.482" y="19.812" extent="1-16" drill="0.3302"/>
-<wire x1="46.482" y1="19.812" x2="45.974" y2="19.304" width="0.3048" layer="16"/>
-<wire x1="45.974" y1="19.304" x2="36.068" y2="19.304" width="0.3048" layer="16"/>
-<wire x1="36.068" y1="19.304" x2="35.814" y2="19.304" width="0.3048" layer="16"/>
-<wire x1="22.796" y1="28.956" x2="20.574" y2="28.956" width="0.3048" layer="1"/>
-<via x="20.574" y="28.956" extent="1-16" drill="0.3302"/>
-<wire x1="20.574" y1="28.956" x2="21.844" y2="27.686" width="0.3048" layer="16"/>
-<wire x1="21.844" y1="27.686" x2="21.844" y2="17.78" width="0.3048" layer="16"/>
-<via x="21.844" y="17.78" extent="1-16" drill="0.3302"/>
-<wire x1="21.844" y1="17.78" x2="29.718" y2="17.78" width="0.3048" layer="1"/>
-<via x="29.718" y="17.78" extent="1-16" drill="0.3302"/>
-<wire x1="29.718" y1="17.78" x2="31.242" y2="19.304" width="0.3048" layer="16"/>
-<wire x1="31.242" y1="19.304" x2="35.814" y2="19.304" width="0.3048" layer="16"/>
-</signal>
 <signal name="ISOTHERMAL">
 <polygon width="0.254" layer="16">
 <vertex x="13.97" y="50.8"/>
@@ -3152,12 +3116,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="88.265" y1="14.097" x2="88.9" y2="14.097" width="0.3048" layer="16"/>
 <wire x1="77.216" y1="19.558" x2="78.74" y2="19.558" width="0.3048" layer="16"/>
 <wire x1="78.74" y1="19.558" x2="84.074" y2="14.224" width="0.3048" layer="16"/>
-</signal>
-<signal name="N$29">
-<contactref element="X2" pad="1"/>
-<contactref element="R19" pad="1"/>
-<wire x1="45.51" y1="12.61" x2="44.072" y2="14.086" width="0.3048" layer="1"/>
-<wire x1="44.072" y1="14.086" x2="43.688" y2="14.086" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$37">
 <contactref element="X2" pad="10"/>
@@ -3474,6 +3432,16 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="81.026" y1="5.588" x2="81.788" y2="4.826" width="0.3048" layer="1"/>
 <wire x1="81.788" y1="4.826" x2="84.21" y2="4.826" width="0.3048" layer="1"/>
 <wire x1="84.21" y1="4.826" x2="85.226" y2="5.842" width="0.3048" layer="1"/>
+</signal>
+<signal name="VBAT_EN">
+<contactref element="R25" pad="2"/>
+<contactref element="U$3" pad="32"/>
+<wire x1="70.474" y1="10.16" x2="65.311490625" y2="28.12608125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="X2" pad="2"/>
+<contactref element="R19" pad="1"/>
+<wire x1="43.688" y1="14.086" x2="46.01" y2="12.61" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
