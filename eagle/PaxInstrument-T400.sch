@@ -8135,35 +8135,49 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun" deviceset="FRAME-A3" device=""/>
-<part name="ICSP" library="SparkFun-Connectors" deviceset="M03X2" device="SMT" value="ICSP"/>
+<part name="ICSP" library="SparkFun-Connectors" deviceset="M03X2" device="SMT" value="ICSP">
+<attribute name="MPN" value="95278-101A06LF"/>
+<attribute name="OC_DIGIKEY" value="609-3487-2-ND"/>
+</part>
 <part name="Y1" library="SparkFun" deviceset="RESONATOR" device="SMD">
 <attribute name="MPN" value="CSTCE8M00G52-R0"/>
-<attribute name="OC_DIGIKEY" value="490-5994-1-ND"/>
+<attribute name="OC_DIGIKEY" value="490-5994-2-ND"/>
 </part>
-<part name="F1" library="SparkFun" deviceset="PTC" device="SMD"/>
+<part name="F1" library="SparkFun" deviceset="PTC" device="SMD">
+<attribute name="MPN" value="MF-NSMF050-2"/>
+<attribute name="OC_DIGIKEY" value="MF-NSMF050-2TR-ND"/>
+</part>
 <part name="U4" library="SparkFun" deviceset="V_REG_LDO" device="SMD" value="MIC5219-3.3V">
 <attribute name="MPN" value="MIC5219-3.3YM5 TR"/>
 <attribute name="OC_DIGIKEY" value="576-1281-2-ND"/>
 </part>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="U3" library="SparkFun-PowerIC" deviceset="MCP73831" device="">
 <attribute name="MPN" value="MCP73831T-2DCI/OT"/>
-<attribute name="OC_DIGIKEY" value="MCP73831T-2DCI/OTCT-ND"/>
+<attribute name="OC_DIGIKEY" value="MCP73831T-2DCI/OTTR-ND"/>
 </part>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF">
+<attribute name="MPN" value="JMK107ABJ106MAHT"/>
 <attribute name="OC_DIGIKEY" value="587-3383-2-ND"/>
 </part>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22">
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22R">
+<attribute name="MPN" value="RC0603JR-0722RL"/>
 <attribute name="OC_DIGIKEY" value="311-22GRTR-ND"/>
 </part>
-<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22">
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22R">
+<attribute name="MPN" value="RC0603JR-0722RL"/>
 <attribute name="OC_DIGIKEY" value="311-22GRTR-ND"/>
 </part>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="F2" library="SparkFun" deviceset="PTC" device="SMD"/>
+<part name="F2" library="SparkFun" deviceset="PTC" device="SMD">
+<attribute name="MPN" value="MF-NSMF050-2"/>
+<attribute name="OC_DIGIKEY" value="MF-NSMF050-2TR-ND"/>
+</part>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="B340A">
+<attribute name="MPN" value="B340A-13-F"/>
 <attribute name="OC_DIGIKEY" value="B340A-FDICT-ND"/>
 </part>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -8173,41 +8187,52 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1.5k">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="RC0603JR-071K5L"/>
+<attribute name="OC_DIGIKEY" value="311-1.5KGRTR-ND"/>
 </part>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1.5k">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="RC0603JR-071K5L"/>
+<attribute name="OC_DIGIKEY" value="311-1.5KGRTR-ND"/>
 </part>
 <part name="P+12" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="P+6" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="C19" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="MPN" value="LMK107B7105KA-T"/>
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
 </part>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="470pF">
+<attribute name="MPN" value="C1608X5R1A474K080AA"/>
 <attribute name="OC_DIGIKEY" value="445-1320-2-ND"/>
 </part>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="4.7uF">
+<attribute name="MPN" value="GRM188R60J475KE19D"/>
 <attribute name="OC_DIGIKEY" value="490-3297-2-ND"/>
 </part>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0805" value="4.7uF">
+<attribute name="MPN" value="GRM188R60J475KE19D"/>
 <attribute name="OC_DIGIKEY" value="490-3297-2-ND"/>
 </part>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2k">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="ESR03EZPJ202"/>
+<attribute name="OC_DIGIKEY" value="RHM2.0KDTR-ND"/>
 </part>
 <part name="IC1" library="JeeLabs" deviceset="MCP3424" device="">
 <attribute name="MPN" value="MCP3424-E/SL"/>
@@ -8222,39 +8247,51 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+5" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$3" library="charlespax" deviceset="ATMEGA32U4-QFN-CUSTOM" device="QFN" value="ATMEGA32U4-QFN-CUSTOMQFN">
+<attribute name="MPN" value="  ATMEGA32U4-MUR"/>
 <attribute name="OC_DIGIKEY" value="ATMEGA32U4-MU-ND"/>
 </part>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S">
+<attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="SW$2" library="charlespax" deviceset="BUTTON-CONDUCTIVE" device="SMD" value="DNP">
+<attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="SW$5" library="charlespax" deviceset="BUTTON-CONDUCTIVE" device="SMD" value="DNP">
+<attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="SW$6" library="charlespax" deviceset="BUTTON-CONDUCTIVE" device="SMD" value="DNP">
+<attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="SW$7" library="charlespax" deviceset="BUTTON-CONDUCTIVE" device="SMD" value="DNP">
+<attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="SW$8" library="charlespax" deviceset="BUTTON-CONDUCTIVE" device="SMD" value="DNP">
+<attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="SW$9" library="charlespax" deviceset="BUTTON-CONDUCTIVE" device="SMD" value="DNP">
+<attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="U$10" library="charlespax" deviceset="TC-MINI-CONNECTOR" device="">
+<attribute name="MPN" value="custom"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="U$11" library="charlespax" deviceset="TC-MINI-CONNECTOR" device="">
+<attribute name="MPN" value="custom"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="U$12" library="charlespax" deviceset="TC-MINI-CONNECTOR" device="">
+<attribute name="MPN" value="custom"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="U$13" library="charlespax" deviceset="TC-MINI-CONNECTOR" device="">
+<attribute name="MPN" value="custom"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -8273,26 +8310,33 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </part>
 <part name="P+7" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="P+9" library="SparkFun" deviceset="3.3V" device=""/>
@@ -8301,38 +8345,49 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="OC_DIGIKEY" value="NC7S32M5XTR-ND"/>
 </part>
 <part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF">
+<attribute name="MPN" value="JMK107ABJ106MAHT"/>
 <attribute name="OC_DIGIKEY" value="587-3383-2-ND"/>
 </part>
 <part name="C27" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C28" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C29" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C30" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="MPN" value="LMK107B7105KA-T"/>
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
 </part>
 <part name="C31" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="C32" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C33" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C34" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -8340,6 +8395,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+14" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
@@ -8349,141 +8405,219 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
 <part name="S5" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
 <part name="S6" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
-<part name="U$5" library="charlespax" deviceset="LG132643-DG" device=""/>
+<part name="U$5" library="charlespax" deviceset="LG132643-DG" device="">
+<attribute name="MPN" value="LG132643-DW"/>
+</part>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="X2" library="charlespax" deviceset="FH12-12S-0.5S" device="H"/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="53">
-<attribute name="OC_DIGIKEY" value="311-22GRTR-ND"/>
-</part>
+<part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="53R"/>
 <part name="C35" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="MPN" value="LMK107B7105KA-T"/>
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
 </part>
 <part name="C36" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
+<attribute name="MPN" value="LMK107B7105KA-T"/>
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
 </part>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="P+1" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="ICSP1" library="SparkFun-Connectors" deviceset="M03X2" device="SMT" value="ICSP"/>
+<part name="ICSP1" library="SparkFun-Connectors" deviceset="M03X2" device="SMT" value="ICSP">
+<attribute name="MPN" value="95278-101A06LF"/>
+<attribute name="OC_DIGIKEY" value="609-3487-2-ND"/>
+</part>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="B340A">
+<attribute name="MPN" value="B340A-13-F"/>
 <attribute name="OC_DIGIKEY" value="B340A-FDICT-ND"/>
 </part>
 <part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
-<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP5" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP6" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP7" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="TP8" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
-<part name="U$1" library="blinkinlabs" deviceset="USB_MICRO" device="SMT+THRUHULE"/>
-<part name="TP9" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5"/>
+<part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP1" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP2" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP4" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP5" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP6" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP7" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP8" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="U$1" library="blinkinlabs" deviceset="USB_MICRO" device="SMT+THRUHULE">
+<attribute name="MPN" value="10118194-0001LF"/>
+<attribute name="OC_DIGIKEY" value="609-4618-2-ND"/>
+</part>
+<part name="TP9" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k">
+<attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="P+15" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="RC0603JR-0710ML"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
 </part>
 <part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="RC0603JR-0710ML"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
 </part>
 <part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="RC0603JR-0710ML"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
 </part>
 <part name="R30" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="RC0603JR-0710ML"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
 </part>
 <part name="R31" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="RC0603JR-0710ML"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
 </part>
 <part name="R32" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="RC0603JR-0710ML"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
 </part>
 <part name="R33" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="RC0603JR-0710ML"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
 </part>
 <part name="R34" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1M">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="RC0603JR-0710ML"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
 </part>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value="LMK107B7105KA-T"/>
+<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
 </part>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value="LMK107B7105KA-T"/>
+<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
 </part>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value="LMK107B7105KA-T"/>
+<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
 </part>
 <part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value="LMK107B7105KA-T"/>
+<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
 </part>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C24" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C25" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="C37" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
 </part>
 <part name="R35" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="500R">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="MCT06030D5000BP100"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND"/>
 </part>
 <part name="R36" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="500R">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="MCT06030D5000BP100"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND"/>
 </part>
 <part name="R37" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="500R">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="MCT06030D5000BP100"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND"/>
 </part>
 <part name="R38" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="500R">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="MCT06030D5000BP100"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND"/>
 </part>
 <part name="R39" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="500R">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="MCT06030D5000BP100"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND"/>
 </part>
 <part name="R40" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="500R">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="MCT06030D5000BP100"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND"/>
 </part>
 <part name="R41" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="500R">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="MCT06030D5000BP100"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND"/>
 </part>
 <part name="R42" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="500R">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value="MCT06030D5000BP100"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND"/>
 </part>
 <part name="U$2" library="charlespax" deviceset="BL-5C-CONNECTOR" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM"/>
+<part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM">
+<attribute name="MPN" value="3000TR"/>
+<attribute name="OC_DIGIKEY" value="3000KTR-ND"/>
+</part>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -8576,13 +8710,18 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="ICSP" gate="G$1" x="203.2" y="53.34"/>
+<instance part="ICSP" gate="G$1" x="203.2" y="53.34">
+<attribute name="MPN" x="203.2" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="203.2" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="Y1" gate="G$1" x="35.56" y="127" smashed="yes" rot="R270">
 <attribute name="MPN" x="35.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="OC_DIGIKEY" x="35.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="F1" gate="G$1" x="48.26" y="246.38" smashed="yes">
 <attribute name="VALUE" x="44.958" y="241.3" size="1.778" layer="96"/>
+<attribute name="MPN" x="48.26" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="48.26" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="G$1" x="256.54" y="233.68" smashed="yes">
 <attribute name="NAME" x="248.92" y="242.824" size="1.778" layer="95"/>
@@ -8592,6 +8731,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="C6" gate="G$1" x="78.74" y="218.44" smashed="yes">
 <attribute name="OC_DIGIKEY" x="78.74" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="78.359" y="212.344" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="78.74" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="91.44" y="236.22">
 <attribute name="MPN" x="91.44" y="236.22" size="1.778" layer="96" display="off"/>
@@ -8600,21 +8740,27 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="C12" gate="G$1" x="149.86" y="231.14" smashed="yes">
 <attribute name="OC_DIGIKEY" x="149.86" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="149.479" y="225.044" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="149.86" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="48.26" y="233.68" smashed="yes">
 <attribute name="OC_DIGIKEY" x="48.26" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="49.53" y="230.378" size="1.778" layer="96"/>
+<attribute name="MPN" x="48.26" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="48.26" y="238.76" smashed="yes">
 <attribute name="OC_DIGIKEY" x="48.26" y="238.76" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="49.53" y="235.458" size="1.778" layer="96"/>
+<attribute name="MPN" x="48.26" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+2" gate="G$1" x="266.7" y="241.3"/>
 <instance part="F2" gate="G$1" x="116.84" y="238.76" smashed="yes">
 <attribute name="VALUE" x="110.998" y="241.3" size="1.778" layer="96"/>
+<attribute name="MPN" x="116.84" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="116.84" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="129.54" y="238.76">
 <attribute name="OC_DIGIKEY" x="129.54" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="129.54" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="104.14" y="200.66"/>
 <instance part="GND5" gate="1" x="149.86" y="218.44"/>
@@ -8625,47 +8771,58 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="R13" gate="G$1" x="99.06" y="147.32" smashed="yes">
 <attribute name="OC_DIGIKEY" x="99.06" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="100.33" y="149.098" size="1.778" layer="96"/>
+<attribute name="MPN" x="99.06" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="99.06" y="144.78" smashed="yes">
 <attribute name="OC_DIGIKEY" x="99.06" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="100.33" y="141.478" size="1.778" layer="96"/>
+<attribute name="MPN" x="99.06" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+12" gate="G$1" x="106.68" y="152.4" rot="MR0"/>
 <instance part="P+6" gate="G$1" x="43.18" y="180.34"/>
 <instance part="R4" gate="G$1" x="35.56" y="177.8" smashed="yes">
 <attribute name="OC_DIGIKEY" x="35.56" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="34.29" y="179.578" size="1.778" layer="96"/>
+<attribute name="MPN" x="35.56" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="22.86" y="139.7" smashed="yes">
 <attribute name="OC_DIGIKEY" x="22.86" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="24.384" y="137.541" size="1.778" layer="96"/>
+<attribute name="MPN" x="22.86" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND26" gate="1" x="22.86" y="132.08"/>
 <instance part="C4" gate="G$1" x="264.16" y="215.9">
 <attribute name="OC_DIGIKEY" x="264.16" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="264.16" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="264.16" y="208.28"/>
 <instance part="C1" gate="G$1" x="236.22" y="231.14">
 <attribute name="OC_DIGIKEY" x="236.22" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="236.22" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="226.06" y="231.14">
 <attribute name="OC_DIGIKEY" x="226.06" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="226.06" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="33.02" y="157.48" smashed="yes">
 <attribute name="OC_DIGIKEY" x="33.02" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="32.639" y="151.384" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="33.02" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="27.94" y="157.48" smashed="yes">
 <attribute name="OC_DIGIKEY" x="27.94" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="27.559" y="151.384" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="27.94" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="111.76" y="223.52" smashed="yes">
 <attribute name="OC_DIGIKEY" x="111.76" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="111.379" y="217.424" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="111.76" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="106.68" y="226.06" smashed="yes" rot="R270">
 <attribute name="VALUE" x="104.902" y="224.79" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="106.68" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="106.68" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="IC1" gate="G$1" x="139.7" y="88.9">
 <attribute name="MPN" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
@@ -8682,39 +8839,51 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="GND14" gate="1" x="144.78" y="160.02"/>
 <instance part="U$3" gate="G$1" x="63.5" y="139.7">
 <attribute name="OC_DIGIKEY" x="63.5" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="63.5" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="271.78" y="15.24">
 <attribute name="OC_DIGIKEY" x="271.78" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="271.78" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW$2" gate="G$1" x="345.44" y="231.14" smashed="yes">
 <attribute name="OC_DIGIKEY" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW$5" gate="G$1" x="345.44" y="218.44" smashed="yes">
 <attribute name="OC_DIGIKEY" x="345.44" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="345.44" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW$6" gate="G$1" x="182.88" y="231.14" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" x="182.88" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="182.88" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SW$7" gate="G$1" x="355.6" y="218.44" smashed="yes">
 <attribute name="OC_DIGIKEY" x="355.6" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="355.6" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW$8" gate="G$1" x="355.6" y="205.74" smashed="yes">
 <attribute name="OC_DIGIKEY" x="355.6" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="355.6" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SW$9" gate="G$1" x="355.6" y="231.14" smashed="yes">
 <attribute name="OC_DIGIKEY" x="355.6" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="355.6" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$10" gate="G$1" x="25.4" y="58.42" smashed="yes">
 <attribute name="OC_DIGIKEY" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="25.4" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$11" gate="G$1" x="25.4" y="50.8" smashed="yes">
 <attribute name="OC_DIGIKEY" x="25.4" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="25.4" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$12" gate="G$1" x="25.4" y="40.64" smashed="yes">
 <attribute name="OC_DIGIKEY" x="25.4" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="25.4" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$13" gate="G$1" x="25.4" y="33.02" smashed="yes">
 <attribute name="OC_DIGIKEY" x="25.4" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="25.4" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND18" gate="1" x="279.4" y="162.56"/>
 <instance part="Z1" gate="G$1" x="35.56" y="223.52" smashed="yes" rot="R90">
@@ -8736,32 +8905,39 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="R6" gate="G$1" x="187.96" y="210.82" smashed="yes" rot="R270">
 <attribute name="VALUE" x="186.182" y="209.55" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="187.96" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="187.96" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="180.34" y="210.82" smashed="yes" rot="R270">
 <attribute name="VALUE" x="178.562" y="209.55" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="180.34" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="180.34" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="187.96" y="200.66"/>
 <instance part="GND1" gate="1" x="236.22" y="223.52"/>
 <instance part="R8" gate="G$1" x="360.68" y="238.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="358.902" y="237.49" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="360.68" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="360.68" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="365.76" y="238.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="363.982" y="237.49" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="365.76" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="365.76" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="368.3" y="238.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="371.602" y="237.49" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="368.3" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="368.3" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="340.36" y="238.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="343.662" y="237.49" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="340.36" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="340.36" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="337.82" y="238.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="336.042" y="237.49" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="337.82" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="337.82" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="P+9" gate="G$1" x="368.3" y="243.84" rot="MR0"/>
 <instance part="U8" gate="G$1" x="200.66" y="220.98">
@@ -8770,48 +8946,59 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </instance>
 <instance part="C26" gate="G$1" x="266.7" y="231.14">
 <attribute name="OC_DIGIKEY" x="266.7" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="266.7" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C27" gate="G$1" x="274.32" y="231.14">
 <attribute name="OC_DIGIKEY" x="274.32" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="274.32" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="271.78" y="223.52"/>
 <instance part="C28" gate="G$1" x="213.36" y="218.44" smashed="yes">
 <attribute name="OC_DIGIKEY" x="213.36" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="218.059" y="217.424" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="213.36" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND28" gate="1" x="213.36" y="200.66"/>
 <instance part="C29" gate="G$1" x="157.48" y="91.44" smashed="yes">
 <attribute name="OC_DIGIKEY" x="157.48" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="157.099" y="85.344" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="157.48" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C30" gate="G$1" x="162.56" y="88.9" smashed="yes">
 <attribute name="OC_DIGIKEY" x="162.56" y="88.9" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="162.179" y="82.804" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="162.56" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C31" gate="G$1" x="134.62" y="170.18">
 <attribute name="OC_DIGIKEY" x="134.62" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="134.62" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="276.86" y="182.88" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" x="276.86" y="182.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="278.384" y="183.261" size="1.778" layer="95"/>
 <attribute name="VALUE" x="268.224" y="183.261" size="1.778" layer="96"/>
+<attribute name="MPN" x="276.86" y="182.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="243.84" y="177.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="247.4214" y="176.53" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="242.062" y="176.53" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="243.84" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="243.84" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C32" gate="G$1" x="22.86" y="157.48" smashed="yes">
 <attribute name="OC_DIGIKEY" x="22.86" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="22.479" y="151.384" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="22.86" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C33" gate="G$1" x="17.78" y="157.48" smashed="yes">
 <attribute name="OC_DIGIKEY" x="17.78" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="17.399" y="151.384" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="17.78" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C34" gate="G$1" x="12.7" y="157.48" smashed="yes">
 <attribute name="OC_DIGIKEY" x="12.7" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="12.319" y="151.384" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="12.7" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="15.24" y="147.32"/>
 <instance part="U7" gate="G$1" x="337.82" y="137.16" smashed="yes">
@@ -8825,6 +9012,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="R17" gate="G$1" x="71.12" y="233.68" smashed="yes">
 <attribute name="VALUE" x="74.93" y="231.902" size="1.778" layer="96" rot="R180"/>
 <attribute name="OC_DIGIKEY" x="71.12" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="71.12" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="S1" gate="G$1" x="355.6" y="200.66" smashed="yes" rot="MR180"/>
 <instance part="S2" gate="G$1" x="355.6" y="213.36" smashed="yes" rot="MR180"/>
@@ -8833,169 +9021,248 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="S4" gate="G$1" x="345.44" y="226.06" smashed="yes" rot="R180"/>
 <instance part="S5" gate="G$1" x="345.44" y="213.36" smashed="yes" rot="R180"/>
 <instance part="S6" gate="G$1" x="187.96" y="231.14" smashed="yes" rot="R270"/>
-<instance part="U$5" gate="G$1" x="297.18" y="213.36"/>
+<instance part="U$5" gate="G$1" x="297.18" y="213.36">
+<attribute name="MPN" x="297.18" y="213.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND17" gate="1" x="304.8" y="203.2"/>
 <instance part="X2" gate="G$1" x="297.18" y="210.82"/>
 <instance part="P+4" gate="G$1" x="307.34" y="246.38"/>
 <instance part="R19" gate="G$1" x="314.96" y="236.22" smashed="yes">
-<attribute name="OC_DIGIKEY" x="314.96" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="308.61" y="237.7186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="316.23" y="237.998" size="1.778" layer="96"/>
 </instance>
 <instance part="C35" gate="G$1" x="312.42" y="215.9" rot="R90">
 <attribute name="OC_DIGIKEY" x="312.42" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="312.42" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C36" gate="G$1" x="309.88" y="210.82" rot="R270">
 <attribute name="OC_DIGIKEY" x="309.88" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="309.88" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="172.72" y="218.44" smashed="yes" rot="R180">
 <attribute name="VALUE" x="171.45" y="220.218" size="1.778" layer="96"/>
 <attribute name="OC_DIGIKEY" x="172.72" y="218.44" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="172.72" y="218.44" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="P+1" gate="G$1" x="190.5" y="93.98" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="188.976" y="94.996" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="ICSP1" gate="G$1" x="200.66" y="88.9"/>
+<instance part="ICSP1" gate="G$1" x="200.66" y="88.9">
+<attribute name="MPN" x="200.66" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="200.66" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R20" gate="G$1" x="119.38" y="226.06" smashed="yes" rot="R90">
 <attribute name="VALUE" x="121.158" y="227.33" size="1.778" layer="96" rot="R270"/>
 <attribute name="OC_DIGIKEY" x="119.38" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="119.38" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="124.46" y="246.38">
 <attribute name="OC_DIGIKEY" x="124.46" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="124.46" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="119.38" y="210.82" smashed="yes" rot="R270">
 <attribute name="VALUE" x="117.602" y="207.01" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="119.38" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="119.38" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R25" gate="G$1" x="124.46" y="200.66" smashed="yes">
 <attribute name="VALUE" x="125.73" y="203.962" size="1.778" layer="96" rot="R180"/>
 <attribute name="OC_DIGIKEY" x="124.46" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="124.46" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="FID1" gate="G$1" x="254" y="15.24"/>
-<instance part="FID2" gate="G$1" x="254" y="7.62"/>
-<instance part="TP1" gate="G$1" x="20.32" y="58.42" rot="R180"/>
-<instance part="TP2" gate="G$1" x="20.32" y="55.88" rot="R180"/>
-<instance part="TP3" gate="G$1" x="20.32" y="50.8" rot="R180"/>
-<instance part="TP4" gate="G$1" x="20.32" y="48.26" rot="R180"/>
-<instance part="TP5" gate="G$1" x="20.32" y="40.64" rot="R180"/>
-<instance part="TP6" gate="G$1" x="20.32" y="38.1" rot="R180"/>
-<instance part="TP7" gate="G$1" x="20.32" y="33.02" rot="R180"/>
-<instance part="TP8" gate="G$1" x="20.32" y="30.48" rot="R180"/>
-<instance part="U$1" gate="G$1" x="17.78" y="233.68"/>
-<instance part="TP9" gate="G$1" x="170.18" y="228.6" rot="R180"/>
+<instance part="FID1" gate="G$1" x="254" y="15.24">
+<attribute name="MPN" x="254" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="254" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="FID2" gate="G$1" x="254" y="7.62">
+<attribute name="MPN" x="254" y="7.62" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="254" y="7.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP1" gate="G$1" x="20.32" y="58.42" rot="R180">
+<attribute name="MPN" x="20.32" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" x="20.32" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP2" gate="G$1" x="20.32" y="55.88" rot="R180">
+<attribute name="MPN" x="20.32" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" x="20.32" y="55.88" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP3" gate="G$1" x="20.32" y="50.8" rot="R180">
+<attribute name="MPN" x="20.32" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" x="20.32" y="50.8" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP4" gate="G$1" x="20.32" y="48.26" rot="R180">
+<attribute name="MPN" x="20.32" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" x="20.32" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP5" gate="G$1" x="20.32" y="40.64" rot="R180">
+<attribute name="MPN" x="20.32" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" x="20.32" y="40.64" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP6" gate="G$1" x="20.32" y="38.1" rot="R180">
+<attribute name="MPN" x="20.32" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" x="20.32" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP7" gate="G$1" x="20.32" y="33.02" rot="R180">
+<attribute name="MPN" x="20.32" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" x="20.32" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="TP8" gate="G$1" x="20.32" y="30.48" rot="R180">
+<attribute name="MPN" x="20.32" y="30.48" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" x="20.32" y="30.48" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U$1" gate="G$1" x="17.78" y="233.68">
+<attribute name="MPN" x="17.78" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="17.78" y="233.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP9" gate="G$1" x="170.18" y="228.6" rot="R180">
+<attribute name="MPN" x="170.18" y="228.6" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" x="170.18" y="228.6" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND8" gate="1" x="121.92" y="121.92"/>
 <instance part="R26" gate="G$1" x="121.92" y="132.08" rot="R90">
 <attribute name="OC_DIGIKEY" x="121.92" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="121.92" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="P+15" gate="G$1" x="45.72" y="71.12"/>
 <instance part="R27" gate="G$1" x="30.48" y="66.04" rot="R90">
 <attribute name="OC_DIGIKEY" x="30.48" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="30.48" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="38.1" y="66.04" rot="R90">
 <attribute name="OC_DIGIKEY" x="38.1" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="38.1" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R29" gate="G$1" x="45.72" y="66.04" rot="R90">
 <attribute name="OC_DIGIKEY" x="45.72" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="45.72" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="53.34" y="66.04" rot="R90">
 <attribute name="OC_DIGIKEY" x="53.34" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="53.34" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R31" gate="G$1" x="30.48" y="22.86" rot="R90">
 <attribute name="OC_DIGIKEY" x="30.48" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="30.48" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="38.1" y="22.86" rot="R90">
 <attribute name="OC_DIGIKEY" x="38.1" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="38.1" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R33" gate="G$1" x="45.72" y="22.86" rot="R90">
 <attribute name="OC_DIGIKEY" x="45.72" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="45.72" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R34" gate="G$1" x="53.34" y="22.86" rot="R90">
 <attribute name="OC_DIGIKEY" x="53.34" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="53.34" y="22.86" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="81.28" y="58.42" smashed="yes">
 <attribute name="OC_DIGIKEY" x="81.28" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="85.344" y="58.801" size="1.778" layer="96"/>
+<attribute name="MPN" x="81.28" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="81.28" y="48.26" smashed="yes">
 <attribute name="OC_DIGIKEY" x="81.28" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="85.344" y="48.641" size="1.778" layer="96"/>
+<attribute name="MPN" x="81.28" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="81.28" y="38.1" smashed="yes">
 <attribute name="OC_DIGIKEY" x="81.28" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="85.344" y="38.481" size="1.778" layer="96"/>
+<attribute name="MPN" x="81.28" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="81.28" y="27.94" smashed="yes">
 <attribute name="OC_DIGIKEY" x="81.28" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="85.344" y="28.321" size="1.778" layer="96"/>
+<attribute name="MPN" x="81.28" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="81.28" y="17.78" smashed="yes">
 <attribute name="OC_DIGIKEY" x="81.28" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="80.899" y="11.684" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="81.28" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="86.36" y="17.78" smashed="yes">
 <attribute name="OC_DIGIKEY" x="86.36" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="85.979" y="11.684" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="86.36" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="91.44" y="17.78" smashed="yes">
 <attribute name="OC_DIGIKEY" x="91.44" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="91.059" y="11.684" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="91.44" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C16" gate="G$1" x="96.52" y="17.78" smashed="yes">
 <attribute name="OC_DIGIKEY" x="96.52" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="96.139" y="11.684" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="96.52" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="81.28" y="68.58" smashed="yes">
 <attribute name="OC_DIGIKEY" x="81.28" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="80.899" y="62.484" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="81.28" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C24" gate="G$1" x="86.36" y="68.58" smashed="yes">
 <attribute name="OC_DIGIKEY" x="86.36" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="85.979" y="62.484" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="86.36" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C25" gate="G$1" x="91.44" y="68.58" smashed="yes">
 <attribute name="OC_DIGIKEY" x="91.44" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="91.059" y="62.484" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="91.44" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C37" gate="G$1" x="96.52" y="68.58" smashed="yes">
 <attribute name="OC_DIGIKEY" x="96.52" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="96.139" y="62.484" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="96.52" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R35" gate="G$1" x="68.58" y="63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="67.31" y="60.198" size="1.778" layer="96"/>
 <attribute name="OC_DIGIKEY" x="68.58" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="68.58" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R36" gate="G$1" x="66.04" y="55.88" smashed="yes">
 <attribute name="VALUE" x="67.31" y="59.182" size="1.778" layer="96" rot="R180"/>
 <attribute name="OC_DIGIKEY" x="66.04" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R37" gate="G$1" x="73.66" y="53.34" smashed="yes" rot="R180">
 <attribute name="VALUE" x="72.39" y="50.038" size="1.778" layer="96"/>
 <attribute name="OC_DIGIKEY" x="73.66" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="73.66" y="53.34" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R38" gate="G$1" x="66.04" y="45.72" smashed="yes">
 <attribute name="VALUE" x="67.31" y="49.022" size="1.778" layer="96" rot="R180"/>
 <attribute name="OC_DIGIKEY" x="66.04" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R39" gate="G$1" x="73.66" y="43.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="72.39" y="39.878" size="1.778" layer="96"/>
 <attribute name="OC_DIGIKEY" x="73.66" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="73.66" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R40" gate="G$1" x="73.66" y="33.02" smashed="yes" rot="R180">
 <attribute name="VALUE" x="72.39" y="29.718" size="1.778" layer="96"/>
 <attribute name="OC_DIGIKEY" x="73.66" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="73.66" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R41" gate="G$1" x="66.04" y="35.56" smashed="yes">
 <attribute name="VALUE" x="67.31" y="38.862" size="1.778" layer="96" rot="R180"/>
 <attribute name="OC_DIGIKEY" x="66.04" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R42" gate="G$1" x="66.04" y="25.4" smashed="yes">
 <attribute name="VALUE" x="67.31" y="28.702" size="1.778" layer="96" rot="R180"/>
 <attribute name="OC_DIGIKEY" x="66.04" y="25.4" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="66.04" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$2" gate="G$1" x="142.24" y="226.06"/>
 <instance part="GND4" gate="1" x="127" y="223.52"/>
 <instance part="GND12" gate="1" x="137.16" y="215.9"/>
-<instance part="BAT1" gate="G$1" x="261.62" y="132.08" rot="R270"/>
+<instance part="BAT1" gate="G$1" x="261.62" y="132.08" rot="R270">
+<attribute name="MPN" x="261.62" y="132.08" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" x="261.62" y="132.08" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="GND15" gate="1" x="261.62" y="121.92"/>
 </instances>
 <busses>

@@ -1148,69 +1148,93 @@ These are the default Design Rules for LumberDAQ.</description>
 <elements>
 <element name="ICSP" library="SparkFun-Connectors" package="2X3_SMT_POSTS" value="ICSP" x="35.56" y="24.13" rot="R270">
 <attribute name="PROD_ID" value="CONN-11415" x="35.56" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="95278-101A06LF" x="35.56" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="609-3487-2-ND" x="35.56" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Y1" library="SparkFun" package="RESONATOR-SMD" value="RESONATORSMD" x="76.454" y="30.988" rot="R180">
 <attribute name="MPN" value="CSTCE8M00G52-R0" x="76.454" y="30.988" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_DIGIKEY" value="490-5994-1-ND" x="76.454" y="30.988" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" value="490-5994-2-ND" x="76.454" y="30.988" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="F1" library="SparkFun" package="PTC-1206" value="PTCSMD" x="92.964" y="12.446" rot="R180"/>
+<element name="F1" library="SparkFun" package="PTC-1206" value="PTCSMD" x="92.964" y="12.446" rot="R180">
+<attribute name="MPN" value="MF-NSMF050-2" x="92.964" y="12.446" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" value="MF-NSMF050-2TR-ND" x="92.964" y="12.446" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U4" library="SparkFun" package="SOT23-5" value="MIC5219-3.3V" x="85.09" y="16.002" rot="R90">
 <attribute name="MPN" value="MIC5219-3.3YM5 TR" x="85.09" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_DIGIKEY" value="576-1281-2-ND" x="85.09" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C6" library="SparkFun-Passives" package="0805" value="0.1uF" x="89.916" y="12.446" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="89.916" y="12.446" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="89.916" y="12.446" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U3" library="SparkFun-PowerIC" package="SOT23-5" value="MCP73831" x="81.534" y="12.446" rot="R270">
 <attribute name="PROD_ID" value="IC-09995" x="51.054" y="-29.464" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="MCP73831T-2DCI/OT" x="81.534" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_DIGIKEY" value="MCP73831T-2DCI/OTCT-ND" x="81.534" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="MCP73831T-2DCI/OTTR-ND" x="81.534" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C12" library="SparkFun-Passives" package="0805" value="10uF" x="91.694" y="9.398" rot="R270">
 <attribute name="OC_DIGIKEY" value="587-3383-2-ND" x="91.694" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="JMK107ABJ106MAHT" x="91.694" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R9" library="SparkFun-Passives" package="0805" value="22" x="86.36" y="29.972" rot="R180">
+<element name="R9" library="SparkFun-Passives" package="0805" value="22R" x="86.36" y="29.972" rot="R180">
 <attribute name="OC_DIGIKEY" value="311-22GRTR-ND" x="86.36" y="29.972" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0603JR-0722RL" x="86.36" y="29.972" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R10" library="SparkFun-Passives" package="0805" value="22" x="86.36" y="32.004" rot="R180">
+<element name="R10" library="SparkFun-Passives" package="0805" value="22R" x="86.36" y="32.004" rot="R180">
 <attribute name="OC_DIGIKEY" value="311-22GRTR-ND" x="86.36" y="32.004" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0603JR-0722RL" x="86.36" y="32.004" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="F2" library="SparkFun" package="PTC-1206" value="PTCSMD" x="80.264" y="9.398"/>
+<element name="F2" library="SparkFun" package="PTC-1206" value="PTCSMD" x="80.264" y="9.398">
+<attribute name="MPN" value="MF-NSMF050-2" x="80.264" y="9.398" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="MF-NSMF050-2TR-ND" x="80.264" y="9.398" size="1.778" layer="27" display="off"/>
+</element>
 <element name="D1" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="B340A" x="87.376" y="5.842">
 <attribute name="OC_DIGIKEY" value="B340A-FDICT-ND" x="87.376" y="5.842" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B340A-13-F" x="87.376" y="5.842" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R13" library="SparkFun-Passives" package="0805" value="1.5k" x="81.534" y="27.94" rot="R270">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="81.534" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-1.5KGRTR-ND" x="81.534" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603JR-071K5L" x="81.534" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R14" library="SparkFun-Passives" package="0805" value="1.5k" x="79.756" y="27.94" rot="R270">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="79.756" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-1.5KGRTR-ND" x="79.756" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603JR-071K5L" x="79.756" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="SparkFun-Passives" package="0805" value="10k" x="77.978" y="27.94" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="77.978" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="77.978" y="27.94" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C19" library="SparkFun-Passives" package="0805" value="1uF" x="73.152" y="19.558" rot="R270">
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="73.152" y="19.558" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="LMK107B7105KA-T" x="73.152" y="19.558" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C4" library="SparkFun-Passives" package="0805" value="470pF" x="82.042" y="16.256" rot="R270">
 <attribute name="OC_DIGIKEY" value="445-1320-2-ND" x="82.042" y="16.256" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C1608X5R1A474K080AA" x="82.042" y="16.256" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C1" library="SparkFun-Passives" package="0805" value="4.7uF" x="89.916" y="16.002" rot="R90">
 <attribute name="OC_DIGIKEY" value="490-3297-2-ND" x="89.916" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM188R60J475KE19D" x="89.916" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="SparkFun-Passives" package="0805" value="0.1uF" x="88.138" y="16.002" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="88.138" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="88.138" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C3" library="SparkFun-Passives" package="0805" value="0.1uF" x="65.786" y="20.32" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="65.786" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="65.786" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C5" library="SparkFun-Passives" package="0805" value="0.1uF" x="68.072" y="20.32">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="68.072" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="68.072" y="20.32" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C9" library="SparkFun-Passives" package="0805" value="4.7uF" x="20.32" y="6.35" rot="R90">
 <attribute name="OC_DIGIKEY" value="490-3297-2-ND" x="20.32" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM188R60J475KE19D" x="20.32" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="SparkFun-Passives" package="0805" value="2k" x="84.582" y="12.446" rot="R270">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="84.582" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="RHM2.0KDTR-ND" x="84.582" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ESR03EZPJ202" x="84.582" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC1" library="JeeLabs" package="SO14" value="MCP3424" x="48.26" y="33.02" rot="R270">
 <attribute name="MPN" value="MCP3424-E/SL" x="48.26" y="33.02" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1222,39 +1246,51 @@ These are the default Design Rules for LumberDAQ.</description>
 </element>
 <element name="U$3" library="charlespax" package="SPARKFUN-DIGITALIC_QFN-44" value="ATMEGA32U4-QFN-CUSTOMQFN" x="69.342" y="26.924" rot="R135">
 <attribute name="OC_DIGIKEY" value="ATMEGA32U4-MU-ND" x="69.342" y="26.924" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MPN" value="  ATMEGA32U4-MUR" x="69.342" y="26.924" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="50.038" y="14.478">
 <attribute name="OC_DIGIKEY" value="N/A" x="50.038" y="14.478" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="N/A" x="50.038" y="14.478" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW$2" library="charlespax" package="BUTTON-CONDUCTIVE" value="DNP" x="91.44" y="38.608" rot="MR0">
 <attribute name="OC_DIGIKEY" value="N/A" x="91.44" y="38.608" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="N/A" x="91.44" y="38.608" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="SW$5" library="charlespax" package="BUTTON-CONDUCTIVE" value="DNP" x="91.44" y="25.4" rot="MR0">
 <attribute name="OC_DIGIKEY" value="N/A" x="91.44" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="N/A" x="91.44" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="SW$6" library="charlespax" package="BUTTON-CONDUCTIVE" value="DNP" x="91.44" y="12.192" rot="MR0">
 <attribute name="OC_DIGIKEY" value="N/A" x="91.44" y="12.192" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="N/A" x="91.44" y="12.192" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="SW$7" library="charlespax" package="BUTTON-CONDUCTIVE" value="DNP" x="5.08" y="25.4" rot="MR180">
 <attribute name="OC_DIGIKEY" value="N/A" x="5.08" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="N/A" x="5.08" y="25.4" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="SW$8" library="charlespax" package="BUTTON-CONDUCTIVE" value="DNP" x="5.08" y="12.192" rot="MR0">
 <attribute name="OC_DIGIKEY" value="N/A" x="5.08" y="12.192" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="N/A" x="5.08" y="12.192" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="SW$9" library="charlespax" package="BUTTON-CONDUCTIVE" value="DNP" x="5.08" y="38.608" rot="MR180">
 <attribute name="OC_DIGIKEY" value="N/A" x="5.08" y="38.608" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="N/A" x="5.08" y="38.608" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U$10" library="charlespax" package="TC-MINI-CONNECTOR" value="TC-MINI-CONNECTOR" x="39.37" y="44.45" rot="MR180">
 <attribute name="OC_DIGIKEY" value="N/A" x="39.37" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="custom" x="39.37" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U$11" library="charlespax" package="TC-MINI-CONNECTOR" value="TC-MINI-CONNECTOR" x="21.59" y="44.45" rot="MR180">
 <attribute name="OC_DIGIKEY" value="N/A" x="21.59" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="custom" x="21.59" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U$12" library="charlespax" package="TC-MINI-CONNECTOR" value="TC-MINI-CONNECTOR" x="74.93" y="44.45" rot="MR180">
 <attribute name="OC_DIGIKEY" value="N/A" x="74.93" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="custom" x="74.93" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U$13" library="charlespax" package="TC-MINI-CONNECTOR" value="TC-MINI-CONNECTOR" x="57.15" y="44.45" rot="MR180">
 <attribute name="OC_DIGIKEY" value="N/A" x="57.15" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="custom" x="57.15" y="44.45" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="Z1" library="freetronics-master-v1.1" package="0603" value="PGB1010603" x="90.17" y="29.972" rot="R180">
 <attribute name="OC_DIGIKEY" value="F4239CT-ND" x="90.17" y="29.972" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1270,24 +1306,31 @@ These are the default Design Rules for LumberDAQ.</description>
 </element>
 <element name="R6" library="SparkFun-Passives" package="0805" value="10k" x="80.264" y="19.304" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="80.264" y="19.304" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="80.264" y="19.304" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Passives" package="0805" value="10k" x="82.042" y="19.304" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="82.042" y="19.304" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="82.042" y="19.304" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R8" library="SparkFun-Passives" package="0805" value="10k" x="26.416" y="34.29" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="26.416" y="34.29" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="26.416" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R11" library="SparkFun-Passives" package="0805" value="10k" x="26.416" y="32.766" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="26.416" y="32.766" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="26.416" y="32.766" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R12" library="SparkFun-Passives" package="0805" value="10k" x="26.416" y="31.242" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="26.416" y="31.242" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="26.416" y="31.242" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R15" library="SparkFun-Passives" package="0805" value="10k" x="82.55" y="33.274">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="82.55" y="33.274" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="82.55" y="33.274" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R16" library="SparkFun-Passives" package="0805" value="10k" x="82.55" y="31.496">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="82.55" y="31.496" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="82.55" y="31.496" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U8" library="SparkFun-DigitalIC" package="SOT23-5" value="NC7S32" x="85.09" y="19.304" rot="R270">
 <attribute name="MPN" value="NC7S32M5X" x="85.09" y="19.304" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1295,40 +1338,52 @@ These are the default Design Rules for LumberDAQ.</description>
 </element>
 <element name="C26" library="SparkFun-Passives" package="0805" value="10uF" x="80.264" y="16.256" rot="R90">
 <attribute name="OC_DIGIKEY" value="587-3383-2-ND" x="80.264" y="16.256" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="JMK107ABJ106MAHT" x="80.264" y="16.256" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C27" library="SparkFun-Passives" package="0805" value="0.1uF" x="78.486" y="16.256" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="78.486" y="16.256" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="78.486" y="16.256" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C28" library="SparkFun-Passives" package="0805" value="0.1uF" x="88.138" y="19.304" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="88.138" y="19.304" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="88.138" y="19.304" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C29" library="SparkFun-Passives" package="0805" value="0.1uF" x="43.434" y="30.734" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="43.434" y="30.734" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="43.434" y="30.734" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C30" library="SparkFun-Passives" package="0805" value="1uF" x="41.656" y="30.734" rot="R90">
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="41.656" y="30.734" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="MPN" value="LMK107B7105KA-T" x="41.656" y="30.734" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C31" library="SparkFun-Passives" package="0805" value="0.1uF" x="48.26" y="40.64">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="48.26" y="40.64" size="1.778" layer="27" ratio="15" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="48.26" y="40.64" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C18" library="SparkFun-Passives" package="0805" value="0.1uF" x="55.372" y="17.526" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="55.372" y="17.526" size="1.778" layer="27" ratio="15" rot="R180" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="55.372" y="17.526" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="SparkFun-Passives" package="0805" value="10k" x="56.134" y="13.97" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="56.134" y="13.97" size="1.778" layer="27" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="56.134" y="13.97" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C32" library="SparkFun-Passives" package="0805" value="0.1uF" x="69.088" y="33.02">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="69.088" y="33.02" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="69.088" y="33.02" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C33" library="SparkFun-Passives" package="0805" value="0.1uF" x="62.738" y="26.924" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="62.738" y="26.924" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="62.738" y="26.924" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C34" library="SparkFun-Passives" package="0805" value="0.1uF" x="76.2" y="27.94" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="76.2" y="27.94" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="76.2" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U7" library="SparkFun-Connectors" package="MICRO-SD-SOCKET-PP" value="USD-SOCKETNEW" x="15.748" y="22.86" rot="R90"/>
 <element name="R17" library="SparkFun-Passives" package="0805" value="10k" x="77.47" y="13.208">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="77.47" y="13.208" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="77.47" y="13.208" size="1.778" layer="27" display="off"/>
 </element>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="5.08" y="12.192" rot="MR0"/>
 <element name="S2" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="5.08" y="25.4" rot="MR180"/>
@@ -1336,144 +1391,218 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="S4" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="91.44" y="38.608" rot="MR180"/>
 <element name="S5" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="91.44" y="25.4" rot="MR180"/>
 <element name="S6" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="91.44" y="12.192" rot="MR180"/>
-<element name="U$5" library="charlespax" package="LG132643-DG" value="LG132643-DG" x="48.26" y="25.4"/>
+<element name="U$5" library="charlespax" package="LG132643-DG" value="LG132643-DG" x="48.26" y="25.4">
+<attribute name="MPN" value="LG132643-DW" x="48.26" y="25.4" size="1.778" layer="27" display="off"/>
+</element>
 <element name="X2" library="charlespax" package="FH12-12S-0.5SH" value="FH12-12S-0.5SH" x="48.26" y="10.16">
 <attribute name="OC_NEWARK" value="34M6155" x="48.26" y="10.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MPN" value="FH12-12S-0.5SH(55)" x="48.26" y="10.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MF" value="" x="48.26" y="10.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="OC_FARNELL" value="1324542" x="48.26" y="10.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="R19" library="SparkFun-Passives" package="0805" value="53" x="43.688" y="14.986" rot="R90">
-<attribute name="OC_DIGIKEY" value="311-22GRTR-ND" x="43.688" y="14.986" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-</element>
+<element name="R19" library="SparkFun-Passives" package="0805" value="53R" x="43.688" y="14.986" rot="R90"/>
 <element name="C35" library="SparkFun-Passives" package="0805" value="1uF" x="52.578" y="14.986" rot="R270">
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="52.578" y="14.986" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="LMK107B7105KA-T" x="52.578" y="14.986" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C36" library="SparkFun-Passives" package="0805" value="1uF" x="54.356" y="14.986" rot="R270">
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="54.356" y="14.986" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="LMK107B7105KA-T" x="54.356" y="14.986" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="SparkFun-Passives" package="0805" value="10k" x="78.486" y="19.304" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="78.486" y="19.304" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="78.486" y="19.304" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="ICSP1" library="SparkFun-Connectors" package="2X3_SMT_POSTS" value="ICSP" x="35.56" y="16.51" rot="R270">
 <attribute name="PROD_ID" value="CONN-11415" x="35.56" y="16.51" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="MPN" value="95278-101A06LF" x="35.56" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="609-3487-2-ND" x="35.56" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R20" library="SparkFun-Passives" package="0805" value="10k" x="77.47" y="11.43">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="77.47" y="11.43" size="1.27" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="77.47" y="11.43" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D2" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="B340A" x="87.376" y="9.144">
 <attribute name="OC_DIGIKEY" value="B340A-FDICT-ND" x="87.376" y="9.144" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B340A-13-F" x="87.376" y="9.144" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R24" library="SparkFun-Passives" package="0805" value="10k" x="74.422" y="10.16" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="74.422" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="74.422" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R25" library="SparkFun-Passives" package="0805" value="10k" x="71.374" y="10.16" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="71.374" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="71.374" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="7.62" y="7.62"/>
-<element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="88.9" y="43.18"/>
-<element name="TP1" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="44.45" y="39.37"/>
-<element name="TP2" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="34.29" y="39.37"/>
-<element name="TP3" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="26.67" y="39.37"/>
-<element name="TP4" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="16.51" y="39.37" rot="R270"/>
-<element name="TP5" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="80.01" y="39.37" rot="R270"/>
-<element name="TP6" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="69.85" y="39.37" rot="R270"/>
-<element name="TP7" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="62.23" y="39.37" rot="R270"/>
-<element name="TP8" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="52.07" y="39.37" rot="R270"/>
+<element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="7.62" y="7.62">
+<attribute name="MPN" value="N/A" x="7.62" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="7.62" y="7.62" size="1.778" layer="27" display="off"/>
+</element>
+<element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="88.9" y="43.18">
+<attribute name="MPN" value="N/A" x="88.9" y="43.18" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="88.9" y="43.18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP1" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="44.45" y="39.37">
+<attribute name="MPN" value="N/A" x="44.45" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="44.45" y="39.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP2" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="34.29" y="39.37">
+<attribute name="MPN" value="N/A" x="34.29" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="34.29" y="39.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP3" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="26.67" y="39.37">
+<attribute name="MPN" value="N/A" x="26.67" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="26.67" y="39.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="TP4" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="16.51" y="39.37" rot="R270">
+<attribute name="MPN" value="N/A" x="16.51" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="16.51" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP5" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="80.01" y="39.37" rot="R270">
+<attribute name="MPN" value="N/A" x="80.01" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="80.01" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP6" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="69.85" y="39.37" rot="R270">
+<attribute name="MPN" value="N/A" x="69.85" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="69.85" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP7" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="62.23" y="39.37" rot="R270">
+<attribute name="MPN" value="N/A" x="62.23" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="62.23" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="TP8" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="52.07" y="39.37" rot="R270">
+<attribute name="MPN" value="N/A" x="52.07" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="52.07" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="U$1" library="blinkinlabs" package="USB_MICRO_THRUHOLE" value="USB_MICROSMT+THRUHULE" x="94.996" y="18.796" rot="R90">
 <attribute name="OC_DIGIKEY" value="609-4618-2-ND" x="94.996" y="18.796" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="10118194-0001LF" x="94.996" y="18.796" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="TP9" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="76.962" y="21.59"/>
+<element name="TP9" library="SparkFun-Passives" package="PAD.03X.05" value="TEST-POINT3X5" x="76.962" y="21.59">
+<attribute name="MPN" value="N/A" x="76.962" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="76.962" y="21.59" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R26" library="SparkFun-Passives" package="0805" value="10k" x="55.118" y="31.496" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="55.118" y="31.496" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC1608J103CS" x="55.118" y="31.496" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R27" library="SparkFun-Passives" package="0805" value="1M" x="43.942" y="43.18" rot="R90">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="43.942" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND" x="43.942" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603JR-0710ML" x="43.942" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R28" library="SparkFun-Passives" package="0805" value="1M" x="26.162" y="43.18" rot="R90">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="26.162" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND" x="26.162" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603JR-0710ML" x="26.162" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R29" library="SparkFun-Passives" package="0805" value="1M" x="79.502" y="43.18" rot="R90">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="79.502" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND" x="79.502" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603JR-0710ML" x="79.502" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R30" library="SparkFun-Passives" package="0805" value="1M" x="61.722" y="43.18" rot="R90">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="61.722" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND" x="61.722" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603JR-0710ML" x="61.722" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R31" library="SparkFun-Passives" package="0805" value="1M" x="34.798" y="43.18" rot="R270">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="34.798" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND" x="34.798" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603JR-0710ML" x="34.798" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R32" library="SparkFun-Passives" package="0805" value="1M" x="17.018" y="43.18" rot="R270">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="17.018" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND" x="17.018" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603JR-0710ML" x="17.018" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R33" library="SparkFun-Passives" package="0805" value="1M" x="70.358" y="43.18" rot="R270">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="70.358" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND" x="70.358" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603JR-0710ML" x="70.358" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R34" library="SparkFun-Passives" package="0805" value="1M" x="52.578" y="43.18" rot="R270">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="52.578" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND" x="52.578" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603JR-0710ML" x="52.578" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C7" library="SparkFun-Passives" package="0805" value="1uF" x="39.37" y="39.37" rot="R180">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="39.37" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="39.37" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="LMK107B7105KA-T" x="39.37" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C8" library="SparkFun-Passives" package="0805" value="1uF" x="21.59" y="39.37" rot="R180">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="21.59" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="21.59" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="LMK107B7105KA-T" x="21.59" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C10" library="SparkFun-Passives" package="0805" value="1uF" x="74.93" y="39.37" rot="R180">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="74.93" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="74.93" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="LMK107B7105KA-T" x="74.93" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C11" library="SparkFun-Passives" package="0805" value="1uF" x="57.15" y="39.37" rot="R180">
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="57.15" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="57.15" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="LMK107B7105KA-T" x="57.15" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C13" library="SparkFun-Passives" package="0805" value="0.1uF" x="54.102" y="43.18" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="54.102" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="54.102" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C14" library="SparkFun-Passives" package="0805" value="0.1uF" x="60.198" y="43.18" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="60.198" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="60.198" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C15" library="SparkFun-Passives" package="0805" value="0.1uF" x="71.882" y="43.18" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="71.882" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="71.882" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C16" library="SparkFun-Passives" package="0805" value="0.1uF" x="77.978" y="43.18" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="77.978" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="77.978" y="43.18" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C17" library="SparkFun-Passives" package="0805" value="0.1uF" x="42.418" y="43.18" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="42.418" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="42.418" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C24" library="SparkFun-Passives" package="0805" value="0.1uF" x="36.322" y="43.18" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="36.322" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="36.322" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C25" library="SparkFun-Passives" package="0805" value="0.1uF" x="24.638" y="43.18" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="24.638" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="24.638" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C37" library="SparkFun-Passives" package="0805" value="0.1uF" x="18.542" y="43.18" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="18.542" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" x="18.542" y="43.18" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R35" library="SparkFun-Passives" package="0805" value="500R" x="43.18" y="40.894">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="43.18" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="43.18" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCT06030D5000BP100" x="43.18" y="40.894" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R36" library="SparkFun-Passives" package="0805" value="500R" x="35.56" y="40.894">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="35.56" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="35.56" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCT06030D5000BP100" x="35.56" y="40.894" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R37" library="SparkFun-Passives" package="0805" value="500R" x="25.4" y="40.894">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="25.4" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="25.4" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCT06030D5000BP100" x="25.4" y="40.894" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R38" library="SparkFun-Passives" package="0805" value="500R" x="17.78" y="40.894">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="17.78" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="17.78" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCT06030D5000BP100" x="17.78" y="40.894" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R39" library="SparkFun-Passives" package="0805" value="500R" x="78.74" y="40.894">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="78.74" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="78.74" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCT06030D5000BP100" x="78.74" y="40.894" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R40" library="SparkFun-Passives" package="0805" value="500R" x="60.96" y="40.894">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="60.96" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="60.96" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCT06030D5000BP100" x="60.96" y="40.894" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R41" library="SparkFun-Passives" package="0805" value="500R" x="71.12" y="40.894">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="71.12" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="71.12" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCT06030D5000BP100" x="71.12" y="40.894" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R42" library="SparkFun-Passives" package="0805" value="500R" x="53.34" y="40.894">
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="53.34" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="53.34" y="40.894" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCT06030D5000BP100" x="53.34" y="40.894" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$2" library="charlespax" package="BL-5C-CONNECTOR" value="BL-5C-CONNECTOR" x="29.21" y="8.89" rot="R90"/>
-<element name="BAT1" library="SparkFun-Electromechanical" package="BATTCON_12MM" value="" x="6.35" y="34.29" rot="R90"/>
+<element name="BAT1" library="SparkFun-Electromechanical" package="BATTCON_12MM" value="" x="6.35" y="34.29" rot="R90">
+<attribute name="MPN" value="3000TR" x="6.35" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_DIGIKEY" value="3000KTR-ND" x="6.35" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="RESET">
