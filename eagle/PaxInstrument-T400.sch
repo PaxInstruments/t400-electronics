@@ -8409,7 +8409,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="MPN" value="LG132643-DW"/>
 </part>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="X2" library="charlespax" deviceset="FH12-12S-0.5S" device="H"/>
+<part name="X2" library="charlespax" deviceset="FH12-12S-0.5S" device="H">
+<attribute name="OC_DIGIKEY" value="HFJ112TR-ND"/>
+</part>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="53R"/>
 <part name="C35" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF">
@@ -9025,7 +9027,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="MPN" x="297.18" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="304.8" y="203.2"/>
-<instance part="X2" gate="G$1" x="297.18" y="210.82"/>
+<instance part="X2" gate="G$1" x="297.18" y="210.82">
+<attribute name="OC_DIGIKEY" x="297.18" y="210.82" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+4" gate="G$1" x="307.34" y="246.38"/>
 <instance part="R19" gate="G$1" x="314.96" y="236.22" smashed="yes">
 <attribute name="NAME" x="308.61" y="237.7186" size="1.778" layer="95"/>

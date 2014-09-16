@@ -1399,6 +1399,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="FH12-12S-0.5SH(55)" x="48.26" y="10.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MF" value="" x="48.26" y="10.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="OC_FARNELL" value="1324542" x="48.26" y="10.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="OC_DIGIKEY" value="HFJ112TR-ND" x="48.26" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R19" library="SparkFun-Passives" package="0805" value="53R" x="43.688" y="14.986" rot="R90"/>
 <element name="C35" library="SparkFun-Passives" package="0805" value="1uF" x="52.578" y="14.986" rot="R270">
