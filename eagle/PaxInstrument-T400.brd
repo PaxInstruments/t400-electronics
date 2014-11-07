@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1611,7 +1611,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="3000TR" x="60.96" y="62.23" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_DIGIKEY" value="3000KTR-ND" x="60.96" y="62.23" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$4" library="charlespax" package="SOIC8" value="W25Q80BV" x="133.096" y="4.826"/>
+<element name="U$4" library="charlespax" package="SOIC8" value="W25Q80DV" x="133.096" y="4.826"/>
 <element name="C20" library="SparkFun-Passives" package="0805" value="0.1uF" x="138.176" y="3.81">
 <attribute name="MPN" value="CL10B104KO8NNNC" x="138.176" y="3.81" size="1.778" layer="27" display="off"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="138.176" y="3.81" size="1.778" layer="27" display="off"/>

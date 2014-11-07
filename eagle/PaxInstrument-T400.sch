@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8691,7 +8691,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <attribute name="OC_DIGIKEY" value="3000KTR-ND"/>
 </part>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$4" library="charlespax" deviceset="W25Q80BV" device="" value="W25Q80BV"/>
+<part name="U$4" library="charlespax" deviceset="W25Q80BV" device="" value="W25Q80DV"/>
 <part name="C20" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="MPN" value="CL10B104KO8NNNC"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
