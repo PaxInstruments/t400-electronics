@@ -44,7 +44,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -174,11 +174,11 @@ v0.7</text>
 <dimension x1="-3.81" y1="0" x2="-3.81" y2="39.878" x3="-30.48" y3="19.939" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="-3.81" y1="0" x2="-3.81" y2="50.8" x3="-38.1" y3="25.4" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="-3.81" y1="0" x2="-3.81" y2="46.99" x3="-34.29" y3="23.495" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="0" y1="-3.81" x2="3.81" y2="-3.81" x3="1.905" y3="-6.35" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="-3.81" x2="21.082" y2="-2.54" x3="10.541" y3="-20.32" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="0" y1="-3.81" x2="5.08" y2="-3.81" x3="2.54" y3="-10.16" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="-3.81" x2="92.71" y2="-3.81" x3="46.355" y3="-21.59" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="-3.81" x2="91.44" y2="-3.81" x3="45.72" y3="-17.78" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="-3.81" x2="96.52" y2="-3.81" x3="48.26" y3="-25.4" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="-3.81" x2="92.71" y2="-3.81" x3="46.355" y3="-35.56" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="-3.81" x2="91.44" y2="-3.81" x3="45.72" y3="-31.75" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="-3.81" x2="96.52" y2="-3.81" x3="48.26" y3="-39.37" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 <dimension x1="100.33" y1="10.922" x2="100.33" y2="25.4" x3="107.95" y3="18.161" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="100.33" y1="25.4" x2="100.33" y2="39.878" x3="107.95" y3="32.639" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="100.33" y1="3.81" x2="100.33" y2="46.99" x3="113.03" y3="25.4" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
@@ -247,6 +247,7 @@ Pressure MPL3115A2 0x60
 <dimension x1="-3.81" y1="0" x2="-3.81" y2="8.89" x3="-15.24" y3="4.445" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="-3.81" y1="8.89" x2="-3.81" y2="25.4" x3="-15.24" y3="17.145" textsize="1.778" layer="47" unit="inch"/>
 <text x="50.292" y="74.168" size="0.7112" layer="21" font="vector" ratio="15" align="top-left">PWR_ONOFF</text>
+<dimension x1="0" y1="-3.81" x2="3.81" y2="-3.81" x3="1.905" y3="-6.35" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1585,7 +1586,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="52.07" y="35.56" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="MCT06030D5000BP100" x="52.07" y="35.56" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="U$2" library="charlespax" package="BL-5C-CONNECTOR" value="BL-5C-CONNECTOR" x="22.86" y="8.89" rot="R90"/>
+<element name="U$2" library="charlespax" package="BL-5C-CONNECTOR" value="BL-5C-CONNECTOR" x="22.352" y="13.589" rot="R90"/>
 <element name="BAT1" library="SparkFun-Electromechanical" package="BATTCON_12MM" value="" x="144.78" y="12.7" rot="MR90">
 <attribute name="MPN" value="3000TR" x="144.78" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="OC_DIGIKEY" value="3000KTR-ND" x="144.78" y="12.7" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2113,7 +2114,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="102.6461" y1="73.98" x2="102.108" y2="77.586" width="0" layer="19" extent="16-16"/>
 <wire x1="118.226" y1="4.064" x2="102.6461" y2="73.98" width="0" layer="19" extent="16-16"/>
 <wire x1="113.922" y1="1.778" x2="118.226" y2="4.064" width="0" layer="19" extent="16-16"/>
-<wire x1="16.76" y1="5.79" x2="113.922" y2="1.778" width="0" layer="19" extent="1-16"/>
+<wire x1="16.252" y1="10.489" x2="113.922" y2="1.778" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$32">
 </signal>
@@ -2459,6 +2460,8 @@ These are the default Design Rules for LumberDAQ.</description>
 </signal>
 <signal name="DATA3">
 <contactref element="U$3" pad="31"/>
+<contactref element="ICSP1" pad="3"/>
+<wire x1="85.344" y1="76.2" x2="143.224365625" y2="44.316953125" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="FLASH_CS">
 <contactref element="U$4" pad="1"/>
