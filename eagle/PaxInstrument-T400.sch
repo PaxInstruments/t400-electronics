@@ -8700,7 +8700,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="284.48" y1="254" x2="223.52" y2="254" width="0.2032" layer="94"/>
 <text x="66.04" y="248.92" size="3.81" layer="94">Battery charging</text>
 <text x="160.02" y="248.92" size="3.81" layer="94">Soft power</text>
-<text x="226.06" y="248.92" size="3.81" layer="94">3.3 V regualtor</text>
+<text x="226.06" y="248.92" size="3.81" layer="94">3.3 V regulator</text>
 <text x="236.22" y="187.96" size="3.81" layer="94">RTC</text>
 <wire x1="287.02" y1="254" x2="330.2" y2="254" width="0.2032" layer="94"/>
 <wire x1="330.2" y1="254" x2="330.2" y2="195.58" width="0.2032" layer="94"/>
