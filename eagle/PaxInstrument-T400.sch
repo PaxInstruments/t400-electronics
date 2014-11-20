@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8728,7 +8728,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="170.18" y1="154.94" x2="111.76" y2="154.94" width="0.2032" layer="94"/>
 <wire x1="111.76" y1="154.94" x2="111.76" y2="193.04" width="0.2032" layer="94"/>
 <text x="114.3" y="187.96" size="3.81" layer="94">Temp sensor</text>
-<text x="330.2" y="15.24" size="2.54" layer="94" align="center-left">0.7</text>
+<text x="330.2" y="15.24" size="2.54" layer="94" align="center-left">0.8</text>
 <wire x1="172.72" y1="73.66" x2="231.14" y2="73.66" width="0.2032" layer="94"/>
 <wire x1="172.72" y1="111.76" x2="172.72" y2="73.66" width="0.2032" layer="94"/>
 <wire x1="231.14" y1="111.76" x2="231.14" y2="73.66" width="0.2032" layer="94"/>
@@ -10544,7 +10544,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="83.82" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="VBUS_IN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VIN"/>
 <pinref part="C6" gate="G$1" pin="1"/>
