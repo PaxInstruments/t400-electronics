@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -138,8 +138,7 @@
 <board>
 <plain>
 <text x="23.622" y="21.844" size="1.778" layer="21" ratio="15" rot="R180">ICSP</text>
-<text x="28.448" y="60.198" size="1.27" layer="21" font="vector" ratio="15">T400
-v0.8</text>
+<text x="17.018" y="41.148" size="1.27" layer="21" font="vector" ratio="15">T400 v0.8</text>
 <text x="38.1" y="49.53" size="2.54" layer="25" font="vector" ratio="15" align="center">+</text>
 <text x="55.88" y="49.53" size="2.54" layer="25" font="vector" ratio="15" align="center">+</text>
 <text x="73.66" y="49.53" size="2.54" layer="25" font="vector" ratio="15" align="center">+</text>
@@ -206,9 +205,8 @@ v0.8</text>
 <text x="28.448" y="29.21" size="0.762" layer="21" font="vector" ratio="15" rot="R180" align="center-left">3.3V</text>
 <text x="37.592" y="23.114" size="0.762" layer="21" font="vector" ratio="15" align="center-left">SDA</text>
 <text x="37.592" y="25.654" size="0.762" layer="21" font="vector" ratio="15" align="center-left">SCL</text>
-<text x="36.83" y="70.612" size="1.27" layer="21" font="vector" ratio="15" rot="R90">RTC</text>
-<text x="37.592" y="69.85" size="1.016" layer="21" font="vector" ratio="15">Pressure</text>
-<text x="2.54" y="80.01" size="0.7112" layer="21" font="vector" ratio="15" align="top-left">Arduino pin map
+<text x="62.738" y="22.86" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">RTC</text>
+<text x="52.07" y="22.86" size="1.016" layer="21" font="vector" ratio="15" align="top-left">Arduino pin map
 D0  LCD_RST
 D1  LCD_A0
 D2  SDA
@@ -216,24 +214,12 @@ D3  SCL
 D4  RTC_INT
 D5  BATT_STAT
 D6  SW_A
-D7  RXLED
+D7  DATA2 (NC)
 D8  SW_B
 D9  DATA1
 D10 VBAT
-D11 PER_ONOFF
-D12 SW_C
-D13 LCD_BL
-D14 MISO
-D15 SCK
-D16 MOSI
-D17 SW_PWR
-A0  FLASH_CS
-A1  SD_CS
-A2  SW_D
-A3  SW_E
-A4  VBAT_EN
-A5  TXLED</text>
-<text x="17.78" y="78.74" size="0.7112" layer="21" font="vector" ratio="15" align="top-left">12c Addresses
+D11 PWR_ONOFF</text>
+<text x="26.67" y="12.7" size="1.016" layer="21" font="vector" ratio="15" align="top-left">12c Addresses
 ADC MCP3424 0x69
 Temp MCP9800 0x48
 RTC DS3231 0x68
@@ -256,8 +242,21 @@ Pressure MPL3115A2 0x60
 <dimension x1="29.21" y1="-3.81" x2="48.26" y2="-3.81" x3="38.735" y3="-7.62" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="-3.81" y1="0" x2="-3.81" y2="8.89" x3="-15.24" y3="4.445" textsize="1.778" layer="47" unit="inch"/>
 <dimension x1="-3.81" y1="8.89" x2="-3.81" y2="25.4" x3="-15.24" y3="17.145" textsize="1.778" layer="47" unit="inch"/>
-<text x="50.292" y="74.168" size="0.7112" layer="21" font="vector" ratio="15" align="top-left">PWR_ONOFF</text>
+<text x="76.962" y="18.288" size="0.7112" layer="21" font="vector" ratio="15" align="top-left">PWR_ONOFF</text>
 <dimension x1="0" y1="-3.81" x2="3.81" y2="-3.81" x3="1.905" y3="-6.35" textsize="1.778" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
+<text x="66.04" y="21.59" size="1.016" layer="21" font="vector" ratio="15" align="top-left">D12 SW_C
+D13 LCD_BL
+D14 MISO
+D15 SCK
+D16 MOSI
+D17 SW_PWR
+A0  LCD_CS
+A1  FLASH_CS
+A2  SD_CS
+A3  VBAT_EN
+A4  SW_D
+A5  SW_E</text>
+<text x="16.51" y="43.18" size="3.556" layer="48">Pax Instruments</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1059,9 +1058,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="10mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -1280,9 +1276,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="  ATMEGA32U4-MUR" x="74.93" y="24.13" size="1.778" layer="28" rot="MR45" display="off"/>
 <attribute name="NAME" x="80.645" y="24.13" size="0.635" layer="26" rot="MR90" align="center"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="25.908" y="67.818">
-<attribute name="OC_DIGIKEY" value="N/A" x="25.908" y="67.818" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="N/A" x="25.908" y="67.818" size="1.778" layer="27" display="off"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="48.768" y="17.018">
+<attribute name="OC_DIGIKEY" value="N/A" x="48.768" y="17.018" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="N/A" x="48.768" y="17.018" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SW$2" library="charlespax" package="BUTTON-CONDUCTIVE" value="DNP" x="92.456" y="39.878" locked="yes" smashed="yes" rot="MR0">
 <attribute name="OC_DIGIKEY" value="N/A" x="92.456" y="39.878" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2845,7 +2841,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="7.874" y1="25.4" x2="7.874" y2="27.94" width="0.3048" layer="16"/>
 <wire x1="7.874" y1="27.94" x2="6.604" y2="27.94" width="0.3048" layer="16"/>
 <wire x1="5.969" y1="29.199" x2="5.98" y2="29.21" width="0.3048" layer="16"/>
-<wire x1="2.159" y1="27.94" x2="1.905" y2="27.305" width="0" layer="19" extent="16-16"/>
+<wire x1="2.159" y1="27.94" x2="1.524" y2="27.305" width="0.4064" layer="16"/>
 </signal>
 <signal name="SW_C">
 <contactref element="SW$8" pad="2"/>
@@ -3055,7 +3051,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="69.85" y1="26.416" x2="68.834" y2="26.416" width="0.3048" layer="1"/>
 <wire x1="68.834" y1="26.416" x2="64.008" y2="21.59" width="0.3048" layer="1"/>
 </signal>
-<signal name="RXLED">
+<signal name="DATA2">
 <contactref element="U$3" pad="1"/>
 </signal>
 <signal name="RTC_INT">
@@ -3650,7 +3646,70 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="19,16,d6856c88a6aa6c5e"/>
 <approved hash="19,16,dee4abb8e9dae4c1"/>
 <approved hash="19,16,dd4bf16f308d676e"/>
+<approved hash="5,16,451512d98ce86fa8"/>
+<approved hash="19,16,02e9f30e850f0f37"/>
+<approved hash="19,16,0171ba3e4fdf8c9f"/>
+<approved hash="5,16,c53112d88ce926fe"/>
+<approved hash="5,16,e1b9ae379207e289"/>
+<approved hash="5,16,b906a1a78cdb3915"/>
+<approved hash="19,16,02e9130ae5138f37"/>
+<approved hash="5,16,6f1e68d4a2e41b00"/>
+<approved hash="19,16,cb579d28abf76b68"/>
+<approved hash="19,16,0fc8e6af83f3e577"/>
+<approved hash="19,16,4623ec9620b51a63"/>
+<approved hash="19,16,0ab9ec0b53b78566"/>
+<approved hash="5,16,efa409e45e3a1ac2"/>
+<approved hash="19,16,efe580ba13f3eccf"/>
+<approved hash="19,16,ef60cc388cee9fd5"/>
+<approved hash="5,16,13bf0f195e01f9fc"/>
+<approved hash="19,16,29f90fe91cc9aaba"/>
+<approved hash="19,16,297c436b83d4d9a0"/>
+<approved hash="5,16,93a60f185e3db0aa"/>
+<approved hash="19,16,e9031264b8b1cc35"/>
+<approved hash="19,16,bd89abe280b5203f"/>
+<approved hash="5,16,6f9d13a52a2e69fc"/>
+<approved hash="19,16,b1c38d56a7401436"/>
+<approved hash="19,16,e54934d09f44f83c"/>
+<approved hash="5,16,efdf13e42a0fae2f"/>
+<approved hash="5,16,638b6e043230e0be"/>
+<approved hash="5,16,49f674795c4dfac3"/>
+<approved hash="5,16,49f774785c69fae7"/>
+<approved hash="19,16,ded359c4ff96008e"/>
+<approved hash="19,16,dd4bf0b8555a036e"/>
+<approved hash="19,16,dd5410bb35598369"/>
+<approved hash="5,16,638a6e053214e09a"/>
+<approved hash="5,16,314bd49dee93c0ab"/>
 <approved hash="19,16,d84b343937bedbcc"/>
+<approved hash="5,16,e1b87236962a66a4"/>
+<approved hash="5,16,a70461a71cf569d8"/>
+<approved hash="19,16,4d41046a57f3669f"/>
+<approved hash="5,16,c51e34d4e6e40eb1"/>
+<approved hash="5,16,e1f9727796086686"/>
+<approved hash="19,16,45e3c3271840ee7d"/>
+<approved hash="5,16,274561e61cd7ae0b"/>
+<approved hash="5,16,e1b9723796066688"/>
+<approved hash="5,16,270561a61cd930a6"/>
+<approved hash="19,16,4ee95eba8ea3e537"/>
+<approved hash="5,16,457c3495e6a5c902"/>
+<approved hash="5,16,c5583494e6a48054"/>
+<approved hash="19,16,e0e5032913f562db"/>
+<approved hash="19,16,e41e4ca88bf210a1"/>
+<approved hash="19,16,a8168c281c57aa8b"/>
+<approved hash="19,16,acedc3a98450d8f1"/>
+<approved hash="19,16,6e0a037b136decfe"/>
+<approved hash="19,16,6af14cfa8b6a9e84"/>
+<approved hash="19,16,689092a3b749cd66"/>
+<approved hash="19,16,3c172a2380362660"/>
+<approved hash="5,16,c5a1f5e42a14726b"/>
+<approved hash="19,16,a1ed0289a8ca8bb2"/>
+<approved hash="19,16,f56aba099fb560b4"/>
+<approved hash="5,16,45a5f5e52a3d2b15"/>
+<approved hash="19,16,30500d91a8b81565"/>
+<approved hash="19,16,64d7b5119fc7fe63"/>
+<approved hash="5,16,45e3f5a52a35b5b8"/>
+<approved hash="19,16,e94bc56c2a8e7d6e"/>
+<approved hash="19,16,eae49fbbf3d9fec1"/>
+<approved hash="19,16,e285588bbca9765e"/>
 </errors>
 </board>
 </drawing>

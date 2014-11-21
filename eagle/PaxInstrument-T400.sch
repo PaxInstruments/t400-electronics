@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10509,7 +10509,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="83.82" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RXLED" class="0">
+<net name="DATA2" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="PE6"/>
 <wire x1="81.28" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
