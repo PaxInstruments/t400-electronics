@@ -11761,7 +11761,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MPN" value="10118194-0001LF"/>
 <attribute name="OC_DIGIKEY" value="609-4618-2-ND"/>
 </part>
-<part name="TP9" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<part name="TP9" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="PWR_ON/OFF">
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
@@ -11903,28 +11903,28 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="OC_DIGIKEY" value="HFJ112TR-ND"/>
 </part>
 <part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-2" device="SMD-NO"/>
-<part name="TP10" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<part name="TP10" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU">
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
-<part name="TP11" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<part name="TP11" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="VBUSIN">
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
-<part name="TP12" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<part name="TP12" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="VBUS">
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
-<part name="TP13" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<part name="TP13" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="3.3V">
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
-<part name="TP14" library="SparkFun-Passives" deviceset="TEST-POINT" device="3X5">
+<part name="TP14" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="VBAT">
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="TP15" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU"/>
+<part name="TP15" library="SparkFun-Passives" deviceset="TEST-POINT" device="TP_15TH_THRU" value="GND"/>
 <part name="U$3" library="PaxInstrument-T400" deviceset="SPARKFUN-DIGITALIC_ATMEGA32U4" device="QFN"/>
 </parts>
 <sheets>
