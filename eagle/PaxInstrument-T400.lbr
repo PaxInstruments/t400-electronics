@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -43,8 +43,8 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
@@ -4839,8 +4839,6 @@ Keying posts into board</description>
 <wire x1="-3.4" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="51"/>
 <wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="51"/>
 <wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="51"/>
-<rectangle x1="-2.5" y1="-2.5" x2="2.5" y2="2.5" layer="1"/>
-<rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" layer="29"/>
 <smd name="1" x="-3.4" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
 <smd name="2" x="-3.4" y="2" dx="0.8" dy="0.3" layer="1" rot="R180"/>
 <smd name="3" x="-3.4" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
@@ -4887,7 +4885,7 @@ Keying posts into board</description>
 <smd name="44" x="-2.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
 <text x="-2.45" y="4.8" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.5" y="-6.15" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" layer="31"/>
+<pad name="P$1" x="0" y="0" drill="0.3302" diameter="5.08" shape="square"/>
 </package>
 <package name="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_QFN-44-NOPAD">
 <wire x1="3.1" y1="-3.5" x2="3.5" y2="-3.5" width="0.2032" layer="21"/>
@@ -6449,8 +6447,33 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.127" layer="21"/>
-<smd name="P$1" x="4.064" y="0" dx="3.5052" dy="10.16" layer="1"/>
-<smd name="P$2" x="-4.064" y="0" dx="3.5052" dy="10.16" layer="1"/>
+<smd name="P$1" x="4.064" y="0" dx="4.572" dy="11.176" layer="1"/>
+<smd name="P$2" x="-4.064" y="0" dx="4.572" dy="11.176" layer="1"/>
+<wire x1="-1.905" y1="-5.08" x2="-2.159" y2="-5.334" width="0.127" layer="46" curve="-90"/>
+<wire x1="-2.159" y1="-5.334" x2="-5.969" y2="-5.334" width="0.127" layer="46"/>
+<wire x1="-5.969" y1="-5.334" x2="-6.223" y2="-5.08" width="0.127" layer="46" curve="-90"/>
+<wire x1="-6.223" y1="-5.08" x2="-5.969" y2="-4.826" width="0.127" layer="46" curve="-90"/>
+<wire x1="-5.969" y1="-4.826" x2="-2.159" y2="-4.826" width="0.127" layer="46"/>
+<wire x1="-2.159" y1="-4.826" x2="-1.905" y2="-5.08" width="0.127" layer="46" curve="-90"/>
+<wire x1="-1.905" y1="5.08" x2="-2.159" y2="4.826" width="0.127" layer="46" curve="-90"/>
+<wire x1="-2.159" y1="4.826" x2="-5.969" y2="4.826" width="0.127" layer="46"/>
+<wire x1="-5.969" y1="4.826" x2="-6.223" y2="5.08" width="0.127" layer="46" curve="-90"/>
+<wire x1="-6.223" y1="5.08" x2="-5.969" y2="5.334" width="0.127" layer="46" curve="-90"/>
+<wire x1="-5.969" y1="5.334" x2="-2.159" y2="5.334" width="0.127" layer="46"/>
+<wire x1="-2.159" y1="5.334" x2="-1.905" y2="5.08" width="0.127" layer="46" curve="-90"/>
+<wire x1="6.223" y1="-5.08" x2="5.969" y2="-5.334" width="0.127" layer="46" curve="-90"/>
+<wire x1="5.969" y1="-5.334" x2="2.159" y2="-5.334" width="0.127" layer="46"/>
+<wire x1="2.159" y1="-5.334" x2="1.905" y2="-5.08" width="0.127" layer="46" curve="-90"/>
+<wire x1="1.905" y1="-5.08" x2="2.159" y2="-4.826" width="0.127" layer="46" curve="-90"/>
+<wire x1="2.159" y1="-4.826" x2="5.969" y2="-4.826" width="0.127" layer="46"/>
+<wire x1="5.969" y1="-4.826" x2="6.223" y2="-5.08" width="0.127" layer="46" curve="-90"/>
+<wire x1="6.223" y1="5.08" x2="5.969" y2="4.826" width="0.127" layer="46" curve="-90"/>
+<wire x1="5.969" y1="4.826" x2="2.159" y2="4.826" width="0.127" layer="46"/>
+<wire x1="2.159" y1="4.826" x2="1.905" y2="5.08" width="0.127" layer="46" curve="-90"/>
+<wire x1="1.905" y1="5.08" x2="2.159" y2="5.334" width="0.127" layer="46" curve="-90"/>
+<wire x1="2.159" y1="5.334" x2="5.969" y2="5.334" width="0.127" layer="46"/>
+<wire x1="5.969" y1="5.334" x2="6.223" y2="5.08" width="0.127" layer="46" curve="-90"/>
+<dimension x1="-6.223" y1="-5.08" x2="-1.905" y2="-5.08" x3="-4.064" y3="-7.62" textsize="1.27" layer="47" unit="mil"/>
 </package>
 <package name="FREETRONICS-MASTER-V1.1_0603">
 <wire x1="-1.27" y1="0.508" x2="1.27" y2="0.508" width="0.0508" layer="39"/>
@@ -10803,6 +10826,84 @@ package type OT</description>
 <text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_QFN_ATMEGA32U4">
+<wire x1="-15.24" y1="38.1" x2="-15.24" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-40.64" x2="15.24" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-40.64" x2="15.24" y2="38.1" width="0.254" layer="94"/>
+<wire x1="15.24" y1="38.1" x2="-15.24" y2="38.1" width="0.254" layer="94"/>
+<pin name="!RESET" x="-17.78" y="35.56" length="short"/>
+<pin name="AREF" x="-17.78" y="22.86" length="short"/>
+<pin name="AVCC@24" x="-17.78" y="27.94" length="short"/>
+<pin name="AVCC@44" x="-17.78" y="25.4" length="short"/>
+<pin name="D+" x="-17.78" y="2.54" length="short"/>
+<pin name="D-" x="-17.78" y="0" length="short"/>
+<pin name="GND@15" x="-17.78" y="-30.48" length="short"/>
+<pin name="GND@23" x="-17.78" y="-33.02" length="short"/>
+<pin name="GND@35" x="-17.78" y="-35.56" length="short"/>
+<pin name="GND@43" x="-17.78" y="-38.1" length="short"/>
+<pin name="PB0(SS)" x="17.78" y="-22.86" length="short" rot="R180"/>
+<pin name="PB1(SCK)" x="17.78" y="-25.4" length="short" rot="R180"/>
+<pin name="PB2(MOSI)" x="17.78" y="-27.94" length="short" rot="R180"/>
+<pin name="PB3(MISO)" x="17.78" y="-30.48" length="short" rot="R180"/>
+<pin name="PB4(ADC11)" x="17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="PB5(ADC12)" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="PB6(ADC13)" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="PB7" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="PC6" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="PC7" x="17.78" y="-20.32" length="short" rot="R180"/>
+<pin name="PD0(SCL)" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="PD1(SDA)" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="PD2(RX)" x="17.78" y="12.7" length="short" rot="R180"/>
+<pin name="PD3(TX)" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="PD4(ADC8)" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="PD5" x="17.78" y="-35.56" length="short" rot="R180"/>
+<pin name="PD6(ADC9)" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="PD7(ADC10)" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="PE2/!HWB" x="-17.78" y="-20.32" length="short"/>
+<pin name="PE6" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="PF0(ADC0)" x="17.78" y="22.86" length="short" rot="R180"/>
+<pin name="PF1(ADC1)" x="17.78" y="25.4" length="short" rot="R180"/>
+<pin name="PF4(ADC4)" x="17.78" y="27.94" length="short" rot="R180"/>
+<pin name="PF5(ADC5)" x="17.78" y="30.48" length="short" rot="R180"/>
+<pin name="PF6(ADC6)" x="17.78" y="33.02" length="short" rot="R180"/>
+<pin name="PF7(ADC7)" x="17.78" y="35.56" length="short" rot="R180"/>
+<pin name="UCAP" x="-17.78" y="7.62" length="short"/>
+<pin name="UGND" x="-17.78" y="-27.94" length="short"/>
+<pin name="UVCC" x="-17.78" y="10.16" length="short"/>
+<pin name="VBUS" x="-17.78" y="12.7" length="short"/>
+<pin name="VCC@14" x="-17.78" y="33.02" length="short"/>
+<pin name="VCC@34" x="-17.78" y="30.48" length="short"/>
+<pin name="XTAL1" x="-17.78" y="-10.16" length="short"/>
+<pin name="XTAL2" x="-17.78" y="-15.24" length="short"/>
+<text x="-15.24" y="38.1" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+<text x="45.72" y="-23.622" size="1.524" layer="103">D17/RX LED</text>
+<text x="45.72" y="-26.162" size="1.524" layer="103">D15</text>
+<text x="45.72" y="-28.702" size="1.524" layer="103">D16</text>
+<text x="45.72" y="-31.242" size="1.524" layer="103">D14</text>
+<text x="45.72" y="-8.382" size="1.524" layer="103">D8</text>
+<text x="45.72" y="-10.922" size="1.524" layer="103">D9#/A8</text>
+<text x="45.72" y="-13.462" size="1.524" layer="103">D10#</text>
+<text x="45.72" y="-16.002" size="1.524" layer="103">D11#</text>
+<text x="45.72" y="-0.762" size="1.524" layer="103">D5#</text>
+<text x="45.72" y="-21.082" size="1.524" layer="103">D13#</text>
+<text x="45.72" y="4.318" size="1.524" layer="103">D3#</text>
+<text x="45.72" y="6.858" size="1.524" layer="103">D2</text>
+<text x="45.72" y="11.938" size="1.524" layer="103">D0</text>
+<text x="45.72" y="9.398" size="1.524" layer="103">D1</text>
+<text x="45.72" y="1.778" size="1.524" layer="103">D4/A6</text>
+<text x="45.72" y="-36.322" size="1.524" layer="103">TX LED</text>
+<text x="45.72" y="-18.542" size="1.524" layer="103">D12/A10</text>
+<text x="45.72" y="-3.302" size="1.524" layer="103">D6#/A7</text>
+<text x="45.72" y="-5.842" size="1.524" layer="103">D7</text>
+<text x="45.72" y="34.798" size="1.524" layer="103">A0</text>
+<text x="45.72" y="32.258" size="1.524" layer="103">A1</text>
+<text x="45.72" y="29.718" size="1.524" layer="103">A2</text>
+<text x="45.72" y="27.178" size="1.524" layer="103">A3</text>
+<text x="45.72" y="24.638" size="1.524" layer="103">A4</text>
+<text x="45.72" y="22.098" size="1.524" layer="103">A5</text>
+<pin name="GND_PAD" x="-17.78" y="-25.4" length="short"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="JEELABS_MCP3424" prefix="IC">
@@ -13042,6 +13143,65 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <connect gate="1" pin="3" pad="3"/>
 <connect gate="1" pin="4" pad="4"/>
 <connect gate="1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARKFUN-DIGITALIC_QFN_ATMEGA32U4">
+<gates>
+<gate name="G$1" symbol="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_QFN_ATMEGA32U4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_QFN-44">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="13"/>
+<connect gate="G$1" pin="AREF" pad="42"/>
+<connect gate="G$1" pin="AVCC@24" pad="24"/>
+<connect gate="G$1" pin="AVCC@44" pad="44"/>
+<connect gate="G$1" pin="D+" pad="4"/>
+<connect gate="G$1" pin="D-" pad="3"/>
+<connect gate="G$1" pin="GND@15" pad="15"/>
+<connect gate="G$1" pin="GND@23" pad="23"/>
+<connect gate="G$1" pin="GND@35" pad="35"/>
+<connect gate="G$1" pin="GND@43" pad="43"/>
+<connect gate="G$1" pin="GND_PAD" pad="P$1"/>
+<connect gate="G$1" pin="PB0(SS)" pad="8"/>
+<connect gate="G$1" pin="PB1(SCK)" pad="9"/>
+<connect gate="G$1" pin="PB2(MOSI)" pad="10"/>
+<connect gate="G$1" pin="PB3(MISO)" pad="11"/>
+<connect gate="G$1" pin="PB4(ADC11)" pad="28"/>
+<connect gate="G$1" pin="PB5(ADC12)" pad="29"/>
+<connect gate="G$1" pin="PB6(ADC13)" pad="30"/>
+<connect gate="G$1" pin="PB7" pad="12"/>
+<connect gate="G$1" pin="PC6" pad="31"/>
+<connect gate="G$1" pin="PC7" pad="32"/>
+<connect gate="G$1" pin="PD0(SCL)" pad="18"/>
+<connect gate="G$1" pin="PD1(SDA)" pad="19"/>
+<connect gate="G$1" pin="PD2(RX)" pad="20"/>
+<connect gate="G$1" pin="PD3(TX)" pad="21"/>
+<connect gate="G$1" pin="PD4(ADC8)" pad="25"/>
+<connect gate="G$1" pin="PD5" pad="22"/>
+<connect gate="G$1" pin="PD6(ADC9)" pad="26"/>
+<connect gate="G$1" pin="PD7(ADC10)" pad="27"/>
+<connect gate="G$1" pin="PE2/!HWB" pad="33"/>
+<connect gate="G$1" pin="PE6" pad="1"/>
+<connect gate="G$1" pin="PF0(ADC0)" pad="41"/>
+<connect gate="G$1" pin="PF1(ADC1)" pad="40"/>
+<connect gate="G$1" pin="PF4(ADC4)" pad="39"/>
+<connect gate="G$1" pin="PF5(ADC5)" pad="38"/>
+<connect gate="G$1" pin="PF6(ADC6)" pad="37"/>
+<connect gate="G$1" pin="PF7(ADC7)" pad="36"/>
+<connect gate="G$1" pin="UCAP" pad="6"/>
+<connect gate="G$1" pin="UGND" pad="5"/>
+<connect gate="G$1" pin="UVCC" pad="2"/>
+<connect gate="G$1" pin="VBUS" pad="7"/>
+<connect gate="G$1" pin="VCC@14" pad="14"/>
+<connect gate="G$1" pin="VCC@34" pad="34"/>
+<connect gate="G$1" pin="XTAL1" pad="17"/>
+<connect gate="G$1" pin="XTAL2" pad="16"/>
 </connects>
 <technologies>
 <technology name=""/>
