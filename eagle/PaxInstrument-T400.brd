@@ -212,12 +212,11 @@ D8  VBAT_EN
 D9  VBAT_SENSE
 D10 BATT_STAT
 D11 FLASH_CS</text>
-<text x="83.455" y="31.705" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">12c Addresses
-ADC MCP3424 0x69
-Temp MCP9800 0x48
-RTC DS3231 0x68
-Humidity HTU21D 0x40
-Pressure MPL3115A2 0x60
+<text x="83.455" y="31.705" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">12c Addresses:
+» ADC MCP3424 0x69
+» Temp MCP9800 0x48
+» RTC DS3231 0x68
+
 </text>
 <text x="72.39" y="46.99" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">+4</text>
 <text x="54.61" y="46.99" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">+3</text>
