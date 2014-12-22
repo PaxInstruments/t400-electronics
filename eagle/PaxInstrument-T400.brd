@@ -23,13 +23,13 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -283,6 +283,11 @@ A5  SW_E</text>
 <text x="88.9" y="41.91" size="0.7112" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">GND</text>
 <text x="91.44" y="41.91" size="0.7112" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">MOSI</text>
 <text x="93.98" y="41.91" size="0.7112" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">VBUS_IN</text>
+<text x="56.007" y="2.413" size="0.8128" layer="21" font="vector" ratio="15">SPI Flash</text>
+<text x="65.532" y="17.018" size="0.8128" layer="21" font="vector" ratio="15">Micro SD</text>
+<text x="47.4345" y="9.7155" size="0.8128" layer="21" font="vector" ratio="15">LCD</text>
+<text x="36.0045" y="11.6205" size="0.8128" layer="21" font="vector" ratio="15">RTC</text>
+<text x="47.4345" y="32.5755" size="0.8128" layer="21" font="vector" ratio="15">ADC</text>
 </plain>
 <libraries>
 <library name="SparkFun">
