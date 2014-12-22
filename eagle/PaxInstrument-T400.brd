@@ -260,7 +260,7 @@ A5  SW_E</text>
 <text x="78.105" y="-3.64" size="0.6096" layer="47" align="center-left">Card Lock position</text>
 <text x="78.105" y="-6.64" size="0.6096" layer="47" align="center-left">Card dashing position</text>
 <text x="60.563" y="27.213" size="0.7112" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">GND</text>
-<text x="45.323" y="3.718" size="0.7112" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">3.3V</text>
+<text x="45.323" y="4.988" size="0.7112" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">3.3V</text>
 <text x="90.408" y="17.053" size="0.7112" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">VBUS_IN</text>
 <text x="89.138" y="14.1955" size="0.7112" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">VBAT</text>
 <text x="18.653" y="2.7655" size="0.7112" layer="22" font="vector" ratio="15" rot="MR0" align="top-left">VBUS</text>
@@ -1002,6 +1002,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1.905" y1="5.08" x2="2.159" y2="5.334" width="0.127" layer="46" curve="-90"/>
 <wire x1="2.159" y1="5.334" x2="5.969" y2="5.334" width="0.127" layer="46"/>
 <wire x1="5.969" y1="5.334" x2="6.223" y2="5.08" width="0.127" layer="46" curve="-90"/>
+<dimension x1="-6.223" y1="-5.08" x2="-1.905" y2="-5.08" x3="-4.064" y3="-7.62" textsize="1.27" layer="47" unit="mil"/>
 </package>
 <package name="CHARLESPAX_SOIC8M">
 <wire x1="2.4" y1="2.43" x2="2.4" y2="-1.93" width="0.2032" layer="21"/>
@@ -1031,9 +1032,7 @@ by exp-lbrs.ulp</description>
 <rectangle x1="-2.1501" y1="2.5301" x2="-1.6599" y2="4.05" layer="21"/>
 </package>
 <package name="TP_15TH">
-<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
-<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
-<circle x="0" y="0" radius="0.381" width="0" layer="29"/>
+<pad name="P$1" x="0" y="0" drill="0.6" diameter="1.1684"/>
 </package>
 </packages>
 </library>
@@ -1764,9 +1763,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="N/A" x="17.537" y="1.27" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_DIGIKEY" value="N/A" x="17.537" y="1.27" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TP13" library="PaxInstrument-T400" package="TP_15TH" value="3.3V" x="44.45" y="4.826" rot="MR0">
-<attribute name="MPN" value="N/A" x="44.45" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="OC_DIGIKEY" value="N/A" x="44.45" y="4.826" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TP13" library="PaxInstrument-T400" package="TP_15TH" value="3.3V" x="44.45" y="6.096" rot="MR0">
+<attribute name="MPN" value="N/A" x="44.45" y="6.096" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="OC_DIGIKEY" value="N/A" x="44.45" y="6.096" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="TP14" library="PaxInstrument-T400" package="TP_15TH" value="VBAT" x="87.895" y="12.7025">
 <attribute name="MPN" value="N/A" x="87.895" y="12.7025" size="1.778" layer="27" display="off"/>
@@ -1954,10 +1953,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="21.725834375" y1="21.725834375" x2="20.955" y2="20.955" width="0.3048" layer="1"/>
 <contactref element="GND" pad="24"/>
 <via x="51.435" y="4.826" extent="1-16" drill="0.3302"/>
-<wire x1="44.45" y1="4.826" x2="41.91" y2="4.826" width="0.6096" layer="16"/>
 <wire x1="51.435" y1="4.826" x2="46.355" y2="4.826" width="0.6096" layer="16"/>
 <via x="88.9" y="5.715" extent="1-16" drill="0.3302"/>
-<wire x1="46.355" y1="4.826" x2="44.45" y2="4.826" width="0.6096" layer="16"/>
 <wire x1="86.995" y1="3.81" x2="88.9" y2="5.715" width="0.6096" layer="16"/>
 <wire x1="35.93" y1="17.78" x2="34.2138" y2="17.78" width="0.3048" layer="1"/>
 <wire x1="34.2138" y1="17.78" x2="33.02" y2="17.78" width="0.3048" layer="1"/>
@@ -2067,6 +2064,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="47.31" y1="40.69" x2="46.609" y2="40.69" width="0.6096" layer="1"/>
 <wire x1="46.609" y1="40.69" x2="46.2915" y2="41.0075" width="0.6096" layer="1"/>
 <wire x1="46.2915" y1="41.0075" x2="46.2915" y2="41.91" width="0.6096" layer="1"/>
+<wire x1="46.355" y1="4.826" x2="44.45" y2="4.826" width="0.6096" layer="16"/>
+<wire x1="44.45" y1="4.826" x2="41.91" y2="4.826" width="0.6096" layer="16"/>
+<wire x1="44.45" y1="6.096" x2="44.45" y2="4.826" width="0.6096" layer="16"/>
 </signal>
 <signal name="3V3EN">
 <contactref element="U4" pad="3"/>
@@ -3492,16 +3492,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="19,16,2343c189c3cc2d3a"/>
 <approved hash="19,16,a24f5e8d5cd8ac4e"/>
 <approved hash="5,16,be4e38cbce023cbf"/>
-<approved hash="18,29,1d6e408fc43769c5"/>
-<approved hash="18,29,1571409dc5e561fc"/>
-<approved hash="18,29,62a13217321b6755"/>
-<approved hash="18,29,62e33211324566b7"/>
-<approved hash="18,29,24e17d5b7caf20ed"/>
-<approved hash="18,29,e6e7b619b64de2b3"/>
-<approved hash="18,29,24a14d174d1b2155"/>
-<approved hash="18,29,e6e1b65bb7afe2ed"/>
-<approved hash="18,29,8f5fab1ad7e203b4"/>
-<approved hash="18,29,8696ab5ad7e60bdf"/>
 <approved hash="18,30,54ed499721963cec"/>
 <approved hash="18,30,300415e5d5f7f016"/>
 <approved hash="18,30,c03ca5dd652f00ce"/>
@@ -3662,6 +3652,16 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="19,16,eae49fbbf3d9fec1"/>
 <approved hash="19,16,e285588bbca9765e"/>
 <approved hash="19,16,9ca33936693247da"/>
+<approved hash="18,29,1d6e408fc43769c5"/>
+<approved hash="18,29,1571409dc5e561fc"/>
+<approved hash="18,29,62a13217321b6755"/>
+<approved hash="18,29,62e33211324566b7"/>
+<approved hash="18,29,e6e7b619b64de2b3"/>
+<approved hash="18,29,24e17d5b7caf20ed"/>
+<approved hash="18,29,24a14d174d1b2155"/>
+<approved hash="18,29,e6e1b65bb7afe2ed"/>
+<approved hash="18,29,8f5fab1ad7e203b4"/>
+<approved hash="18,29,8696ab5ad7e60bdf"/>
 <approved hash="19,16,0577defa7b3cee32"/>
 <approved hash="19,16,040679c1232a8093"/>
 <approved hash="19,16,36a5342f30c7ec33"/>

@@ -7872,6 +7872,7 @@ by exp-lbrs.ulp</description>
 <wire x1="1.905" y1="5.08" x2="2.159" y2="5.334" width="0.127" layer="46" curve="-90"/>
 <wire x1="2.159" y1="5.334" x2="5.969" y2="5.334" width="0.127" layer="46"/>
 <wire x1="5.969" y1="5.334" x2="6.223" y2="5.08" width="0.127" layer="46" curve="-90"/>
+<dimension x1="-6.223" y1="-5.08" x2="-1.905" y2="-5.08" x3="-4.064" y3="-7.62" textsize="1.27" layer="47" unit="mil"/>
 </package>
 <package name="CHARLESPAX_SOIC8M">
 <wire x1="2.4" y1="2.43" x2="2.4" y2="-1.93" width="0.2032" layer="21"/>
@@ -7901,9 +7902,7 @@ by exp-lbrs.ulp</description>
 <rectangle x1="-2.1501" y1="2.5301" x2="-1.6599" y2="4.05" layer="21"/>
 </package>
 <package name="TP_15TH">
-<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
-<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
-<circle x="0" y="0" radius="0.381" width="0" layer="29"/>
+<pad name="P$1" x="0" y="0" drill="0.6" diameter="1.1684"/>
 </package>
 <package name="PAD.02X.02">
 <smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
