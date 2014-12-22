@@ -10811,13 +10811,25 @@ by exp-lbrs.ulp</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,332.74,172.72,VCC,3.3V,,,,"/>
+<approved hash="102,1,297.18,172.72,VCC,3.3V,,,,"/>
 <approved hash="104,1,81.28,238.76,U3,VIN,VBUS_IN,,,"/>
 <approved hash="104,1,101.6,233.68,U3,VSS,GND,,,"/>
-<approved hash="104,1,231.14,101.6,IC1,VDD,3.3V,,,"/>
-<approved hash="104,1,281.94,127,BAT1,-,GND,,,"/>
-<approved hash="104,1,281.94,137.16,BAT1,+,RTC_BATT,,,"/>
-<approved hash="113,1,283.659,132.08,BAT1,,,,,"/>
+<approved hash="104,1,195.58,101.6,IC1,VDD,3.3V,,,"/>
+<approved hash="104,1,246.38,127,BAT1,-,GND,,,"/>
+<approved hash="104,1,246.38,137.16,BAT1,+,RTC_BATT,,,"/>
+<approved hash="110,1,30.48,40.64,N$5,N$13,,,,"/>
+<approved hash="110,1,30.48,38.1,N$5,N$14,,,,"/>
+<approved hash="110,1,30.48,30.48,N$5,N$16,,,,"/>
+<approved hash="110,1,30.48,48.26,N$5,N$34,,,,"/>
+<approved hash="110,1,30.48,50.8,N$5,N$35,,,,"/>
+<approved hash="110,1,30.48,33.02,N$5,N$40,,,,"/>
+<approved hash="111,1,30.48,50.8,N$5,,,,,"/>
+<approved hash="111,1,30.48,48.26,N$5,,,,,"/>
+<approved hash="111,1,30.48,40.64,N$5,,,,,"/>
+<approved hash="111,1,30.48,38.1,N$5,,,,,"/>
+<approved hash="111,1,30.48,33.02,N$5,,,,,"/>
+<approved hash="111,1,30.48,30.48,N$5,,,,,"/>
+<approved hash="113,1,248.099,132.08,BAT1,,,,,"/>
 <approved hash="113,1,173.657,234.069,JP1,,,,,"/>
 </errors>
 </schematic>
