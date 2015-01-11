@@ -633,312 +633,6 @@ IC-09995</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-DiscreteSemi">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find discrete semiconductors- transistors, diodes, TRIACs, optoisolators, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SMA-DIODE">
-<description>&lt;B&gt;Diode&lt;/B&gt;&lt;p&gt;
-Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140</description>
-<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
-<wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="21"/>
-<smd name="A" x="-2.15" y="0" dx="1.27" dy="1.47" layer="1" rot="R180"/>
-<smd name="C" x="2.15" y="0" dx="1.27" dy="1.47" layer="1"/>
-<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
-<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="DIODE-1N4001">
-<wire x1="3.175" y1="1.27" x2="1.905" y2="1.27" width="0.254" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.175" y2="0" width="0.254" layer="21"/>
-<wire x1="-3.175" y1="0" x2="-3.175" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="-3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="3.175" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="3.175" y2="0" width="0.254" layer="21"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="1.27" width="0.254" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.254" layer="21"/>
-<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
-<pad name="A" x="-5.08" y="0" drill="1" diameter="1.9812"/>
-<pad name="C" x="5.08" y="0" drill="1" diameter="1.9812"/>
-<text x="-2.921" y="1.651" size="0.6096" layer="25">&gt;Name</text>
-<text x="-2.921" y="-0.508" size="1.016" layer="21" ratio="12">&gt;Value</text>
-</package>
-<package name="SOD-323">
-<wire x1="-0.9" y1="0.65" x2="-0.5" y2="0.65" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="0.65" x2="0.9" y2="0.65" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="-0.65" x2="0.9" y2="-0.65" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
-<smd name="1" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<smd name="2" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<text x="-0.889" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="DIODE-1N4148">
-<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="A" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
-<pad name="C" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
-<text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
-<text x="-2.032" y="-0.508" size="0.8128" layer="21">&gt;Value</text>
-</package>
-<package name="SMB-DIODE">
-<description>&lt;b&gt;Diode&lt;/b&gt;&lt;p&gt;
-Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</description>
-<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
-<wire x1="-2.2606" y1="-1.905" x2="2.2606" y2="-1.905" width="0.1016" layer="21"/>
-<wire x1="-2.261" y1="-1.905" x2="-2.261" y2="1.905" width="0.1016" layer="51"/>
-<wire x1="2.261" y1="-1.905" x2="2.261" y2="1.905" width="0.1016" layer="51"/>
-<wire x1="0.643" y1="1" x2="-0.73" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.73" y1="0" x2="0.643" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.643" y1="-1" x2="0.643" y2="1" width="0.2032" layer="21"/>
-<wire x1="-0.73" y1="1" x2="-0.73" y2="-1" width="0.2032" layer="21"/>
-<smd name="C" x="-2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
-<smd name="A" x="2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
-<text x="-2.159" y="2.159" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
-<rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
-</package>
-<package name="DIODE-HV">
-<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
-<wire x1="-2.2606" y1="-1.905" x2="2.2606" y2="-1.905" width="0.1016" layer="21"/>
-<wire x1="-2.261" y1="-1.905" x2="-2.261" y2="1.905" width="0.1016" layer="51"/>
-<wire x1="2.261" y1="-1.905" x2="2.261" y2="1.905" width="0.1016" layer="51"/>
-<wire x1="0.643" y1="1" x2="-0.73" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.73" y1="0" x2="0.643" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.643" y1="-1" x2="0.643" y2="1" width="0.2032" layer="21"/>
-<wire x1="-0.73" y1="1" x2="-0.73" y2="-1" width="0.2032" layer="21"/>
-<smd name="C" x="-2.454" y="0" dx="2.2" dy="2.4" layer="1"/>
-<smd name="A" x="2.454" y="0" dx="2.2" dy="2.4" layer="1"/>
-<text x="-2.159" y="2.159" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
-<rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
-</package>
-<package name="SMA-DIODE_ALT">
-<wire x1="-2.3" y1="1.3" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="1.45" x2="2.3" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.3" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1.3" width="0.2032" layer="21"/>
-<wire x1="0.6" y1="1" x2="0.6" y2="-1" width="0.2032" layer="21"/>
-<smd name="A" x="-2" y="0" dx="2" dy="2" layer="1" rot="R180"/>
-<smd name="C" x="2" y="0" dx="2" dy="2" layer="1"/>
-<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
-<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SMA-DIODE-KIT">
-<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
-<wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="21"/>
-<smd name="A" x="-2.4" y="0" dx="1.77" dy="1.47" layer="1" rot="R180"/>
-<smd name="C" x="2.4" y="0" dx="1.77" dy="1.47" layer="1"/>
-<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
-<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="SOD523">
-<wire x1="-0.59" y1="0.4" x2="0.59" y2="0.4" width="0.1016" layer="21"/>
-<wire x1="0.59" y1="0.4" x2="0.59" y2="-0.4" width="0.1016" layer="51"/>
-<wire x1="0.59" y1="-0.4" x2="-0.59" y2="-0.4" width="0.1016" layer="21"/>
-<wire x1="-0.59" y1="-0.4" x2="-0.59" y2="0.4" width="0.1016" layer="51"/>
-<rectangle x1="-0.75" y1="-0.17" x2="-0.54" y2="0.17" layer="51"/>
-<rectangle x1="0.54" y1="-0.17" x2="0.75" y2="0.17" layer="51"/>
-<rectangle x1="-0.59" y1="-0.4" x2="-0.3" y2="0.4" layer="51"/>
-<smd name="A" x="0.7" y="0" dx="0.7" dy="0.5" layer="1"/>
-<smd name="C" x="-0.6" y="0" dx="0.7" dy="0.5" layer="1"/>
-<text x="-0.7366" y="0.5588" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.6858" y="-0.9906" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.1397" y1="-0.3937" x2="-0.0127" y2="0.381" layer="21"/>
-</package>
-<package name="SMC">
-<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
-<wire x1="-3.5606" y1="3.105" x2="3.5606" y2="3.105" width="0.1016" layer="21"/>
-<wire x1="-3.5606" y1="-3.105" x2="3.5606" y2="-3.105" width="0.1016" layer="21"/>
-<wire x1="-3.5606" y1="-3.105" x2="-3.5606" y2="3.105" width="0.1016" layer="51"/>
-<wire x1="3.5606" y1="-3.105" x2="3.5606" y2="3.105" width="0.1016" layer="51"/>
-<wire x1="0.543" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.83" y1="0" x2="0.543" y2="-1" width="0.2032" layer="21"/>
-<wire x1="0.543" y1="-1" x2="0.543" y2="1" width="0.2032" layer="21"/>
-<smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
-<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
-<text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
-<rectangle x1="3.5606" y1="-1.0922" x2="4.094" y2="1.0922" layer="51"/>
-<rectangle x1="-2.1" y1="-3.1" x2="-0.85" y2="3.1" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DIODE">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DIODE" prefix="D" uservalue="yes">
-<description>&lt;b&gt;Diode&lt;/b&gt;
-These are standard reverse protection diodes and small signal diodes. SMA package can handle up to about 1A. SOD-323 can handle about 200mA. What the SOD-323 package when ordering, there are some mfgs out there that are 5-pin packages.</description>
-<gates>
-<gate name="G$1" symbol="DIODE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMA" package="SMA-DIODE">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH" package="DIODE-1N4001">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOD" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09646" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SOT23" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1N4148" package="DIODE-1N4148">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMB" package="SMB-DIODE">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="HV" package="DIODE-HV">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMA-ALT" package="SMA-DIODE_ALT">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMA-KIT" package="SMA-DIODE-KIT">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOD523" package="SOD523">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMC/DO-214AB" package="SMC">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
@@ -7586,6 +7280,224 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOT23-3">
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOD123">
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.254" layer="51"/>
+<smd name="C" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
+<smd name="A" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
+<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
+<rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
+<rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="51"/>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_DIODE-1N4148">
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="0.635" x2="1.905" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="A" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="C" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
+<text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-2.032" y="-0.508" size="0.8128" layer="21">&gt;Value</text>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_DIODE-HV">
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="-2.2606" y1="-1.905" x2="2.2606" y2="-1.905" width="0.1016" layer="21"/>
+<wire x1="-2.261" y1="-1.905" x2="-2.261" y2="1.905" width="0.1016" layer="51"/>
+<wire x1="2.261" y1="-1.905" x2="2.261" y2="1.905" width="0.1016" layer="51"/>
+<wire x1="0.643" y1="1" x2="-0.73" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.73" y1="0" x2="0.643" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.643" y1="-1" x2="0.643" y2="1" width="0.2032" layer="21"/>
+<wire x1="-0.73" y1="1" x2="-0.73" y2="-1" width="0.2032" layer="21"/>
+<rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
+<rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
+<smd name="A" x="2.454" y="0" dx="2.2" dy="2.4" layer="1"/>
+<smd name="C" x="-2.454" y="0" dx="2.2" dy="2.4" layer="1"/>
+<text x="-2.159" y="2.159" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_DIODE-1N4001">
+<wire x1="3.175" y1="1.27" x2="1.905" y2="1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="-3.175" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.175" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-3.175" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="3.175" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="3.175" y2="0" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="1.27" width="0.254" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.254" layer="21"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0" width="0.254" layer="21"/>
+<pad name="A" x="-5.08" y="0" drill="1" diameter="1.9812"/>
+<pad name="C" x="5.08" y="0" drill="1" diameter="1.9812"/>
+<text x="-2.921" y="1.651" size="0.6096" layer="25">&gt;Name</text>
+<text x="-2.921" y="-0.508" size="1.016" layer="21" ratio="12">&gt;Value</text>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_SMA-DIODE">
+<description>&lt;B&gt;Diode&lt;/B&gt;&lt;p&gt;
+Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140</description>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="21"/>
+<smd name="A" x="-2.15" y="0" dx="1.27" dy="1.47" layer="1" rot="R180"/>
+<smd name="C" x="2.15" y="0" dx="1.27" dy="1.47" layer="1"/>
+<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
+<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_SMA-DIODE_ALT">
+<wire x1="-2.3" y1="1.3" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="1.45" x2="2.3" y2="1.3" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1.3" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1.3" width="0.2032" layer="21"/>
+<wire x1="0.6" y1="1" x2="0.6" y2="-1" width="0.2032" layer="21"/>
+<smd name="A" x="-2" y="0" dx="2" dy="2" layer="1" rot="R180"/>
+<smd name="C" x="2" y="0" dx="2" dy="2" layer="1"/>
+<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
+<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_SMA-DIODE-KIT">
+<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="21"/>
+<smd name="A" x="-2.4" y="0" dx="1.77" dy="1.47" layer="1" rot="R180"/>
+<smd name="C" x="2.4" y="0" dx="1.77" dy="1.47" layer="1"/>
+<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
+<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_SMB-DIODE">
+<description>&lt;b&gt;Diode&lt;/b&gt;&lt;p&gt;
+Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</description>
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
+<wire x1="-2.2606" y1="-1.905" x2="2.2606" y2="-1.905" width="0.1016" layer="21"/>
+<wire x1="-2.261" y1="-1.905" x2="-2.261" y2="1.905" width="0.1016" layer="51"/>
+<wire x1="2.261" y1="-1.905" x2="2.261" y2="1.905" width="0.1016" layer="51"/>
+<wire x1="0.643" y1="1" x2="-0.73" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.73" y1="0" x2="0.643" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.643" y1="-1" x2="0.643" y2="1" width="0.2032" layer="21"/>
+<wire x1="-0.73" y1="1" x2="-0.73" y2="-1" width="0.2032" layer="21"/>
+<rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
+<rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
+<smd name="A" x="2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
+<smd name="C" x="-2.2" y="0" dx="2.4" dy="2.4" layer="1"/>
+<text x="-2.159" y="2.159" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_SMC">
+<description>&lt;b&gt;DIODE&lt;/b&gt;</description>
+<wire x1="-3.5606" y1="3.105" x2="3.5606" y2="3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="3.5606" y2="-3.105" width="0.1016" layer="21"/>
+<wire x1="-3.5606" y1="-3.105" x2="-3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="3.5606" y1="-3.105" x2="3.5606" y2="3.105" width="0.1016" layer="51"/>
+<wire x1="0.543" y1="1" x2="-0.83" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.83" y1="0" x2="0.543" y2="-1" width="0.2032" layer="21"/>
+<wire x1="0.543" y1="-1" x2="0.543" y2="1" width="0.2032" layer="21"/>
+<rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
+<rectangle x1="3.5606" y1="-1.0922" x2="4.094" y2="1.0922" layer="51"/>
+<rectangle x1="-2.1" y1="-3.1" x2="-0.85" y2="3.1" layer="21"/>
+<smd name="A" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<smd name="C" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<text x="-3.459" y="3.359" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.459" y="-4.629" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_SOD-323">
+<wire x1="-0.9" y1="0.65" x2="-0.5" y2="0.65" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0.65" x2="0.9" y2="0.65" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="-0.65" x2="0.9" y2="-0.65" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
+<smd name="1" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<smd name="2" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<text x="-0.889" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_SOD523">
+<wire x1="-0.59" y1="0.4" x2="0.59" y2="0.4" width="0.1016" layer="21"/>
+<wire x1="0.59" y1="0.4" x2="0.59" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="0.59" y1="-0.4" x2="-0.59" y2="-0.4" width="0.1016" layer="21"/>
+<wire x1="-0.59" y1="-0.4" x2="-0.59" y2="0.4" width="0.1016" layer="51"/>
+<rectangle x1="-0.75" y1="-0.17" x2="-0.54" y2="0.17" layer="51"/>
+<rectangle x1="0.54" y1="-0.17" x2="0.75" y2="0.17" layer="51"/>
+<rectangle x1="-0.59" y1="-0.4" x2="-0.3" y2="0.4" layer="51"/>
+<rectangle x1="-0.1397" y1="-0.3937" x2="-0.0127" y2="0.381" layer="21"/>
+<smd name="A" x="0.7" y="0" dx="0.7" dy="0.5" layer="1"/>
+<smd name="C" x="-0.6" y="0" dx="0.7" dy="0.5" layer="1"/>
+<text x="-0.7366" y="0.5588" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.6858" y="-0.9906" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SPARKFUN-DISCRETESEMI_SOT23-3">
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOT23">
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.1524" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.6604" x2="-0.8636" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1524" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_QFN_ATMEGA32U4">
@@ -7786,6 +7698,69 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pin name="VCC" x="10.16" y="2.54" length="short" direction="pwr" rot="R180"/>
 <text x="-5.08" y="5.715" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MOSFET-PCHANNEL">
+<wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.905" x2="-2.0066" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="3.175" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="1.905" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0.635" x2="2.54" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-0.762" x2="2.54" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="1.905" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-0.762" x2="1.651" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-0.762" x2="3.429" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.508" x2="-1.27" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.508" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.143" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.143" y1="-0.254" x2="-0.254" y2="0" width="0.3048" layer="94"/>
+<wire x1="-0.254" y1="0" x2="-1.143" y2="0.254" width="0.3048" layer="94"/>
+<wire x1="-1.143" y1="0.254" x2="-1.143" y2="0" width="0.3048" layer="94"/>
+<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.3048" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<circle x="0" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
+<circle x="0" y="1.905" radius="0.127" width="0.4064" layer="94"/>
+<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="2.54" size="0.8128" layer="93">D</text>
+<text x="-1.27" y="-3.556" size="0.8128" layer="93">S</text>
+<text x="-5.08" y="-1.27" size="0.8128" layer="93">G</text>
+<rectangle x1="-2.794" y1="-2.54" x2="-2.032" y2="-1.27" layer="94"/>
+<rectangle x1="-2.794" y1="1.27" x2="-2.032" y2="2.54" layer="94"/>
+<rectangle x1="-2.794" y1="-0.889" x2="-2.032" y2="0.889" layer="94"/>
+<pin name="G" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="SPARKFUN-DISCRETESEMI_DIODE">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="APX809">
+<pin name="VCC" x="-25.4" y="2.54" length="middle" direction="pwr"/>
+<pin name="GND" x="-25.4" y="-2.54" length="middle" direction="pwr"/>
+<pin name="!RST" x="0" y="0" length="middle" function="dot" rot="R180"/>
+<wire x1="-20.32" y1="5.08" x2="-20.32" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-20.32" y2="5.08" width="0.254" layer="94"/>
+<text x="-20.32" y="-6.858" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-20.32" y="5.588" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -8622,6 +8597,172 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MOSFET-PCHANNEL" prefix="Q">
+<description>Generic PMOSFET</description>
+<gates>
+<gate name="G$1" symbol="MOSFET-PCHANNEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="IRLML2244" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-11153"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARKFUN-DISCRETESEMI_DIODE" prefix="D" uservalue="yes">
+<description>&lt;b&gt;Diode&lt;/b&gt;
+These are standard reverse protection diodes and small signal diodes. SMA package can handle up to about 1A. SOD-323 can handle about 200mA. What the SOD-323 package when ordering, there are some mfgs out there that are 5-pin packages.</description>
+<gates>
+<gate name="G$1" symbol="SPARKFUN-DISCRETESEMI_DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1N4148" package="SPARKFUN-DISCRETESEMI_DIODE-1N4148">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HV" package="SPARKFUN-DISCRETESEMI_DIODE-HV">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTH" package="SPARKFUN-DISCRETESEMI_DIODE-1N4001">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMA" package="SPARKFUN-DISCRETESEMI_SMA-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMA-ALT" package="SPARKFUN-DISCRETESEMI_SMA-DIODE_ALT">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMA-KIT" package="SPARKFUN-DISCRETESEMI_SMA-DIODE-KIT">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMB" package="SPARKFUN-DISCRETESEMI_SMB-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMC/DO-214AB" package="SPARKFUN-DISCRETESEMI_SMC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD" package="SPARKFUN-DISCRETESEMI_SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09646" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOD523" package="SPARKFUN-DISCRETESEMI_SOD523">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT23" package="SPARKFUN-DISCRETESEMI_SOT23-3">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD123" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="SOD123"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="APX809" prefix="U">
+<gates>
+<gate name="G$1" symbol="APX809" x="12.7" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="!RST" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SeeesStudio-OPL">
@@ -8767,10 +8908,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="OC_DIGIKEY" value="311-22GRTR-ND"/>
 </part>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="B340A">
-<attribute name="MPN" value="B340A-13-F"/>
-<attribute name="OC_DIGIKEY" value="B340A-FDICT-ND"/>
-</part>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -8979,19 +9116,15 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="MPN" value="95278-101A06LF"/>
 <attribute name="OC_DIGIKEY" value="609-3487-2-ND"/>
 </part>
-<part name="R20" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
+<part name="R20" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="5k">
 <attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
-<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="B340A">
+<part name="D2" library="PaxInstrument-T400" deviceset="SPARKFUN-DISCRETESEMI_DIODE" device="SOD123" technology="SOD123" value="RB161M-20">
 <attribute name="MPN" value="B340A-13-F"/>
 <attribute name="OC_DIGIKEY" value="B340A-FDICT-ND"/>
 </part>
 <part name="R24" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
-</part>
-<part name="R25" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
 <attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
@@ -9183,6 +9316,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
+<part name="Q1" library="PaxInstrument-T400" deviceset="MOSFET-PCHANNEL" device="SMD" value="DMP2035U-7"/>
+<part name="U2" library="PaxInstrument-T400" deviceset="APX809" device=""/>
+<part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9287,29 +9423,29 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="MPN" x="35.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="OC_DIGIKEY" x="35.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="F1" gate="G$1" x="48.26" y="246.38" smashed="yes">
-<attribute name="VALUE" x="44.958" y="241.3" size="1.778" layer="96"/>
-<attribute name="MPN" x="48.26" y="246.38" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="48.26" y="246.38" size="1.778" layer="96" display="off"/>
+<instance part="F1" gate="G$1" x="43.18" y="246.38" smashed="yes">
+<attribute name="VALUE" x="39.878" y="241.3" size="1.778" layer="96"/>
+<attribute name="MPN" x="43.18" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="43.18" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="G$1" x="256.54" y="233.68" smashed="yes">
 <attribute name="NAME" x="248.92" y="242.824" size="1.778" layer="95"/>
 <attribute name="MPN" x="256.54" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="OC_DIGIKEY" x="256.54" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="78.74" y="218.44" smashed="yes">
-<attribute name="OC_DIGIKEY" x="78.74" y="218.44" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="78.359" y="212.344" size="1.778" layer="96" rot="R90"/>
-<attribute name="MPN" x="78.74" y="218.44" size="1.778" layer="96" display="off"/>
+<instance part="C6" gate="G$1" x="71.12" y="210.82" smashed="yes">
+<attribute name="OC_DIGIKEY" x="71.12" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="70.739" y="204.724" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="71.12" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U3" gate="G$1" x="91.44" y="236.22">
-<attribute name="MPN" x="91.44" y="236.22" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="91.44" y="236.22" size="1.778" layer="96" display="off"/>
+<instance part="U3" gate="G$1" x="88.9" y="218.44">
+<attribute name="MPN" x="88.9" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="88.9" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C12" gate="G$1" x="149.86" y="231.14" smashed="yes">
-<attribute name="OC_DIGIKEY" x="149.86" y="231.14" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="149.479" y="225.044" size="1.778" layer="96" rot="R90"/>
-<attribute name="MPN" x="149.86" y="231.14" size="1.778" layer="96" display="off"/>
+<instance part="C12" gate="G$1" x="149.86" y="228.6" smashed="yes">
+<attribute name="OC_DIGIKEY" x="149.86" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="149.479" y="222.504" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="149.86" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="48.26" y="233.68" smashed="yes">
 <attribute name="OC_DIGIKEY" x="48.26" y="233.68" size="1.778" layer="96" display="off"/>
@@ -9322,13 +9458,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="MPN" x="48.26" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+2" gate="G$1" x="266.7" y="241.3"/>
-<instance part="D1" gate="G$1" x="129.54" y="238.76">
-<attribute name="OC_DIGIKEY" x="129.54" y="238.76" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="129.54" y="238.76" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND9" gate="1" x="101.6" y="200.66"/>
-<instance part="GND5" gate="1" x="149.86" y="218.44"/>
-<instance part="GND3" gate="1" x="78.74" y="200.66"/>
+<instance part="GND5" gate="1" x="149.86" y="215.9"/>
+<instance part="GND3" gate="1" x="71.12" y="200.66"/>
 <instance part="GND13" gate="1" x="322.58" y="86.36"/>
 <instance part="GND2" gate="1" x="25.4" y="116.84"/>
 <instance part="GND25" gate="1" x="43.18" y="93.98"/>
@@ -9378,15 +9510,15 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="VALUE" x="27.559" y="151.384" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="27.94" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C9" gate="G$1" x="111.76" y="223.52" smashed="yes">
-<attribute name="OC_DIGIKEY" x="111.76" y="223.52" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="111.379" y="217.424" size="1.778" layer="96" rot="R90"/>
-<attribute name="MPN" x="111.76" y="223.52" size="1.778" layer="96" display="off"/>
+<instance part="C9" gate="G$1" x="111.76" y="210.82" smashed="yes">
+<attribute name="OC_DIGIKEY" x="111.76" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="111.379" y="204.724" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="111.76" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R3" gate="G$1" x="106.68" y="226.06" smashed="yes" rot="R270">
-<attribute name="VALUE" x="104.902" y="224.79" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="106.68" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="106.68" y="226.06" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="R3" gate="G$1" x="106.68" y="210.82" smashed="yes" rot="R270">
+<attribute name="VALUE" x="104.902" y="209.55" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_DIGIKEY" x="106.68" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="106.68" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="IC1" gate="G$1" x="185.42" y="88.9">
 <attribute name="MPN" x="185.42" y="88.9" size="1.778" layer="96" display="off"/>
@@ -9533,10 +9665,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="MPN" x="12.7" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="15.24" y="147.32"/>
-<instance part="R17" gate="G$1" x="86.36" y="223.52" smashed="yes" rot="R180">
-<attribute name="VALUE" x="82.55" y="225.298" size="1.778" layer="96"/>
-<attribute name="OC_DIGIKEY" x="86.36" y="223.52" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MPN" x="86.36" y="223.52" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="R17" gate="G$1" x="76.2" y="210.82" smashed="yes" rot="R90">
+<attribute name="VALUE" x="77.978" y="214.63" size="1.778" layer="96" rot="R270"/>
+<attribute name="OC_DIGIKEY" x="76.2" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="76.2" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="S1" gate="G$1" x="355.6" y="200.66" smashed="yes" rot="MR180"/>
 <instance part="S2" gate="G$1" x="355.6" y="213.36" smashed="yes" rot="MR180"/>
@@ -9566,24 +9698,19 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="MPN" x="246.38" y="88.9" size="1.778" layer="96" display="off"/>
 <attribute name="OC_DIGIKEY" x="246.38" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R20" gate="G$1" x="119.38" y="226.06" smashed="yes" rot="R90">
-<attribute name="VALUE" x="121.158" y="227.33" size="1.778" layer="96" rot="R270"/>
-<attribute name="OC_DIGIKEY" x="119.38" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="119.38" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R20" gate="G$1" x="119.38" y="215.9" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="117.602" y="217.17" size="1.778" layer="96" rot="MR270"/>
+<attribute name="OC_DIGIKEY" x="119.38" y="215.9" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MPN" x="119.38" y="215.9" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
-<instance part="D2" gate="G$1" x="124.46" y="246.38">
-<attribute name="OC_DIGIKEY" x="124.46" y="246.38" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="124.46" y="246.38" size="1.778" layer="96" display="off"/>
+<instance part="D2" gate="G$1" x="86.36" y="246.38">
+<attribute name="OC_DIGIKEY" x="86.36" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="86.36" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R24" gate="G$1" x="119.38" y="210.82" smashed="yes" rot="R270">
-<attribute name="VALUE" x="117.602" y="207.01" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="119.38" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="119.38" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
-<instance part="R25" gate="G$1" x="124.46" y="200.66" smashed="yes">
-<attribute name="VALUE" x="125.73" y="203.962" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_DIGIKEY" x="124.46" y="200.66" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="124.46" y="200.66" size="1.778" layer="96" display="off"/>
+<instance part="R24" gate="G$1" x="119.38" y="205.74" smashed="yes" rot="R270">
+<attribute name="VALUE" x="117.602" y="201.93" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_DIGIKEY" x="119.38" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="119.38" y="205.74" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U$1" gate="G$1" x="17.78" y="233.68">
 <attribute name="MPN" x="17.78" y="233.68" size="1.778" layer="96" display="off"/>
@@ -9731,9 +9858,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="OC_DIGIKEY" x="66.04" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="66.04" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$2" gate="G$1" x="142.24" y="226.06"/>
-<instance part="GND4" gate="1" x="127" y="223.52"/>
-<instance part="GND12" gate="1" x="137.16" y="215.9"/>
+<instance part="U$2" gate="G$1" x="137.16" y="238.76" rot="R90"/>
+<instance part="GND4" gate="1" x="134.62" y="215.9"/>
+<instance part="GND12" gate="1" x="142.24" y="215.9"/>
 <instance part="BAT1" gate="G$1" x="246.38" y="132.08" rot="R270">
 <attribute name="MPN" x="246.38" y="132.08" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="OC_DIGIKEY" x="246.38" y="132.08" size="1.778" layer="96" rot="R270" display="off"/>
@@ -9757,9 +9884,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="MPN" x="27.94" y="238.76" size="1.778" layer="96" display="off"/>
 <attribute name="OC_DIGIKEY" x="27.94" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TP11" gate="G$1" x="76.2" y="238.76" rot="R180">
-<attribute name="MPN" x="76.2" y="238.76" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="OC_DIGIKEY" x="76.2" y="238.76" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="TP11" gate="G$1" x="68.58" y="220.98" rot="R180">
+<attribute name="MPN" x="68.58" y="220.98" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="OC_DIGIKEY" x="68.58" y="220.98" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="TP12" gate="G$1" x="182.88" y="243.84">
 <attribute name="MPN" x="182.88" y="243.84" size="1.778" layer="96" display="off"/>
@@ -9769,12 +9896,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="MPN" x="274.32" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="OC_DIGIKEY" x="274.32" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP14" gate="G$1" x="111.76" y="241.3">
-<attribute name="MPN" x="111.76" y="241.3" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="111.76" y="241.3" size="1.778" layer="96" display="off"/>
+<instance part="TP14" gate="G$1" x="119.38" y="223.52" rot="R90">
+<attribute name="MPN" x="119.38" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="OC_DIGIKEY" x="119.38" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="SJ1" gate="G$1" x="124.46" y="233.68" smashed="yes">
-<attribute name="NAME" x="121.92" y="236.22" size="1.778" layer="95"/>
+<instance part="SJ1" gate="G$1" x="124.46" y="220.98" smashed="yes">
+<attribute name="NAME" x="122.428" y="217.424" size="1.778" layer="95"/>
 </instance>
 <instance part="TP15" gate="G$1" x="27.94" y="213.36" rot="R180"/>
 <instance part="GND" gate="G$1" x="63.5" y="139.7"/>
@@ -9792,14 +9919,20 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="MPN" x="246.38" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="OC_DIGIKEY" x="246.38" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TP3" gate="G$1" x="91.44" y="220.98">
-<attribute name="MPN" x="91.44" y="220.98" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="91.44" y="220.98" size="1.778" layer="96" display="off"/>
+<instance part="TP3" gate="G$1" x="83.82" y="205.74">
+<attribute name="MPN" x="83.82" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="83.82" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TP4" gate="G$1" x="124.46" y="215.9" rot="R270">
-<attribute name="MPN" x="124.46" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="OC_DIGIKEY" x="124.46" y="215.9" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="TP4" gate="G$1" x="132.08" y="205.74">
+<attribute name="MPN" x="132.08" y="205.74" size="1.778" layer="96" display="off"/>
+<attribute name="OC_DIGIKEY" x="132.08" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="Q1" gate="G$1" x="111.76" y="236.22" smashed="yes" rot="MR180">
+<attribute name="NAME" x="112.014" y="242.062" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="112.268" y="239.522" size="1.27" layer="96" rot="MR180"/>
+</instance>
+<instance part="U2" gate="G$1" x="101.6" y="236.22"/>
+<instance part="GND22" gate="1" x="76.2" y="231.14"/>
 </instances>
 <busses>
 </busses>
@@ -10075,33 +10208,33 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PROG"/>
-<wire x1="101.6" y1="236.22" x2="106.68" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="236.22" x2="106.68" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="218.44" x2="106.68" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="218.44" x2="106.68" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="220.98" x2="149.86" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="218.44" x2="149.86" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="106.68" y1="220.98" x2="106.68" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="205.74" x2="106.68" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VSS"/>
-<wire x1="101.6" y1="233.68" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="203.2" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="215.9" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="215.9" x2="101.6" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<junction x="106.68" y="215.9"/>
-<wire x1="106.68" y1="215.9" x2="101.6" y2="215.9" width="0.1524" layer="91"/>
-<junction x="101.6" y="215.9"/>
-<wire x1="106.68" y1="215.9" x2="111.76" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="215.9" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
+<junction x="106.68" y="203.2"/>
+<wire x1="106.68" y1="203.2" x2="101.6" y2="203.2" width="0.1524" layer="91"/>
+<junction x="101.6" y="203.2"/>
+<wire x1="106.68" y1="203.2" x2="111.76" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="203.2" x2="111.76" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="78.74" y1="215.9" x2="78.74" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="208.28" x2="71.12" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
@@ -10297,16 +10430,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="129.54" y1="228.6" x2="127" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="127" y1="228.6" x2="127" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$4"/>
-<pinref part="U$2" gate="G$1" pin="P$5"/>
-<wire x1="134.62" y1="223.52" x2="137.16" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="223.52" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
-<junction x="137.16" y="223.52"/>
-<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="134.62" y1="226.06" x2="134.62" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BAT1" gate="G$1" pin="-"/>
@@ -10363,6 +10487,20 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="185.42" y="203.2"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$5"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="139.7" y1="233.68" x2="142.24" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="233.68" x2="142.24" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P$4"/>
+<wire x1="142.24" y1="231.14" x2="142.24" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="231.14" x2="142.24" y2="231.14" width="0.1524" layer="91"/>
+<junction x="142.24" y="231.14"/>
+</segment>
 </net>
 <net name="USBVCC" class="0">
 <segment>
@@ -10371,7 +10509,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="25.4" y1="238.76" x2="27.94" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="238.76" x2="27.94" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="246.38" x2="43.18" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="246.38" x2="38.1" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="TP10" gate="G$1" pin="1"/>
 <junction x="27.94" y="238.76"/>
 </segment>
@@ -10514,10 +10652,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="VBUS" class="0">
 <segment>
-<wire x1="149.86" y1="246.38" x2="127" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="IN"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="132.08" y1="238.76" x2="149.86" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="238.76" x2="180.34" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="238.76" x2="185.42" y2="238.76" width="0.1524" layer="91"/>
@@ -10531,20 +10666,17 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="226.06" y="238.76"/>
 <wire x1="226.06" y1="238.76" x2="236.22" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="238.76" x2="246.38" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="246.38" x2="149.86" y2="238.76" width="0.1524" layer="91"/>
 <junction x="149.86" y="238.76"/>
-<label x="160.02" y="238.76" size="1.778" layer="95"/>
+<label x="142.24" y="246.38" size="1.778" layer="95"/>
 <label x="226.06" y="238.76" size="1.778" layer="95"/>
 <junction x="213.36" y="238.76"/>
 <wire x1="213.36" y1="223.52" x2="213.36" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="236.22" x2="149.86" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="233.68" x2="149.86" y2="238.76" width="0.1524" layer="91"/>
 <junction x="149.86" y="238.76"/>
 <pinref part="C28" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="223.52" x2="213.36" y2="223.52" width="0.1524" layer="91"/>
 <junction x="213.36" y="223.52"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<label x="139.7" y="246.38" size="1.778" layer="95"/>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="236.22" x2="185.42" y2="238.76" width="0.1524" layer="91"/>
@@ -10555,6 +10687,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="TP12" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="243.84" x2="180.34" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="243.84" x2="180.34" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="88.9" y1="246.38" x2="111.76" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="246.38" x2="149.86" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="246.38" x2="149.86" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="111.76" y1="241.3" x2="111.76" y2="246.38" width="0.1524" layer="91"/>
+<junction x="111.76" y="246.38"/>
 </segment>
 <segment>
 <label x="40.64" y="152.4" size="1.778" layer="95" rot="MR0"/>
@@ -10863,12 +11002,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="BATT_STAT" class="0">
 <segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="223.52" x2="91.44" y2="220.98" width="0.1524" layer="91"/>
-<label x="91.44" y="215.9" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="78.74" y="200.66" size="1.778" layer="95" xref="yes"/>
 <pinref part="TP3" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="220.98" x2="91.44" y2="215.9" width="0.1524" layer="91"/>
-<junction x="91.44" y="220.98"/>
+<wire x1="83.82" y1="205.74" x2="76.2" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="205.74" x2="76.2" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="200.66" x2="78.74" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<junction x="76.2" y="205.74"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="127" x2="83.82" y2="127" width="0.1524" layer="91"/>
@@ -10924,19 +11064,22 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="STAT"/>
-<wire x1="81.28" y1="233.68" x2="81.28" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="215.9" x2="76.2" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VBAT_SENSE" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="220.98" x2="119.38" y2="215.9" width="0.1524" layer="91"/>
-<label x="124.46" y="215.9" size="1.778" layer="95"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="215.9" x2="124.46" y2="215.9" width="0.1524" layer="91"/>
-<junction x="119.38" y="215.9"/>
+<wire x1="119.38" y1="210.82" x2="127" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="127" y1="210.82" x2="127" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="127" y1="205.74" x2="132.08" y2="205.74" width="0.1524" layer="91"/>
+<junction x="119.38" y="210.82"/>
 <pinref part="TP4" gate="G$1" pin="1"/>
+<wire x1="127" y1="210.82" x2="132.08" y2="210.82" width="0.1524" layer="91"/>
+<label x="132.08" y="210.82" size="1.778" layer="95" xref="yes"/>
+<junction x="127" y="210.82"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
@@ -10986,34 +11129,31 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="VBUS_IN" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="VIN"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="223.52" x2="78.74" y2="238.76" width="0.1524" layer="91"/>
-<junction x="78.74" y="238.76"/>
-<wire x1="78.74" y1="238.76" x2="81.28" y2="238.76" width="0.1524" layer="91"/>
-<junction x="78.74" y="238.76"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="121.92" y1="246.38" x2="78.74" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="246.38" x2="78.74" y2="238.76" width="0.1524" layer="91"/>
-<junction x="78.74" y="246.38"/>
-<wire x1="78.74" y1="246.38" x2="55.88" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="F1" gate="G$1" pin="2"/>
-<label x="66.04" y="246.38" size="1.778" layer="95"/>
-<junction x="78.74" y="238.76"/>
-<pinref part="TP11" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="238.76" x2="78.74" y2="238.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="ICSP" gate="G$1" pin="2"/>
 <wire x1="317.5" y1="96.52" x2="330.2" y2="96.52" width="0.1524" layer="91"/>
 <label x="325.12" y="96.52" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$27" class="0">
 <segment>
-<pinref part="R24" gate="G$1" pin="2"/>
-<pinref part="R25" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="200.66" x2="119.38" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="VIN"/>
+<junction x="71.12" y="220.98"/>
+<wire x1="71.12" y1="220.98" x2="78.74" y2="220.98" width="0.1524" layer="91"/>
+<junction x="71.12" y="220.98"/>
+<junction x="71.12" y="220.98"/>
+<pinref part="TP11" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="220.98" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="215.9" x2="71.12" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="220.98" x2="71.12" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="238.76" x2="71.12" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="83.82" y1="246.38" x2="71.12" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VCC"/>
+<wire x1="76.2" y1="238.76" x2="71.12" y2="238.76" width="0.1524" layer="91"/>
+<junction x="71.12" y="246.38"/>
+<junction x="71.12" y="238.76"/>
+<pinref part="F1" gate="G$1" pin="2"/>
+<label x="71.12" y="246.38" size="1.778" layer="95"/>
+<wire x1="71.12" y1="246.38" x2="50.8" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -11190,29 +11330,28 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="VBAT" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="228.6" x2="111.76" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="233.68" x2="111.76" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-<junction x="111.76" y="233.68"/>
-<wire x1="111.76" y1="233.68" x2="119.38" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="233.68" x2="119.38" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="127" y1="238.76" x2="111.76" y2="238.76" width="0.1524" layer="91"/>
-<junction x="111.76" y="238.76"/>
-<pinref part="TP14" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="241.3" x2="111.76" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="215.9" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
+<junction x="111.76" y="220.98"/>
 <pinref part="U3" gate="G$1" pin="VBAT"/>
-<wire x1="101.6" y1="238.76" x2="111.76" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="220.98" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="111.76" y1="231.14" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="SJ1" gate="G$1" pin="1"/>
-<junction x="119.38" y="233.68"/>
+<junction x="119.38" y="220.98"/>
+<wire x1="119.38" y1="220.98" x2="111.76" y2="220.98" width="0.1524" layer="91"/>
+<junction x="111.76" y="220.98"/>
+<label x="101.6" y="220.98" size="1.778" layer="95"/>
+<pinref part="TP14" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="223.52" x2="119.38" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT_EN" class="0">
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="200.66" x2="132.08" y2="200.66" width="0.1524" layer="91"/>
-<label x="132.08" y="200.66" size="1.778" layer="95"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="200.66" x2="119.38" y2="200.66" width="0.1524" layer="91"/>
+<label x="132.08" y="200.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
@@ -11250,6 +11389,14 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VBAT"/>
 <pinref part="SJ1" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="226.06" x2="129.54" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<pinref part="U2" gate="G$1" pin="!RST"/>
+<wire x1="104.14" y1="236.22" x2="101.6" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
