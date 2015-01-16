@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="13" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="13" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -6142,36 +6142,36 @@ by exp-lbrs.ulp</description>
 <wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.127" layer="21"/>
-<smd name="P$1" x="4.064" y="0" dx="5" dy="11.2" layer="1"/>
-<smd name="P$2" x="-4.064" y="0" dx="5" dy="11.2" layer="1"/>
-<wire x1="-2.405" y1="-4.5" x2="-5.723" y2="-4.5" width="0.127" layer="46"/>
-<wire x1="-5.723" y1="-4.5" x2="-6.223" y2="-5" width="0.127" layer="46" curve="90"/>
-<wire x1="-2.405" y1="-5.5" x2="-5.723" y2="-5.5" width="0.127" layer="46"/>
-<wire x1="-5.723" y1="-5.5" x2="-6.223" y2="-5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-2.405" y1="-4.5" x2="-1.905" y2="-5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-1.905" y1="-5" x2="-2.405" y2="-5.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-5.723" y1="5.5" x2="-2.405" y2="5.5" width="0.127" layer="46"/>
-<wire x1="-2.405" y1="5.5" x2="-1.905" y2="5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-1.905" y1="5" x2="-2.405" y2="4.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-2.405" y1="4.5" x2="-5.723" y2="4.5" width="0.127" layer="46"/>
-<wire x1="-5.723" y1="4.5" x2="-6.223" y2="5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-6.223" y1="5" x2="-5.723" y2="5.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="2.405" y1="-4.5" x2="5.723" y2="-4.5" width="0.127" layer="46"/>
-<wire x1="5.723" y1="-4.5" x2="6.223" y2="-5" width="0.127" layer="46" curve="-90"/>
-<wire x1="6.223" y1="-5" x2="5.723" y2="-5.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="5.723" y1="-5.5" x2="2.405" y2="-5.5" width="0.127" layer="46"/>
-<wire x1="2.405" y1="-5.5" x2="1.905" y2="-5" width="0.127" layer="46" curve="-90"/>
-<wire x1="1.905" y1="-5" x2="2.405" y2="-4.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="2.405" y1="4.5" x2="5.723" y2="4.5" width="0.127" layer="46"/>
-<wire x1="5.723" y1="4.5" x2="6.223" y2="5" width="0.127" layer="46" curve="90"/>
-<wire x1="2.405" y1="5.5" x2="5.723" y2="5.5" width="0.127" layer="46"/>
-<wire x1="5.723" y1="5.5" x2="6.223" y2="5" width="0.127" layer="46" curve="-90"/>
-<wire x1="1.905" y1="5" x2="2.405" y2="4.5" width="0.127" layer="46" curve="90"/>
-<wire x1="1.905" y1="5" x2="2.405" y2="5.5" width="0.127" layer="46" curve="-90"/>
-<rectangle x1="-6.35" y1="4.318" x2="-1.778" y2="5.715" layer="42"/>
-<rectangle x1="1.778" y1="4.318" x2="6.35" y2="5.715" layer="42"/>
-<rectangle x1="1.778" y1="-5.715" x2="6.35" y2="-4.318" layer="42"/>
-<rectangle x1="-6.35" y1="-5.715" x2="-1.778" y2="-4.318" layer="42"/>
+<smd name="P$1" x="3.7465" y="0" dx="5" dy="11.2" layer="1"/>
+<smd name="P$2" x="-3.7465" y="0" dx="5" dy="11.2" layer="1"/>
+<wire x1="-2.0875" y1="-4.5" x2="-5.4055" y2="-4.5" width="0.127" layer="46"/>
+<wire x1="-5.4055" y1="-4.5" x2="-5.9055" y2="-5" width="0.127" layer="46" curve="90"/>
+<wire x1="-2.0875" y1="-5.5" x2="-5.4055" y2="-5.5" width="0.127" layer="46"/>
+<wire x1="-5.4055" y1="-5.5" x2="-5.9055" y2="-5" width="0.127" layer="46" curve="-90"/>
+<wire x1="-2.0875" y1="-4.5" x2="-1.5875" y2="-5" width="0.127" layer="46" curve="-90"/>
+<wire x1="-1.5875" y1="-5" x2="-2.0875" y2="-5.5" width="0.127" layer="46" curve="-90"/>
+<wire x1="-5.4055" y1="5.5" x2="-2.0875" y2="5.5" width="0.127" layer="46"/>
+<wire x1="-2.0875" y1="5.5" x2="-1.5875" y2="5" width="0.127" layer="46" curve="-90"/>
+<wire x1="-1.5875" y1="5" x2="-2.0875" y2="4.5" width="0.127" layer="46" curve="-90"/>
+<wire x1="-2.0875" y1="4.5" x2="-5.4055" y2="4.5" width="0.127" layer="46"/>
+<wire x1="-5.4055" y1="4.5" x2="-5.9055" y2="5" width="0.127" layer="46" curve="-90"/>
+<wire x1="-5.9055" y1="5" x2="-5.4055" y2="5.5" width="0.127" layer="46" curve="-90"/>
+<wire x1="2.0875" y1="-4.5" x2="5.4055" y2="-4.5" width="0.127" layer="46"/>
+<wire x1="5.4055" y1="-4.5" x2="5.9055" y2="-5" width="0.127" layer="46" curve="-90"/>
+<wire x1="5.9055" y1="-5" x2="5.4055" y2="-5.5" width="0.127" layer="46" curve="-90"/>
+<wire x1="5.4055" y1="-5.5" x2="2.0875" y2="-5.5" width="0.127" layer="46"/>
+<wire x1="2.0875" y1="-5.5" x2="1.5875" y2="-5" width="0.127" layer="46" curve="-90"/>
+<wire x1="1.5875" y1="-5" x2="2.0875" y2="-4.5" width="0.127" layer="46" curve="-90"/>
+<wire x1="2.0875" y1="4.5" x2="5.4055" y2="4.5" width="0.127" layer="46"/>
+<wire x1="5.4055" y1="4.5" x2="5.9055" y2="5" width="0.127" layer="46" curve="90"/>
+<wire x1="2.0875" y1="5.5" x2="5.4055" y2="5.5" width="0.127" layer="46"/>
+<wire x1="5.4055" y1="5.5" x2="5.9055" y2="5" width="0.127" layer="46" curve="-90"/>
+<wire x1="1.5875" y1="5" x2="2.0875" y2="4.5" width="0.127" layer="46" curve="90"/>
+<wire x1="1.5875" y1="5" x2="2.0875" y2="5.5" width="0.127" layer="46" curve="-90"/>
+<rectangle x1="-6.0325" y1="4.318" x2="-1.4605" y2="5.715" layer="42"/>
+<rectangle x1="1.4605" y1="4.318" x2="6.0325" y2="5.715" layer="42"/>
+<rectangle x1="1.4605" y1="-5.715" x2="6.0325" y2="-4.318" layer="42"/>
+<rectangle x1="-6.0325" y1="-5.715" x2="-1.4605" y2="-4.318" layer="42"/>
 </package>
 <package name="CHARLESPAX_SOIC8M">
 <wire x1="2.4" y1="2.43" x2="2.4" y2="-1.93" width="0.2032" layer="21"/>
@@ -8625,6 +8625,16 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </technology>
 </technologies>
 </device>
+<device name="SMT" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="SPARKFUN-DISCRETESEMI_DIODE" prefix="D" uservalue="yes">
@@ -8973,7 +8983,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="OC_DIGIKEY" value="MCP9800A0T-M/OTCT-ND"/>
 </part>
 <part name="P+5" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S">
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
@@ -9009,11 +9018,11 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="OC_DIGIKEY" value="DS3231MZ+-ND"/>
 </part>
 <part name="P+7" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R6" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
+<part name="R6" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="100k">
 <attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
-<part name="R7" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
+<part name="R7" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="100k">
 <attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
@@ -9316,9 +9325,21 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
-<part name="Q1" library="PaxInstrument-T400" deviceset="MOSFET-PCHANNEL" device="SMD" value="DMP2035U-7"/>
+<part name="Q1" library="PaxInstrument-T400" deviceset="MOSFET-PCHANNEL" device="SMT" value="DMP2035U-7"/>
 <part name="U2" library="PaxInstrument-T400" deviceset="APX809" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="TP5" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="3.3V">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP6" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="3.3V">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP7" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="3.3V">
+<attribute name="MPN" value="N/A"/>
+<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -9532,7 +9553,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="OC_DIGIKEY" x="200.66" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+5" gate="G$1" x="190.5" y="180.34"/>
-<instance part="GND14" gate="1" x="190.5" y="160.02"/>
 <instance part="LOGO1" gate="G$1" x="271.78" y="15.24">
 <attribute name="OC_DIGIKEY" x="271.78" y="15.24" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="271.78" y="15.24" size="1.778" layer="96" display="off"/>
@@ -9933,6 +9953,18 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 </instance>
 <instance part="U2" gate="G$1" x="101.6" y="236.22"/>
 <instance part="GND22" gate="1" x="76.2" y="231.14"/>
+<instance part="TP5" gate="G$1" x="322.58" y="236.22" rot="R90">
+<attribute name="MPN" x="322.58" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="OC_DIGIKEY" x="322.58" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="TP6" gate="G$1" x="228.6" y="175.26" rot="R90">
+<attribute name="MPN" x="228.6" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="OC_DIGIKEY" x="228.6" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="TP7" gate="G$1" x="287.02" y="139.7" rot="R90">
+<attribute name="MPN" x="287.02" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="OC_DIGIKEY" x="287.02" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10343,16 +10375,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <junction x="203.2" y="81.28"/>
 </segment>
 <segment>
-<pinref part="U1" gate="1" pin="2"/>
-<wire x1="193.04" y1="170.18" x2="190.5" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="170.18" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="C31" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="167.64" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="162.56" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
-<junction x="190.5" y="162.56"/>
-</segment>
-<segment>
 <wire x1="322.58" y1="167.64" x2="325.12" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="167.64" x2="325.12" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
@@ -10706,6 +10728,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="320.04" y1="236.22" x2="322.58" y2="236.22" width="0.1524" layer="91"/>
 <label x="320.04" y="236.22" size="1.778" layer="95"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="175.26" x2="83.82" y2="175.26" width="0.1524" layer="91"/>
@@ -10903,6 +10926,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="J1" gate="J" pin="CS"/>
 <wire x1="294.64" y1="139.7" x2="287.02" y2="139.7" width="0.1524" layer="91"/>
 <label x="287.02" y="139.7" size="1.778" layer="95"/>
+<pinref part="TP7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="139.7" x2="83.82" y2="139.7" width="0.1524" layer="91"/>
@@ -10927,9 +10951,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <junction x="190.5" y="223.52"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
-<label x="83.82" y="134.62" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="PE6"/>
+<wire x1="81.28" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
+<label x="83.82" y="116.84" size="1.778" layer="95"/>
+<pinref part="GND" gate="G$1" pin="PB0(SS)"/>
 </segment>
 </net>
 <net name="SW_E" class="0">
@@ -11056,9 +11080,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <junction x="190.5" y="218.44"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
-<label x="83.82" y="116.84" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="PB0(SS)"/>
+<wire x1="81.28" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
+<label x="83.82" y="134.62" size="1.778" layer="95"/>
+<pinref part="GND" gate="G$1" pin="PE6"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11227,6 +11251,17 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <junction x="81.28" y="73.66"/>
 <label x="68.58" y="73.66" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="1" pin="2"/>
+<wire x1="193.04" y1="170.18" x2="190.5" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="170.18" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="C31" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="167.64" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="162.56" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
+<junction x="180.34" y="162.56"/>
+<label x="167.64" y="162.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
@@ -11371,6 +11406,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="U$4" gate="G$1" pin="!CS"/>
 <wire x1="238.76" y1="175.26" x2="228.6" y2="175.26" width="0.1524" layer="91"/>
 <label x="220.98" y="175.26" size="1.778" layer="95"/>
+<pinref part="TP6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
