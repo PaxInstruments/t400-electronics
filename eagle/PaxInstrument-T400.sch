@@ -8905,7 +8905,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="MPN" value="MCP73831T-2DCI/OT"/>
 <attribute name="OC_DIGIKEY" value="MCP73831T-2DCI/OTTR-ND"/>
 </part>
-<part name="C12" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0805" value="10uF">
+<part name="C12" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="10uF">
 <attribute name="MPN" value="JMK107ABJ106MAHT"/>
 <attribute name="OC_DIGIKEY" value="587-3383-2-ND"/>
 </part>
@@ -9049,7 +9049,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
 <part name="P+9" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="C26" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0805" value="10uF">
+<part name="C26" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="10uF">
 <attribute name="MPN" value="JMK107ABJ106MAHT"/>
 <attribute name="OC_DIGIKEY" value="587-3383-2-ND"/>
 </part>
