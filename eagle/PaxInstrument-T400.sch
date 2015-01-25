@@ -12170,6 +12170,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="X2" library="con-hirose" deviceset="FH12-12S-0.5S" device="H"/>
+<part name="TP8" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="ISOTHERMAL"/>
 </parts>
 <sheets>
 <sheet>
@@ -12846,6 +12847,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <instance part="X2" gate="-12" x="299.72" y="238.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="297.688" y="239.522" size="1.778" layer="95" rot="R180" display="off"/>
 </instance>
+<instance part="TP8" gate="G$1" x="172.72" y="162.56" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -14214,9 +14216,10 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <pinref part="C31" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="167.64" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="162.56" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="162.56" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
 <junction x="180.34" y="162.56"/>
-<label x="167.64" y="162.56" size="1.778" layer="95"/>
+<label x="172.72" y="162.56" size="1.778" layer="95"/>
+<pinref part="TP8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
