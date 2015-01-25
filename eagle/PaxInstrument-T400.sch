@@ -11940,7 +11940,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 </part>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R19" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="53R"/>
+<part name="R19" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="3.3R"/>
 <part name="C35" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="1uF">
 <attribute name="MPN" value="LMK107B7105KA-T"/>
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
@@ -12570,7 +12570,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <attribute name="MPN" x="190.5" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="OC_DIGIKEY" x="190.5" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="GND8" gate="1" x="167.64" y="121.92"/>
+<instance part="GND8" gate="1" x="180.34" y="121.92"/>
 <instance part="P+15" gate="G$1" x="45.72" y="71.12"/>
 <instance part="R27" gate="G$1" x="30.48" y="66.04" rot="R90">
 <attribute name="OC_DIGIKEY" x="30.48" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
@@ -12809,8 +12809,8 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <attribute name="MPN" x="289.56" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="289.56" y="119.38"/>
-<instance part="SJ2" gate="G$1" x="167.64" y="132.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="171.196" y="130.048" size="1.778" layer="95" rot="R90"/>
+<instance part="SJ2" gate="G$1" x="180.34" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="183.896" y="130.048" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="X2" gate="-1" x="299.72" y="210.82" smashed="yes" rot="R180"/>
 <instance part="X2" gate="-2" x="299.72" y="213.36" smashed="yes" rot="R180">
@@ -13438,7 +13438,7 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 <segment>
 <pinref part="SJ2" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="167.64" y1="127" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="127" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USBVCC" class="1">
@@ -14160,10 +14160,10 @@ Source: &lt;a href= "http://www.hirose.co.jp/cataloge_hp/e58605370.pdf"&gt;Data 
 </net>
 <net name="ISOTHERMAL" class="0">
 <segment>
-<wire x1="167.64" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
-<label x="170.18" y="139.7" size="1.778" layer="95"/>
+<wire x1="180.34" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
+<label x="182.88" y="139.7" size="1.778" layer="95"/>
 <pinref part="SJ2" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="139.7" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="139.7" x2="180.34" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R31" gate="G$1" pin="1"/>
