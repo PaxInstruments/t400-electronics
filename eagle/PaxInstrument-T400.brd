@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -31,14 +31,14 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -254,7 +254,7 @@ A5 PWR_ONOFF</text>
 <wire x1="66.339" y1="-3.64" x2="77.339" y2="-3.64" width="0.127" layer="47"/>
 <dimension x1="66.339" y1="-3.64" x2="63.5" y2="0" x3="71.12" y3="-1.82" textsize="0.8128" layer="47" dtype="vertical" visible="yes"/>
 <text x="60.29325" y="14.00175" size="0.8128" layer="21" font="vector" ratio="15">FLASH</text>
-<text x="75.85075" y="14.478" size="0.8128" layer="21" font="vector" ratio="15">SD_CARD</text>
+<text x="75.21575" y="14.7955" size="0.8128" layer="21" font="vector" ratio="15">SD_CARD</text>
 <text x="60.61075" y="29.4005" size="0.8128" layer="21" font="vector" ratio="15">RTC</text>
 <text x="54.61" y="18.7325" size="0.4064" layer="21" font="vector" ratio="15" align="center">LCD_BL</text>
 <text x="60.325" y="18.7325" size="0.4064" layer="21" font="vector" ratio="15" align="center">VBAT_SENSE</text>
@@ -772,6 +772,15 @@ by exp-lbrs.ulp</description>
 <text x="-2.45" y="4.8" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.5" y="-6.15" size="1.27" layer="27">&gt;VALUE</text>
 <pad name="P$1" x="0" y="0" drill="0.3302" diameter="5.08" shape="square"/>
+<rectangle x1="-2.2225" y1="0.9525" x2="-0.9525" y2="2.2225" layer="31"/>
+<rectangle x1="0.9525" y1="0.9525" x2="2.2225" y2="2.2225" layer="31"/>
+<rectangle x1="0.9525" y1="-0.635" x2="2.2225" y2="0.635" layer="31"/>
+<rectangle x1="-2.2225" y1="-0.635" x2="-0.9525" y2="0.635" layer="31"/>
+<rectangle x1="-0.635" y1="0.9525" x2="0.635" y2="2.2225" layer="31"/>
+<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="31"/>
+<rectangle x1="-2.2225" y1="-2.2225" x2="-0.9525" y2="-0.9525" layer="31"/>
+<rectangle x1="-0.635" y1="-2.2225" x2="0.635" y2="-0.9525" layer="31"/>
+<rectangle x1="0.9525" y1="-2.2225" x2="2.2225" y2="-0.9525" layer="31"/>
 </package>
 <package name="CHARLESPAX_TC-MINI-CONNECTOR">
 <wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.127" layer="21"/>
@@ -843,7 +852,7 @@ by exp-lbrs.ulp</description>
 <rectangle x1="-2.1501" y1="2.5301" x2="-1.6599" y2="4.05" layer="21"/>
 </package>
 <package name="TP_15TH">
-<pad name="P$1" x="0" y="0" drill="0.63" diameter="1.1684"/>
+<pad name="P$1" x="0" y="0" drill="0.6" diameter="1.1684"/>
 </package>
 <package name="SPARKFUN-CONNECTORS_2X3_SMT_POSTS_PAXINSTRUMENT">
 <wire x1="-1.778" y1="2.54" x2="-0.762" y2="2.54" width="0.127" layer="21"/>
@@ -989,18 +998,18 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="7.8" y1="2.5" x2="6.1" y2="2.5" width="0.2032" layer="21"/>
 <wire x1="-7.8" y1="-1.5" x2="-7.8" y2="-1.9" width="0.2032" layer="21"/>
 <wire x1="7.8" y1="-1.9" x2="7.8" y2="-1.5" width="0.2032" layer="21"/>
-<smd name="1" x="-5.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="2" x="-4.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-3.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="4" x="-2.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="5" x="-1.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="6" x="-0.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="7" x="0.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="8" x="1.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="9" x="2.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="10" x="3.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="11" x="4.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
-<smd name="12" x="5.5" y="3.25" dx="0.3" dy="1.3" layer="1" stop="no" cream="no"/>
+<smd name="1" x="-5.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="2" x="-4.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="3" x="-3.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="4" x="-2.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="5" x="-1.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="6" x="-0.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="7" x="0.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="8" x="1.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="9" x="2.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="10" x="3.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="11" x="4.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
+<smd name="12" x="5.5" y="3.25" dx="0.3" dy="1.3" layer="1"/>
 <text x="-6.1976" y="4.095" size="1.27" layer="25">&gt;NAME</text>
 <text x="-6.0976" y="-0.3258" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="7.1" y1="-1.1" x2="8.9" y2="1.1" layer="1" rot="R180"/>
@@ -1022,6 +1031,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <vertex x="-5.5" y="-2.6"/>
 <vertex x="-5.3" y="-2.2"/>
 </polygon>
+<rectangle x1="-8.9" y1="-1.1" x2="-7.1" y2="1.1" layer="29" rot="R180"/>
+<rectangle x1="7.1" y1="-1.1" x2="8.9" y2="1.1" layer="29" rot="R180"/>
+<rectangle x1="-8.9" y1="-1.1" x2="-7.1" y2="1.1" layer="31" rot="R180"/>
+<rectangle x1="7.1" y1="-1.1" x2="8.9" y2="1.1" layer="31" rot="R180"/>
 </package>
 <package name="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_TQFP44">
 <circle x="-4" y="4" radius="0.2827" width="0.254" layer="21"/>
@@ -1946,98 +1959,98 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="Y1" library="SparkFun" package="RESONATOR-SMD" value="RESONATORSMD" x="31.75" y="14.76375" smashed="yes" rot="R180">
 <attribute name="MPN" value="CSTCE8M00G52-R0" x="31.75" y="14.76375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_DIGIKEY" value="490-5994-2-ND" x="31.75" y="14.76375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="32.638996875" y="13.493746875" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="31.686496875" y="14.763746875" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="F1" library="SparkFun" package="PTC-1206" value="PTCSMD" x="7.9375" y="14.9225" smashed="yes">
 <attribute name="MPN" value="MF-NSMF050-2" x="7.9375" y="14.9225" size="1.778" layer="27" display="off"/>
 <attribute name="OC_DIGIKEY" value="MF-NSMF050-2TR-ND" x="7.9375" y="14.9225" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="7.9375" y="16.1925" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="6.82625" y="16.98625" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="U4" library="SparkFun" package="SOT23-5" value="MIC5219-3.3V" x="74.295" y="24.765" smashed="yes" rot="R90">
 <attribute name="MPN" value="MIC5219-3.3YM5 TR" x="74.295" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_DIGIKEY" value="576-1281-2-ND" x="74.295" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="74.295" y="26.67" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="74.295" y="22.86" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C6" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="86.0425" y="1.905" smashed="yes" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="86.0425" y="1.905" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="86.0425" y="1.905" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="87.21725" y="2.06375" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="87.9475" y="2.76225" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="U3" library="SparkFun-PowerIC" package="SOT23-5" value="MCP73831" x="86.995" y="6.985" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="IC-09995" x="45.085" y="37.465" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MCP73831T-2DCI/OT" x="86.995" y="6.985" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_DIGIKEY" value="MCP73831T-2DCI/OTTR-ND" x="86.995" y="6.985" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="86.995" y="4.92125" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="86.995" y="9.36625" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C12" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="10uF" x="78.105" y="24.765" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" value="587-3383-2-ND" x="78.105" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="JMK107ABJ106MAHT" x="78.105" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="77.04625" y="24.4585" size="0.4064" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="78.094" y="23.865" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R9" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="22R" x="11.985625" y="17.47925" smashed="yes">
 <attribute name="OC_DIGIKEY" value="311-22GRTR-ND" x="11.985625" y="17.47925" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0603JR-0722RL" x="11.985625" y="17.47925" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.017625" y="17.384" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="11.160125" y="17.384" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R10" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="22R" x="11.985625" y="18.938" smashed="yes">
 <attribute name="OC_DIGIKEY" value="311-22GRTR-ND" x="11.985625" y="18.938" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0603JR-0722RL" x="11.985625" y="18.938" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.049375" y="18.8745" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="11.033125" y="18.8745" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R13" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="1.5k" x="53.975" y="24.13" smashed="yes" rot="R270">
 <attribute name="OC_DIGIKEY" value="311-1.5KGRTR-ND" x="53.975" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603JR-071K5L" x="53.975" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="52.92725" y="24.13" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="53.975" y="23.241" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R14" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="1.5k" x="55.5625" y="24.13" smashed="yes" rot="R270">
 <attribute name="OC_DIGIKEY" value="311-1.5KGRTR-ND" x="55.5625" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0603JR-071K5L" x="55.5625" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="56.5785" y="24.13" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="55.5625" y="23.241" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R4" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="37.11575" y="11.27125" smashed="yes">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="37.11575" y="11.27125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="37.11575" y="11.27125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="37.1475" y="10.19175" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="36.35375" y="11.303" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C19" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="1uF" x="33.02" y="21.59" smashed="yes" rot="R270">
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="33.02" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="LMK107B7105KA-T" x="33.02" y="21.59" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="34.19475" y="21.59" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="33.0835" y="20.6375" size="0.4064" layer="25" rot="R270" align="center"/>
 </element>
 <element name="C4" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="470pF" x="74.295" y="27.305" smashed="yes">
 <attribute name="OC_DIGIKEY" value="445-1320-2-ND" x="74.295" y="27.305" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="C1608X5R1A474K080AA" x="74.295" y="27.305" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="74.3585" y="28.28925" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="73.406" y="27.33675" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C1" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="4.7uF" x="79.85125" y="24.765" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" value="490-3297-2-ND" x="79.85125" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="GRM188R60J475KE19D" x="79.85125" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="79.502" y="26.57475" size="0.4064" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="79.78775" y="23.78075" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C2" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="81.518125" y="24.765" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="81.518125" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="81.518125" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="81.581625" y="26.63825" size="0.4064" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="81.4705" y="23.796625" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C3" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="14.2875" y="25.0825" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="14.2875" y="25.0825" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="14.2875" y="25.0825" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.255753125" y="26.162" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="15.049503125" y="25.05075" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C5" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="37.11575" y="13.335" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="37.11575" y="13.335" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="37.11575" y="13.335" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35.02025" y="13.30325" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="36.1315" y="13.30325" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C9" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="4.7uF" x="86.0425" y="12.065" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" value="490-3297-2-ND" x="86.0425" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="GRM188R60J475KE19D" x="86.0425" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="86.0425" y="10.3505" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="86.0425" y="11.14425" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R3" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="2k" x="87.9475" y="1.905" smashed="yes" rot="R270">
 <attribute name="OC_DIGIKEY" value="RHM2.0KDTR-ND" x="87.9475" y="1.905" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ESR03EZPJ202" x="87.9475" y="1.905" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="87.02675" y="1.905" size="0.4064" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="86.0425" y="2.7305" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="IC1" library="JeeLabs" package="SO14" value="MCP3424" x="48.26" y="27.94" locked="yes" smashed="yes" rot="R270">
 <attribute name="MPN" value="MCP3424-E/SL" x="48.26" y="27.94" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2072,112 +2085,112 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="Z1" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="PGB1010603" x="7.62" y="16.988" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="F4239CT-ND" x="7.62" y="16.988" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="PGB1010603NRHF" x="7.62" y="16.988" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="7.62" y="16.099" size="0.4064" layer="25" font="vector" rot="R180" align="center"/>
+<attribute name="NAME" x="6.6675" y="14.98775" size="0.4064" layer="25" font="vector" rot="R180" align="center"/>
 </element>
 <element name="Z2" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="PGB1010603" x="7.62" y="20.238" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="F4239CT-ND" x="7.62" y="20.238" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="PGB1010603NRHF" x="7.62" y="20.238" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="7.62" y="21.127" size="0.4064" layer="25" font="vector" rot="R180" align="center"/>
+<attribute name="NAME" x="6.82625" y="20.1745" size="0.4064" layer="25" font="vector" rot="R180" align="center"/>
 </element>
 <element name="U$14" library="charlespax" package="SOIC8" value="DS3231M" x="61.595" y="26.67" smashed="yes" rot="R90">
 <attribute name="MPN" value="DS3231MZ+" x="61.595" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_DIGIKEY" value="DS3231MZ+-ND" x="61.595" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="62.992" y="23.876" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="64.262" y="23.876" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R6" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="100k" x="12.065" y="11.27125" smashed="yes">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="12.065" y="11.27125" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="12.065" y="11.27125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.96975" y="10.287" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="11.176" y="11.2395" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R7" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="100k" x="12.065" y="12.7" smashed="yes">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="12.065" y="12.7" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="12.065" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.09675" y="11.684" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="11.14425" y="12.6365" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R8" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="92.456" y="36.195" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="92.456" y="36.195" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="92.456" y="36.195" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="92.456" y="35.2425" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="91.66225" y="36.195" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R11" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="92.456" y="21.59" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="92.456" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="92.456" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="92.456" y="20.6375" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="91.66225" y="21.59" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R12" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="92.456" y="14.605" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="92.456" y="14.605" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="92.456" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="92.55125" y="15.5575" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="91.59875" y="14.605" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R15" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="4.064" y="36.068" smashed="yes">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="4.064" y="36.068" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="4.064" y="36.068" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="3.3655" y="36.068" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="5.04825" y="36.068" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="R16" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="4.064" y="29.21" smashed="yes">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="4.064" y="29.21" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="4.064" y="29.21" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="4.1275" y="30.353" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="5.08" y="29.24175" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C26" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="10uF" x="70.881875" y="24.765" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" value="587-3383-2-ND" x="70.881875" y="24.765" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MPN" value="JMK107ABJ106MAHT" x="70.881875" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="70.405625" y="26.89225" size="0.4064" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="70.89775" y="23.891875" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C27" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="68.976875" y="24.765" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="68.976875" y="24.765" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="68.976875" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="68.373625" y="26.8605" size="0.4064" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="69.0245" y="23.923625" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C28" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="15.71625" y="9.04875" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="15.71625" y="9.04875" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="15.71625" y="9.04875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="13.6525" y="9.398" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="16.51" y="9.0805" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C29" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="40.64" y="25.4" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="40.64" y="25.4" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="40.64" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="40.64" y="23.5585" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="40.64" y="24.54275" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C30" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="1uF" x="42.418" y="25.4" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="42.418" y="25.4" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MPN" value="LMK107B7105KA-T" x="42.418" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="42.418" y="23.5585" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="42.418" y="24.511" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C31" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="48.26" y="40.64" locked="yes" smashed="yes">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="48.26" y="40.64" size="1.778" layer="27" ratio="15" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="48.26" y="40.64" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="47.498" y="41.4655" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="47.33925" y="40.67175" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C18" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="61.595" y="23.495" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="61.595" y="23.495" size="1.778" layer="27" ratio="15" rot="R180" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="61.595" y="23.495" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="61.595" y="24.511" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="62.5475" y="23.39975" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R2" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="66.3575" y="26.67" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="66.3575" y="26.67" size="1.778" layer="27" ratio="15" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="66.3575" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="66.3575" y="24.98725" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="66.3575" y="25.781" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C32" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="24.13" y="30.32125" smashed="yes">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="24.13" y="30.32125" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="24.13" y="30.32125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24.3205" y="31.3055" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="23.0505" y="30.353" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C33" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="14.2875" y="21.59" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="14.2875" y="21.59" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="14.2875" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.2875" y="20.3835" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="15.24" y="21.6535" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C34" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="16.1925" y="16.51" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="16.1925" y="16.51" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MPN" value="CL10B104KO8NNNC" x="16.1925" y="16.51" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15.494003125" y="16.51" size="0.4064" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="15.24" y="16.605253125" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R17" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="87.945" y="12.065" smashed="yes" rot="R270">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="87.945" y="12.065" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="87.945" y="12.065" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="86.96325" y="12.0625" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="87.95" y="11.2395" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE_SWITCH_SMD" value="SWITCH-MOMENTARY-2SMD" x="92.456" y="10.922" locked="yes" smashed="yes">
 <attribute name="NAME" x="95.78975" y="10.89025" size="0.4064" layer="25" align="center"/>
@@ -2201,17 +2214,17 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="LG132643-DW" x="48.26" y="25.4" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R19" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="3.3R" x="52.76" y="16.1925" smashed="yes" rot="R90">
-<attribute name="NAME" x="51.6805" y="15.9385" size="0.4064" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="52.80025" y="17.073" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="C35" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="1uF" x="44.76" y="15.5575" smashed="yes" rot="R90">
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="44.76" y="15.5575" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="MPN" value="LMK107B7105KA-T" x="44.76" y="15.5575" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="44.76" y="17.36725" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="44.76" y="16.41475" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="C36" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="1uF" x="42.76" y="15.5575" smashed="yes" rot="R270">
 <attribute name="OC_DIGIKEY" value="587-1242-2-ND" x="42.76" y="15.5575" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="MPN" value="LMK107B7105KA-T" x="42.76" y="15.5575" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="42.76" y="17.36725" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="42.76" y="16.41475" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="ICSP1" library="PaxInstrument-T400" package="SPARKFUN-CONNECTORS_2X3_SMT_POSTS_PAXINSTRUMENT" value="ICSP" x="8.89" y="33.02" smashed="yes" rot="MR90">
 <attribute name="MPN" value="95278-101A06LF" x="8.89" y="33.02" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2221,17 +2234,17 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="R20" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="5k" x="84.1375" y="15.875" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="84.1375" y="15.875" size="1.27" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="84.1375" y="15.875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="82.423" y="15.875" size="0.4064" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="83.34375" y="15.90675" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="D2" library="PaxInstrument-T400" package="SOD123" value="RB161M-20" x="12.938125" y="14.9225" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="B340A-FDICT-ND" x="12.938125" y="14.9225" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="B340A-13-F" x="12.938125" y="14.9225" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.938125" y="13.0175" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="11.033125" y="14.9225" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R24" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="84.1375" y="17.78" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="84.1375" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="84.1375" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="82.01025" y="17.68475" size="0.4064" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="83.28025" y="17.8435" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="U$1" library="blinkinlabs" package="USB_MICRO_THRUHOLE" value="USB_MICROSMT+THRUHULE" x="1.27" y="18.288" locked="yes" smashed="yes" rot="R270">
 <attribute name="OC_DIGIKEY" value="609-4618-2-ND" x="1.27" y="18.288" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2393,7 +2406,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="C20" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="62.23" y="2.921" smashed="yes" rot="R180">
 <attribute name="MPN" value="CL10B104KO8NNNC" x="62.23" y="2.921" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="62.23" y="2.921" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="61.9125" y="1.905" size="0.4064" layer="25" align="center"/>
+<attribute name="NAME" x="61.2775" y="2.8575" size="0.4064" layer="25" align="center"/>
 </element>
 <element name="JP1" library="SparkFun-Passives" package="SJ_2S-NO" value="" x="15.24" y="23.495" rot="MR0"/>
 <element name="TP10" library="PaxInstrument-T400" package="TP_15TH" value="TEST-POINTTP_15TH_THRU" x="8.60125" y="22.225">
@@ -2424,7 +2437,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="J1" library="SeeesStudio-OPL" package="9P-SMD-W-RING" value="MICRO-SDCARD-CONNECTOR-3300060P1" x="73.025" y="6.053" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.899" y="11.006" size="0.4064" layer="25" ratio="12" rot="R270"/>
 </element>
-<element name="IC2" library="PaxInstrument-T400" package="CHARLESPAX_SOT23-5" value="NC7S00DBV" x="16.51" y="11.7475" rot="R270"/>
+<element name="IC2" library="PaxInstrument-T400" package="CHARLESPAX_SOT23-5" value="NC7S00DBV" x="16.51" y="11.7475" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.4625" y="10.63625" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="12.7" y="14.2875" size="1.27" layer="27" rot="R270"/>
+</element>
 <element name="TP1" library="PaxInstrument-T400" package="TP_15TH" value="SW_PWR" x="15.875" y="27.94">
 <attribute name="MPN" value="N/A" x="15.875" y="27.94" size="1.778" layer="27" display="off"/>
 <attribute name="OC_DIGIKEY" value="N/A" x="15.875" y="27.94" size="1.778" layer="27" display="off"/>
@@ -2441,8 +2457,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="N/A" x="60.325" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_DIGIKEY" value="N/A" x="60.325" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Q1" library="PaxInstrument-T400" package="SOT23" value="DMP2035U-7" x="82.626875" y="11.045" rot="R180"/>
-<element name="U2" library="PaxInstrument-T400" package="SOT23" value="APX809" x="83.5025" y="2.37" rot="R180"/>
+<element name="Q1" library="PaxInstrument-T400" package="SOT23" value="DMP2035U-7" x="82.626875" y="11.045" smashed="yes" rot="R180">
+<attribute name="NAME" x="82.944375" y="10.25125" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="84.531875" y="14.22" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="U2" library="PaxInstrument-T400" package="SOT23" value="APX809" x="83.5025" y="2.37" smashed="yes" rot="R180">
+<attribute name="NAME" x="83.82" y="1.57625" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="85.4075" y="5.545" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="TP5" library="PaxInstrument-T400" package="TP_15TH" value="LCD_BL" x="54.6735" y="17.78">
 <attribute name="MPN" value="N/A" x="54.6735" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="OC_DIGIKEY" value="N/A" x="54.6735" y="17.78" size="1.778" layer="27" display="off"/>
@@ -2455,18 +2477,27 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="N/A" x="74.039" y="7.3025" size="1.778" layer="27" display="off"/>
 <attribute name="OC_DIGIKEY" value="N/A" x="74.039" y="7.3025" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X1" library="PaxInstrument-T400" package="FH12-12S-1SH" value="FH12-12S-1S" x="48.26" y="10"/>
-<element name="U$3" library="PaxInstrument-T400" package="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_TQFP44" value="SPARKFUN-DIGITALIC_ATMEGA32U4TQFP" x="24.13" y="21.59" rot="R45"/>
-<element name="C21" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="70.739" y="15.875">
+<element name="X1" library="PaxInstrument-T400" package="FH12-12S-1SH" value="FH12-12S-1S" x="48.26" y="10" smashed="yes">
+<attribute name="NAME" x="40.4749" y="12.825" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="42.1624" y="9.6742" size="1.27" layer="27"/>
+</element>
+<element name="U$3" library="PaxInstrument-T400" package="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_TQFP44" value="SPARKFUN-DIGITALIC_ATMEGA32U4TQFP" x="24.13" y="21.59" smashed="yes" rot="R45">
+<attribute name="VALUE" x="24.13" y="15.842634375" size="0.4064" layer="27" rot="R45"/>
+</element>
+<element name="C21" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="70.739" y="15.875" smashed="yes">
 <attribute name="MPN" value="CL10B104KO8NNNC" x="70.739" y="15.875" size="1.778" layer="27" display="off"/>
 <attribute name="OC_DIGIKEY" value="1276-1005-2-ND" x="70.739" y="15.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="69.37375" y="15.6845" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="69.723" y="14.732" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="SJ2" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK" value="JUMPER-PAD-2-NC_BY_TRACE" x="50.8" y="27.305" rot="MR90"/>
-<element name="X2" library="con-hirose" package="FH12-12S-0.5SH" value="FH12-12S-0.5SH" x="48.26" y="2.54">
+<element name="X2" library="con-hirose" package="FH12-12S-0.5SH" value="FH12-12S-0.5SH" x="48.26" y="2.54" smashed="yes">
 <attribute name="OC_NEWARK" value="34M6155" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="FH12-12S-0.5SH(55)" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1324542" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="43.8124" y="5.365" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="45.0124" y="2.2142" size="1.27" layer="27"/>
 </element>
 <element name="U$6" library="PaxInstrument-T400" package="PAXINSTRUMENT_LOGO" value="" x="69.215" y="7.62" rot="MR0"/>
 <element name="TP8" library="PaxInstrument-T400" package="TP_15TH" value="ISOTHERMAL" x="48.26" y="48.895"/>
