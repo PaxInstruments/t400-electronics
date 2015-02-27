@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2547,11 +2547,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="ICSP1" pad="1"/>
 <wire x1="50.8762" y1="24.13" x2="48.895" y2="24.13" width="0.3048" layer="1"/>
 <via x="48.895" y="24.13" extent="1-16" drill="0.3302"/>
-<wire x1="49.21" y1="45.75" x2="49.21" y2="46.99" width="0.3048" layer="1"/>
-<via x="49.21" y="46.99" extent="1-16" drill="0.3302"/>
-<wire x1="49.21" y1="46.99" x2="48.5775" y2="46.3575" width="0.3048" layer="16"/>
-<wire x1="48.5775" y1="46.3575" x2="48.5775" y2="24.4475" width="0.3048" layer="16"/>
-<wire x1="48.5775" y1="24.4475" x2="48.895" y2="24.13" width="0.3048" layer="16"/>
 <wire x1="58.9788" y1="24.765" x2="59.055" y2="24.6888" width="0.3048" layer="1"/>
 <contactref element="U$3" pad="18"/>
 <wire x1="26.887715625" y1="19.5393875" x2="27.694603125" y2="18.7325" width="0.3048" layer="1"/>
@@ -2575,6 +2570,17 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="47.9425" y1="23.1775" x2="48.895" y2="24.13" width="0.3048" layer="1"/>
 <wire x1="58.9788" y1="24.765" x2="55.5625" y2="24.765" width="0.3048" layer="1"/>
 <wire x1="55.5625" y1="24.765" x2="55.5625" y2="24.98" width="0.3048" layer="1"/>
+<wire x1="50.165" y1="38.735" x2="49.2125" y2="38.735" width="0.3048" layer="1"/>
+<wire x1="49.2125" y1="38.735" x2="48.895" y2="38.4175" width="0.3048" layer="1"/>
+<wire x1="48.895" y1="38.4175" x2="48.895" y2="27.305" width="0.3048" layer="1"/>
+<via x="48.895" y="27.305" extent="1-16" drill="0.3302"/>
+<wire x1="48.895" y1="27.305" x2="48.895" y2="24.13" width="0.3048" layer="16"/>
+<wire x1="49.5275" y1="44.7975" x2="50.165" y2="44.7975" width="0.3048" layer="1"/>
+<wire x1="50.165" y1="44.7975" x2="50.8" y2="44.1625" width="0.3048" layer="1"/>
+<wire x1="50.8" y1="44.1625" x2="50.8" y2="39.37" width="0.3048" layer="1"/>
+<wire x1="50.8" y1="39.37" x2="50.165" y2="38.735" width="0.3048" layer="1"/>
+<wire x1="49.21" y1="45.75" x2="49.21" y2="45.115" width="0.3048" layer="1"/>
+<wire x1="49.21" y1="45.115" x2="49.5275" y2="44.7975" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="R13" pad="1"/>
@@ -2583,22 +2589,12 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="U$14" pad="7"/>
 <contactref element="GND" pad="19"/>
 <contactref element="ICSP1" pad="2"/>
-<wire x1="45.6438" y1="24.13" x2="47.625" y2="24.13" width="0.3048" layer="1"/>
-<via x="47.625" y="24.13" extent="1-16" drill="0.3302"/>
-<wire x1="47.31" y1="45.75" x2="47.31" y2="47.02" width="0.3048" layer="1"/>
-<via x="47.31" y="47.02" extent="1-16" drill="0.3302"/>
-<wire x1="47.625" y1="24.13" x2="48.10125" y2="24.60625" width="0.3048" layer="16"/>
-<wire x1="48.10125" y1="24.60625" x2="48.10125" y2="46.385" width="0.3048" layer="16"/>
-<wire x1="48.10125" y1="46.385" x2="47.46625" y2="47.02" width="0.3048" layer="16"/>
-<wire x1="47.46625" y1="47.02" x2="47.31" y2="47.02" width="0.3048" layer="16"/>
 <contactref element="U$3" pad="19"/>
 <wire x1="27.24126875" y1="19.892940625" x2="27.925459375" y2="19.20875" width="0.3048" layer="1"/>
 <wire x1="27.925459375" y1="19.20875" x2="28.7739875" y2="19.20875" width="0.3048" layer="1"/>
 <wire x1="29.3625875" y1="18.62015" x2="28.7739875" y2="19.20875" width="0.3048" layer="1"/>
 <wire x1="58.9788" y1="26.035" x2="53.975" y2="26.035" width="0.3048" layer="1"/>
-<wire x1="53.975" y1="26.035" x2="48.73625" y2="26.035" width="0.3048" layer="1"/>
-<wire x1="48.73625" y1="26.035" x2="47.625" y2="24.92375" width="0.3048" layer="1"/>
-<wire x1="47.625" y1="24.92375" x2="47.625" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="53.975" y1="26.035" x2="48.10125" y2="26.035" width="0.3048" layer="1"/>
 <wire x1="29.3625875" y1="18.62015" x2="30.3614875" y2="17.62125" width="0.3048" layer="1"/>
 <wire x1="53.975" y1="24.98" x2="53.975" y2="26.035" width="0.3048" layer="1"/>
 <via x="32.22625" y="17.62125" extent="1-16" drill="0.3302"/>
@@ -2609,6 +2605,18 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="32.22625" y1="17.62125" x2="37.62375" y2="17.62125" width="0.3048" layer="1"/>
 <wire x1="45.6438" y1="24.13" x2="44.1325" y2="24.13" width="0.3048" layer="1"/>
 <wire x1="44.1325" y1="24.13" x2="37.62375" y2="17.62125" width="0.3048" layer="1"/>
+<wire x1="48.10125" y1="25.4" x2="48.10125" y2="26.035" width="0.3048" layer="1"/>
+<wire x1="50.165" y1="43.97375" x2="50.165" y2="39.6875" width="0.3048" layer="1"/>
+<wire x1="50.165" y1="39.6875" x2="49.8475" y2="39.37" width="0.3048" layer="1"/>
+<wire x1="49.8475" y1="39.37" x2="48.73625" y2="39.37" width="0.3048" layer="1"/>
+<wire x1="48.73625" y1="39.37" x2="48.10125" y2="38.735" width="0.3048" layer="1"/>
+<wire x1="48.10125" y1="38.735" x2="48.10125" y2="26.035" width="0.3048" layer="1"/>
+<wire x1="48.10125" y1="25.4" x2="46.83125" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="46.83125" y1="24.13" x2="45.6438" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="47.31" y1="45.75" x2="47.31" y2="44.60875" width="0.3048" layer="1"/>
+<wire x1="47.31" y1="44.60875" x2="47.6275" y2="44.29125" width="0.3048" layer="1"/>
+<wire x1="47.6275" y1="44.29125" x2="49.8475" y2="44.29125" width="0.3048" layer="1"/>
+<wire x1="49.8475" y1="44.29125" x2="50.165" y2="43.97375" width="0.3048" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U4" pad="5"/>
@@ -2643,7 +2651,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="R2" pad="1"/>
 <contactref element="U$14" pad="2"/>
 <contactref element="C18" pad="1"/>
-<via x="46.9925" y="37.3625" extent="1-16" drill="0.3302"/>
 <contactref element="TP13" pad="P$1"/>
 <contactref element="GND" pad="44"/>
 <contactref element="GND" pad="6"/>
@@ -2660,7 +2667,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="60.3885" y1="12.1565" x2="60.3885" y2="11.049" width="0.3048" layer="1"/>
 <wire x1="47.31" y1="43.15" x2="47.31" y2="40.74" width="0.3048" layer="1"/>
 <wire x1="47.31" y1="40.74" x2="47.41" y2="40.64" width="0.3048" layer="1"/>
-<wire x1="47.31" y1="40.54" x2="47.41" y2="40.64" width="0.3048" layer="1"/>
+<wire x1="47.3075" y1="40.54" x2="47.41" y2="40.64" width="0.3048" layer="1"/>
 <wire x1="43.18" y1="24.55" x2="42.418" y2="24.55" width="0.6096" layer="1"/>
 <wire x1="64.2112" y1="26.035" x2="66.1425" y2="26.035" width="0.3048" layer="1"/>
 <wire x1="66.1425" y1="26.035" x2="66.3575" y2="25.82" width="0.3048" layer="1"/>
@@ -2705,16 +2712,11 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="15.24" y1="37.3625" x2="33.02" y2="37.3625" width="0.6096" layer="16"/>
 <wire x1="34.29" y1="37.3625" x2="33.02" y2="37.3625" width="0.3048" layer="1"/>
 <via x="33.02" y="37.3625" extent="1-16" drill="0.3302"/>
-<wire x1="52.07" y1="37.3625" x2="49.53" y2="37.3625" width="0.6096" layer="1"/>
-<via x="49.53" y="37.3625" extent="1-16" drill="0.3302"/>
-<wire x1="49.53" y1="37.3625" x2="68.58" y2="37.3625" width="0.6096" layer="16"/>
+<via x="50.8" y="37.3625" extent="1-16" drill="0.3302"/>
+<wire x1="50.8" y1="37.3625" x2="68.58" y2="37.3625" width="0.6096" layer="16"/>
 <wire x1="69.85" y1="37.3625" x2="68.58" y2="37.3625" width="0.3048" layer="1"/>
 <via x="68.58" y="37.3625" extent="1-16" drill="0.3302"/>
-<wire x1="46.9925" y1="37.3625" x2="33.02" y2="37.3625" width="0.6096" layer="16"/>
-<wire x1="47.31" y1="40.54" x2="47.31" y2="39.055" width="0.6096" layer="1"/>
-<wire x1="47.31" y1="39.055" x2="46.99" y2="38.735" width="0.6096" layer="1"/>
-<wire x1="46.99" y1="38.735" x2="46.99" y2="37.365" width="0.6096" layer="1"/>
-<wire x1="46.99" y1="37.365" x2="46.9925" y2="37.3625" width="0.6096" layer="1"/>
+<wire x1="47.3075" y1="37.3625" x2="33.02" y2="37.3625" width="0.6096" layer="16"/>
 <wire x1="55.5625" y1="23.28" x2="55.5625" y2="22.06625" width="0.6096" layer="1"/>
 <via x="55.5625" y="22.06625" extent="1-16" drill="0.3302"/>
 <wire x1="53.76" y1="13.335" x2="46.76" y2="13.335" width="0.6096" layer="16"/>
@@ -2751,15 +2753,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="23.28" y1="30.32125" x2="22.225" y2="30.32125" width="0.3048" layer="1"/>
 <wire x1="22.225" y1="30.32125" x2="22.225" y2="31.27375" width="0.3048" layer="1"/>
 <via x="37.7825" y="24.55" extent="1-16" drill="0.3302"/>
-<wire x1="47.3075" y1="35.8775" x2="47.3075" y2="26.035" width="0.6096" layer="16"/>
-<via x="47.3075" y="26.035" extent="1-16" drill="0.3302"/>
+<wire x1="47.3075" y1="26.035" x2="47.3075" y2="37.3625" width="0.6096" layer="1"/>
 <wire x1="47.3075" y1="26.035" x2="46.6725" y2="25.4" width="0.6096" layer="1"/>
 <wire x1="46.6725" y1="25.4" x2="45.6438" y2="25.4" width="0.6096" layer="1"/>
-<wire x1="47.3075" y1="35.8775" x2="46.99" y2="36.195" width="0.6096" layer="16"/>
-<wire x1="46.99" y1="36.195" x2="46.99" y2="37.36" width="0.6096" layer="16"/>
-<wire x1="46.99" y1="37.36" x2="46.9925" y2="37.3625" width="0.6096" layer="16"/>
-<wire x1="46.99" y1="37.365" x2="49.5275" y2="37.365" width="0.6096" layer="1"/>
-<wire x1="49.5275" y1="37.365" x2="49.53" y2="37.3625" width="0.6096" layer="1"/>
+<wire x1="47.3075" y1="37.3625" x2="50.8" y2="37.3625" width="0.6096" layer="16"/>
 <wire x1="73.109" y1="23.7009" x2="72.9949" y2="23.815" width="0.3048" layer="1"/>
 <wire x1="70.881875" y1="23.915" x2="68.976875" y2="23.915" width="0.8128" layer="1"/>
 <wire x1="33.02" y1="23.495" x2="33.02" y2="22.44" width="0.3048" layer="1"/>
@@ -2825,6 +2822,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="51.01" y1="6.71875" x2="53.76" y2="9.46875" width="0.3048" layer="1"/>
 <wire x1="53.76" y1="9.46875" x2="53.76" y2="13.25" width="0.3048" layer="1"/>
 <contactref element="R1" pad="1"/>
+<via x="47.3075" y="37.3625" extent="1-16" drill="0.3302"/>
+<wire x1="47.3075" y1="37.3625" x2="47.3075" y2="40.54" width="0.6096" layer="1"/>
+<wire x1="50.8" y1="37.3625" x2="52.07" y2="37.3625" width="0.6096" layer="1"/>
 <wire x1="17.0425" y1="16.51" x2="-43.395" y2="-39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3EN">
@@ -3706,7 +3706,6 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="30.48" y="45.72" extent="1-16" drill="0.3302"/>
 <via x="30.48" y="40.64" extent="1-16" drill="0.3302"/>
 <via x="30.48" y="35.56" extent="1-16" drill="0.3302"/>
-<via x="45.72" y="35.56" extent="1-16" drill="0.3302"/>
 <via x="50.8" y="35.56" extent="1-16" drill="0.3302"/>
 <via x="66.04" y="35.56" extent="1-16" drill="0.3302"/>
 <contactref element="SJ2" pad="2"/>
@@ -3751,14 +3750,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="67.31" y="49.53" extent="1-16" drill="0.3302"/>
 <via x="66.04" y="45.72" extent="1-16" drill="0.3302"/>
 <via x="66.04" y="43.18" extent="1-16" drill="0.3302"/>
-<via x="50.8" y="48.26" extent="1-16" drill="0.3302"/>
-<via x="50.8" y="45.72" extent="1-16" drill="0.3302"/>
-<via x="50.8" y="43.18" extent="1-16" drill="0.3302"/>
-<via x="50.8" y="40.64" extent="1-16" drill="0.3302"/>
 <via x="45.72" y="48.26" extent="1-16" drill="0.3302"/>
 <via x="45.72" y="45.72" extent="1-16" drill="0.3302"/>
 <via x="45.72" y="43.18" extent="1-16" drill="0.3302"/>
-<via x="45.72" y="40.64" extent="1-16" drill="0.3302"/>
 <via x="33.02" y="48.26" extent="1-16" drill="0.3302"/>
 <via x="33.02" y="45.72" extent="1-16" drill="0.3302"/>
 <via x="33.02" y="43.18" extent="1-16" drill="0.3302"/>
@@ -3791,6 +3785,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="50.8" y="33.02" extent="1-16" drill="0.3302"/>
 <via x="45.72" y="33.02" extent="1-16" drill="0.3302"/>
 <via x="81.28" y="35.56" extent="1-16" drill="0.3302"/>
+<via x="45.72" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="48.26" y="41.91" extent="1-16" drill="0.3302"/>
+<via x="50.8" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="50.8" y="45.72" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="BATT_STAT">
 <contactref element="GND" pad="31"/>
