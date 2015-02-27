@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3701,9 +3701,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="39.37" y="44.45" extent="1-16" drill="0.3302"/>
 <via x="57.15" y="44.45" extent="1-16" drill="0.3302"/>
 <via x="74.93" y="44.45" extent="1-16" drill="0.3302"/>
-<via x="66.04" y="46.99" extent="1-16" drill="0.3302"/>
+<via x="66.04" y="48.26" extent="1-16" drill="0.3302"/>
 <via x="66.04" y="40.64" extent="1-16" drill="0.3302"/>
-<via x="30.48" y="46.99" extent="1-16" drill="0.3302"/>
+<via x="30.48" y="45.72" extent="1-16" drill="0.3302"/>
 <via x="30.48" y="40.64" extent="1-16" drill="0.3302"/>
 <via x="30.48" y="35.56" extent="1-16" drill="0.3302"/>
 <via x="45.72" y="35.56" extent="1-16" drill="0.3302"/>
@@ -3711,6 +3711,86 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="66.04" y="35.56" extent="1-16" drill="0.3302"/>
 <contactref element="SJ2" pad="2"/>
 <contactref element="TP8" pad="P$1"/>
+<via x="21.59" y="49.53" extent="1-16" drill="0.3302"/>
+<via x="21.59" y="46.99" extent="1-16" drill="0.3302"/>
+<via x="21.59" y="41.91" extent="1-16" drill="0.3302"/>
+<via x="21.59" y="39.37" extent="1-16" drill="0.3302"/>
+<via x="29.21" y="49.53" extent="1-16" drill="0.3302"/>
+<via x="29.21" y="46.99" extent="1-16" drill="0.3302"/>
+<via x="29.21" y="44.45" extent="1-16" drill="0.3302"/>
+<via x="29.21" y="41.91" extent="1-16" drill="0.3302"/>
+<via x="29.21" y="39.37" extent="1-16" drill="0.3302"/>
+<via x="31.75" y="49.53" extent="1-16" drill="0.3302"/>
+<via x="31.75" y="46.99" extent="1-16" drill="0.3302"/>
+<via x="31.75" y="44.45" extent="1-16" drill="0.3302"/>
+<via x="31.75" y="41.91" extent="1-16" drill="0.3302"/>
+<via x="31.75" y="39.37" extent="1-16" drill="0.3302"/>
+<via x="30.48" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="30.48" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="39.37" y="49.53" extent="1-16" drill="0.3302"/>
+<via x="39.37" y="46.99" extent="1-16" drill="0.3302"/>
+<via x="39.37" y="41.91" extent="1-16" drill="0.3302"/>
+<via x="39.37" y="39.37" extent="1-16" drill="0.3302"/>
+<via x="57.15" y="49.53" extent="1-16" drill="0.3302"/>
+<via x="57.15" y="46.99" extent="1-16" drill="0.3302"/>
+<via x="57.15" y="41.91" extent="1-16" drill="0.3302"/>
+<via x="57.15" y="39.37" extent="1-16" drill="0.3302"/>
+<via x="74.93" y="49.53" extent="1-16" drill="0.3302"/>
+<via x="74.93" y="46.99" extent="1-16" drill="0.3302"/>
+<via x="74.93" y="41.91" extent="1-16" drill="0.3302"/>
+<via x="74.93" y="39.37" extent="1-16" drill="0.3302"/>
+<via x="64.77" y="49.53" extent="1-16" drill="0.3302"/>
+<via x="64.77" y="46.99" extent="1-16" drill="0.3302"/>
+<via x="64.77" y="44.45" extent="1-16" drill="0.3302"/>
+<via x="64.77" y="41.91" extent="1-16" drill="0.3302"/>
+<via x="64.77" y="39.37" extent="1-16" drill="0.3302"/>
+<via x="67.31" y="39.37" extent="1-16" drill="0.3302"/>
+<via x="67.31" y="41.91" extent="1-16" drill="0.3302"/>
+<via x="67.31" y="44.45" extent="1-16" drill="0.3302"/>
+<via x="67.31" y="46.99" extent="1-16" drill="0.3302"/>
+<via x="67.31" y="49.53" extent="1-16" drill="0.3302"/>
+<via x="66.04" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="66.04" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="50.8" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="50.8" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="50.8" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="50.8" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="45.72" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="45.72" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="45.72" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="45.72" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="33.02" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="33.02" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="33.02" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="33.02" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="27.94" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="27.94" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="27.94" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="27.94" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="15.24" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="15.24" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="15.24" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="15.24" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="63.5" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="63.5" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="63.5" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="63.5" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="68.58" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="68.58" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="68.58" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="68.58" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="81.28" y="48.26" extent="1-16" drill="0.3302"/>
+<via x="81.28" y="45.72" extent="1-16" drill="0.3302"/>
+<via x="81.28" y="43.18" extent="1-16" drill="0.3302"/>
+<via x="81.28" y="40.64" extent="1-16" drill="0.3302"/>
+<via x="63.5" y="35.56" extent="1-16" drill="0.3302"/>
+<via x="68.58" y="35.56" extent="1-16" drill="0.3302"/>
+<via x="27.94" y="35.56" extent="1-16" drill="0.3302"/>
+<via x="33.02" y="35.56" extent="1-16" drill="0.3302"/>
+<via x="15.24" y="35.56" extent="1-16" drill="0.3302"/>
+<via x="50.8" y="33.02" extent="1-16" drill="0.3302"/>
+<via x="45.72" y="33.02" extent="1-16" drill="0.3302"/>
+<via x="81.28" y="35.56" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="BATT_STAT">
 <contactref element="GND" pad="31"/>
