@@ -13531,7 +13531,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <wire x1="320.04" y1="238.76" x2="330.2" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="238.76" x2="340.36" y2="238.76" width="0.1524" layer="91"/>
 <junction x="185.42" y="246.38"/>
-<label x="177.8" y="246.38" size="1.778" layer="95"/>
+<label x="200.66" y="246.38" size="1.778" layer="95"/>
 <label x="322.58" y="238.76" size="1.778" layer="95"/>
 <junction x="304.8" y="246.38"/>
 <wire x1="304.8" y1="241.3" x2="304.8" y2="246.38" width="0.1524" layer="91"/>
@@ -13989,11 +13989,11 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <label x="170.18" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<label x="83.82" y="129.54" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="PB5(ADC12)"/>
-<pinref part="U$3" gate="G$1" pin="PB5(ADC12)"/>
-<junction x="81.28" y="129.54"/>
+<wire x1="81.28" y1="127" x2="83.82" y2="127" width="0.1524" layer="91"/>
+<label x="83.82" y="127" size="1.778" layer="95"/>
+<pinref part="GND" gate="G$1" pin="PB6(ADC13)"/>
+<pinref part="U$3" gate="G$1" pin="PB6(ADC13)"/>
+<junction x="81.28" y="127"/>
 </segment>
 </net>
 <net name="RTC_INT" class="0">
@@ -14260,16 +14260,16 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </net>
 <net name="VBAT_EN" class="0">
 <segment>
-<wire x1="81.28" y1="127" x2="83.82" y2="127" width="0.1524" layer="91"/>
-<label x="83.82" y="127" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="PB6(ADC13)"/>
-<pinref part="U$3" gate="G$1" pin="PB6(ADC13)"/>
-<junction x="81.28" y="127"/>
-</segment>
-<segment>
 <pinref part="Q3" gate="G$1" pin="G"/>
 <label x="129.54" y="165.1" size="1.778" layer="95"/>
 <wire x1="142.24" y1="165.1" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="81.28" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
+<label x="83.82" y="129.54" size="1.778" layer="95"/>
+<pinref part="GND" gate="G$1" pin="PB5(ADC12)"/>
+<pinref part="U$3" gate="G$1" pin="PB5(ADC12)"/>
+<junction x="81.28" y="129.54"/>
 </segment>
 </net>
 <net name="N$4" class="0">
