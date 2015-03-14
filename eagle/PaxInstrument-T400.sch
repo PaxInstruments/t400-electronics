@@ -162,45 +162,6 @@
 <pad name="1" x="-2.54" y="0" drill="0.8" diameter="1.8796"/>
 <pad name="3" x="2.54" y="0" drill="0.8" diameter="1.8796"/>
 </package>
-<package name="PTC">
-<wire x1="-3.81" y1="1.524" x2="3.81" y2="1.524" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="1.524" x2="3.81" y2="-1.524" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-1.524" x2="-3.81" y2="-1.524" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="-1.524" x2="-3.81" y2="1.524" width="0.2032" layer="21"/>
-<pad name="P$1" x="-2.54" y="0" drill="0.8" diameter="1.8796"/>
-<pad name="P$2" x="2.54" y="0" drill="0.8" diameter="1.8796"/>
-<text x="-3.81" y="1.705" size="0.4318" layer="25">&gt;Name</text>
-<text x="-3.81" y="-2.14" size="0.4318" layer="27">&gt;Value</text>
-</package>
-<package name="PTC-1206">
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="51"/>
-<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="51"/>
-<wire x1="0.635" y1="-0.762" x2="-0.635" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="0.762" x2="0.635" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="-1.143" y1="-1.016" x2="0.254" y2="1.016" width="0.127" layer="51"/>
-<wire x1="0.254" y1="1.016" x2="1.143" y2="1.016" width="0.127" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1" dy="1.8" layer="1"/>
-<text x="-1.524" y="1.27" size="0.4064" layer="25">&gt;Name</text>
-<text x="-1.524" y="-1.651" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
@@ -401,18 +362,6 @@
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="PTC">
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="-2.54" y="3.048" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.302" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
-<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
-</symbol>
 <symbol name="V-REG-LDO">
 <wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
@@ -470,42 +419,6 @@ Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in ca
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PTC" prefix="F">
-<description>&lt;b&gt;Resettable Fuse PTC&lt;/b&gt;
-Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
-<gates>
-<gate name="G$1" symbol="PTC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="PTC">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="PTC-1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6880,7 +6793,7 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <wire x1="-7.795" y1="0.5" x2="-8.295" y2="0.5" width="0.2032" layer="51"/>
 <wire x1="-8.295" y1="0.5" x2="-8.295" y2="-0.5" width="0.2032" layer="51"/>
 <wire x1="-8.295" y1="-0.5" x2="-7.795" y2="-0.5" width="0.2032" layer="51"/>
-<wire x1="-7.795" y1="-0.5" x2="-7.795" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-7.795" y1="-0.5" x2="-7.795" y2="-3.17" width="0.2032" layer="51"/>
 <wire x1="-7.8" y1="-3.17" x2="-7.5" y2="-3.17" width="0.2032" layer="21"/>
 <wire x1="-7.5" y1="-3.17" x2="-7.5" y2="-3.47" width="0.2032" layer="21"/>
 <wire x1="-7.5" y1="-3.47" x2="-7.8" y2="-3.47" width="0.2032" layer="21"/>
@@ -6889,13 +6802,13 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <wire x1="7.8" y1="-3.47" x2="7.5" y2="-3.47" width="0.2032" layer="21"/>
 <wire x1="7.5" y1="-3.47" x2="7.5" y2="-3.17" width="0.2032" layer="21"/>
 <wire x1="7.5" y1="-3.17" x2="7.8" y2="-3.17" width="0.2032" layer="21"/>
-<wire x1="7.795" y1="-1.9" x2="7.795" y2="-0.5" width="0.2032" layer="51"/>
+<wire x1="7.795" y1="-3.17" x2="7.795" y2="-0.5" width="0.2032" layer="51"/>
 <wire x1="7.795" y1="-0.5" x2="8.295" y2="-0.5" width="0.2032" layer="51"/>
 <wire x1="8.295" y1="-0.5" x2="8.295" y2="0.5" width="0.2032" layer="51"/>
 <wire x1="8.295" y1="0.5" x2="7.795" y2="0.5" width="0.2032" layer="51"/>
-<wire x1="7.795" y1="0.5" x2="7.795" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="7.795" y1="2.5" x2="-7.795" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="-7.795" y1="2.5" x2="-7.795" y2="0.5" width="0.2032" layer="51"/>
+<wire x1="7.795" y1="0.5" x2="7.795" y2="1.23" width="0.2032" layer="51"/>
+<wire x1="7.795" y1="1.23" x2="-7.795" y2="1.23" width="0.2032" layer="51"/>
+<wire x1="-7.795" y1="1.23" x2="-7.795" y2="0.5" width="0.2032" layer="51"/>
 <wire x1="7.5" y1="-3.17" x2="-7.5" y2="-3.17" width="0.2032" layer="21"/>
 <wire x1="7.8" y1="-4.17" x2="-7.8" y2="-4.17" width="0.2032" layer="21"/>
 <wire x1="-6.1" y1="1.23" x2="-7.8" y2="1.23" width="0.2032" layer="21"/>
@@ -6916,18 +6829,18 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <smd name="12" x="5.5" y="2.2975" dx="0.5" dy="1.5" layer="1"/>
 <text x="-7.3676" y="3.46" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.3676" y="-2.8658" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-5.6" y1="2.55" x2="-5.4" y2="3.4" layer="51"/>
-<rectangle x1="-4.6" y1="2.55" x2="-4.4" y2="3.4" layer="51"/>
-<rectangle x1="-3.6" y1="2.55" x2="-3.4" y2="3.4" layer="51"/>
-<rectangle x1="-2.6" y1="2.55" x2="-2.4" y2="3.4" layer="51"/>
-<rectangle x1="-1.6" y1="2.55" x2="-1.4" y2="3.4" layer="51"/>
-<rectangle x1="-0.6" y1="2.55" x2="-0.4" y2="3.4" layer="51"/>
-<rectangle x1="0.4" y1="2.55" x2="0.6" y2="3.4" layer="51"/>
-<rectangle x1="1.4" y1="2.55" x2="1.6" y2="3.4" layer="51"/>
-<rectangle x1="2.4" y1="2.55" x2="2.6" y2="3.4" layer="51"/>
-<rectangle x1="3.4" y1="2.55" x2="3.6" y2="3.4" layer="51"/>
-<rectangle x1="4.4" y1="2.55" x2="4.6" y2="3.4" layer="51"/>
-<rectangle x1="5.4" y1="2.55" x2="5.6" y2="3.4" layer="51"/>
+<rectangle x1="-5.6" y1="1.28" x2="-5.4" y2="2.13" layer="51"/>
+<rectangle x1="-4.6" y1="1.28" x2="-4.4" y2="2.13" layer="51"/>
+<rectangle x1="-3.6" y1="1.28" x2="-3.4" y2="2.13" layer="51"/>
+<rectangle x1="-2.6" y1="1.28" x2="-2.4" y2="2.13" layer="51"/>
+<rectangle x1="-1.6" y1="1.28" x2="-1.4" y2="2.13" layer="51"/>
+<rectangle x1="-0.6" y1="1.28" x2="-0.4" y2="2.13" layer="51"/>
+<rectangle x1="0.4" y1="1.28" x2="0.6" y2="2.13" layer="51"/>
+<rectangle x1="1.4" y1="1.28" x2="1.6" y2="2.13" layer="51"/>
+<rectangle x1="2.4" y1="1.28" x2="2.6" y2="2.13" layer="51"/>
+<rectangle x1="3.4" y1="1.28" x2="3.6" y2="2.13" layer="51"/>
+<rectangle x1="4.4" y1="1.28" x2="4.6" y2="2.13" layer="51"/>
+<rectangle x1="5.4" y1="1.28" x2="5.6" y2="2.13" layer="51"/>
 <polygon width="0.2032" layer="21">
 <vertex x="-5.7" y="-3.47"/>
 <vertex x="-5.5" y="-3.87"/>
@@ -10046,6 +9959,76 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <text x="-2.925" y="1.625" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.25" y="-2.925" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="F1812">
+<description>http://www.fuse-china.com/1812smdfuses.htm</description>
+<wire x1="-3.048" y1="1.651" x2="3.048" y2="1.651" width="0.127" layer="21"/>
+<wire x1="3.048" y1="-1.651" x2="-3.048" y2="-1.651" width="0.127" layer="21"/>
+<smd name="1" x="-2.159" y="0" dx="3.048" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="2.159" y="0" dx="3.048" dy="1.27" layer="1" rot="R90"/>
+<wire x1="-3.048" y1="1.651" x2="-3.048" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="3.048" y1="1.651" x2="3.048" y2="-1.651" width="0.127" layer="21"/>
+<polygon width="0.127" layer="51">
+<vertex x="-2.286" y="1.651"/>
+<vertex x="-1.905" y="1.651"/>
+<vertex x="-1.905" y="-1.651"/>
+<vertex x="-2.286" y="-1.651"/>
+<vertex x="-2.286" y="-0.381" curve="90"/>
+<vertex x="-2.032" y="0" curve="90"/>
+<vertex x="-2.286" y="0.381"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="2.286" y="-1.651"/>
+<vertex x="1.905" y="-1.651"/>
+<vertex x="1.905" y="1.651"/>
+<vertex x="2.286" y="1.651"/>
+<vertex x="2.286" y="0.381" curve="90"/>
+<vertex x="2.032" y="0" curve="90"/>
+<vertex x="2.286" y="-0.381"/>
+</polygon>
+<text x="-1.905" y="1.905" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="0" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.048" y1="-1.651" x2="3.048" y2="1.651" layer="39"/>
+</package>
+<package name="F1206">
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.159" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.159" y1="-1.016" x2="-2.159" y2="1.016" width="0.127" layer="21"/>
+<smd name="1" x="-1.27" y="0" dx="1.27" dy="1.524" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="1.27" dy="1.524" layer="1"/>
+<text x="-1.905" y="1.27" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.778" y="0" size="0.635" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.159" y1="-1.016" x2="2.159" y2="1.016" layer="39"/>
+</package>
+<package name="9P-SMD-W-RING">
+<wire x1="-6.35" y1="7.493" x2="7.493" y2="7.493" width="0.127" layer="21"/>
+<wire x1="7.493" y1="7.493" x2="7.493" y2="4.9619" width="0.127" layer="21"/>
+<wire x1="7.493" y1="4.9619" x2="7.309" y2="3.962" width="0.127" layer="21" curve="-20.855518"/>
+<wire x1="7.309" y1="3.962" x2="6.477" y2="-0.5591" width="0.127" layer="21" curve="20.85427"/>
+<wire x1="6.477" y1="-0.5591" x2="6.477" y2="-7.493" width="0.127" layer="21"/>
+<wire x1="6.477" y1="-7.493" x2="-7.493" y2="-7.493" width="0.127" layer="21"/>
+<wire x1="-7.493" y1="-7.493" x2="-7.493" y2="6.096" width="0.127" layer="21"/>
+<wire x1="-7.493" y1="6.096" x2="-6.35" y2="6.096" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="6.096" x2="-6.35" y2="7.493" width="0.127" layer="21"/>
+<smd name="1" x="-7.493" y="2.414" dx="1.524" dy="0.762" layer="1"/>
+<smd name="2" x="-7.493" y="1.314" dx="1.524" dy="0.762" layer="1"/>
+<smd name="3" x="-7.493" y="0.214" dx="1.524" dy="0.762" layer="1"/>
+<smd name="4" x="-7.493" y="-0.886" dx="1.524" dy="0.762" layer="1"/>
+<smd name="5" x="-7.493" y="-1.986" dx="1.524" dy="0.762" layer="1"/>
+<smd name="6" x="-7.493" y="-3.086" dx="1.524" dy="0.762" layer="1"/>
+<smd name="7" x="-7.493" y="-4.186" dx="1.524" dy="0.762" layer="1"/>
+<smd name="8" x="-7.493" y="-5.286" dx="1.524" dy="0.762" layer="1"/>
+<smd name="9" x="-7.493" y="-6.386" dx="1.524" dy="0.762" layer="1"/>
+<smd name="G1" x="-6.893" y="-8.032" dx="1.524" dy="1.016" layer="1"/>
+<smd name="G2" x="2.88" y="-7.686" dx="2.032" dy="1.524" layer="1"/>
+<smd name="G4" x="-7.101" y="6.895" dx="1.524" dy="1.524" layer="1"/>
+<smd name="G3" x="2.88" y="7.714" dx="2.032" dy="1.524" layer="1"/>
+<text x="-4.953" y="7.874" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-4.953" y="-0.381" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-7.493" y1="-7.493" x2="7.493" y2="7.493" layer="39"/>
+<hole x="3.407" y="-4.886" drill="0.889"/>
+<hole x="3.407" y="3.114" drill="0.889"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_QFN_ATMEGA32U4">
@@ -10433,6 +10416,43 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <pin name="!Q" x="12.7" y="-2.54" length="short" direction="out" function="dot" rot="R180"/>
 <pin name="!SET" x="-7.62" y="7.62" length="short" direction="in" function="dot"/>
 <pin name="!CLR" x="-7.62" y="-7.62" length="short" direction="in" function="dot"/>
+</symbol>
+<symbol name="FUSE">
+<wire x1="-1.016" y1="0" x2="0" y2="-1.016" width="0.254" layer="94" curve="-300.510237"/>
+<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.254" layer="94" curve="-300.510237"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+<text x="-5.08" y="0" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="MICROSD">
+<wire x1="-12.7" y1="11.43" x2="-12.7" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-11.43" x2="12.7" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-11.43" x2="12.7" y2="13.97" width="0.254" layer="94"/>
+<wire x1="12.7" y1="13.97" x2="6.35" y2="13.97" width="0.254" layer="94"/>
+<wire x1="6.35" y1="13.97" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="3.81" y2="12.7" width="0.254" layer="94"/>
+<wire x1="3.81" y1="12.7" x2="3.81" y2="13.97" width="0.254" layer="94"/>
+<wire x1="3.81" y1="13.97" x2="1.27" y2="13.97" width="0.254" layer="94"/>
+<wire x1="1.27" y1="13.97" x2="-1.27" y2="11.43" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="11.43" x2="-12.7" y2="11.43" width="0.254" layer="94"/>
+<text x="-12.7" y="11.43" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-6.35" y="11.43" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<pin name="DATA2" x="-17.78" y="10.16" length="middle"/>
+<pin name="CS" x="-17.78" y="7.62" length="middle"/>
+<pin name="DI" x="-17.78" y="5.08" length="middle"/>
+<pin name="VDD" x="-17.78" y="2.54" length="middle"/>
+<pin name="SCLK" x="-17.78" y="0" length="middle"/>
+<pin name="VSS" x="-17.78" y="-2.54" length="middle"/>
+<pin name="DO" x="-17.78" y="-5.08" length="middle"/>
+<pin name="DATA1" x="-17.78" y="-7.62" length="middle"/>
+<pin name="CDN" x="-17.78" y="-10.16" length="middle"/>
+<pin name="G4" x="7.62" y="19.05" length="middle" rot="R270"/>
+<pin name="G3" x="10.16" y="19.05" length="middle" rot="R270"/>
+<pin name="G1" x="7.62" y="-16.51" length="middle" rot="R90"/>
+<pin name="G2" x="10.16" y="-16.51" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11415,70 +11435,31 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="SeeesStudio-OPL">
-<packages>
-<package name="9P-SMD-W-RING">
-<wire x1="-6.35" y1="7.493" x2="7.493" y2="7.493" width="0.127" layer="21"/>
-<wire x1="7.493" y1="7.493" x2="7.493" y2="4.9619" width="0.127" layer="21"/>
-<wire x1="7.493" y1="4.9619" x2="7.309" y2="3.962" width="0.127" layer="21" curve="-20.855518"/>
-<wire x1="7.309" y1="3.962" x2="6.477" y2="-0.5591" width="0.127" layer="21" curve="20.85427"/>
-<wire x1="6.477" y1="-0.5591" x2="6.477" y2="-7.493" width="0.127" layer="21"/>
-<wire x1="6.477" y1="-7.493" x2="-7.493" y2="-7.493" width="0.127" layer="21"/>
-<wire x1="-7.493" y1="-7.493" x2="-7.493" y2="6.096" width="0.127" layer="21"/>
-<wire x1="-7.493" y1="6.096" x2="-6.35" y2="6.096" width="0.127" layer="21"/>
-<wire x1="-6.35" y1="6.096" x2="-6.35" y2="7.493" width="0.127" layer="21"/>
-<smd name="1" x="-7.493" y="2.114" dx="1.524" dy="0.762" layer="1"/>
-<smd name="2" x="-7.493" y="1.014" dx="1.524" dy="0.762" layer="1"/>
-<smd name="3" x="-7.493" y="-0.086" dx="1.524" dy="0.762" layer="1"/>
-<smd name="4" x="-7.493" y="-1.186" dx="1.524" dy="0.762" layer="1"/>
-<smd name="5" x="-7.493" y="-2.286" dx="1.524" dy="0.762" layer="1"/>
-<smd name="6" x="-7.493" y="-3.386" dx="1.524" dy="0.762" layer="1"/>
-<smd name="7" x="-7.493" y="-4.486" dx="1.524" dy="0.762" layer="1"/>
-<smd name="8" x="-7.493" y="-5.586" dx="1.524" dy="0.762" layer="1"/>
-<smd name="9" x="-7.493" y="-6.686" dx="1.524" dy="0.762" layer="1"/>
-<smd name="G1" x="-6.893" y="-8.032" dx="1.524" dy="1.016" layer="1"/>
-<smd name="G2" x="2.88" y="-7.686" dx="2.032" dy="1.524" layer="1"/>
-<smd name="G4" x="-7.101" y="6.895" dx="1.524" dy="1.524" layer="1"/>
-<smd name="G3" x="2.88" y="7.714" dx="2.032" dy="1.524" layer="1"/>
-<text x="-4.953" y="7.874" size="1.27" layer="25" ratio="12">&gt;NAME</text>
-<text x="-4.953" y="-0.381" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-7.493" y1="-7.493" x2="7.493" y2="7.493" layer="39"/>
-<hole x="3.407" y="-4.886" drill="0.889"/>
-<hole x="3.407" y="3.114" drill="0.889"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MICROSD">
-<wire x1="-12.7" y1="11.43" x2="-12.7" y2="-11.43" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-11.43" x2="12.7" y2="-11.43" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-11.43" x2="12.7" y2="13.97" width="0.254" layer="94"/>
-<wire x1="12.7" y1="13.97" x2="6.35" y2="13.97" width="0.254" layer="94"/>
-<wire x1="6.35" y1="13.97" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="3.81" y2="12.7" width="0.254" layer="94"/>
-<wire x1="3.81" y1="12.7" x2="3.81" y2="13.97" width="0.254" layer="94"/>
-<wire x1="3.81" y1="13.97" x2="1.27" y2="13.97" width="0.254" layer="94"/>
-<wire x1="1.27" y1="13.97" x2="-1.27" y2="11.43" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="11.43" x2="-12.7" y2="11.43" width="0.254" layer="94"/>
-<text x="-12.7" y="11.43" size="1.27" layer="95" ratio="10">&gt;NAME</text>
-<text x="-6.35" y="11.43" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
-<pin name="DATA2" x="-17.78" y="10.16" length="middle"/>
-<pin name="CS" x="-17.78" y="7.62" length="middle"/>
-<pin name="DI" x="-17.78" y="5.08" length="middle"/>
-<pin name="VDD" x="-17.78" y="2.54" length="middle"/>
-<pin name="SCLK" x="-17.78" y="0" length="middle"/>
-<pin name="VSS" x="-17.78" y="-2.54" length="middle"/>
-<pin name="DO" x="-17.78" y="-5.08" length="middle"/>
-<pin name="DATA1" x="-17.78" y="-7.62" length="middle"/>
-<pin name="CDN" x="-17.78" y="-10.16" length="middle"/>
-<pin name="G4" x="7.62" y="19.05" length="middle" rot="R270"/>
-<pin name="G3" x="10.16" y="19.05" length="middle" rot="R270"/>
-<pin name="G1" x="7.62" y="-16.51" length="middle" rot="R90"/>
-<pin name="G2" x="10.16" y="-16.51" length="middle" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
+<deviceset name="FUSE*" prefix="F">
+<gates>
+<gate name="F" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1812" package="F1812">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1206" package="F1206">
+<connects>
+<connect gate="F" pin="1" pad="1"/>
+<connect gate="F" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="MICRO-SDCARD-CONNECTOR" prefix="J">
 <description>Micro SD Card</description>
 <gates>
@@ -11529,10 +11510,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <part name="Y1" library="SparkFun" deviceset="RESONATOR" device="SMD">
 <attribute name="MPN" value="CSTCE8M00G52-R0"/>
 <attribute name="OC_DIGIKEY" value="490-5994-2-ND"/>
-</part>
-<part name="F1" library="SparkFun" deviceset="PTC" device="SMD">
-<attribute name="MPN" value="MF-NSMF050-2"/>
-<attribute name="OC_DIGIKEY" value="MF-NSMF050-2TR-ND"/>
 </part>
 <part name="U4" library="SparkFun" deviceset="V_REG_LDO" device="SMD" value="MIC5219-3.3V">
 <attribute name="MPN" value="MIC5219-3.3YM5 TR"/>
@@ -11935,7 +11912,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="TP15" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="GND"/>
 <part name="GND" library="PaxInstrument-T400" deviceset="SPARKFUN-DIGITALIC_QFN_ATMEGA32U4" device=""/>
-<part name="J1" library="SeeesStudio-OPL" deviceset="MICRO-SDCARD-CONNECTOR" device="-3300060P1"/>
+<part name="J1" library="PaxInstrument-T400" deviceset="MICRO-SDCARD-CONNECTOR" device="-3300060P1"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="TP1" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="SW_PWR">
 <attribute name="MPN" value="N/A"/>
@@ -12015,6 +11992,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MPN" value="RC1608J103CS"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
 </part>
+<part name="F1" library="PaxInstrument-T400" deviceset="FUSE*" device="-1812"/>
 </parts>
 <sheets>
 <sheet>
@@ -12123,11 +12101,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <instance part="Y1" gate="G$1" x="35.56" y="127" smashed="yes" rot="R270">
 <attribute name="MPN" x="35.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="OC_DIGIKEY" x="35.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
-<instance part="F1" gate="G$1" x="43.18" y="246.38" smashed="yes">
-<attribute name="VALUE" x="39.878" y="248.92" size="1.778" layer="96"/>
-<attribute name="MPN" x="43.18" y="246.38" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="43.18" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="G$1" x="350.52" y="233.68" smashed="yes">
 <attribute name="NAME" x="342.9" y="242.824" size="1.778" layer="95"/>
@@ -12713,6 +12686,10 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="VALUE" x="285.242" y="237.49" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="287.02" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="287.02" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="F1" gate="F" x="45.72" y="246.38" smashed="yes">
+<attribute name="NAME" x="40.64" y="246.38" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="40.64" y="248.92" size="1.27" layer="96" ratio="10"/>
 </instance>
 </instances>
 <busses>
@@ -13349,15 +13326,15 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </net>
 <net name="USBVCC" class="1">
 <segment>
-<pinref part="F1" gate="G$1" pin="1"/>
 <label x="27.94" y="246.38" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="25.4" y1="231.14" x2="27.94" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="231.14" x2="27.94" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="241.3" x2="27.94" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="246.38" x2="38.1" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="246.38" x2="40.64" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="TP10" gate="G$1" pin="1"/>
 <junction x="27.94" y="241.3"/>
+<pinref part="F1" gate="F" pin="1"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -14030,7 +14007,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="111.76" y1="246.38" x2="99.06" y2="246.38" width="0.1524" layer="91"/>
 <junction x="68.58" y="246.38"/>
-<pinref part="F1" gate="G$1" pin="2"/>
 <label x="68.58" y="246.38" size="1.778" layer="95"/>
 <wire x1="99.06" y1="246.38" x2="68.58" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="246.38" x2="50.8" y2="246.38" width="0.1524" layer="91"/>
@@ -14041,6 +14017,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <wire x1="99.06" y1="241.3" x2="99.06" y2="246.38" width="0.1524" layer="91"/>
 <junction x="99.06" y="246.38"/>
 <junction x="68.58" y="226.06"/>
+<pinref part="F1" gate="F" pin="2"/>
 </segment>
 </net>
 <net name="N$31" class="0">
