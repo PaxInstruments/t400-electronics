@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -1958,7 +1958,6 @@ These are the default Design Rules for LumberDAQ.</description>
 </element>
 <element name="U1" library="newparts_2010" package="SOT23-5L" value="MCP9800" x="48.26" y="44.45" locked="yes" smashed="yes">
 <attribute name="MPN" value="MCP9800A0T-M/OT" x="48.26" y="44.45" size="1.778" layer="27" display="off"/>
-<attribute name="OC_DIGIKEY" value="MCP9800A0T-M/OTCT-ND" x="48.26" y="44.45" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="46.355" y="46.355" size="1.27" layer="25" align="center"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="48.26" y="48.895" rot="MR0">
@@ -1996,7 +1995,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="OC_DIGIKEY" value="DS3231MZ+-ND" x="61.595" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="64.262" y="23.876" size="0.4064" layer="25" align="center"/>
 </element>
-<element name="R6" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="100k" x="11.7475" y="9.525" smashed="yes" rot="R180">
+<element name="R6" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="11.7475" y="9.525" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="11.7475" y="9.525" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1608J103CS" x="11.7475" y="9.525" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.6365" y="9.55675" size="0.4064" layer="25" rot="R180" align="center"/>
@@ -2250,43 +2249,35 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="NAME" x="76.2" y="37.211" size="0.4064" layer="25" rot="R180" align="center"/>
 </element>
 <element name="R35" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="500R" x="53.34" y="33.9725" locked="yes" smashed="yes" rot="R180">
-<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="53.34" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MCT06030D5000BP100" x="53.34" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RN732ATTD5000B25" x="53.34" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="52.6415" y="33.9725" size="0.4064" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R36" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="500R" x="60.96" y="33.9725" locked="yes" smashed="yes" rot="R180">
-<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="60.96" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MCT06030D5000BP100" x="60.96" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RN732ATTD5000B25" x="60.96" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="60.2615" y="33.9725" size="0.4064" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R37" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="500R" x="71.12" y="33.9725" locked="yes" smashed="yes" rot="R180">
-<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="71.12" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MCT06030D5000BP100" x="71.12" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RN732ATTD5000B25" x="71.12" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="70.4215" y="33.9725" size="0.4064" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R38" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="500R" x="78.74" y="33.9725" locked="yes" smashed="yes" rot="R180">
-<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="78.74" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MCT06030D5000BP100" x="78.74" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RN732ATTD5000B25" x="78.74" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="78.0415" y="33.9725" size="0.4064" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R39" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="500R" x="17.78" y="33.9725" locked="yes" smashed="yes" rot="R180">
-<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="17.78" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MCT06030D5000BP100" x="17.78" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RN732ATTD5000B25" x="17.78" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.0815" y="33.9725" size="0.4064" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R40" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="500R" x="35.56" y="33.9725" locked="yes" smashed="yes" rot="R180">
-<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="35.56" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MCT06030D5000BP100" x="35.56" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RN732ATTD5000B25" x="35.56" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="34.8615" y="33.9725" size="0.4064" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R41" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="500R" x="25.4" y="33.9725" locked="yes" smashed="yes" rot="R180">
-<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="25.4" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MCT06030D5000BP100" x="25.4" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RN732ATTD5000B25" x="25.4" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="24.7015" y="33.9725" size="0.4064" layer="25" rot="R90" align="center"/>
 </element>
 <element name="R42" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="500R" x="43.18" y="33.9725" locked="yes" smashed="yes" rot="R180">
-<attribute name="OC_DIGIKEY" value="MCT06030D5000BP100-ND" x="43.18" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="MCT06030D5000BP100" x="43.18" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RN732ATTD5000B25" x="43.18" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="42.4815" y="33.9725" size="0.4064" layer="25" rot="R90" align="center"/>
 </element>
 <element name="U$2" library="charlespax" package="BL-5C-CONNECTOR" value="BL-5C-CONNECTOR" x="80.52" y="11.5" locked="yes" smashed="yes" rot="MR270"/>
@@ -2399,7 +2390,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="NAME" x="83.08975" y="16.637" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="81.534" y="16.79575" size="0.4064" layer="27"/>
 </element>
-<element name="R5" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="100k" x="82.55" y="13.97" rot="R180">
+<element name="R5" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="82.55" y="13.97" rot="R180">
 <attribute name="MPN" value="RC1608J103CS" x="82.55" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="82.55" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -2415,7 +2406,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="NAME" x="16.92275" y="12.41425" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="16.891" y="12.573" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="R7" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="100k" x="15.875" y="9.525" smashed="yes">
+<element name="R7" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="15.875" y="9.525" smashed="yes">
 <attribute name="MPN" value="RC1608J103CS" x="15.875" y="9.525" size="1.778" layer="27" display="off"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="15.875" y="9.525" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="16.41475" y="9.3345" size="0.4064" layer="25" font="vector"/>
@@ -2431,7 +2422,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="NAME" x="12.1285" y="12.03325" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="10.7315" y="12.192" size="0.4064" layer="27"/>
 </element>
-<element name="R21" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="100k" x="82.55" y="26.67" smashed="yes" rot="R90">
+<element name="R21" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="82.55" y="26.67" smashed="yes" rot="R90">
 <attribute name="MPN" value="RC1608J103CS" x="82.55" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="82.55" y="26.67" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="82.13725" y="25.527" size="0.4064" layer="25" font="vector"/>
@@ -2440,6 +2431,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="F1" library="PaxInstrument-T400" package="F1812" value="FUSE-1812" x="9.2075" y="5.23875" smashed="yes" rot="R270">
 <attribute name="NAME" x="7.62" y="3.65125" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="9.2075" y="7.14375" size="0.635" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="R22" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="-42.545" y="-39.37">
+<attribute name="MPN" value="RC1608J103CS" x="-42.545" y="-39.37" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="-42.545" y="-39.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R23" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="-45.72" y="-39.37">
+<attribute name="MPN" value="RC1608J103CS" x="-45.72" y="-39.37" size="1.778" layer="27" display="off"/>
+<attribute name="OC_DIGIKEY" value="1276-5086-2-ND" x="-45.72" y="-39.37" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2773,13 +2772,13 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="76.2" y1="27.6225" x2="74.9626" y2="27.6225" width="0.3048" layer="1"/>
 <wire x1="74.9626" y1="27.6225" x2="74.9601" y2="27.62" width="0.3048" layer="1"/>
 <contactref element="JP1" pad="2"/>
-<contactref element="IC3" pad="5"/>
 <wire x1="78.13125" y1="29.21" x2="76.2" y2="29.21" width="0.3048" layer="16"/>
-<wire x1="17.64375" y1="4.959375" x2="17.64375" y2="6.055" width="0.3048" layer="1"/>
 <wire x1="17.64375" y1="6.055" x2="18.0975" y2="6.50875" width="0.3048" layer="1"/>
 <via x="18.0975" y="6.50875" extent="1-16" drill="0.3302"/>
 <wire x1="76.835" y1="14.605" x2="76.835" y2="24.28875" width="0.3048" layer="1"/>
 <wire x1="76.835" y1="24.28875" x2="76.2" y2="24.92375" width="0.3048" layer="1"/>
+<contactref element="R21" pad="2"/>
+<wire x1="78.13125" y1="29.21" x2="82.55" y2="27.52" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="U3" pad="5"/>
@@ -2996,6 +2995,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="64.77" y="15.875" extent="1-16" drill="0.3302"/>
 <via x="62.5475" y="15.875" extent="1-16" drill="0.3302"/>
 <via x="40.005" y="14.9225" extent="1-16" drill="0.3302"/>
+<contactref element="R22" pad="2"/>
+<contactref element="R23" pad="1"/>
+<wire x1="-41.695" y1="-39.37" x2="-46.57" y2="-39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="4.064" y1="10.922" x2="-41.695" y2="-39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USBVCC" class="1">
 <contactref element="U$1" pad="PIN$1"/>
@@ -3220,9 +3223,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="R6" pad="1"/>
 <contactref element="R7" pad="1"/>
 <contactref element="IC3" pad="8"/>
-<contactref element="R21" pad="1"/>
 <wire x1="18.415" y1="13.6525" x2="18.415" y2="14.743628125" width="0.3048" layer="1"/>
-<wire x1="82.55" y1="25.82" x2="80.883125" y2="25.82" width="0.3048" layer="1"/>
 <wire x1="15.025" y1="9.525" x2="13.97" y2="9.525" width="0.3048" layer="1"/>
 <via x="15.39875" y="7.62" extent="1-16" drill="0.3302"/>
 <wire x1="13.97" y1="9.525" x2="12.5975" y2="9.525" width="0.3048" layer="1"/>
@@ -3253,6 +3254,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="15.69375" y1="3.259375" x2="14.679375" y2="3.259375" width="0.8128" layer="1"/>
 <wire x1="14.679375" y1="3.259375" x2="14.361875" y2="2.941875" width="0.8128" layer="1"/>
 <wire x1="14.361875" y1="2.941875" x2="14.361875" y2="1.27" width="0.8128" layer="1"/>
+<contactref element="JP1" pad="1"/>
+<wire x1="79.21625" y1="25.82" x2="79.03125" y2="29.21" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="LCD_BL">
 <contactref element="R19" pad="2"/>
@@ -3478,24 +3481,15 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="74.339" y1="14.293" x2="74.339" y2="7.62" width="0.3048" layer="1"/>
 </signal>
 <signal name="PWR_ONOFF">
-<contactref element="GND" pad="41"/>
-<contactref element="U$3" pad="41"/>
-<wire x1="21.018728125" y1="23.28705625" x2="20.334534375" y2="23.97125" width="0.3048" layer="1"/>
-<wire x1="20.334534375" y1="23.97125" x2="19.48600625" y2="23.97125" width="0.3048" layer="1"/>
-<wire x1="18.897409375" y1="24.559846875" x2="19.48600625" y2="23.97125" width="0.3048" layer="1"/>
-<wire x1="16.78725625" y1="26.67" x2="18.897409375" y2="24.559846875" width="0.3048" layer="1"/>
-<contactref element="TP9" pad="P$1"/>
-<contactref element="Q5" pad="3"/>
-<contactref element="R18" pad="1"/>
-<wire x1="16.78725625" y1="26.67" x2="14.97875" y2="26.67" width="0.3048" layer="1"/>
-<wire x1="14.97875" y1="28.09875" x2="14.97875" y2="26.67" width="0.3048" layer="1"/>
-<wire x1="14.97875" y1="26.67" x2="14.97875" y2="24.50375" width="0.3048" layer="16"/>
-<wire x1="14.97875" y1="24.50375" x2="13.97" y2="23.495" width="0.3048" layer="16"/>
-<wire x1="11.7475" y1="14.7525" x2="12.54125" y2="14.7525" width="0.3048" layer="16"/>
-<wire x1="12.54125" y1="14.7525" x2="13.97" y2="16.18125" width="0.3048" layer="16"/>
-<wire x1="13.97" y1="16.18125" x2="13.97" y2="23.495" width="0.3048" layer="16"/>
-<via x="11.7475" y="14.7525" extent="1-16" drill="0.3302"/>
-<wire x1="11.7475" y1="14.7525" x2="11.7475" y2="13.4825" width="0.3048" layer="1"/>
+<contactref element="GND" pad="40"/>
+<contactref element="U$3" pad="40"/>
+<contactref element="Q4" pad="1"/>
+<contactref element="TP1" pad="P$1"/>
+<contactref element="R22" pad="1"/>
+<wire x1="16.825" y1="13.4825" x2="-43.395" y2="-39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="21.37228125" y1="23.640609375" x2="16.825" y2="13.4825" width="0" layer="19" extent="1-1"/>
+<wire x1="19.46309375" y1="25.12553125" x2="21.37228125" y2="23.640609375" width="0" layer="19" extent="1-1"/>
+<wire x1="16.35125" y1="27.94" x2="19.46309375" y2="25.12553125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 </signal>
@@ -3806,22 +3800,15 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="42.76" y1="16.6125" x2="42.76" y2="14.2025" width="0.3048" layer="1"/>
 </signal>
 <signal name="SW_PWR">
-<contactref element="TP1" pad="P$1"/>
-<contactref element="GND" pad="40"/>
-<contactref element="U$3" pad="40"/>
-<wire x1="21.37228125" y1="23.640609375" x2="20.565390625" y2="24.4475" width="0.3048" layer="1"/>
-<wire x1="20.565390625" y1="24.4475" x2="20.141125" y2="24.4475" width="0.3048" layer="1"/>
-<wire x1="19.46309375" y1="25.12553125" x2="20.141125" y2="24.4475" width="0.3048" layer="1"/>
-<wire x1="16.648625" y1="27.94" x2="19.46309375" y2="25.12553125" width="0.3048" layer="1"/>
-<contactref element="Q4" pad="1"/>
-<wire x1="16.648625" y1="27.94" x2="16.35125" y2="27.94" width="0.3048" layer="1"/>
-<wire x1="16.35125" y1="27.94" x2="16.35125" y2="24.92375" width="0.3048" layer="16"/>
-<wire x1="16.35125" y1="24.92375" x2="14.605" y2="23.1775" width="0.3048" layer="16"/>
-<wire x1="14.605" y1="23.1775" x2="14.605" y2="16.1925" width="0.3048" layer="16"/>
-<wire x1="14.605" y1="16.1925" x2="16.03375" y2="14.76375" width="0.3048" layer="16"/>
-<wire x1="16.03375" y1="14.76375" x2="16.825" y2="14.76375" width="0.3048" layer="16"/>
-<wire x1="16.825" y1="14.76375" x2="16.825" y2="13.4825" width="0.3048" layer="1"/>
-<via x="16.825" y="14.76375" extent="1-16" drill="0.3302"/>
+<contactref element="U$3" pad="41"/>
+<contactref element="GND" pad="41"/>
+<contactref element="R18" pad="1"/>
+<contactref element="Q5" pad="3"/>
+<contactref element="TP9" pad="P$1"/>
+<wire x1="18.897409375" y1="24.559846875" x2="21.018728125" y2="23.28705625" width="0" layer="19" extent="1-1"/>
+<wire x1="14.97875" y1="26.67" x2="18.897409375" y2="24.559846875" width="0" layer="19" extent="1-1"/>
+<wire x1="14.97875" y1="28.09875" x2="14.97875" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="11.7475" y1="13.4825" x2="18.897409375" y2="24.559846875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 </signal>
@@ -4081,6 +4068,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="80.48625" y1="20.01125" x2="80.48625" y2="18.415" width="0.3048" layer="1"/>
 <wire x1="81.6" y1="20.49" x2="80.965" y2="20.49" width="0.3048" layer="1"/>
 <wire x1="80.965" y1="20.49" x2="80.48625" y2="20.01125" width="0.3048" layer="1"/>
+<contactref element="R23" pad="2"/>
+<wire x1="26.180609375" y1="24.347715625" x2="-44.87" y2="-39.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R19" pad="1"/>
@@ -4230,13 +4219,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="6.604" y1="10.965" x2="6.9215" y2="11.2825" width="0.3048" layer="1"/>
 <wire x1="6.9215" y1="11.2825" x2="10.7975" y2="11.2825" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$36">
-<contactref element="R21" pad="2"/>
-<contactref element="JP1" pad="1"/>
-<wire x1="79.03125" y1="29.21" x2="81.28" y2="29.21" width="0.3048" layer="16"/>
-<via x="81.28" y="29.21" extent="1-16" drill="0.3302"/>
-<wire x1="81.28" y1="29.21" x2="82.55" y2="29.21" width="0.3048" layer="1"/>
-<wire x1="82.55" y1="29.21" x2="82.55" y2="27.52" width="0.3048" layer="1"/>
+<signal name="N$28">
+<contactref element="IC3" pad="5"/>
+<contactref element="R21" pad="1"/>
+<wire x1="17.64375" y1="4.959375" x2="82.55" y2="25.82" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
