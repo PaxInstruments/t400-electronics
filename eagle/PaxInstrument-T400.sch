@@ -6848,14 +6848,14 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <vertex x="-5.5" y="-3.87"/>
 <vertex x="-5.3" y="-3.47"/>
 </polygon>
-<rectangle x1="-8.9" y1="-1.1" x2="-7.1" y2="1.1" layer="29" rot="R180"/>
-<rectangle x1="7.1" y1="-1.1" x2="8.9" y2="1.1" layer="29" rot="R180"/>
 <rectangle x1="-9.3" y1="-2.7" x2="-7.1" y2="1.1" layer="1"/>
-<rectangle x1="-9.3" y1="-1.1" x2="-7.1" y2="1.1" layer="31"/>
 <rectangle x1="7.1" y1="-2.7" x2="9.3" y2="1.1" layer="1"/>
-<rectangle x1="7.1" y1="-1.1" x2="9.3" y2="1.1" layer="31"/>
 <wire x1="-8.295" y1="-2.27" x2="-7.795" y2="-2.27" width="0.2032" layer="51"/>
 <wire x1="7.795" y1="-2.27" x2="8.295" y2="-2.27" width="0.2032" layer="51"/>
+<rectangle x1="-9.4" y1="-2.8" x2="-7" y2="1.2" layer="29"/>
+<rectangle x1="-9.3" y1="-2.7" x2="-7.1" y2="1.1" layer="31"/>
+<rectangle x1="7" y1="-2.8" x2="9.4" y2="1.2" layer="29"/>
+<rectangle x1="7.1" y1="-2.7" x2="9.3" y2="1.1" layer="31"/>
 </package>
 <package name="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_QFN-44-NOPAD">
 <wire x1="3.1" y1="-3.5" x2="3.5" y2="-3.5" width="0.2032" layer="21"/>
@@ -9877,75 +9877,6 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <text x="-4.064" y="2.794" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-4.064" y="-4.064" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_QFN-44">
-<wire x1="1.65" y1="-3.5" x2="3.5" y2="-3.5" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="-1.65" x2="3.5" y2="-3.5" width="0.2032" layer="21"/>
-<wire x1="-1.65" y1="-3.5" x2="-3.5" y2="-3.5" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="-3.1" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="1.65" x2="3.5" y2="3.5" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="3.5" x2="1.65" y2="3.5" width="0.2032" layer="21"/>
-<wire x1="-3" y1="3.5" x2="-3.5" y2="3" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="51"/>
-<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="51"/>
-<wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="51"/>
-<smd name="1" x="-3.4" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="2" x="-3.4" y="2" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="3" x="-3.4" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="4" x="-3.4" y="1" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="5" x="-3.4" y="0.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="6" x="-3.4" y="0" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="7" x="-3.4" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="8" x="-3.4" y="-1" dx="0.8" dy="0.3" layer="1"/>
-<smd name="9" x="-3.4" y="-1.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="10" x="-3.4" y="-2" dx="0.8" dy="0.3" layer="1"/>
-<smd name="11" x="-3.4" y="-2.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="12" x="-2.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="13" x="-2" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="14" x="-1.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="15" x="-1" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="16" x="-0.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="17" x="0" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="18" x="0.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="1" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="1.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="21" x="2" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="22" x="2.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="23" x="3.4" y="-2.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="24" x="3.4" y="-2" dx="0.8" dy="0.3" layer="1"/>
-<smd name="25" x="3.4" y="-1.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="26" x="3.4" y="-1" dx="0.8" dy="0.3" layer="1"/>
-<smd name="27" x="3.4" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="28" x="3.4" y="0" dx="0.8" dy="0.3" layer="1"/>
-<smd name="29" x="3.4" y="0.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="30" x="3.4" y="1" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="31" x="3.4" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="32" x="3.4" y="2" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="33" x="3.4" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
-<smd name="34" x="2.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="35" x="2" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="36" x="1.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="37" x="1" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="38" x="0.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="39" x="0" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="40" x="-0.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="41" x="-1" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="42" x="-1.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="43" x="-2" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<smd name="44" x="-2.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
-<text x="-2.45" y="4.8" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.5" y="-6.15" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="P$1" x="0" y="0" drill="0.3302" diameter="5.08" shape="square"/>
-<rectangle x1="-2.2225" y1="0.9525" x2="-0.9525" y2="2.2225" layer="31"/>
-<rectangle x1="0.9525" y1="0.9525" x2="2.2225" y2="2.2225" layer="31"/>
-<rectangle x1="0.9525" y1="-0.635" x2="2.2225" y2="0.635" layer="31"/>
-<rectangle x1="-2.2225" y1="-0.635" x2="-0.9525" y2="0.635" layer="31"/>
-<rectangle x1="-0.635" y1="0.9525" x2="0.635" y2="2.2225" layer="31"/>
-<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="31"/>
-<rectangle x1="-2.2225" y1="-2.2225" x2="-0.9525" y2="-0.9525" layer="31"/>
-<rectangle x1="-0.635" y1="-2.2225" x2="0.635" y2="-0.9525" layer="31"/>
-<rectangle x1="0.9525" y1="-2.2225" x2="2.2225" y2="-0.9525" layer="31"/>
-</package>
 <package name="SSOP8">
 <wire x1="-0.88" y1="-1.4" x2="0.88" y2="-1.4" width="0.2032" layer="21"/>
 <wire x1="0.88" y1="-1.4" x2="0.88" y2="1.4" width="0.2032" layer="21"/>
@@ -10032,6 +9963,75 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <rectangle x1="-7.493" y1="-7.493" x2="7.493" y2="7.493" layer="39"/>
 <hole x="3.407" y="-4.886" drill="0.889"/>
 <hole x="3.407" y="3.114" drill="0.889"/>
+</package>
+<package name="SPARKFUN-DIGITALIC_SPARKFUN-DIGITALIC_QFN-44">
+<wire x1="1.65" y1="-3.5" x2="3.5" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="-1.65" x2="3.5" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="-1.65" y1="-3.5" x2="-3.5" y2="-3.5" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="-3.1" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="1.65" x2="3.5" y2="3.5" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="1.65" y2="3.5" width="0.2032" layer="21"/>
+<wire x1="-3" y1="3.5" x2="-3.5" y2="3" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="51"/>
+<smd name="1" x="-3.4" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="2" x="-3.4" y="2" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="3" x="-3.4" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="4" x="-3.4" y="1" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="5" x="-3.4" y="0.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="6" x="-3.4" y="0" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="7" x="-3.4" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="8" x="-3.4" y="-1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="9" x="-3.4" y="-1.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="10" x="-3.4" y="-2" dx="0.8" dy="0.3" layer="1"/>
+<smd name="11" x="-3.4" y="-2.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="12" x="-2.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="13" x="-2" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="14" x="-1.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="15" x="-1" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="16" x="-0.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="17" x="0" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="18" x="0.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="1" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="1.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="21" x="2" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="2.5" y="-3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="3.4" y="-2.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="24" x="3.4" y="-2" dx="0.8" dy="0.3" layer="1"/>
+<smd name="25" x="3.4" y="-1.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="26" x="3.4" y="-1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="27" x="3.4" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="28" x="3.4" y="0" dx="0.8" dy="0.3" layer="1"/>
+<smd name="29" x="3.4" y="0.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="30" x="3.4" y="1" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="31" x="3.4" y="1.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="32" x="3.4" y="2" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="33" x="3.4" y="2.5" dx="0.8" dy="0.3" layer="1" rot="R180"/>
+<smd name="34" x="2.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="35" x="2" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="36" x="1.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="37" x="1" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="38" x="0.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="39" x="0" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R90"/>
+<smd name="40" x="-0.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="41" x="-1" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="42" x="-1.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="43" x="-2" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<smd name="44" x="-2.5" y="3.4" dx="0.8" dy="0.3" layer="1" rot="R270"/>
+<text x="-2.45" y="4.8" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-6.15" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="P$1" x="0" y="0" drill="0.3302" diameter="5.08" shape="square"/>
+<rectangle x1="-2.2225" y1="0.9525" x2="-0.9525" y2="2.2225" layer="31"/>
+<rectangle x1="0.9525" y1="0.9525" x2="2.2225" y2="2.2225" layer="31"/>
+<rectangle x1="0.9525" y1="-0.635" x2="2.2225" y2="0.635" layer="31"/>
+<rectangle x1="-2.2225" y1="-0.635" x2="-0.9525" y2="0.635" layer="31"/>
+<rectangle x1="-0.635" y1="0.9525" x2="0.635" y2="2.2225" layer="31"/>
+<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="31"/>
+<rectangle x1="-2.2225" y1="-2.2225" x2="-0.9525" y2="-0.9525" layer="31"/>
+<rectangle x1="-0.635" y1="-2.2225" x2="0.635" y2="-0.9525" layer="31"/>
+<rectangle x1="0.9525" y1="-2.2225" x2="2.2225" y2="-0.9525" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -11590,7 +11590,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MPN" value="GRM188R60J475KE19D"/>
 <attribute name="OC_DIGIKEY" value="490-3297-2-ND"/>
 </part>
-<part name="R3" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="2k">
+<part name="R3" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="2.32k (1%)">
 <attribute name="MPN" value="ESR03EZPJ202"/>
 <attribute name="OC_DIGIKEY" value="RHM2.0KDTR-ND"/>
 </part>
@@ -11757,7 +11757,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MPN" value="10118194-0001LF"/>
 <attribute name="OC_DIGIKEY" value="609-4618-2-ND"/>
 </part>
-<part name="TP9" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="PWR_ON/OFF">
+<part name="TP9" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="SW_PWR">
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
@@ -11909,7 +11909,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <part name="GND" library="PaxInstrument-T400" deviceset="SPARKFUN-DIGITALIC_QFN_ATMEGA32U4" device=""/>
 <part name="J1" library="PaxInstrument-T400" deviceset="MICRO-SDCARD-CONNECTOR" device="-3300060P1"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="TP1" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="SW_PWR">
+<part name="TP1" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="PWR_ONOFF">
 <attribute name="MPN" value="N/A"/>
 <attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
@@ -12099,6 +12099,11 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <text x="196.85" y="160.02" size="1.778" layer="91" align="top-left">Note: MCP9800A0 = I2C address of 000
          MCP9800A5 = I2C address of 101</text>
 <text x="11.43" y="12.7" size="1.778" layer="91" align="top-left">Note: All 500R resistor are low tolerance ±0.1%</text>
+<wire x1="66.04" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="88.9" y1="73.66" x2="88.9" y2="25.4" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="88.9" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="66.04" y1="25.4" x2="66.04" y2="73.66" width="0.1524" layer="94" style="shortdash"/>
+<text x="66.548" y="74.168" size="1.778" layer="94">See note</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -12198,7 +12203,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MPN" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="129.54" y="218.44" smashed="yes" rot="R270">
-<attribute name="VALUE" x="127.762" y="217.17" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="127.762" y="209.55" size="1.778" layer="96" rot="R90"/>
 <attribute name="OC_DIGIKEY" x="129.54" y="218.44" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="129.54" y="218.44" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
@@ -12427,97 +12432,97 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="OC_DIGIKEY" x="58.42" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="58.42" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C7" gate="G$1" x="86.36" y="63.5" smashed="yes">
-<attribute name="OC_DIGIKEY" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="90.424" y="63.881" size="1.778" layer="96"/>
-<attribute name="MPN" x="86.36" y="63.5" size="1.778" layer="96" display="off"/>
+<instance part="C7" gate="G$1" x="96.52" y="63.5" smashed="yes">
+<attribute name="OC_DIGIKEY" x="96.52" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="100.584" y="63.881" size="1.778" layer="96"/>
+<attribute name="MPN" x="96.52" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C8" gate="G$1" x="86.36" y="53.34" smashed="yes">
-<attribute name="OC_DIGIKEY" x="86.36" y="53.34" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="90.424" y="53.721" size="1.778" layer="96"/>
-<attribute name="MPN" x="86.36" y="53.34" size="1.778" layer="96" display="off"/>
+<instance part="C8" gate="G$1" x="96.52" y="53.34" smashed="yes">
+<attribute name="OC_DIGIKEY" x="96.52" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="100.584" y="53.721" size="1.778" layer="96"/>
+<attribute name="MPN" x="96.52" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C10" gate="G$1" x="86.36" y="43.18" smashed="yes">
-<attribute name="OC_DIGIKEY" x="86.36" y="43.18" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="90.424" y="43.561" size="1.778" layer="96"/>
-<attribute name="MPN" x="86.36" y="43.18" size="1.778" layer="96" display="off"/>
+<instance part="C10" gate="G$1" x="96.52" y="43.18" smashed="yes">
+<attribute name="OC_DIGIKEY" x="96.52" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="100.584" y="43.561" size="1.778" layer="96"/>
+<attribute name="MPN" x="96.52" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C11" gate="G$1" x="86.36" y="33.02" smashed="yes">
-<attribute name="OC_DIGIKEY" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="90.424" y="33.401" size="1.778" layer="96"/>
-<attribute name="MPN" x="86.36" y="33.02" size="1.778" layer="96" display="off"/>
+<instance part="C11" gate="G$1" x="96.52" y="33.02" smashed="yes">
+<attribute name="OC_DIGIKEY" x="96.52" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="100.584" y="33.401" size="1.778" layer="96"/>
+<attribute name="MPN" x="96.52" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C13" gate="G$1" x="86.36" y="22.86" smashed="yes">
-<attribute name="OC_DIGIKEY" x="86.36" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="85.979" y="16.764" size="1.778" layer="96" rot="R90"/>
-<attribute name="MPN" x="86.36" y="22.86" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C14" gate="G$1" x="91.44" y="22.86" smashed="yes">
-<attribute name="OC_DIGIKEY" x="91.44" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="91.059" y="16.764" size="1.778" layer="96" rot="R90"/>
-<attribute name="MPN" x="91.44" y="22.86" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="C15" gate="G$1" x="96.52" y="22.86" smashed="yes">
+<instance part="C13" gate="G$1" x="96.52" y="22.86" smashed="yes">
 <attribute name="OC_DIGIKEY" x="96.52" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="96.139" y="16.764" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="96.52" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C16" gate="G$1" x="101.6" y="22.86" smashed="yes">
+<instance part="C14" gate="G$1" x="101.6" y="22.86" smashed="yes">
 <attribute name="OC_DIGIKEY" x="101.6" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="101.219" y="16.764" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="101.6" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C17" gate="G$1" x="86.36" y="73.66" smashed="yes">
-<attribute name="OC_DIGIKEY" x="86.36" y="73.66" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="85.979" y="67.564" size="1.778" layer="96" rot="R90"/>
-<attribute name="MPN" x="86.36" y="73.66" size="1.778" layer="96" display="off"/>
+<instance part="C15" gate="G$1" x="106.68" y="22.86" smashed="yes">
+<attribute name="OC_DIGIKEY" x="106.68" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="106.299" y="16.764" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="106.68" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C24" gate="G$1" x="91.44" y="73.66" smashed="yes">
-<attribute name="OC_DIGIKEY" x="91.44" y="73.66" size="1.778" layer="96" display="off"/>
-<attribute name="VALUE" x="91.059" y="67.564" size="1.778" layer="96" rot="R90"/>
-<attribute name="MPN" x="91.44" y="73.66" size="1.778" layer="96" display="off"/>
+<instance part="C16" gate="G$1" x="111.76" y="22.86" smashed="yes">
+<attribute name="OC_DIGIKEY" x="111.76" y="22.86" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="111.379" y="16.764" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="111.76" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C25" gate="G$1" x="96.52" y="73.66" smashed="yes">
+<instance part="C17" gate="G$1" x="96.52" y="73.66" smashed="yes">
 <attribute name="OC_DIGIKEY" x="96.52" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="96.139" y="67.564" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="96.52" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C37" gate="G$1" x="101.6" y="73.66" smashed="yes">
+<instance part="C24" gate="G$1" x="101.6" y="73.66" smashed="yes">
 <attribute name="OC_DIGIKEY" x="101.6" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="101.219" y="67.564" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="101.6" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R35" gate="G$1" x="73.66" y="68.58" smashed="yes" rot="R180">
-<attribute name="VALUE" x="72.39" y="65.278" size="1.778" layer="96"/>
-<attribute name="MPN" x="73.66" y="68.58" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="C25" gate="G$1" x="106.68" y="73.66" smashed="yes">
+<attribute name="OC_DIGIKEY" x="106.68" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="106.299" y="67.564" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="106.68" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R36" gate="G$1" x="71.12" y="60.96" smashed="yes">
-<attribute name="VALUE" x="72.39" y="64.262" size="1.778" layer="96" rot="R180"/>
-<attribute name="MPN" x="71.12" y="60.96" size="1.778" layer="96" display="off"/>
+<instance part="C37" gate="G$1" x="111.76" y="73.66" smashed="yes">
+<attribute name="OC_DIGIKEY" x="111.76" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="VALUE" x="111.379" y="67.564" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="111.76" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R37" gate="G$1" x="78.74" y="58.42" smashed="yes" rot="R180">
-<attribute name="VALUE" x="77.47" y="55.118" size="1.778" layer="96"/>
-<attribute name="MPN" x="78.74" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="R35" gate="G$1" x="76.2" y="68.58" smashed="yes" rot="R180">
+<attribute name="VALUE" x="74.93" y="65.278" size="1.778" layer="96"/>
+<attribute name="MPN" x="76.2" y="68.58" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R38" gate="G$1" x="71.12" y="50.8" smashed="yes">
-<attribute name="VALUE" x="72.39" y="54.102" size="1.778" layer="96" rot="R180"/>
-<attribute name="MPN" x="71.12" y="50.8" size="1.778" layer="96" display="off"/>
+<instance part="R36" gate="G$1" x="73.66" y="60.96" smashed="yes">
+<attribute name="VALUE" x="74.93" y="64.262" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="73.66" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R39" gate="G$1" x="78.74" y="48.26" smashed="yes" rot="R180">
-<attribute name="VALUE" x="77.47" y="44.958" size="1.778" layer="96"/>
-<attribute name="MPN" x="78.74" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="R37" gate="G$1" x="81.28" y="58.42" smashed="yes" rot="R180">
+<attribute name="VALUE" x="80.01" y="55.118" size="1.778" layer="96"/>
+<attribute name="MPN" x="81.28" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R40" gate="G$1" x="78.74" y="38.1" smashed="yes" rot="R180">
-<attribute name="VALUE" x="77.47" y="34.798" size="1.778" layer="96"/>
-<attribute name="MPN" x="78.74" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="R38" gate="G$1" x="73.66" y="50.8" smashed="yes">
+<attribute name="VALUE" x="74.93" y="54.102" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="73.66" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R41" gate="G$1" x="71.12" y="40.64" smashed="yes">
-<attribute name="VALUE" x="72.39" y="43.942" size="1.778" layer="96" rot="R180"/>
-<attribute name="MPN" x="71.12" y="40.64" size="1.778" layer="96" display="off"/>
+<instance part="R39" gate="G$1" x="81.28" y="48.26" smashed="yes" rot="R180">
+<attribute name="VALUE" x="80.01" y="44.958" size="1.778" layer="96"/>
+<attribute name="MPN" x="81.28" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R42" gate="G$1" x="71.12" y="30.48" smashed="yes">
-<attribute name="VALUE" x="72.39" y="33.782" size="1.778" layer="96" rot="R180"/>
-<attribute name="MPN" x="71.12" y="30.48" size="1.778" layer="96" display="off"/>
+<instance part="R40" gate="G$1" x="81.28" y="38.1" smashed="yes" rot="R180">
+<attribute name="VALUE" x="80.01" y="34.798" size="1.778" layer="96"/>
+<attribute name="MPN" x="81.28" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R41" gate="G$1" x="73.66" y="40.64" smashed="yes">
+<attribute name="VALUE" x="74.93" y="43.942" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="73.66" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R42" gate="G$1" x="73.66" y="30.48" smashed="yes">
+<attribute name="VALUE" x="74.93" y="33.782" size="1.778" layer="96" rot="R180"/>
+<attribute name="MPN" x="73.66" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$2" gate="G$1" x="172.72" y="238.76" rot="R90"/>
 <instance part="GND4" gate="1" x="170.18" y="220.98"/>
@@ -13595,13 +13600,13 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </net>
 <net name="TC2-" class="0">
 <segment>
-<label x="104.14" y="30.48" size="1.778" layer="95"/>
+<label x="114.3" y="30.48" size="1.778" layer="95"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="30.48" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="30.48" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
-<junction x="86.36" y="30.48"/>
+<wire x1="78.74" y1="30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
+<junction x="96.52" y="30.48"/>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="27.94" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="27.94" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -13612,15 +13617,15 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </net>
 <net name="TC2+" class="0">
 <segment>
-<label x="104.14" y="35.56" size="1.778" layer="95"/>
+<label x="114.3" y="35.56" size="1.778" layer="95"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="38.1" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
-<junction x="86.36" y="38.1"/>
+<wire x1="86.36" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<junction x="96.52" y="38.1"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="38.1" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="27.94" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
-<junction x="91.44" y="38.1"/>
+<wire x1="101.6" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="27.94" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
+<junction x="101.6" y="38.1"/>
 <pinref part="R40" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -13631,15 +13636,15 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </net>
 <net name="TC1-" class="0">
 <segment>
-<label x="104.14" y="40.64" size="1.778" layer="95"/>
+<label x="114.3" y="40.64" size="1.778" layer="95"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="40.64" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
-<junction x="86.36" y="40.64"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="27.94" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="40.64" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
 <junction x="96.52" y="40.64"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="40.64" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="27.94" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
+<junction x="106.68" y="40.64"/>
 <pinref part="R41" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -13650,15 +13655,15 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </net>
 <net name="TC1+" class="0">
 <segment>
-<label x="104.14" y="45.72" size="1.778" layer="95"/>
+<label x="114.3" y="45.72" size="1.778" layer="95"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="48.26" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
-<junction x="86.36" y="48.26"/>
+<wire x1="86.36" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
+<junction x="96.52" y="48.26"/>
 <pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="27.94" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
-<junction x="101.6" y="48.26"/>
+<wire x1="111.76" y1="48.26" x2="114.3" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="27.94" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
+<junction x="111.76" y="48.26"/>
 <pinref part="R39" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -13670,15 +13675,15 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </net>
 <net name="TC4-" class="0">
 <segment>
-<label x="104.14" y="50.8" size="1.778" layer="95"/>
+<label x="114.3" y="50.8" size="1.778" layer="95"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<junction x="86.36" y="50.8"/>
+<wire x1="78.74" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
+<junction x="96.52" y="50.8"/>
 <pinref part="C37" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="71.12" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<junction x="101.6" y="50.8"/>
+<wire x1="111.76" y1="50.8" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="71.12" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
+<junction x="111.76" y="50.8"/>
 <pinref part="R38" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -13689,15 +13694,15 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </net>
 <net name="TC3-" class="0">
 <segment>
-<wire x1="86.36" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
-<label x="104.14" y="60.96" size="1.778" layer="95"/>
+<wire x1="96.52" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
+<label x="114.3" y="60.96" size="1.778" layer="95"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
-<junction x="86.36" y="60.96"/>
+<wire x1="96.52" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<junction x="96.52" y="60.96"/>
 <pinref part="C24" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="71.12" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
-<junction x="91.44" y="60.96"/>
+<wire x1="101.6" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="71.12" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<junction x="101.6" y="60.96"/>
 <pinref part="R36" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -13708,13 +13713,13 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </net>
 <net name="TC3+" class="0">
 <segment>
-<label x="104.14" y="66.04" size="1.778" layer="95"/>
+<label x="114.3" y="66.04" size="1.778" layer="95"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
-<junction x="86.36" y="68.58"/>
+<wire x1="81.28" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
+<junction x="96.52" y="68.58"/>
 <pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="71.12" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="71.12" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -13725,15 +13730,15 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </net>
 <net name="TC4+" class="0">
 <segment>
-<label x="104.14" y="55.88" size="1.778" layer="95"/>
+<label x="114.3" y="55.88" size="1.778" layer="95"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
-<junction x="86.36" y="58.42"/>
-<pinref part="C25" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="58.42" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="71.12" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="58.42" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
 <junction x="96.52" y="58.42"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="71.12" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
+<junction x="106.68" y="58.42"/>
 <pinref part="R37" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -14095,29 +14100,29 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="20.32" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
-<junction x="91.44" y="20.32"/>
-<pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="20.32" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="20.32" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
+<junction x="101.6" y="20.32"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="20.32" x2="111.76" y2="20.32" width="0.1524" layer="91"/>
+<junction x="106.68" y="20.32"/>
+<wire x1="96.52" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
 <junction x="96.52" y="20.32"/>
-<wire x1="86.36" y1="20.32" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
-<junction x="86.36" y="20.32"/>
 <label x="73.66" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C17" gate="G$1" pin="1"/>
 <pinref part="C24" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="C25" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
-<junction x="91.44" y="78.74"/>
-<pinref part="C37" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="78.74" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
+<junction x="101.6" y="78.74"/>
+<pinref part="C37" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
+<junction x="106.68" y="78.74"/>
+<wire x1="96.52" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <junction x="96.52" y="78.74"/>
-<wire x1="86.36" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
-<junction x="86.36" y="78.74"/>
 <label x="73.66" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -14139,7 +14144,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="33.02" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
 <junction x="35.56" y="60.96"/>
 <wire x1="35.56" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -14147,7 +14152,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <net name="N$11" class="0">
 <segment>
 <pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="68.58" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="68.58" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="63.5" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="P$1"/>
 <pinref part="R27" gate="G$1" pin="1"/>
@@ -14164,7 +14169,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <wire x1="50.8" y1="66.04" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="45.72" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="45.72" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
 <junction x="50.8" y="45.72"/>
@@ -14178,7 +14183,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <wire x1="50.8" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="43.18" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
 <junction x="50.8" y="43.18"/>
 </segment>
@@ -14187,7 +14192,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <segment>
 <pinref part="U$13" gate="G$1" pin="P$2"/>
 <pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="35.56" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
@@ -14200,7 +14205,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="53.34" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="P$2"/>
 <wire x1="43.18" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="2"/>
@@ -14212,7 +14217,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <net name="N$35" class="0">
 <segment>
 <pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="55.88" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="P$1"/>
 <pinref part="R28" gate="G$1" pin="1"/>
@@ -14226,7 +14231,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <segment>
 <pinref part="R40" gate="G$1" pin="2"/>
 <pinref part="U$13" gate="G$1" pin="P$1"/>
-<wire x1="73.66" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="66.04" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
