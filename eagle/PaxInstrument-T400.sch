@@ -11508,36 +11508,33 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <parts>
 <part name="FRAME1" library="SparkFun" deviceset="FRAME-A3" device=""/>
 <part name="ICSP" library="PaxInstrument-T400" deviceset="SPARKFUN-CONNECTORS_M03X2" device="PAX" value="ICSP">
+<attribute name="MF" value="FCI"/>
 <attribute name="MPN" value="95278-101A06LF"/>
-<attribute name="OC_DIGIKEY" value="609-3487-2-ND"/>
 </part>
 <part name="Y1" library="SparkFun" deviceset="RESONATOR" device="SMD">
+<attribute name="MF" value="Murata Electronics"/>
 <attribute name="MPN" value="CSTCE8M00G52-R0"/>
-<attribute name="OC_DIGIKEY" value="490-5994-2-ND"/>
 </part>
 <part name="U4" library="SparkFun" deviceset="V_REG_LDO" device="SMD" value="MIC5219-3.3V">
+<attribute name="MF" value="Micrel"/>
 <attribute name="MPN" value="MIC5219-3.3YM5 TR"/>
-<attribute name="OC_DIGIKEY" value="576-1281-2-ND"/>
 </part>
 <part name="C6" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="U3" library="SparkFun-PowerIC" deviceset="MCP73831" device="">
-<attribute name="MPN" value="MCP73831T-2DCI/OT"/>
-<attribute name="OC_DIGIKEY" value="MCP73831T-2DCI/OTTR-ND"/>
+<attribute name="MF" value="Microchip Technology"/>
+<attribute name="MPN" value="MCP73832T-2DCI/OT"/>
+<attribute name="PROD_ID" value=""/>
 </part>
 <part name="C12" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="10uF">
-<attribute name="MPN" value="JMK107ABJ106MAHT"/>
-<attribute name="OC_DIGIKEY" value="587-3383-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R9" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="22R">
-<attribute name="MPN" value="RC0603JR-0722RL"/>
-<attribute name="OC_DIGIKEY" value="311-22GRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R10" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="22R">
-<attribute name="MPN" value="RC0603JR-0722RL"/>
-<attribute name="OC_DIGIKEY" value="311-22GRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -11547,454 +11544,478 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R13" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="1.5k">
-<attribute name="MPN" value="RC0603JR-071K5L"/>
-<attribute name="OC_DIGIKEY" value="311-1.5KGRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R14" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="1.5k">
-<attribute name="MPN" value="RC0603JR-071K5L"/>
-<attribute name="OC_DIGIKEY" value="311-1.5KGRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="P+12" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="P+6" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R4" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C19" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="1uF">
-<attribute name="MPN" value="LMK107B7105KA-T"/>
-<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C4" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="470pF">
-<attribute name="MPN" value="C1608X5R1A474K080AA"/>
-<attribute name="OC_DIGIKEY" value="445-1320-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C1" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="4.7uF">
-<attribute name="MPN" value="GRM188R60J475KE19D"/>
-<attribute name="OC_DIGIKEY" value="490-3297-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C2" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C3" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C5" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C9" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="4.7uF">
-<attribute name="MPN" value="GRM188R60J475KE19D"/>
-<attribute name="OC_DIGIKEY" value="490-3297-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R3" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="2.32k (1%)">
-<attribute name="MPN" value="ESR03EZPJ202"/>
-<attribute name="OC_DIGIKEY" value="RHM2.0KDTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="IC1" library="JeeLabs" deviceset="MCP3424" device="">
+<attribute name="MF" value="Microchip Technology"/>
 <attribute name="MPN" value="MCP3424-E/SL"/>
-<attribute name="OC_DIGIKEY" value="MCP3424-E/SL-ND"/>
 </part>
 <part name="P+3" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U1" library="newparts_2010" deviceset="MCP9800" device="">
+<attribute name="MF" value="Microchip Technology"/>
 <attribute name="MPN" value="MCP9800A0T-M/OT"/>
 </part>
 <part name="P+5" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="U$10" library="PaxInstrument-T400" deviceset="CHARLESPAX_TC-MINI-CONNECTOR" device="">
-<attribute name="MPN" value="custom"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
+<attribute name="MF" value="Keystone"/>
+<attribute name="MPN" value="3572"/>
 </part>
 <part name="U$11" library="PaxInstrument-T400" deviceset="CHARLESPAX_TC-MINI-CONNECTOR" device="">
-<attribute name="MPN" value="custom"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
+<attribute name="MF" value="Keystone"/>
+<attribute name="MPN" value="3572"/>
 </part>
 <part name="U$12" library="PaxInstrument-T400" deviceset="CHARLESPAX_TC-MINI-CONNECTOR" device="">
-<attribute name="MPN" value="custom"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
+<attribute name="MF" value="Keystone"/>
+<attribute name="MPN" value="3572"/>
 </part>
 <part name="U$13" library="PaxInstrument-T400" deviceset="CHARLESPAX_TC-MINI-CONNECTOR" device="">
-<attribute name="MPN" value="custom"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
+<attribute name="MF" value="Keystone"/>
+<attribute name="MPN" value="3572"/>
 </part>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Z1" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="PGB1010603">
+<attribute name="MF" value="Littelfuse"/>
 <attribute name="MPN" value="PGB1010603NRHF"/>
-<attribute name="OC_DIGIKEY" value="F4239CT-ND"/>
 </part>
 <part name="Z2" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="PGB1010603">
+<attribute name="MF" value="Littelfuse"/>
 <attribute name="MPN" value="PGB1010603NRHF"/>
-<attribute name="OC_DIGIKEY" value="F4239CT-ND"/>
 </part>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$14" library="charlespax" deviceset="DS3231M" device="">
+<attribute name="MF" value="Maxim Integrated"/>
 <attribute name="MPN" value="DS3231MZ+"/>
-<attribute name="OC_DIGIKEY" value="DS3231MZ+-ND"/>
 </part>
 <part name="P+7" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R6" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R8" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R11" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R12" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R15" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R16" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="P+9" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="C26" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="10uF">
-<attribute name="MPN" value="JMK107ABJ106MAHT"/>
-<attribute name="OC_DIGIKEY" value="587-3383-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C27" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C28" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C29" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C30" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="1uF">
-<attribute name="MPN" value="LMK107B7105KA-T"/>
-<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C31" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C18" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R2" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C32" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C33" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C34" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R17" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="2k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
-<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
-<part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
-<part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
+<part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD">
+<attribute name="MF" value="C&amp;K Components"/>
+<attribute name="MPN" value="RS-187R05A2-DS MT RT"/>
+</part>
+<part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD">
+<attribute name="MF" value="C&amp;K Components"/>
+<attribute name="MPN" value="RS-187R05A2-DS MT RT"/>
+</part>
+<part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD">
+<attribute name="MF" value="C&amp;K Components"/>
+<attribute name="MPN" value="RS-187R05A2-DS MT RT"/>
+</part>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
-<part name="S5" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
-<part name="S6" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
+<part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD">
+<attribute name="MF" value="C&amp;K Components"/>
+<attribute name="MPN" value="RS-187R05A2-DS MT RT"/>
+</part>
+<part name="S5" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD">
+<attribute name="MF" value="C&amp;K Components"/>
+<attribute name="MPN" value="RS-187R05A2-DS MT RT"/>
+</part>
+<part name="S6" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD">
+<attribute name="MF" value="C&amp;K Components"/>
+<attribute name="MPN" value="RS-187R05A2-DS MT RT"/>
+</part>
 <part name="U$5" library="charlespax" deviceset="LG132643-DG" device="">
+<attribute name="MF" value=""/>
 <attribute name="MPN" value="LG132643-DW"/>
 </part>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R19" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="3.3R"/>
+<part name="R19" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="3.3R">
+<attribute name="MPN" value=""/>
+</part>
 <part name="C35" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="1uF">
-<attribute name="MPN" value="LMK107B7105KA-T"/>
-<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C36" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="1uF">
-<attribute name="MPN" value="LMK107B7105KA-T"/>
-<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="ICSP1" library="PaxInstrument-T400" deviceset="SPARKFUN-CONNECTORS_M03X2" device="PAX" value="ICSP">
+<attribute name="MF" value="FCI"/>
 <attribute name="MPN" value="95278-101A06LF"/>
-<attribute name="OC_DIGIKEY" value="609-3487-2-ND"/>
 </part>
 <part name="R20" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="D2" library="PaxInstrument-T400" deviceset="SPARKFUN-DISCRETESEMI_DIODE" device="SOD123" technology="SOD123" value="MBR230S1F">
-<attribute name="MPN" value="B340A-13-F"/>
-<attribute name="OC_DIGIKEY" value="B340A-FDICT-ND"/>
+<attribute name="MF" value="DIODES INC"/>
+<attribute name="MPN" value="MBR230S1F-7"/>
 </part>
 <part name="R24" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10K">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="U$1" library="blinkinlabs" deviceset="USB_MICRO" device="SMT+THRUHULE">
+<attribute name="MF" value="FCI"/>
 <attribute name="MPN" value="10118194-0001LF"/>
-<attribute name="OC_DIGIKEY" value="609-4618-2-ND"/>
 </part>
 <part name="TP9" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="SW_PWR">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+15" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R27" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="1M">
-<attribute name="MPN" value="RC0603JR-0710ML"/>
-<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R28" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="1M">
-<attribute name="MPN" value="RC0603JR-0710ML"/>
-<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R29" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="1M">
-<attribute name="MPN" value="RC0603JR-0710ML"/>
-<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R30" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="1M">
-<attribute name="MPN" value="RC0603JR-0710ML"/>
-<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R31" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="1M">
-<attribute name="MPN" value="RC0603JR-0710ML"/>
-<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R32" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="1M">
-<attribute name="MPN" value="RC0603JR-0710ML"/>
-<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R33" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="1M">
-<attribute name="MPN" value="RC0603JR-0710ML"/>
-<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R34" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="1M">
-<attribute name="MPN" value="RC0603JR-0710ML"/>
-<attribute name="OC_DIGIKEY" value="311-10MGRTR-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C7" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="1uF">
-<attribute name="MPN" value="LMK107B7105KA-T"/>
-<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C8" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="1uF">
-<attribute name="MPN" value="LMK107B7105KA-T"/>
-<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C10" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="1uF">
-<attribute name="MPN" value="LMK107B7105KA-T"/>
-<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C11" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="1uF">
-<attribute name="MPN" value="LMK107B7105KA-T"/>
-<attribute name="OC_DIGIKEY" value="587-1242-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C13" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C14" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C15" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C16" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C17" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C24" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C25" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="C37" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R35" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
+<attribute name="MF" value="KOA Speer"/>
 <attribute name="MPN" value="RN732ATTD5000B25"/>
 </part>
 <part name="R36" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
+<attribute name="MF" value="KOA Speer"/>
 <attribute name="MPN" value="RN732ATTD5000B25"/>
 </part>
 <part name="R37" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
+<attribute name="MF" value="KOA Speer"/>
 <attribute name="MPN" value="RN732ATTD5000B25"/>
 </part>
 <part name="R38" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
+<attribute name="MF" value="KOA Speer"/>
 <attribute name="MPN" value="RN732ATTD5000B25"/>
 </part>
 <part name="R39" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
+<attribute name="MF" value="KOA Speer"/>
 <attribute name="MPN" value="RN732ATTD5000B25"/>
 </part>
 <part name="R40" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
+<attribute name="MF" value="KOA Speer"/>
 <attribute name="MPN" value="RN732ATTD5000B25"/>
 </part>
 <part name="R41" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
+<attribute name="MF" value="KOA Speer"/>
 <attribute name="MPN" value="RN732ATTD5000B25"/>
 </part>
 <part name="R42" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
+<attribute name="MF" value="KOA Speer"/>
 <attribute name="MPN" value="RN732ATTD5000B25"/>
 </part>
-<part name="U$2" library="charlespax" deviceset="BL-5C-CONNECTOR" device=""/>
+<part name="U$2" library="charlespax" deviceset="BL-5C-CONNECTOR" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+</part>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="BAT1" library="SparkFun-Electromechanical" deviceset="BATTERY" device="12MM">
+<attribute name="MF" value="Keystone Electronics"/>
 <attribute name="MPN" value="3000TR"/>
-<attribute name="OC_DIGIKEY" value="3000KTR-ND"/>
 </part>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$4" library="PaxInstrument-T400" deviceset="W25Q80BV" device="" value="W25Q80DV"/>
+<part name="U$4" library="PaxInstrument-T400" deviceset="W25Q80BV" device="" value="W25Q80DV">
+<attribute name="MF" value="Winbond Electronics"/>
+<attribute name="MPN" value="W25Q80DVSSIG-ND"/>
+</part>
 <part name="C20" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+8" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-2" device="SMD-NO"/>
-<part name="TP10" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU">
+<part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-2" device="SMD-NO">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
+</part>
+<part name="TP10" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU">
+<attribute name="MF" value="N/A"/>
+<attribute name="MPN" value="N/A"/>
 </part>
 <part name="TP11" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="VBUS_IN">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="TP12" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="VBUS">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="TP13" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="3.3V">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="TP14" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="VBAT">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
-<part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="TP15" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="GND"/>
-<part name="GND" library="PaxInstrument-T400" deviceset="SPARKFUN-DIGITALIC_QFN_ATMEGA32U4" device=""/>
-<part name="J1" library="PaxInstrument-T400" deviceset="MICRO-SDCARD-CONNECTOR" device="-3300060P1"/>
+<part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="">
+<attribute name="MF" value="N/A"/>
+<attribute name="MPN" value="N/A"/>
+</part>
+<part name="TP15" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="GND">
+<attribute name="MF" value="N/A"/>
+<attribute name="MPN" value="N/A"/>
+</part>
+<part name="GND" library="PaxInstrument-T400" deviceset="SPARKFUN-DIGITALIC_QFN_ATMEGA32U4" device="">
+<attribute name="MF" value="Atmel"/>
+<attribute name="MPN" value="ATMEGA32U4-MU"/>
+</part>
+<part name="J1" library="PaxInstrument-T400" deviceset="MICRO-SDCARD-CONNECTOR" device="-3300060P1">
+<attribute name="MF" value="SUNTECH"/>
+<attribute name="MPN" value="ST-TF-003A"/>
+</part>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="TP1" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="PWR_ONOFF">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="TP2" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="3V3_EN">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="TP3" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="BATT_STAT">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="TP4" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="VBAT_SENSE">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
-<part name="Q1" library="PaxInstrument-T400" deviceset="MOSFET-PCHANNEL" device="SMT" value="DMP2035U-7"/>
-<part name="U2" library="PaxInstrument-T400" deviceset="APX809" device=""/>
+<part name="Q1" library="PaxInstrument-T400" deviceset="MOSFET-PCHANNEL" device="SMT" value="DMP2035U-7">
+<attribute name="MF" value="DIODES INC"/>
+<attribute name="MPN" value="DMP2035U-7"/>
+</part>
+<part name="U2" library="PaxInstrument-T400" deviceset="APX809" device="">
+<attribute name="MF" value="DIODES INC"/>
+<attribute name="MPN" value="APX809-44SAG-7"/>
+</part>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="TP5" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="LCD_BL">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="TP6" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="FLASH_CS">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
 <part name="TP7" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="SD_CS">
+<attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-<attribute name="OC_DIGIKEY" value="N/A"/>
 </part>
-<part name="X1" library="PaxInstrument-T400" deviceset="FH12-12S-1S" device=""/>
-<part name="U$3" library="PaxInstrument-T400" deviceset="SPARKFUN-DIGITALIC_ATMEGA32U4" device="TQFP"/>
+<part name="X1" library="PaxInstrument-T400" deviceset="FH12-12S-1S" device="">
+<attribute name="MF" value="Hirose Connector"/>
+<attribute name="MPN" value="FH12-12S-1SH(55)"/>
+</part>
+<part name="U$3" library="PaxInstrument-T400" deviceset="SPARKFUN-DIGITALIC_ATMEGA32U4" device="TQFP">
+<attribute name="MF" value="Atmel"/>
+<attribute name="MPN" value="ATMEGA32U4-AU"/>
+</part>
 <part name="C21" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
-<attribute name="MPN" value="CL10B104KO8NNNC"/>
-<attribute name="OC_DIGIKEY" value="1276-1005-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
-<part name="TP8" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="ISOTHERMAL"/>
+<part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device="">
+<attribute name="MF" value="N/A"/>
+<attribute name="MPN" value="N/A"/>
+</part>
+<part name="TP8" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="ISOTHERMAL">
+<attribute name="MF" value="N/A"/>
+<attribute name="MPN" value="N/A"/>
+</part>
 <part name="R1" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="P+1" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="C22" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="10uF">
-<attribute name="MPN" value="JMK107ABJ106MAHT"/>
-<attribute name="OC_DIGIKEY" value="587-3383-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Q2" library="PaxInstrument-T400" deviceset="MOSFET-PCHANNEL" device="SMT" value="DMP2035U-7"/>
-<part name="R5" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<part name="Q2" library="PaxInstrument-T400" deviceset="MOSFET-PCHANNEL" device="SMT" value="DMP2035U-7">
+<attribute name="MF" value="DIODES INC"/>
+<attribute name="MPN" value="DMP2035U-7"/>
 </part>
-<part name="Q3" library="PaxInstrument-T400" deviceset="MOSFET-NCHANNEL" device="SMT" value="DMN2075U-7"/>
+<part name="R5" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
+<attribute name="MPN" value=""/>
+</part>
+<part name="Q3" library="PaxInstrument-T400" deviceset="MOSFET-NCHANNEL" device="SMT" value="DMN2075U-7">
+<attribute name="MF" value="DIODES INC"/>
+<attribute name="MPN" value="DMN2075U-7 "/>
+</part>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IC3" library="PaxInstrument-T400" deviceset="SN74LVC1G74" device="DCT"/>
+<part name="IC3" library="PaxInstrument-T400" deviceset="SN74LVC1G74" device="DCT">
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MPN" value="SN74LVC1G74DCTR "/>
+</part>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Q4" library="PaxInstrument-T400" deviceset="MOSFET-NCHANNEL" device="SMT" value="DMN2075U-7"/>
+<part name="Q4" library="PaxInstrument-T400" deviceset="MOSFET-NCHANNEL" device="SMT" value="DMN2075U-7">
+<attribute name="MF" value="DIODES INC"/>
+<attribute name="MPN" value="DMN2075U-7 "/>
+</part>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R7" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="P+10" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="R18" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Q5" library="PaxInstrument-T400" deviceset="MOSFET-PCHANNEL" device="SMT" value="DMP2035U-7"/>
-<part name="R21" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<part name="Q5" library="PaxInstrument-T400" deviceset="MOSFET-PCHANNEL" device="SMT" value="DMP2035U-7">
+<attribute name="MF" value="DIODES INC"/>
+<attribute name="MPN" value="DMP2035U-7"/>
 </part>
-<part name="F1" library="PaxInstrument-T400" deviceset="FUSE*" device="-1812"/>
+<part name="R21" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
+<attribute name="MPN" value=""/>
+</part>
+<part name="F1" library="PaxInstrument-T400" deviceset="FUSE*" device="-1812">
+<attribute name="MF" value="Bourns"/>
+<attribute name="MPN" value="MF-MSMF050-2"/>
+</part>
 <part name="R22" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="R23" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
-<attribute name="MPN" value="RC1608J103CS"/>
-<attribute name="OC_DIGIKEY" value="1276-5086-2-ND"/>
+<attribute name="MPN" value=""/>
 </part>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -12059,7 +12080,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <wire x1="254" y1="154.94" x2="195.58" y2="154.94" width="0.2032" layer="94"/>
 <wire x1="195.58" y1="154.94" x2="195.58" y2="193.04" width="0.2032" layer="94"/>
 <text x="198.12" y="187.96" size="3.81" layer="94">Temp sensor</text>
-<text x="330.2" y="15.24" size="2.54" layer="94" align="center-left">0.11</text>
+<text x="330.2" y="15.24" size="2.54" layer="94" align="center-left">0.12</text>
 <wire x1="256.54" y1="73.66" x2="314.96" y2="73.66" width="0.2032" layer="94"/>
 <wire x1="256.54" y1="111.76" x2="256.54" y2="73.66" width="0.2032" layer="94"/>
 <wire x1="314.96" y1="111.76" x2="314.96" y2="73.66" width="0.2032" layer="94"/>
@@ -12109,38 +12130,34 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="ICSP" gate="G$1" x="347.98" y="93.98">
 <attribute name="MPN" x="347.98" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="347.98" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="347.98" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Y1" gate="G$1" x="35.56" y="127" smashed="yes" rot="R270">
 <attribute name="MPN" x="35.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="OC_DIGIKEY" x="35.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MF" x="35.56" y="127" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="U4" gate="G$1" x="350.52" y="233.68" smashed="yes">
 <attribute name="NAME" x="342.9" y="242.824" size="1.778" layer="95"/>
 <attribute name="MPN" x="350.52" y="233.68" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="350.52" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="350.52" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="68.58" y="218.44" smashed="yes">
-<attribute name="OC_DIGIKEY" x="68.58" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="68.199" y="212.344" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="68.58" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="111.76" y="223.52">
 <attribute name="MPN" x="111.76" y="223.52" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="111.76" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="111.76" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="185.42" y="228.6" smashed="yes">
-<attribute name="OC_DIGIKEY" x="185.42" y="228.6" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="185.039" y="222.504" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="185.42" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="45.72" y="226.06" smashed="yes">
-<attribute name="OC_DIGIKEY" x="45.72" y="226.06" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="46.99" y="222.758" size="1.778" layer="96"/>
 <attribute name="MPN" x="45.72" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="45.72" y="231.14" smashed="yes">
-<attribute name="OC_DIGIKEY" x="45.72" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="46.99" y="227.838" size="1.778" layer="96"/>
 <attribute name="MPN" x="45.72" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
@@ -12152,171 +12169,148 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <instance part="GND2" gate="1" x="25.4" y="116.84"/>
 <instance part="GND25" gate="1" x="43.18" y="93.98"/>
 <instance part="R13" gate="G$1" x="99.06" y="147.32" smashed="yes">
-<attribute name="OC_DIGIKEY" x="99.06" y="147.32" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="100.33" y="149.098" size="1.778" layer="96"/>
 <attribute name="MPN" x="99.06" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="99.06" y="144.78" smashed="yes">
-<attribute name="OC_DIGIKEY" x="99.06" y="144.78" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="100.33" y="141.478" size="1.778" layer="96"/>
 <attribute name="MPN" x="99.06" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+12" gate="G$1" x="106.68" y="152.4" rot="MR0"/>
 <instance part="P+6" gate="G$1" x="43.18" y="180.34"/>
 <instance part="R4" gate="G$1" x="35.56" y="177.8" smashed="yes">
-<attribute name="OC_DIGIKEY" x="35.56" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="34.29" y="179.578" size="1.778" layer="96"/>
 <attribute name="MPN" x="35.56" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="22.86" y="139.7" smashed="yes">
-<attribute name="OC_DIGIKEY" x="22.86" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="24.384" y="137.541" size="1.778" layer="96"/>
 <attribute name="MPN" x="22.86" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND26" gate="1" x="22.86" y="132.08"/>
 <instance part="C4" gate="G$1" x="358.14" y="215.9">
-<attribute name="OC_DIGIKEY" x="358.14" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="358.14" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="358.14" y="208.28"/>
 <instance part="C1" gate="G$1" x="330.2" y="231.14">
-<attribute name="OC_DIGIKEY" x="330.2" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="330.2" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="320.04" y="231.14">
-<attribute name="OC_DIGIKEY" x="320.04" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="320.04" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="33.02" y="157.48" smashed="yes">
-<attribute name="OC_DIGIKEY" x="33.02" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="32.639" y="151.384" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="33.02" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="27.94" y="157.48" smashed="yes">
-<attribute name="OC_DIGIKEY" x="27.94" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="27.559" y="151.384" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="27.94" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="134.62" y="220.98" smashed="yes">
-<attribute name="OC_DIGIKEY" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="134.239" y="214.884" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="134.62" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="129.54" y="218.44" smashed="yes" rot="R270">
 <attribute name="VALUE" x="127.762" y="209.55" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="129.54" y="218.44" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="129.54" y="218.44" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="IC1" gate="G$1" x="223.52" y="88.9">
 <attribute name="MPN" x="223.52" y="88.9" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="223.52" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="223.52" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+3" gate="G$1" x="236.22" y="104.14"/>
 <instance part="GND11" gate="1" x="236.22" y="78.74"/>
 <instance part="U1" gate="1" x="236.22" y="172.72" smashed="yes">
 <attribute name="MPN" x="228.6" y="162.56" size="1.27" layer="96"/>
+<attribute name="MF" x="236.22" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+5" gate="G$1" x="215.9" y="180.34"/>
 <instance part="LOGO1" gate="G$1" x="370.84" y="35.56">
-<attribute name="OC_DIGIKEY" x="370.84" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="370.84" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="370.84" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$10" gate="G$1" x="25.4" y="63.5" smashed="yes">
-<attribute name="OC_DIGIKEY" x="25.4" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="25.4" y="63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="25.4" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$11" gate="G$1" x="25.4" y="55.88" smashed="yes">
-<attribute name="OC_DIGIKEY" x="25.4" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="25.4" y="55.88" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="25.4" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$12" gate="G$1" x="25.4" y="45.72" smashed="yes">
-<attribute name="OC_DIGIKEY" x="25.4" y="45.72" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="25.4" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="25.4" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$13" gate="G$1" x="25.4" y="38.1" smashed="yes">
-<attribute name="OC_DIGIKEY" x="25.4" y="38.1" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="25.4" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="25.4" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND18" gate="1" x="363.22" y="162.56"/>
 <instance part="Z1" gate="G$1" x="33.02" y="215.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="36.068" y="208.788" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="33.02" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="33.02" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="33.02" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Z2" gate="G$1" x="38.1" y="215.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="41.148" y="208.788" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="38.1" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="38.1" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="38.1" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND19" gate="1" x="33.02" y="203.2"/>
 <instance part="U$14" gate="G$1" x="347.98" y="170.18">
 <attribute name="MPN" x="347.98" y="170.18" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="347.98" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="347.98" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+7" gate="G$1" x="340.36" y="185.42"/>
 <instance part="R6" gate="G$1" x="233.68" y="238.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="231.902" y="237.49" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="233.68" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="233.68" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="330.2" y="223.52"/>
 <instance part="R8" gate="G$1" x="246.38" y="58.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="244.602" y="57.15" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="246.38" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="246.38" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="251.46" y="58.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="249.682" y="57.15" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="251.46" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="251.46" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="256.54" y="58.42" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="253.238" y="57.15" size="1.778" layer="96" rot="MR90"/>
-<attribute name="OC_DIGIKEY" x="256.54" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MPN" x="256.54" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="215.9" y="58.42" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="212.598" y="57.15" size="1.778" layer="96" rot="MR90"/>
-<attribute name="OC_DIGIKEY" x="215.9" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MPN" x="215.9" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="210.82" y="58.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="209.042" y="57.15" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="210.82" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="210.82" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="P+9" gate="G$1" x="233.68" y="63.5" rot="MR0"/>
 <instance part="C26" gate="G$1" x="360.68" y="231.14">
-<attribute name="OC_DIGIKEY" x="360.68" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="360.68" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C27" gate="G$1" x="368.3" y="231.14">
-<attribute name="OC_DIGIKEY" x="368.3" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="368.3" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="365.76" y="223.52"/>
 <instance part="C28" gate="G$1" x="304.8" y="236.22" smashed="yes">
-<attribute name="OC_DIGIKEY" x="304.8" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="309.499" y="235.204" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="304.8" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND28" gate="1" x="304.8" y="226.06"/>
 <instance part="C29" gate="G$1" x="241.3" y="91.44" smashed="yes">
-<attribute name="OC_DIGIKEY" x="241.3" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="240.919" y="85.344" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="241.3" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C30" gate="G$1" x="246.38" y="88.9" smashed="yes">
-<attribute name="OC_DIGIKEY" x="246.38" y="88.9" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="245.999" y="82.804" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="246.38" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C31" gate="G$1" x="215.9" y="170.18">
-<attribute name="OC_DIGIKEY" x="215.9" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="215.9" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="360.68" y="182.88" smashed="yes" rot="R90">
-<attribute name="OC_DIGIKEY" x="360.68" y="182.88" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="362.204" y="183.261" size="1.778" layer="95"/>
 <attribute name="VALUE" x="352.044" y="183.261" size="1.778" layer="96"/>
 <attribute name="MPN" x="360.68" y="182.88" size="1.778" layer="96" rot="R90" display="off"/>
@@ -12324,217 +12318,221 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <instance part="R2" gate="G$1" x="327.66" y="177.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="331.2414" y="176.53" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="325.882" y="176.53" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="327.66" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="327.66" y="177.8" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C32" gate="G$1" x="22.86" y="157.48" smashed="yes">
-<attribute name="OC_DIGIKEY" x="22.86" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="22.479" y="151.384" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="22.86" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C33" gate="G$1" x="17.78" y="157.48" smashed="yes">
-<attribute name="OC_DIGIKEY" x="17.78" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="17.399" y="151.384" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="17.78" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C34" gate="G$1" x="12.7" y="157.48" smashed="yes">
-<attribute name="OC_DIGIKEY" x="12.7" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="12.319" y="151.384" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="12.7" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND30" gate="1" x="15.24" y="147.32"/>
 <instance part="R17" gate="G$1" x="93.98" y="220.98" smashed="yes">
 <attribute name="VALUE" x="95.25" y="219.202" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_DIGIKEY" x="93.98" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="93.98" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="S1" gate="G$1" x="238.76" y="30.48" smashed="yes" rot="MR180"/>
-<instance part="S2" gate="G$1" x="238.76" y="38.1" smashed="yes" rot="MR180"/>
-<instance part="S3" gate="G$1" x="238.76" y="45.72" smashed="yes" rot="MR180"/>
+<instance part="S1" gate="G$1" x="238.76" y="30.48" smashed="yes" rot="MR180">
+<attribute name="MF" x="238.76" y="30.48" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="238.76" y="30.48" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="S2" gate="G$1" x="238.76" y="38.1" smashed="yes" rot="MR180">
+<attribute name="MF" x="238.76" y="38.1" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="238.76" y="38.1" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
+<instance part="S3" gate="G$1" x="238.76" y="45.72" smashed="yes" rot="MR180">
+<attribute name="MF" x="238.76" y="45.72" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="238.76" y="45.72" size="1.778" layer="96" rot="MR180" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="231.14" y="17.78"/>
-<instance part="S4" gate="G$1" x="223.52" y="45.72" smashed="yes" rot="R180"/>
-<instance part="S5" gate="G$1" x="223.52" y="38.1" smashed="yes" rot="R180"/>
-<instance part="S6" gate="G$1" x="233.68" y="223.52" smashed="yes" rot="R270"/>
-<instance part="U$5" gate="G$1" x="154.94" y="106.68">
-<attribute name="MPN" x="154.94" y="106.68" size="1.778" layer="96" display="off"/>
+<instance part="S4" gate="G$1" x="223.52" y="45.72" smashed="yes" rot="R180">
+<attribute name="MF" x="223.52" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="223.52" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="S5" gate="G$1" x="223.52" y="38.1" smashed="yes" rot="R180">
+<attribute name="MF" x="223.52" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="223.52" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="S6" gate="G$1" x="233.68" y="223.52" smashed="yes" rot="R270">
+<attribute name="MF" x="233.68" y="223.52" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="233.68" y="223.52" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="U$5" gate="G$1" x="152.4" y="106.68">
+<attribute name="MPN" x="152.4" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="152.4" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="160.02" y="96.52"/>
 <instance part="P+4" gate="G$1" x="162.56" y="139.7"/>
 <instance part="R19" gate="G$1" x="170.18" y="129.54" smashed="yes">
 <attribute name="NAME" x="163.83" y="131.0386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="171.45" y="131.318" size="1.778" layer="96"/>
+<attribute name="MPN" x="170.18" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C35" gate="G$1" x="167.64" y="109.22" rot="R90">
-<attribute name="OC_DIGIKEY" x="167.64" y="109.22" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="167.64" y="109.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C36" gate="G$1" x="165.1" y="104.14" rot="R270">
-<attribute name="OC_DIGIKEY" x="165.1" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="165.1" y="104.14" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="ICSP1" gate="G$1" x="284.48" y="93.98">
 <attribute name="MPN" x="284.48" y="93.98" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="284.48" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="284.48" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="165.1" y="170.18" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="163.83" y="168.402" size="1.778" layer="96" rot="MR180"/>
-<attribute name="OC_DIGIKEY" x="165.1" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="165.1" y="170.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="114.3" y="246.38">
-<attribute name="OC_DIGIKEY" x="114.3" y="246.38" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="114.3" y="246.38" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="114.3" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="175.26" y="170.18" smashed="yes">
 <attribute name="VALUE" x="179.07" y="168.402" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_DIGIKEY" x="175.26" y="170.18" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="175.26" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U$1" gate="G$1" x="17.78" y="226.06">
 <attribute name="MPN" x="17.78" y="226.06" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="17.78" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="17.78" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP9" gate="G$1" x="215.9" y="231.14" rot="R180">
 <attribute name="MPN" x="215.9" y="231.14" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="OC_DIGIKEY" x="215.9" y="231.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="215.9" y="231.14" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="218.44" y="121.92"/>
 <instance part="P+15" gate="G$1" x="50.8" y="76.2"/>
 <instance part="R27" gate="G$1" x="35.56" y="71.12" rot="R90">
-<attribute name="OC_DIGIKEY" x="35.56" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="35.56" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="43.18" y="71.12" rot="R90">
-<attribute name="OC_DIGIKEY" x="43.18" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="43.18" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R29" gate="G$1" x="50.8" y="71.12" rot="R90">
-<attribute name="OC_DIGIKEY" x="50.8" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="50.8" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="58.42" y="71.12" rot="R90">
-<attribute name="OC_DIGIKEY" x="58.42" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="58.42" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R31" gate="G$1" x="35.56" y="27.94" rot="R90">
-<attribute name="OC_DIGIKEY" x="35.56" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="35.56" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="43.18" y="27.94" rot="R90">
-<attribute name="OC_DIGIKEY" x="43.18" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="43.18" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R33" gate="G$1" x="50.8" y="27.94" rot="R90">
-<attribute name="OC_DIGIKEY" x="50.8" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="50.8" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R34" gate="G$1" x="58.42" y="27.94" rot="R90">
-<attribute name="OC_DIGIKEY" x="58.42" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="58.42" y="27.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="96.52" y="63.5" smashed="yes">
-<attribute name="OC_DIGIKEY" x="96.52" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="100.584" y="63.881" size="1.778" layer="96"/>
 <attribute name="MPN" x="96.52" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="96.52" y="53.34" smashed="yes">
-<attribute name="OC_DIGIKEY" x="96.52" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="100.584" y="53.721" size="1.778" layer="96"/>
 <attribute name="MPN" x="96.52" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="96.52" y="43.18" smashed="yes">
-<attribute name="OC_DIGIKEY" x="96.52" y="43.18" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="100.584" y="43.561" size="1.778" layer="96"/>
 <attribute name="MPN" x="96.52" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="96.52" y="33.02" smashed="yes">
-<attribute name="OC_DIGIKEY" x="96.52" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="100.584" y="33.401" size="1.778" layer="96"/>
 <attribute name="MPN" x="96.52" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="96.52" y="22.86" smashed="yes">
-<attribute name="OC_DIGIKEY" x="96.52" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="96.139" y="16.764" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="96.52" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="101.6" y="22.86" smashed="yes">
-<attribute name="OC_DIGIKEY" x="101.6" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="101.219" y="16.764" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="101.6" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="106.68" y="22.86" smashed="yes">
-<attribute name="OC_DIGIKEY" x="106.68" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="106.299" y="16.764" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="106.68" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C16" gate="G$1" x="111.76" y="22.86" smashed="yes">
-<attribute name="OC_DIGIKEY" x="111.76" y="22.86" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="111.379" y="16.764" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="111.76" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="96.52" y="73.66" smashed="yes">
-<attribute name="OC_DIGIKEY" x="96.52" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="96.139" y="67.564" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="96.52" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C24" gate="G$1" x="101.6" y="73.66" smashed="yes">
-<attribute name="OC_DIGIKEY" x="101.6" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="101.219" y="67.564" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="101.6" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C25" gate="G$1" x="106.68" y="73.66" smashed="yes">
-<attribute name="OC_DIGIKEY" x="106.68" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="106.299" y="67.564" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="106.68" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C37" gate="G$1" x="111.76" y="73.66" smashed="yes">
-<attribute name="OC_DIGIKEY" x="111.76" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="VALUE" x="111.379" y="67.564" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="111.76" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R35" gate="G$1" x="76.2" y="68.58" smashed="yes" rot="R180">
 <attribute name="VALUE" x="74.93" y="65.278" size="1.778" layer="96"/>
 <attribute name="MPN" x="76.2" y="68.58" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="76.2" y="68.58" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R36" gate="G$1" x="73.66" y="60.96" smashed="yes">
 <attribute name="VALUE" x="74.93" y="64.262" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="73.66" y="60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="73.66" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R37" gate="G$1" x="81.28" y="58.42" smashed="yes" rot="R180">
 <attribute name="VALUE" x="80.01" y="55.118" size="1.778" layer="96"/>
 <attribute name="MPN" x="81.28" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="81.28" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R38" gate="G$1" x="73.66" y="50.8" smashed="yes">
 <attribute name="VALUE" x="74.93" y="54.102" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="73.66" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="73.66" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R39" gate="G$1" x="81.28" y="48.26" smashed="yes" rot="R180">
 <attribute name="VALUE" x="80.01" y="44.958" size="1.778" layer="96"/>
 <attribute name="MPN" x="81.28" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="81.28" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R40" gate="G$1" x="81.28" y="38.1" smashed="yes" rot="R180">
 <attribute name="VALUE" x="80.01" y="34.798" size="1.778" layer="96"/>
 <attribute name="MPN" x="81.28" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="81.28" y="38.1" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R41" gate="G$1" x="73.66" y="40.64" smashed="yes">
 <attribute name="VALUE" x="74.93" y="43.942" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="73.66" y="40.64" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="73.66" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R42" gate="G$1" x="73.66" y="30.48" smashed="yes">
 <attribute name="VALUE" x="74.93" y="33.782" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="73.66" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="73.66" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$2" gate="G$1" x="172.72" y="238.76" rot="R90"/>
+<instance part="U$2" gate="G$1" x="172.72" y="238.76" rot="R90">
+<attribute name="MPN" x="172.72" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="172.72" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="170.18" y="220.98"/>
 <instance part="GND12" gate="1" x="177.8" y="220.98"/>
 <instance part="BAT1" gate="G$1" x="284.48" y="132.08" rot="R270">
 <attribute name="MPN" x="284.48" y="132.08" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="OC_DIGIKEY" x="284.48" y="132.08" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MF" x="284.48" y="132.08" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="284.48" y="121.92"/>
-<instance part="U$4" gate="G$1" x="287.02" y="170.18"/>
+<instance part="U$4" gate="G$1" x="287.02" y="170.18">
+<attribute name="MPN" x="287.02" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="287.02" y="170.18" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C20" gate="G$1" x="309.88" y="170.18" smashed="yes" rot="R180">
-<attribute name="OC_DIGIKEY" x="309.88" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="309.499" y="171.704" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="309.499" y="161.544" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="309.88" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
@@ -12542,70 +12540,88 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <instance part="GND16" gate="1" x="269.24" y="160.02"/>
 <instance part="GND20" gate="1" x="309.88" y="160.02"/>
 <instance part="P+8" gate="G$1" x="299.72" y="185.42"/>
-<instance part="JP1" gate="A" x="294.64" y="236.22" rot="R270"/>
+<instance part="JP1" gate="A" x="294.64" y="236.22" rot="R270">
+<attribute name="MF" x="294.64" y="236.22" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="294.64" y="236.22" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="TP10" gate="G$1" x="27.94" y="241.3">
 <attribute name="MPN" x="27.94" y="241.3" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="27.94" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="27.94" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP11" gate="G$1" x="73.66" y="233.68">
 <attribute name="MPN" x="73.66" y="233.68" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="73.66" y="233.68" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="73.66" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP12" gate="G$1" x="203.2" y="241.3">
 <attribute name="MPN" x="203.2" y="241.3" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="203.2" y="241.3" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="203.2" y="241.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP13" gate="G$1" x="368.3" y="238.76" rot="R90">
 <attribute name="MPN" x="368.3" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="OC_DIGIKEY" x="368.3" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="368.3" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="TP14" gate="G$1" x="144.78" y="228.6" rot="R90">
 <attribute name="MPN" x="144.78" y="228.6" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="OC_DIGIKEY" x="144.78" y="228.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="144.78" y="228.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SJ1" gate="G$1" x="154.94" y="226.06" smashed="yes">
 <attribute name="NAME" x="152.908" y="222.504" size="1.778" layer="95"/>
+<attribute name="MF" x="154.94" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="154.94" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="TP15" gate="G$1" x="27.94" y="205.74" rot="R180"/>
-<instance part="GND" gate="G$1" x="63.5" y="139.7"/>
+<instance part="TP15" gate="G$1" x="27.94" y="205.74" rot="R180">
+<attribute name="MF" x="27.94" y="205.74" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="27.94" y="205.74" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="GND" gate="G$1" x="63.5" y="139.7">
+<attribute name="MPN" x="63.5" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="63.5" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J1" gate="J" x="358.14" y="132.08" smashed="yes">
 <attribute name="NAME" x="345.44" y="143.51" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="374.65" y="115.57" size="1.27" layer="96" ratio="10" rot="R90"/>
+<attribute name="MPN" x="358.14" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="358.14" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="274.32" y="86.36"/>
 <instance part="TP1" gate="G$1" x="218.44" y="203.2" rot="R180">
 <attribute name="MPN" x="218.44" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="OC_DIGIKEY" x="218.44" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="218.44" y="203.2" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="TP2" gate="G$1" x="340.36" y="213.36">
 <attribute name="MPN" x="340.36" y="213.36" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="340.36" y="213.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="340.36" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP3" gate="G$1" x="96.52" y="210.82">
 <attribute name="MPN" x="96.52" y="210.82" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="96.52" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="96.52" y="210.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP4" gate="G$1" x="180.34" y="175.26">
 <attribute name="MPN" x="180.34" y="175.26" size="1.778" layer="96" display="off"/>
-<attribute name="OC_DIGIKEY" x="180.34" y="175.26" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="180.34" y="175.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q1" gate="G$1" x="134.62" y="238.76" smashed="yes" rot="MR180">
 <attribute name="NAME" x="134.874" y="244.602" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="135.128" y="242.062" size="1.27" layer="96" rot="MR180"/>
+<attribute name="MPN" x="134.62" y="238.76" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="134.62" y="238.76" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="U2" gate="G$1" x="124.46" y="238.76"/>
+<instance part="U2" gate="G$1" x="124.46" y="238.76">
+<attribute name="MPN" x="124.46" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="124.46" y="238.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND22" gate="1" x="99.06" y="231.14"/>
 <instance part="TP5" gate="G$1" x="177.8" y="129.54" rot="R90">
 <attribute name="MPN" x="177.8" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="OC_DIGIKEY" x="177.8" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="177.8" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="TP6" gate="G$1" x="266.7" y="175.26" rot="R90">
 <attribute name="MPN" x="266.7" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="OC_DIGIKEY" x="266.7" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="266.7" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="TP7" gate="G$1" x="330.2" y="139.7" rot="R180">
 <attribute name="MPN" x="330.2" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="OC_DIGIKEY" x="330.2" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="330.2" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="X1" gate="-1" x="154.94" y="104.14" rot="R180"/>
 <instance part="X1" gate="-2" x="154.94" y="106.68" rot="R180"/>
@@ -12618,30 +12634,37 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <instance part="X1" gate="-9" x="154.94" y="124.46" rot="R180"/>
 <instance part="X1" gate="-10" x="154.94" y="127" rot="R180"/>
 <instance part="X1" gate="-11" x="154.94" y="129.54" rot="R180"/>
-<instance part="X1" gate="-12" x="154.94" y="132.08" rot="R180"/>
+<instance part="X1" gate="-12" x="154.94" y="132.08" rot="R180">
+<attribute name="MPN" x="154.94" y="132.08" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="154.94" y="132.08" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="U$3" gate="G$1" x="63.5" y="139.7" smashed="yes">
 <attribute name="VALUE" x="48.26" y="93.98" size="1.778" layer="96"/>
+<attribute name="MPN" x="63.5" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="63.5" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C21" gate="G$1" x="327.66" y="129.54" smashed="yes" rot="R180">
-<attribute name="OC_DIGIKEY" x="327.66" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="VALUE" x="328.041" y="135.636" size="1.778" layer="96" rot="R270"/>
 <attribute name="MPN" x="327.66" y="129.54" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND14" gate="1" x="327.66" y="119.38"/>
 <instance part="SJ2" gate="G$1" x="218.44" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="221.996" y="130.048" size="1.778" layer="95" rot="R90"/>
+<attribute name="MF" x="218.44" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="218.44" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="TP8" gate="G$1" x="208.28" y="165.1" rot="R180"/>
+<instance part="TP8" gate="G$1" x="208.28" y="165.1" rot="R180">
+<attribute name="MF" x="208.28" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="208.28" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="R1" gate="G$1" x="83.82" y="220.98" smashed="yes">
 <attribute name="VALUE" x="85.09" y="219.202" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_DIGIKEY" x="83.82" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="83.82" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+1" gate="G$1" x="76.2" y="220.98" smashed="yes" rot="R90">
 <attribute name="VALUE" x="77.216" y="223.774" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C22" gate="G$1" x="81.28" y="210.82" smashed="yes" rot="R270">
-<attribute name="OC_DIGIKEY" x="81.28" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="VALUE" x="85.344" y="208.153" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="81.28" y="210.82" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
@@ -12650,58 +12673,64 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <instance part="Q2" gate="G$1" x="160.02" y="175.26" smashed="yes" rot="MR180">
 <attribute name="NAME" x="163.83" y="174.498" size="1.778" layer="95"/>
 <attribute name="VALUE" x="163.83" y="172.466" size="1.27" layer="96"/>
+<attribute name="MPN" x="160.02" y="175.26" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="160.02" y="175.26" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="149.86" y="180.34" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="151.638" y="179.07" size="1.778" layer="96" rot="MR90"/>
-<attribute name="OC_DIGIKEY" x="149.86" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MPN" x="149.86" y="180.34" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="Q3" gate="G$1" x="149.86" y="170.18" smashed="yes">
 <attribute name="NAME" x="153.416" y="167.132" size="1.778" layer="95"/>
 <attribute name="VALUE" x="153.416" y="165.1" size="1.27" layer="96"/>
+<attribute name="MPN" x="149.86" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="149.86" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND29" gate="1" x="149.86" y="157.48"/>
-<instance part="IC3" gate="G$1" x="264.16" y="223.52"/>
+<instance part="IC3" gate="G$1" x="264.16" y="223.52">
+<attribute name="MPN" x="264.16" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="264.16" y="223.52" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND31" gate="1" x="233.68" y="213.36"/>
 <instance part="GND32" gate="1" x="287.02" y="200.66"/>
 <instance part="Q4" gate="G$1" x="243.84" y="208.28" smashed="yes">
 <attribute name="NAME" x="247.396" y="205.232" size="1.778" layer="95"/>
 <attribute name="VALUE" x="247.396" y="203.2" size="1.27" layer="96"/>
+<attribute name="MPN" x="243.84" y="208.28" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="243.84" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND33" gate="1" x="243.84" y="198.12"/>
 <instance part="R7" gate="G$1" x="243.84" y="238.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="242.062" y="237.49" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="243.84" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="243.84" y="238.76" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="P+10" gate="G$1" x="223.52" y="238.76"/>
 <instance part="R18" gate="G$1" x="223.52" y="220.98" smashed="yes" rot="R270">
 <attribute name="VALUE" x="221.742" y="219.71" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_DIGIKEY" x="223.52" y="220.98" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="223.52" y="220.98" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND34" gate="1" x="223.52" y="213.36"/>
 <instance part="Q5" gate="G$1" x="223.52" y="231.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="220.726" y="237.998" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="220.472" y="235.458" size="1.27" layer="96" rot="MR0"/>
+<attribute name="MPN" x="223.52" y="231.14" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="223.52" y="231.14" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="284.48" y="226.06" smashed="yes">
 <attribute name="VALUE" x="285.75" y="224.282" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_DIGIKEY" x="284.48" y="226.06" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="284.48" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="F1" gate="F" x="45.72" y="246.38" smashed="yes">
 <attribute name="NAME" x="40.64" y="246.38" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="40.64" y="248.92" size="1.27" layer="96" ratio="10"/>
+<attribute name="MPN" x="40.64" y="248.92" size="1.27" layer="96"/>
+<attribute name="MF" x="45.72" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="231.14" y="203.2" smashed="yes">
 <attribute name="VALUE" x="232.41" y="201.422" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_DIGIKEY" x="231.14" y="203.2" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="231.14" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R23" gate="G$1" x="139.7" y="165.1" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="137.922" y="166.37" size="1.778" layer="96" rot="MR270"/>
-<attribute name="OC_DIGIKEY" x="139.7" y="165.1" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MPN" x="139.7" y="165.1" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="139.7" y="157.48"/>
@@ -13217,9 +13246,9 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="157.48" y1="111.76" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="111.76" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="101.6" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="111.76" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C36" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="104.14" x2="172.72" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="104.14" x2="172.72" y2="101.6" width="0.1524" layer="91"/>
