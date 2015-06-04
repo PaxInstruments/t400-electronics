@@ -11809,37 +11809,37 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <part name="C37" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
 <attribute name="MPN" value=""/>
 </part>
-<part name="R35" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
-<attribute name="MF" value="KOA Speer"/>
-<attribute name="MPN" value="RN732ATTD5000B25"/>
+<part name="R35" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="499R">
+<attribute name="MF" value="Vishay"/>
+<attribute name="MPN" value="TNPW0603499RBEEA"/>
 </part>
-<part name="R36" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
-<attribute name="MF" value="KOA Speer"/>
-<attribute name="MPN" value="RN732ATTD5000B25"/>
+<part name="R36" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="499R">
+<attribute name="MF" value="Vishay"/>
+<attribute name="MPN" value="TNPW0603499RBEEA"/>
 </part>
-<part name="R37" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
-<attribute name="MF" value="KOA Speer"/>
-<attribute name="MPN" value="RN732ATTD5000B25"/>
+<part name="R37" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="499R">
+<attribute name="MF" value="Vishay"/>
+<attribute name="MPN" value="TNPW0603499RBEEA"/>
 </part>
-<part name="R38" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
-<attribute name="MF" value="KOA Speer"/>
-<attribute name="MPN" value="RN732ATTD5000B25"/>
+<part name="R38" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="499R">
+<attribute name="MF" value="Vishay"/>
+<attribute name="MPN" value="TNPW0603499RBEEA"/>
 </part>
-<part name="R39" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
-<attribute name="MF" value="KOA Speer"/>
-<attribute name="MPN" value="RN732ATTD5000B25"/>
+<part name="R39" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="499R">
+<attribute name="MF" value="Vishay"/>
+<attribute name="MPN" value="TNPW0603499RBEEA"/>
 </part>
-<part name="R40" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
-<attribute name="MF" value="KOA Speer"/>
-<attribute name="MPN" value="RN732ATTD5000B25"/>
+<part name="R40" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="499R">
+<attribute name="MF" value="Vishay"/>
+<attribute name="MPN" value="TNPW0603499RBEEA"/>
 </part>
-<part name="R41" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
-<attribute name="MF" value="KOA Speer"/>
-<attribute name="MPN" value="RN732ATTD5000B25"/>
+<part name="R41" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="499R">
+<attribute name="MF" value="Vishay"/>
+<attribute name="MPN" value="TNPW0603499RBEEA"/>
 </part>
-<part name="R42" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="500R">
-<attribute name="MF" value="KOA Speer"/>
-<attribute name="MPN" value="RN732ATTD5000B25"/>
+<part name="R42" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="499R">
+<attribute name="MF" value="Vishay"/>
+<attribute name="MPN" value="TNPW0603499RBEEA"/>
 </part>
 <part name="U$2" library="charlespax" deviceset="BL-5C-CONNECTOR" device="">
 <attribute name="MF" value=""/>
