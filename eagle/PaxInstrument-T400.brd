@@ -2254,7 +2254,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MF" value="Vishay" x="43.18" y="33.9725" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$2" library="charlespax" package="BL-5C-CONNECTOR" value="BL-5C-CONNECTOR" x="80.52" y="11.5" locked="yes" smashed="yes" rot="MR270">
-<attribute name="MPN" x="80.52" y="11.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="BC-4-3P (77H)" x="80.52" y="11.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" x="80.52" y="11.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="BAT1" library="SparkFun-Electromechanical" package="BATTCON_12MM" value="" x="30.1625" y="5.715" smashed="yes" rot="R180">

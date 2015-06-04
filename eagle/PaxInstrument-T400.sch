@@ -11843,7 +11843,7 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </part>
 <part name="U$2" library="charlespax" deviceset="BL-5C-CONNECTOR" device="">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="BC-4-3P (77H)"/>
 </part>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
