@@ -167,30 +167,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="-3" y1="-7" x2="-3" y2="-4.5" width="0.127" layer="48"/>
 <wire x1="0" y1="-7" x2="0" y2="-6.5" width="0.127" layer="48"/>
 </package>
-<package name="POGO-2.54-2P">
-<smd name="P$1" x="0" y="0" dx="2" dy="2" layer="1" roundness="100"/>
-<smd name="P$2" x="2.54" y="0" dx="2" dy="2" layer="1" roundness="100"/>
-<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
-<hole x="1.27" y="1" drill="0.6"/>
-<hole x="1.27" y="-1" drill="0.6"/>
-</package>
-<package name="POGO-2.54-6P">
-<smd name="P$1" x="0" y="0" dx="2" dy="2" layer="1" roundness="100"/>
-<smd name="P$2" x="2.54" y="0" dx="2" dy="2" layer="1" roundness="100"/>
-<smd name="P$3" x="5.08" y="0" dx="2" dy="2" layer="1" roundness="100"/>
-<smd name="P$4" x="7.62" y="0" dx="2" dy="2" layer="1" roundness="100"/>
-<smd name="P$5" x="10.16" y="0" dx="2" dy="2" layer="1" roundness="100"/>
-<smd name="P$6" x="12.7" y="0" dx="2" dy="2" layer="1" roundness="100"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="13.97" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="13.97" y1="-1.27" x2="13.97" y2="1.27" width="0.127" layer="21"/>
-<wire x1="13.97" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
-<hole x="1.27" y="1" drill="0.6"/>
-<hole x="11.43" y="-1" drill="0.6"/>
-</package>
 </packages>
 <symbols>
 <symbol name="PIN">
@@ -200,29 +176,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="1.27" y1="0.254" x2="0" y2="0.254" width="0.1524" layer="94"/>
 <text x="2.032" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
-<symbol name="POGO_PIN">
-<wire x1="0.635" y1="-7.112" x2="-0.635" y2="-7.112" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-7.112" x2="0.635" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="-2.54" x2="-0.635" y2="-7.112" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="-5.588" x2="-0.381" y2="-5.334" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="-5.334" x2="0.381" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="-5.08" x2="-0.381" y2="-4.826" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="-4.826" x2="0.381" y2="-4.572" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="-4.572" x2="-0.381" y2="-4.318" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="-4.318" x2="0.381" y2="-4.064" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="-4.064" x2="-0.381" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="-3.81" x2="0.381" y2="-3.556" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="-3.556" x2="-0.381" y2="-3.302" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="-3.302" x2="0.381" y2="-3.048" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-7.747" x2="-0.508" y2="-7.747" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="-7.747" x2="-0.508" y2="-8.255" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="-8.255" x2="0" y2="-8.89" width="0.1524" layer="94"/>
-<wire x1="0" y1="-8.89" x2="0.508" y2="-8.255" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-8.255" x2="0.508" y2="-7.747" width="0.1524" layer="94"/>
-<rectangle x1="-0.381" y1="-7.747" x2="0.381" y2="-7.112" layer="94"/>
-<pin name="TP" x="0" y="0" visible="off" length="short" direction="in" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -234,48 +187,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <device name="" package="TC-CLIP-SINGLE">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="POGO-2.54-2P">
-<gates>
-<gate name="G$1" symbol="POGO_PIN" x="0" y="0"/>
-<gate name="G$2" symbol="POGO_PIN" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="POGO-2.54-2P">
-<connects>
-<connect gate="G$1" pin="TP" pad="P$1"/>
-<connect gate="G$2" pin="TP" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="POGO-2.54-6P">
-<gates>
-<gate name="G$1" symbol="POGO_PIN" x="0" y="0"/>
-<gate name="G$2" symbol="POGO_PIN" x="2.54" y="0"/>
-<gate name="G$3" symbol="POGO_PIN" x="5.08" y="0"/>
-<gate name="G$4" symbol="POGO_PIN" x="7.62" y="0"/>
-<gate name="G$5" symbol="POGO_PIN" x="10.16" y="0"/>
-<gate name="G$6" symbol="POGO_PIN" x="12.7" y="0"/>
-</gates>
-<devices>
-<device name="" package="POGO-2.54-6P">
-<connects>
-<connect gate="G$1" pin="TP" pad="P$1"/>
-<connect gate="G$2" pin="TP" pad="P$2"/>
-<connect gate="G$3" pin="TP" pad="P$3"/>
-<connect gate="G$4" pin="TP" pad="P$4"/>
-<connect gate="G$5" pin="TP" pad="P$5"/>
-<connect gate="G$6" pin="TP" pad="P$6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -295,77 +206,20 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </class>
 </classes>
 <parts>
-<part name="U$1" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$2" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$3" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$4" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$5" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$6" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$7" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$8" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$9" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$10" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$11" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$12" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
 <part name="U$13" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
 <part name="U$14" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$15" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$16" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$17" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$18" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$19" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$20" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$21" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$22" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$23" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$24" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
 <part name="U$25" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
 <part name="U$26" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$27" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$28" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
-<part name="U$29" library="PaxInstruments-Connectors" deviceset="POGO-2.54-2P" device=""/>
-<part name="U$30" library="PaxInstruments-Connectors" deviceset="POGO-2.54-2P" device=""/>
-<part name="U$31" library="PaxInstruments-Connectors" deviceset="POGO-2.54-6P" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="22.86" y="71.12"/>
-<instance part="U$2" gate="G$1" x="22.86" y="66.04"/>
-<instance part="U$3" gate="G$1" x="22.86" y="60.96"/>
-<instance part="U$4" gate="G$1" x="22.86" y="55.88"/>
-<instance part="U$5" gate="G$1" x="35.56" y="71.12"/>
-<instance part="U$6" gate="G$1" x="35.56" y="66.04"/>
-<instance part="U$7" gate="G$1" x="35.56" y="60.96"/>
-<instance part="U$8" gate="G$1" x="35.56" y="55.88"/>
-<instance part="U$9" gate="G$1" x="48.26" y="71.12"/>
-<instance part="U$10" gate="G$1" x="48.26" y="66.04"/>
-<instance part="U$11" gate="G$1" x="48.26" y="60.96"/>
-<instance part="U$12" gate="G$1" x="48.26" y="55.88"/>
 <instance part="U$13" gate="G$1" x="22.86" y="50.8"/>
 <instance part="U$14" gate="G$1" x="22.86" y="45.72"/>
-<instance part="U$15" gate="G$1" x="22.86" y="40.64"/>
-<instance part="U$16" gate="G$1" x="22.86" y="35.56"/>
-<instance part="U$17" gate="G$1" x="35.56" y="50.8"/>
-<instance part="U$18" gate="G$1" x="35.56" y="45.72"/>
-<instance part="U$19" gate="G$1" x="35.56" y="40.64"/>
-<instance part="U$20" gate="G$1" x="35.56" y="35.56"/>
-<instance part="U$21" gate="G$1" x="48.26" y="50.8"/>
-<instance part="U$22" gate="G$1" x="48.26" y="45.72"/>
-<instance part="U$23" gate="G$1" x="48.26" y="40.64"/>
-<instance part="U$24" gate="G$1" x="48.26" y="35.56"/>
 <instance part="U$25" gate="G$1" x="22.86" y="30.48"/>
 <instance part="U$26" gate="G$1" x="22.86" y="25.4"/>
-<instance part="U$27" gate="G$1" x="35.56" y="30.48"/>
-<instance part="U$28" gate="G$1" x="35.56" y="25.4"/>
-<instance part="U$29" gate="G$1" x="66.04" y="73.66"/>
-<instance part="U$29" gate="G$2" x="71.12" y="73.66"/>
-<instance part="U$30" gate="G$1" x="76.2" y="73.66"/>
-<instance part="U$31" gate="G$1" x="66.04" y="60.96"/>
-<instance part="U$31" gate="G$2" x="71.12" y="60.96"/>
-<instance part="U$31" gate="G$3" x="76.2" y="60.96"/>
 </instances>
 <busses>
 </busses>
