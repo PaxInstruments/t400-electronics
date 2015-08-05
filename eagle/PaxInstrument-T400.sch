@@ -9894,47 +9894,6 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <text x="-2.925" y="1.625" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.25" y="-2.925" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="F1812">
-<description>http://www.fuse-china.com/1812smdfuses.htm</description>
-<wire x1="-3.048" y1="1.651" x2="3.048" y2="1.651" width="0.127" layer="21"/>
-<wire x1="3.048" y1="-1.651" x2="-3.048" y2="-1.651" width="0.127" layer="21"/>
-<smd name="1" x="-2.159" y="0" dx="3.048" dy="1.27" layer="1" rot="R90"/>
-<smd name="2" x="2.159" y="0" dx="3.048" dy="1.27" layer="1" rot="R90"/>
-<wire x1="-3.048" y1="1.651" x2="-3.048" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="3.048" y1="1.651" x2="3.048" y2="-1.651" width="0.127" layer="21"/>
-<polygon width="0.127" layer="51">
-<vertex x="-2.286" y="1.651"/>
-<vertex x="-1.905" y="1.651"/>
-<vertex x="-1.905" y="-1.651"/>
-<vertex x="-2.286" y="-1.651"/>
-<vertex x="-2.286" y="-0.381" curve="90"/>
-<vertex x="-2.032" y="0" curve="90"/>
-<vertex x="-2.286" y="0.381"/>
-</polygon>
-<polygon width="0.127" layer="51">
-<vertex x="2.286" y="-1.651"/>
-<vertex x="1.905" y="-1.651"/>
-<vertex x="1.905" y="1.651"/>
-<vertex x="2.286" y="1.651"/>
-<vertex x="2.286" y="0.381" curve="90"/>
-<vertex x="2.032" y="0" curve="90"/>
-<vertex x="2.286" y="-0.381"/>
-</polygon>
-<text x="-1.905" y="1.905" size="0.889" layer="25" ratio="11">&gt;NAME</text>
-<text x="-1.905" y="0" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-3.048" y1="-1.651" x2="3.048" y2="1.651" layer="39"/>
-</package>
-<package name="F1206">
-<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.127" layer="21"/>
-<wire x1="2.159" y1="1.016" x2="2.159" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="-2.159" y1="-1.016" x2="-2.159" y2="1.016" width="0.127" layer="21"/>
-<smd name="1" x="-1.27" y="0" dx="1.27" dy="1.524" layer="1"/>
-<smd name="2" x="1.27" y="0" dx="1.27" dy="1.524" layer="1"/>
-<text x="-1.905" y="1.27" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.778" y="0" size="0.635" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<rectangle x1="-2.159" y1="-1.016" x2="2.159" y2="1.016" layer="39"/>
-</package>
 <package name="9P-SMD-W-RING">
 <wire x1="-6.35" y1="7.493" x2="7.493" y2="7.493" width="0.127" layer="21"/>
 <wire x1="7.493" y1="7.493" x2="7.493" y2="4.9619" width="0.127" layer="21"/>
@@ -10420,16 +10379,6 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <pin name="!Q" x="12.7" y="-2.54" length="short" direction="out" function="dot" rot="R180"/>
 <pin name="!SET" x="-7.62" y="7.62" length="short" direction="in" function="dot"/>
 <pin name="!CLR" x="-7.62" y="-7.62" length="short" direction="in" function="dot"/>
-</symbol>
-<symbol name="FUSE">
-<wire x1="-1.016" y1="0" x2="0" y2="-1.016" width="0.254" layer="94" curve="-300.510237"/>
-<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.254" layer="94" curve="-300.510237"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
-<text x="-5.08" y="0" size="1.27" layer="95" ratio="10">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 <symbol name="MICROSD">
 <wire x1="-12.7" y1="11.43" x2="-12.7" y2="-11.43" width="0.254" layer="94"/>
@@ -11439,31 +11388,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </device>
 </devices>
 </deviceset>
-<deviceset name="FUSE*" prefix="F">
-<gates>
-<gate name="F" symbol="FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-1812" package="F1812">
-<connects>
-<connect gate="F" pin="1" pad="1"/>
-<connect gate="F" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-1206" package="F1206">
-<connects>
-<connect gate="F" pin="1" pad="1"/>
-<connect gate="F" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MICRO-SDCARD-CONNECTOR" prefix="J">
 <description>Micro SD Card</description>
 <gates>
@@ -11866,10 +11790,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
 </part>
-<part name="TP10" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="TEST-POINTTP_15TH_THRU">
-<attribute name="MF" value="N/A"/>
-<attribute name="MPN" value="N/A"/>
-</part>
 <part name="TP11" library="PaxInstrument-T400" deviceset="TEST-POINT" device="TP_15TH_THRU" value="VBUS_IN">
 <attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
@@ -12006,10 +11926,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </part>
 <part name="R21" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
 <attribute name="MPN" value=""/>
-</part>
-<part name="F1" library="PaxInstrument-T400" deviceset="FUSE*" device="-1812">
-<attribute name="MF" value="Bourns"/>
-<attribute name="MPN" value="MF-MSMF050-2"/>
 </part>
 <part name="R22" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
 <attribute name="MPN" value=""/>
@@ -12544,10 +12460,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MF" x="294.64" y="236.22" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="294.64" y="236.22" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="TP10" gate="G$1" x="27.94" y="241.3">
-<attribute name="MPN" x="27.94" y="241.3" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="27.94" y="241.3" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="TP11" gate="G$1" x="73.66" y="233.68">
 <attribute name="MPN" x="73.66" y="233.68" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="73.66" y="233.68" size="1.778" layer="96" display="off"/>
@@ -12719,11 +12631,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <instance part="R21" gate="G$1" x="284.48" y="226.06" smashed="yes">
 <attribute name="VALUE" x="285.75" y="224.282" size="1.778" layer="96" rot="R180"/>
 <attribute name="MPN" x="284.48" y="226.06" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="F1" gate="F" x="45.72" y="246.38" smashed="yes">
-<attribute name="NAME" x="40.64" y="246.38" size="1.27" layer="95" ratio="10"/>
-<attribute name="MPN" x="40.64" y="248.92" size="1.27" layer="96"/>
-<attribute name="MF" x="45.72" y="246.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="231.14" y="203.2" smashed="yes">
 <attribute name="VALUE" x="232.41" y="201.422" size="1.778" layer="96" rot="R180"/>
@@ -13384,17 +13291,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </segment>
 </net>
 <net name="USBVCC" class="1">
-<segment>
-<label x="27.94" y="246.38" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="25.4" y1="231.14" x2="27.94" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="231.14" x2="27.94" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="241.3" x2="27.94" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="246.38" x2="40.64" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="TP10" gate="G$1" pin="1"/>
-<junction x="27.94" y="241.3"/>
-<pinref part="F1" gate="F" pin="1"/>
-</segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="2"/>
 <wire x1="355.6" y1="96.52" x2="368.3" y2="96.52" width="0.1524" layer="91"/>
@@ -14071,7 +13967,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <junction x="68.58" y="246.38"/>
 <label x="68.58" y="246.38" size="1.778" layer="95"/>
 <wire x1="99.06" y1="246.38" x2="68.58" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="246.38" x2="50.8" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="TP11" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="233.68" x2="68.58" y2="233.68" width="0.1524" layer="91"/>
 <junction x="68.58" y="233.68"/>
@@ -14079,7 +13974,10 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <wire x1="99.06" y1="241.3" x2="99.06" y2="246.38" width="0.1524" layer="91"/>
 <junction x="99.06" y="246.38"/>
 <junction x="68.58" y="226.06"/>
-<pinref part="F1" gate="F" pin="2"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="25.4" y1="231.14" x2="27.94" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="231.14" x2="27.94" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="246.38" x2="68.58" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
