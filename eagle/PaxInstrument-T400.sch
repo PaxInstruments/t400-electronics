@@ -5850,48 +5850,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <description>Generated from &lt;b&gt;lumberdaq.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
-<package name="CHARLESPAX_TC-MINI-CONNECTOR">
-<wire x1="-7.62" y1="6.35" x2="7.62" y2="6.35" width="0.127" layer="21"/>
-<wire x1="7.62" y1="6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-6.35" x2="-7.62" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.35" width="0.127" layer="21"/>
-<smd name="P$1" x="3.25" y="0" dx="5" dy="11.6" layer="1"/>
-<smd name="P$2" x="-3.25" y="0" dx="5" dy="11.6" layer="1"/>
-<wire x1="-1.591" y1="-4.5" x2="-4.909" y2="-4.5" width="0.127" layer="46"/>
-<wire x1="-4.909" y1="-4.5" x2="-5.409" y2="-5" width="0.127" layer="46" curve="90"/>
-<wire x1="-1.591" y1="-5.5" x2="-4.909" y2="-5.5" width="0.127" layer="46"/>
-<wire x1="-4.909" y1="-5.5" x2="-5.409" y2="-5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-1.591" y1="-4.5" x2="-1.091" y2="-5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-1.091" y1="-5" x2="-1.591" y2="-5.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-4.909" y1="5.5" x2="-1.591" y2="5.5" width="0.127" layer="46"/>
-<wire x1="-1.591" y1="5.5" x2="-1.091" y2="5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-1.091" y1="5" x2="-1.591" y2="4.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-1.591" y1="4.5" x2="-4.909" y2="4.5" width="0.127" layer="46"/>
-<wire x1="-4.909" y1="4.5" x2="-5.409" y2="5" width="0.127" layer="46" curve="-90"/>
-<wire x1="-5.409" y1="5" x2="-4.909" y2="5.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="1.591" y1="-4.5" x2="4.909" y2="-4.5" width="0.127" layer="46"/>
-<wire x1="4.909" y1="-4.5" x2="5.409" y2="-5" width="0.127" layer="46" curve="-90"/>
-<wire x1="5.409" y1="-5" x2="4.909" y2="-5.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="4.909" y1="-5.5" x2="1.591" y2="-5.5" width="0.127" layer="46"/>
-<wire x1="1.591" y1="-5.5" x2="1.091" y2="-5" width="0.127" layer="46" curve="-90"/>
-<wire x1="1.091" y1="-5" x2="1.591" y2="-4.5" width="0.127" layer="46" curve="-90"/>
-<wire x1="1.591" y1="4.5" x2="4.909" y2="4.5" width="0.127" layer="46"/>
-<wire x1="4.909" y1="4.5" x2="5.409" y2="5" width="0.127" layer="46" curve="90"/>
-<wire x1="1.591" y1="5.5" x2="4.909" y2="5.5" width="0.127" layer="46"/>
-<wire x1="4.909" y1="5.5" x2="5.409" y2="5" width="0.127" layer="46" curve="-90"/>
-<wire x1="1.091" y1="5" x2="1.591" y2="4.5" width="0.127" layer="46" curve="90"/>
-<wire x1="1.091" y1="5" x2="1.591" y2="5.5" width="0.127" layer="46" curve="-90"/>
-<rectangle x1="-5.536" y1="4.318" x2="-0.964" y2="5.715" layer="42"/>
-<rectangle x1="0.964" y1="4.318" x2="5.536" y2="5.715" layer="42"/>
-<rectangle x1="0.964" y1="-5.715" x2="5.536" y2="-4.318" layer="42"/>
-<rectangle x1="-5.536" y1="-5.715" x2="-0.964" y2="-4.318" layer="42"/>
-<rectangle x1="-6.1" y1="-5.6" x2="-0.4" y2="5.6" layer="39"/>
-<rectangle x1="0.4" y1="-5.6" x2="6.1" y2="5.6" layer="39"/>
-<rectangle x1="-5.536" y1="4.318" x2="-0.964" y2="5.715" layer="16"/>
-<rectangle x1="0.964" y1="4.318" x2="5.536" y2="5.715" layer="16"/>
-<rectangle x1="-5.536" y1="-5.715" x2="-0.964" y2="-4.318" layer="16"/>
-<rectangle x1="0.964" y1="-5.715" x2="5.536" y2="-4.318" layer="16"/>
-</package>
 <package name="CHARLESPAX_SOIC8M">
 <wire x1="2.4" y1="2.43" x2="2.4" y2="-1.93" width="0.2032" layer="21"/>
 <wire x1="2.4" y1="-1.93" x2="2.4" y2="-2.43" width="0.2032" layer="21"/>
@@ -10072,15 +10030,6 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <text x="45.72" y="22.098" size="1.524" layer="103">A5</text>
 <pin name="GND_PAD" x="-17.78" y="-25.4" length="short"/>
 </symbol>
-<symbol name="CHARLESPAX_TC-MINI-CONNECTOR">
-<wire x1="-12.7" y1="1.27" x2="-12.7" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-12.7" y2="1.27" width="0.254" layer="94"/>
-<pin name="P$1" x="5.08" y="0" length="middle" rot="R180"/>
-<pin name="P$2" x="5.08" y="-2.54" length="middle" rot="R180"/>
-<text x="-8.89" y="-1.27" size="2.286" layer="94" rot="R90" align="center">TC</text>
-</symbol>
 <symbol name="W25Q80BV">
 <pin name="!CS" x="-10.16" y="5.08" length="short"/>
 <pin name="DO" x="-10.16" y="2.54" length="short"/>
@@ -10461,22 +10410,6 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <connect gate="G$1" pin="VCC@34" pad="34"/>
 <connect gate="G$1" pin="XTAL1" pad="17"/>
 <connect gate="G$1" pin="XTAL2" pad="16"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CHARLESPAX_TC-MINI-CONNECTOR">
-<gates>
-<gate name="G$1" symbol="CHARLESPAX_TC-MINI-CONNECTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CHARLESPAX_TC-MINI-CONNECTOR">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11418,6 +11351,100 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 </deviceset>
 </devicesets>
 </library>
+<library name="PaxInstruments-Connectors">
+<description>&lt;h3&gt;Pax Instruments Connectors Eagle Library&lt;/h3&gt;
+This library contains...
+&lt;br&gt;&lt;br&gt;
+If you are interested in opensource lab instruments or related development tools, please consider purchasing one of our products at http://paxinstruments.com/products/
+&lt;br&gt;&lt;br&gt;
+We work hard to keep our libraries accurate and functional, but we provide no guarantee they will work or be appropriate for your application. It is your responsibility to ensure your design is suitable for your purpose. If you find an error or have a suggestion for improvement, please submit an issue to our Github repository (https://github.com/PaxInstruments/PaxInstruments-Eagle-Libraries).
+&lt;br&gt;&lt;br&gt;
+The latest version of this library can be downloaded from https://github.com/PaxInstruments/PaxInstruments-Eagle-Libraries
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments Connectors Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
+<packages>
+<package name="TC-CLIP-OUTSIDE">
+<smd name="P$2" x="-4.3" y="0" dx="4.2" dy="8.4" layer="1"/>
+<wire x1="-1.3" y1="1.5" x2="-1.9" y2="1.5" width="0.1" layer="20"/>
+<wire x1="-1.9" y1="1.5" x2="-1.9" y2="-1.5" width="0.1" layer="20"/>
+<wire x1="-1.9" y1="-1.5" x2="-1.3" y2="-1.5" width="0.1" layer="20"/>
+<wire x1="-1.3" y1="-1.5" x2="-1.3" y2="1.5" width="0.1" layer="20"/>
+<wire x1="-5.4" y1="6.5" x2="-5.4" y2="4.5" width="0.1" layer="20"/>
+<wire x1="-5.4" y1="4.5" x2="-1.6" y2="4.5" width="0.1" layer="20"/>
+<wire x1="-1.6" y1="4.5" x2="-1.6" y2="6.5" width="0.1" layer="20"/>
+<wire x1="-1.6" y1="6.5" x2="-5.4" y2="6.5" width="0.1" layer="20"/>
+<wire x1="-5.4" y1="-4.5" x2="-5.4" y2="-6.5" width="0.1" layer="20"/>
+<wire x1="-5.4" y1="-6.5" x2="-1.6" y2="-6.5" width="0.1" layer="20"/>
+<wire x1="-1.6" y1="-6.5" x2="-1.6" y2="-4.5" width="0.1" layer="20"/>
+<wire x1="-1.6" y1="-4.5" x2="-5.4" y2="-4.5" width="0.1" layer="20"/>
+<wire x1="-7.5" y1="6.5" x2="-6" y2="6.5" width="0.1" layer="21"/>
+<wire x1="-1" y1="6.5" x2="0" y2="6.5" width="0.1" layer="21"/>
+<wire x1="0" y1="-6.5" x2="-1" y2="-6.5" width="0.1" layer="21"/>
+<wire x1="-6" y1="-6.5" x2="-7.5" y2="-6.5" width="0.1" layer="21"/>
+<wire x1="-7.5" y1="-6.5" x2="-7.5" y2="6.5" width="0.1" layer="21"/>
+<rectangle x1="-2.5" y1="-2" x2="-0.5" y2="2" layer="1"/>
+<rectangle x1="-2.5" y1="-2" x2="-0.5" y2="2" layer="16"/>
+<rectangle x1="-2.6" y1="-2.1" x2="-0.4" y2="2.1" layer="30"/>
+<rectangle x1="-2.6" y1="-2.1" x2="-0.4" y2="2.1" layer="29"/>
+<rectangle x1="-2.5" y1="-2" x2="-0.5" y2="2" layer="31"/>
+<rectangle x1="-2.5" y1="-2" x2="-0.5" y2="2" layer="32"/>
+<smd name="P$1" x="4.3" y="0" dx="4.2" dy="8.4" layer="1" rot="R180"/>
+<wire x1="1.3" y1="-1.5" x2="1.9" y2="-1.5" width="0.1" layer="20"/>
+<wire x1="1.9" y1="-1.5" x2="1.9" y2="1.5" width="0.1" layer="20"/>
+<wire x1="1.9" y1="1.5" x2="1.3" y2="1.5" width="0.1" layer="20"/>
+<wire x1="1.3" y1="1.5" x2="1.3" y2="-1.5" width="0.1" layer="20"/>
+<wire x1="5.4" y1="-6.5" x2="5.4" y2="-4.5" width="0.1" layer="20"/>
+<wire x1="5.4" y1="-4.5" x2="1.6" y2="-4.5" width="0.1" layer="20"/>
+<wire x1="1.6" y1="-4.5" x2="1.6" y2="-6.5" width="0.1" layer="20"/>
+<wire x1="1.6" y1="-6.5" x2="5.4" y2="-6.5" width="0.1" layer="20"/>
+<wire x1="5.4" y1="4.5" x2="5.4" y2="6.5" width="0.1" layer="20"/>
+<wire x1="5.4" y1="6.5" x2="1.6" y2="6.5" width="0.1" layer="20"/>
+<wire x1="1.6" y1="6.5" x2="1.6" y2="4.5" width="0.1" layer="20"/>
+<wire x1="1.6" y1="4.5" x2="5.4" y2="4.5" width="0.1" layer="20"/>
+<wire x1="7.5" y1="-6.5" x2="6" y2="-6.5" width="0.1" layer="21"/>
+<wire x1="1" y1="-6.5" x2="0" y2="-6.5" width="0.1" layer="21"/>
+<wire x1="0" y1="-6.5" x2="0" y2="6.5" width="0.1" layer="21"/>
+<wire x1="0" y1="6.5" x2="1" y2="6.5" width="0.1" layer="21"/>
+<wire x1="6" y1="6.5" x2="7.5" y2="6.5" width="0.1" layer="21"/>
+<wire x1="7.5" y1="6.5" x2="7.5" y2="-6.5" width="0.1" layer="21"/>
+<rectangle x1="0.5" y1="-2" x2="2.5" y2="2" layer="1" rot="R180"/>
+<rectangle x1="0.5" y1="-2" x2="2.5" y2="2" layer="16" rot="R180"/>
+<rectangle x1="0.4" y1="-2.1" x2="2.6" y2="2.1" layer="30" rot="R180"/>
+<rectangle x1="0.4" y1="-2.1" x2="2.6" y2="2.1" layer="29" rot="R180"/>
+<rectangle x1="0.5" y1="-2" x2="2.5" y2="2" layer="31" rot="R180"/>
+<rectangle x1="0.5" y1="-2" x2="2.5" y2="2" layer="32" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="THERMOCOUPLE">
+<wire x1="-12.7" y1="1.27" x2="-12.7" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-12.7" y2="1.27" width="0.254" layer="94"/>
+<pin name="P$1" x="5.08" y="0" length="middle" rot="R180"/>
+<pin name="P$2" x="5.08" y="-2.54" length="middle" rot="R180"/>
+<text x="-8.89" y="-1.27" size="2.286" layer="94" rot="R90" align="center">TC</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TC-MINI-OUTSIDE">
+<gates>
+<gate name="G$1" symbol="THERMOCOUPLE" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="TC-CLIP-OUTSIDE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11519,21 +11546,21 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
 </part>
-<part name="U$10" library="PaxInstrument-T400" deviceset="CHARLESPAX_TC-MINI-CONNECTOR" device="">
-<attribute name="MF" value="Keystone"/>
-<attribute name="MPN" value="3572"/>
+<part name="U$10" library="PaxInstruments-Connectors" deviceset="TC-MINI-OUTSIDE" device="">
+<attribute name="MF" value="Pax Instrument"/>
+<attribute name="MPN" value="Thermo-clip2"/>
 </part>
-<part name="U$11" library="PaxInstrument-T400" deviceset="CHARLESPAX_TC-MINI-CONNECTOR" device="">
-<attribute name="MF" value="Keystone"/>
-<attribute name="MPN" value="3572"/>
+<part name="U$11" library="PaxInstruments-Connectors" deviceset="TC-MINI-OUTSIDE" device="">
+<attribute name="MF" value="Pax Instrument"/>
+<attribute name="MPN" value="Thermo-clip2"/>
 </part>
-<part name="U$12" library="PaxInstrument-T400" deviceset="CHARLESPAX_TC-MINI-CONNECTOR" device="">
-<attribute name="MF" value="Keystone"/>
-<attribute name="MPN" value="3572"/>
+<part name="U$12" library="PaxInstruments-Connectors" deviceset="TC-MINI-OUTSIDE" device="">
+<attribute name="MF" value="Pax Instrument"/>
+<attribute name="MPN" value="Thermo-clip2"/>
 </part>
-<part name="U$13" library="PaxInstrument-T400" deviceset="CHARLESPAX_TC-MINI-CONNECTOR" device="">
-<attribute name="MF" value="Keystone"/>
-<attribute name="MPN" value="3572"/>
+<part name="U$13" library="PaxInstruments-Connectors" deviceset="TC-MINI-OUTSIDE" device="">
+<attribute name="MF" value="Pax Instrument"/>
+<attribute name="MPN" value="Thermo-clip2"/>
 </part>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Z1" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="PGB1010603">
