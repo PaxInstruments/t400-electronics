@@ -13527,13 +13527,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="292.1" y1="236.22" x2="292.1" y2="246.38" width="0.1524" layer="91"/>
 <junction x="292.1" y="246.38"/>
 </segment>
-<segment>
-<label x="40.64" y="152.4" size="1.778" layer="95" rot="MR0"/>
-<wire x1="45.72" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="GND" gate="G$1" pin="VBUS"/>
-<pinref part="U$3" gate="G$1" pin="VBUS"/>
-<junction x="45.72" y="152.4"/>
-</segment>
 </net>
 <net name="LCD_BL" class="0">
 <segment>
@@ -14005,6 +13998,13 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="25.4" y1="231.14" x2="27.94" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="231.14" x2="27.94" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="246.38" x2="68.58" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="45.72" y="152.4" size="1.778" layer="95" rot="MR0"/>
+<wire x1="45.72" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="GND" gate="G$1" pin="VBUS"/>
+<pinref part="U$3" gate="G$1" pin="VBUS"/>
+<junction x="45.72" y="152.4"/>
 </segment>
 </net>
 <net name="N$31" class="0">
