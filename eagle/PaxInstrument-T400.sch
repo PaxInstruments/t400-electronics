@@ -10049,9 +10049,9 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <text x="45.72" y="-26.162" size="1.524" layer="103">D15</text>
 <text x="45.72" y="-28.702" size="1.524" layer="103">D16</text>
 <text x="45.72" y="-31.242" size="1.524" layer="103">D14</text>
-<text x="45.72" y="-8.382" size="1.524" layer="103">D8</text>
-<text x="45.72" y="-10.922" size="1.524" layer="103">D9#/A8</text>
-<text x="45.72" y="-13.462" size="1.524" layer="103">D10#</text>
+<text x="45.72" y="-8.382" size="1.524" layer="103">D8/A8</text>
+<text x="45.72" y="-10.922" size="1.524" layer="103">D9#/A9</text>
+<text x="45.72" y="-13.462" size="1.524" layer="103">D10#/A10</text>
 <text x="45.72" y="-16.002" size="1.524" layer="103">D11#</text>
 <text x="45.72" y="-0.762" size="1.524" layer="103">D5#</text>
 <text x="45.72" y="-21.082" size="1.524" layer="103">D13#</text>
@@ -10061,7 +10061,7 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <text x="45.72" y="9.398" size="1.524" layer="103">D1</text>
 <text x="45.72" y="1.778" size="1.524" layer="103">D4/A6</text>
 <text x="45.72" y="-36.322" size="1.524" layer="103">TX LED</text>
-<text x="45.72" y="-18.542" size="1.524" layer="103">D12/A10</text>
+<text x="45.72" y="-18.542" size="1.524" layer="103">D12/A11</text>
 <text x="45.72" y="-3.302" size="1.524" layer="103">D6#/A7</text>
 <text x="45.72" y="-5.842" size="1.524" layer="103">D7</text>
 <text x="45.72" y="34.798" size="1.524" layer="103">A0</text>
@@ -10301,9 +10301,9 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <text x="45.72" y="-26.162" size="1.524" layer="103">D15</text>
 <text x="45.72" y="-28.702" size="1.524" layer="103">D16</text>
 <text x="45.72" y="-31.242" size="1.524" layer="103">D14</text>
-<text x="45.72" y="-8.382" size="1.524" layer="103">D8</text>
-<text x="45.72" y="-10.922" size="1.524" layer="103">D9#/A8</text>
-<text x="45.72" y="-13.462" size="1.524" layer="103">D10#</text>
+<text x="45.72" y="-8.382" size="1.524" layer="103">D8/A8</text>
+<text x="45.72" y="-10.922" size="1.524" layer="103">D9#/A9</text>
+<text x="45.72" y="-13.462" size="1.524" layer="103">D10#/A10</text>
 <text x="45.72" y="-16.002" size="1.524" layer="103">D11#</text>
 <text x="45.72" y="-0.762" size="1.524" layer="103">D5#</text>
 <text x="45.72" y="-21.082" size="1.524" layer="103">D13#</text>
@@ -10313,7 +10313,7 @@ Basic small signal diode good up to 200mA. SMB footprint. Common part #: BAS16</
 <text x="45.72" y="9.398" size="1.524" layer="103">D1</text>
 <text x="45.72" y="1.778" size="1.524" layer="103">D4/A6</text>
 <text x="45.72" y="-36.322" size="1.524" layer="103">TX LED</text>
-<text x="45.72" y="-18.542" size="1.524" layer="103">D12/A10</text>
+<text x="45.72" y="-18.542" size="1.524" layer="103">D12/A11</text>
 <text x="45.72" y="-3.302" size="1.524" layer="103">D6#/A7</text>
 <text x="45.72" y="-5.842" size="1.524" layer="103">D7</text>
 <text x="45.72" y="34.798" size="1.524" layer="103">A0</text>
