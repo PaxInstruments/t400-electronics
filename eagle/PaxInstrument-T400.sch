@@ -11681,14 +11681,14 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MF" value="FCI"/>
 <attribute name="MPN" value="95278-101A06LF"/>
 </part>
-<part name="R20" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
+<part name="R20" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="18.7K">
 <attribute name="MPN" value=""/>
 </part>
 <part name="D2" library="PaxInstrument-T400" deviceset="SPARKFUN-DISCRETESEMI_DIODE" device="SOD123" technology="SOD123" value="MBR230S1F">
 <attribute name="MF" value="DIODES INC"/>
 <attribute name="MPN" value="MBR230S1F-7"/>
 </part>
-<part name="R24" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10K">
+<part name="R24" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="34K">
 <attribute name="MPN" value=""/>
 </part>
 <part name="U$1" library="blinkinlabs" deviceset="USB_MICRO" device="SMT+THRUHULE">
@@ -11963,6 +11963,10 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </part>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C23" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
+<attribute name="MPN" value=""/>
+</part>
+<part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12670,6 +12674,11 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </instance>
 <instance part="GND21" gate="1" x="139.7" y="157.48"/>
 <instance part="GND35" gate="1" x="248.92" y="218.44"/>
+<instance part="C23" gate="G$1" x="170.18" y="162.56" smashed="yes">
+<attribute name="VALUE" x="170.688" y="160.655" size="1.778" layer="96"/>
+<attribute name="MPN" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND36" gate="1" x="170.18" y="157.48"/>
 </instances>
 <busses>
 </busses>
@@ -13317,6 +13326,10 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <pinref part="GND35" gate="1" pin="GND"/>
 <junction x="248.92" y="220.98"/>
 </segment>
+<segment>
+<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="D-" class="0">
 <segment>
@@ -13941,6 +13954,8 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <junction x="170.18" y="175.26"/>
 <wire x1="170.18" y1="185.42" x2="185.42" y2="185.42" width="0.1524" layer="91"/>
 <label x="170.18" y="185.42" size="1.778" layer="95"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="167.64" x2="170.18" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="81.28" y1="121.92" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
