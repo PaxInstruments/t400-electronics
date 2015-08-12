@@ -11364,55 +11364,56 @@ The latest version of this library can be downloaded from https://github.com/Pax
 &lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments Connectors Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
 <packages>
 <package name="TC-CLIP-OUTSIDE">
-<smd name="P$2" x="-4.3" y="0" dx="4.2" dy="8.4" layer="1"/>
-<wire x1="-1.3" y1="1.5" x2="-1.9" y2="1.5" width="0.1" layer="20"/>
-<wire x1="-1.9" y1="1.5" x2="-1.9" y2="-1.5" width="0.1" layer="20"/>
-<wire x1="-1.9" y1="-1.5" x2="-1.3" y2="-1.5" width="0.1" layer="20"/>
-<wire x1="-1.3" y1="-1.5" x2="-1.3" y2="1.5" width="0.1" layer="20"/>
-<wire x1="-5.4" y1="6.5" x2="-5.4" y2="4.5" width="0.1" layer="20"/>
-<wire x1="-5.4" y1="4.5" x2="-1.6" y2="4.5" width="0.1" layer="20"/>
-<wire x1="-1.6" y1="4.5" x2="-1.6" y2="6.5" width="0.1" layer="20"/>
-<wire x1="-1.6" y1="6.5" x2="-5.4" y2="6.5" width="0.1" layer="20"/>
-<wire x1="-5.4" y1="-4.5" x2="-5.4" y2="-6.5" width="0.1" layer="20"/>
-<wire x1="-5.4" y1="-6.5" x2="-1.6" y2="-6.5" width="0.1" layer="20"/>
-<wire x1="-1.6" y1="-6.5" x2="-1.6" y2="-4.5" width="0.1" layer="20"/>
-<wire x1="-1.6" y1="-4.5" x2="-5.4" y2="-4.5" width="0.1" layer="20"/>
-<wire x1="-7.5" y1="6.5" x2="-6" y2="6.5" width="0.1" layer="21"/>
-<wire x1="-1" y1="6.5" x2="0" y2="6.5" width="0.1" layer="21"/>
-<wire x1="0" y1="-6.5" x2="-1" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="-6" y1="-6.5" x2="-7.5" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="-7.5" y1="-6.5" x2="-7.5" y2="6.5" width="0.1" layer="21"/>
-<rectangle x1="-2.5" y1="-2" x2="-0.5" y2="2" layer="1"/>
-<rectangle x1="-2.5" y1="-2" x2="-0.5" y2="2" layer="16"/>
-<rectangle x1="-2.6" y1="-2.1" x2="-0.4" y2="2.1" layer="30"/>
-<rectangle x1="-2.6" y1="-2.1" x2="-0.4" y2="2.1" layer="29"/>
-<rectangle x1="-2.5" y1="-2" x2="-0.5" y2="2" layer="31"/>
-<rectangle x1="-2.5" y1="-2" x2="-0.5" y2="2" layer="32"/>
-<smd name="P$1" x="4.3" y="0" dx="4.2" dy="8.4" layer="1" rot="R180"/>
-<wire x1="1.3" y1="-1.5" x2="1.9" y2="-1.5" width="0.1" layer="20"/>
-<wire x1="1.9" y1="-1.5" x2="1.9" y2="1.5" width="0.1" layer="20"/>
-<wire x1="1.9" y1="1.5" x2="1.3" y2="1.5" width="0.1" layer="20"/>
-<wire x1="1.3" y1="1.5" x2="1.3" y2="-1.5" width="0.1" layer="20"/>
-<wire x1="5.4" y1="-6.5" x2="5.4" y2="-4.5" width="0.1" layer="20"/>
-<wire x1="5.4" y1="-4.5" x2="1.6" y2="-4.5" width="0.1" layer="20"/>
-<wire x1="1.6" y1="-4.5" x2="1.6" y2="-6.5" width="0.1" layer="20"/>
-<wire x1="1.6" y1="-6.5" x2="5.4" y2="-6.5" width="0.1" layer="20"/>
-<wire x1="5.4" y1="4.5" x2="5.4" y2="6.5" width="0.1" layer="20"/>
-<wire x1="5.4" y1="6.5" x2="1.6" y2="6.5" width="0.1" layer="20"/>
-<wire x1="1.6" y1="6.5" x2="1.6" y2="4.5" width="0.1" layer="20"/>
-<wire x1="1.6" y1="4.5" x2="5.4" y2="4.5" width="0.1" layer="20"/>
-<wire x1="7.5" y1="-6.5" x2="6" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="1" y1="-6.5" x2="0" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="0" y1="-6.5" x2="0" y2="6.5" width="0.1" layer="21"/>
-<wire x1="0" y1="6.5" x2="1" y2="6.5" width="0.1" layer="21"/>
-<wire x1="6" y1="6.5" x2="7.5" y2="6.5" width="0.1" layer="21"/>
-<wire x1="7.5" y1="6.5" x2="7.5" y2="-6.5" width="0.1" layer="21"/>
-<rectangle x1="0.5" y1="-2" x2="2.5" y2="2" layer="1" rot="R180"/>
-<rectangle x1="0.5" y1="-2" x2="2.5" y2="2" layer="16" rot="R180"/>
-<rectangle x1="0.4" y1="-2.1" x2="2.6" y2="2.1" layer="30" rot="R180"/>
-<rectangle x1="0.4" y1="-2.1" x2="2.6" y2="2.1" layer="29" rot="R180"/>
-<rectangle x1="0.5" y1="-2" x2="2.5" y2="2" layer="31" rot="R180"/>
-<rectangle x1="0.5" y1="-2" x2="2.5" y2="2" layer="32" rot="R180"/>
+<smd name="P$1" x="-4" y="0" dx="4.5" dy="8.4" layer="1"/>
+<wire x1="-0.8" y1="1.5" x2="-1.4" y2="1.5" width="0.1" layer="20"/>
+<wire x1="-1.4" y1="1.5" x2="-1.4" y2="-1.5" width="0.1" layer="20"/>
+<wire x1="-1.4" y1="-1.5" x2="-0.8" y2="-1.5" width="0.1" layer="20"/>
+<wire x1="-0.8" y1="-1.5" x2="-0.8" y2="1.5" width="0.1" layer="20"/>
+<wire x1="-4.9" y1="6.5" x2="-4.9" y2="4.5" width="0.1" layer="20"/>
+<wire x1="-4.9" y1="4.5" x2="-1.1" y2="4.5" width="0.1" layer="20"/>
+<wire x1="-1.1" y1="4.5" x2="-1.1" y2="6.5" width="0.1" layer="20"/>
+<wire x1="-1.1" y1="6.5" x2="-4.9" y2="6.5" width="0.1" layer="20"/>
+<wire x1="-4.9" y1="-4.5" x2="-4.9" y2="-6.5" width="0.1" layer="20"/>
+<wire x1="-4.9" y1="-6.5" x2="-1.1" y2="-6.5" width="0.1" layer="20"/>
+<wire x1="-1.1" y1="-6.5" x2="-1.1" y2="-4.5" width="0.1" layer="20"/>
+<wire x1="-1.1" y1="-4.5" x2="-4.9" y2="-4.5" width="0.1" layer="20"/>
+<wire x1="-6.5" y1="6.5" x2="-5.5" y2="6.5" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="6.5" x2="-0.2" y2="6.5" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="6.5" x2="-0.2" y2="-6.5" width="0.1" layer="21"/>
+<wire x1="-0.2" y1="-6.5" x2="-0.5" y2="-6.5" width="0.1" layer="21"/>
+<wire x1="-5.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.1" layer="21"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.1" layer="21"/>
+<rectangle x1="-1.8" y1="-1.9" x2="-0.4" y2="1.9" layer="1"/>
+<rectangle x1="-1.8" y1="-1.9" x2="-0.4" y2="1.9" layer="16"/>
+<rectangle x1="-1.9" y1="-2" x2="-0.3" y2="2" layer="30"/>
+<rectangle x1="-1.9" y1="-2" x2="-0.3" y2="2" layer="29"/>
+<rectangle x1="-1.8" y1="-1.9" x2="-0.4" y2="1.9" layer="31"/>
+<rectangle x1="-1.8" y1="-1.9" x2="-1.4" y2="1.9" layer="32"/>
+<smd name="P$2" x="4" y="0" dx="4.5" dy="8.4" layer="1" rot="R180"/>
+<wire x1="0.8" y1="-1.5" x2="1.4" y2="-1.5" width="0.1" layer="20"/>
+<wire x1="1.4" y1="-1.5" x2="1.4" y2="1.5" width="0.1" layer="20"/>
+<wire x1="1.4" y1="1.5" x2="0.8" y2="1.5" width="0.1" layer="20"/>
+<wire x1="0.8" y1="1.5" x2="0.8" y2="-1.5" width="0.1" layer="20"/>
+<wire x1="4.9" y1="-6.5" x2="4.9" y2="-4.5" width="0.1" layer="20"/>
+<wire x1="4.9" y1="-4.5" x2="1.1" y2="-4.5" width="0.1" layer="20"/>
+<wire x1="1.1" y1="-4.5" x2="1.1" y2="-6.5" width="0.1" layer="20"/>
+<wire x1="1.1" y1="-6.5" x2="4.9" y2="-6.5" width="0.1" layer="20"/>
+<wire x1="4.9" y1="4.5" x2="4.9" y2="6.5" width="0.1" layer="20"/>
+<wire x1="4.9" y1="6.5" x2="1.1" y2="6.5" width="0.1" layer="20"/>
+<wire x1="1.1" y1="6.5" x2="1.1" y2="4.5" width="0.1" layer="20"/>
+<wire x1="1.1" y1="4.5" x2="4.9" y2="4.5" width="0.1" layer="20"/>
+<wire x1="6.5" y1="-6.5" x2="5.5" y2="-6.5" width="0.1" layer="21"/>
+<wire x1="0.5" y1="-6.5" x2="0.2" y2="-6.5" width="0.1" layer="21"/>
+<wire x1="0.2" y1="-6.5" x2="0.2" y2="6.5" width="0.1" layer="21"/>
+<wire x1="0.2" y1="6.5" x2="0.5" y2="6.5" width="0.1" layer="21"/>
+<wire x1="5.5" y1="6.5" x2="6.5" y2="6.5" width="0.1" layer="21"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.1" layer="21"/>
+<rectangle x1="0.4" y1="-1.9" x2="1.8" y2="1.9" layer="1" rot="R180"/>
+<rectangle x1="0.4" y1="-1.9" x2="1.8" y2="1.9" layer="16" rot="R180"/>
+<rectangle x1="0.3" y1="-2" x2="1.9" y2="2" layer="30" rot="R180"/>
+<rectangle x1="0.3" y1="-2" x2="1.9" y2="2" layer="29" rot="R180"/>
+<rectangle x1="0.4" y1="-1.9" x2="1.8" y2="1.9" layer="31" rot="R180"/>
+<rectangle x1="1.4" y1="-1.9" x2="1.8" y2="1.9" layer="32" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -13317,13 +13318,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <junction x="248.92" y="220.98"/>
 </segment>
 </net>
-<net name="USBVCC" class="1">
-<segment>
-<pinref part="ICSP" gate="G$1" pin="2"/>
-<wire x1="355.6" y1="96.52" x2="368.3" y2="96.52" width="0.1524" layer="91"/>
-<label x="363.22" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="D-" class="0">
 <segment>
 <wire x1="45.72" y1="139.7" x2="38.1" y2="139.7" width="0.1524" layer="91"/>
@@ -14005,6 +13999,11 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <pinref part="GND" gate="G$1" pin="VBUS"/>
 <pinref part="U$3" gate="G$1" pin="VBUS"/>
 <junction x="45.72" y="152.4"/>
+</segment>
+<segment>
+<pinref part="ICSP" gate="G$1" pin="2"/>
+<wire x1="355.6" y1="96.52" x2="368.3" y2="96.52" width="0.1524" layer="91"/>
+<label x="363.22" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$31" class="0">
