@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11584,18 +11584,23 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R8" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
 <attribute name="MPN" value=""/>
+<attribute name="POPULATE" value="DNP"/>
 </part>
 <part name="R11" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
 <attribute name="MPN" value=""/>
+<attribute name="POPULATE" value="DNP"/>
 </part>
 <part name="R12" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
 <attribute name="MPN" value=""/>
+<attribute name="POPULATE" value="DNP"/>
 </part>
 <part name="R15" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
 <attribute name="MPN" value=""/>
+<attribute name="POPULATE" value="DNP"/>
 </part>
 <part name="R16" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
 <attribute name="MPN" value=""/>
+<attribute name="POPULATE" value="DNP"/>
 </part>
 <part name="P+9" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="C26" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="10uF">
@@ -11963,10 +11968,14 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </part>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C23" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="0.1uF">
+<part name="C23" library="PaxInstrument-T400" deviceset="SPARKFUN-CAPACITORS_CAP" device="0603-CAP" value="1uF">
 <attribute name="MPN" value=""/>
 </part>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R25" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
+<attribute name="MPN" value=""/>
+</part>
+<part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12217,22 +12226,27 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <instance part="R8" gate="G$1" x="246.38" y="58.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="244.602" y="57.15" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="246.38" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="POPULATE" x="246.38" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="251.46" y="58.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="249.682" y="57.15" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="251.46" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="POPULATE" x="251.46" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="256.54" y="58.42" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="253.238" y="57.15" size="1.778" layer="96" rot="MR90"/>
 <attribute name="MPN" x="256.54" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="POPULATE" x="256.54" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="215.9" y="58.42" smashed="yes" rot="MR270">
 <attribute name="VALUE" x="212.598" y="57.15" size="1.778" layer="96" rot="MR90"/>
 <attribute name="MPN" x="215.9" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="POPULATE" x="215.9" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="210.82" y="58.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="209.042" y="57.15" size="1.778" layer="96" rot="R90"/>
 <attribute name="MPN" x="210.82" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="POPULATE" x="210.82" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="P+9" gate="G$1" x="233.68" y="63.5" rot="MR0"/>
 <instance part="C26" gate="G$1" x="360.68" y="231.14">
@@ -12679,6 +12693,11 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MPN" x="170.18" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND36" gate="1" x="170.18" y="157.48"/>
+<instance part="R25" gate="G$1" x="88.9" y="238.76" smashed="yes" rot="R90">
+<attribute name="VALUE" x="90.678" y="240.03" size="1.778" layer="96" rot="R270"/>
+<attribute name="MPN" x="88.9" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="GND37" gate="1" x="88.9" y="231.14"/>
 </instances>
 <busses>
 </busses>
@@ -13329,6 +13348,10 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <segment>
 <pinref part="C23" gate="G$1" pin="2"/>
 <pinref part="GND36" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="D-" class="0">
@@ -13995,8 +14018,9 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="111.76" y1="246.38" x2="99.06" y2="246.38" width="0.1524" layer="91"/>
 <junction x="68.58" y="246.38"/>
 <label x="68.58" y="246.38" size="1.778" layer="95"/>
-<wire x1="99.06" y1="246.38" x2="68.58" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="246.38" x2="88.9" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="TP11" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="246.38" x2="68.58" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="233.68" x2="68.58" y2="233.68" width="0.1524" layer="91"/>
 <junction x="68.58" y="233.68"/>
 <pinref part="U2" gate="G$1" pin="VCC"/>
@@ -14007,6 +14031,9 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="25.4" y1="231.14" x2="27.94" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="231.14" x2="27.94" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="246.38" x2="68.58" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="243.84" x2="88.9" y2="246.38" width="0.1524" layer="91"/>
+<junction x="88.9" y="246.38"/>
 </segment>
 <segment>
 <label x="45.72" y="152.4" size="1.778" layer="95" rot="MR0"/>
