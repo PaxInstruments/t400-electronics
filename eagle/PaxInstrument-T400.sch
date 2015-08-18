@@ -11819,7 +11819,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+8" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-2" device="SMD-NO">
+<part name="JP1" library="SparkFun-Passives" deviceset="JUMPER-2" device="SMD-NO" value="ON">
 <attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
 </part>
@@ -13794,11 +13794,11 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <junction x="223.52" y="203.2"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
-<label x="83.82" y="124.46" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="PB7"/>
-<pinref part="U$3" gate="G$1" pin="PB7"/>
-<junction x="81.28" y="124.46"/>
+<wire x1="81.28" y1="172.72" x2="83.82" y2="172.72" width="0.1524" layer="91"/>
+<label x="83.82" y="172.72" size="1.778" layer="95"/>
+<pinref part="GND" gate="G$1" pin="PF6(ADC6)"/>
+<pinref part="U$3" gate="G$1" pin="PF6(ADC6)"/>
+<junction x="81.28" y="172.72"/>
 </segment>
 </net>
 <net name="SW_E" class="0">
@@ -13866,11 +13866,11 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <junction x="256.54" y="30.48"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
-<label x="83.82" y="132.08" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="PB4(ADC11)"/>
-<pinref part="U$3" gate="G$1" pin="PB4(ADC11)"/>
-<junction x="81.28" y="132.08"/>
+<wire x1="81.28" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
+<label x="83.82" y="124.46" size="1.778" layer="95"/>
+<pinref part="GND" gate="G$1" pin="PB7"/>
+<pinref part="U$3" gate="G$1" pin="PB7"/>
+<junction x="81.28" y="124.46"/>
 </segment>
 </net>
 <net name="SW_A" class="0">
@@ -13951,11 +13951,11 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <label x="200.66" y="226.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
-<label x="83.82" y="116.84" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="PB0(SS)"/>
-<pinref part="U$3" gate="G$1" pin="PB0(SS)"/>
-<junction x="81.28" y="116.84"/>
+<wire x1="81.28" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
+<label x="83.82" y="134.62" size="1.778" layer="95"/>
+<pinref part="GND" gate="G$1" pin="PE6"/>
+<pinref part="U$3" gate="G$1" pin="PE6"/>
+<junction x="81.28" y="134.62"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -13999,11 +13999,11 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="81.28" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
-<label x="83.82" y="134.62" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="PE6"/>
-<pinref part="U$3" gate="G$1" pin="PE6"/>
-<junction x="81.28" y="134.62"/>
+<wire x1="81.28" y1="132.08" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
+<label x="83.82" y="132.08" size="1.778" layer="95"/>
+<pinref part="GND" gate="G$1" pin="PB4(ADC11)"/>
+<pinref part="U$3" gate="G$1" pin="PB4(ADC11)"/>
+<junction x="81.28" y="132.08"/>
 </segment>
 </net>
 <net name="VBUS_IN" class="1">
@@ -14301,15 +14301,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <junction x="81.28" y="119.38"/>
 </segment>
 </net>
-<net name="TXLED" class="0">
-<segment>
-<wire x1="81.28" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<label x="83.82" y="104.14" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="PD5"/>
-<pinref part="U$3" gate="G$1" pin="PD5"/>
-<junction x="81.28" y="104.14"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="VBAT"/>
@@ -14331,20 +14322,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="33.02" y1="162.56" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="AREF"/>
 <junction x="45.72" y="162.56"/>
-</segment>
-</net>
-<net name="DATA1" class="0">
-<segment>
-<wire x1="81.28" y1="172.72" x2="83.82" y2="172.72" width="0.1524" layer="91"/>
-<label x="83.82" y="172.72" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="PF6(ADC6)"/>
-<pinref part="U$3" gate="G$1" pin="PF6(ADC6)"/>
-<junction x="81.28" y="172.72"/>
-</segment>
-<segment>
-<label x="294.64" y="93.98" size="1.778" layer="95"/>
-<pinref part="ICSP1" gate="G$1" pin="4"/>
-<wire x1="294.64" y1="93.98" x2="292.1" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DATA2" class="0">
@@ -14411,6 +14388,24 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <pinref part="IC3" gate="G$1" pin="Q"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="276.86" y1="226.06" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RXLED" class="0">
+<segment>
+<wire x1="81.28" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
+<label x="83.82" y="116.84" size="1.778" layer="95"/>
+<pinref part="GND" gate="G$1" pin="PB0(SS)"/>
+<pinref part="U$3" gate="G$1" pin="PB0(SS)"/>
+<junction x="81.28" y="116.84"/>
+</segment>
+</net>
+<net name="TXLED" class="0">
+<segment>
+<wire x1="81.28" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
+<label x="83.82" y="104.14" size="1.778" layer="95"/>
+<pinref part="GND" gate="G$1" pin="PD5"/>
+<pinref part="U$3" gate="G$1" pin="PD5"/>
+<junction x="81.28" y="104.14"/>
 </segment>
 </net>
 </nets>
