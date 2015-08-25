@@ -12037,7 +12037,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="254" y1="154.94" x2="195.58" y2="154.94" width="0.2032" layer="94"/>
 <wire x1="195.58" y1="154.94" x2="195.58" y2="193.04" width="0.2032" layer="94"/>
 <text x="198.12" y="187.96" size="3.81" layer="94">Temp sensor</text>
-<text x="330.2" y="15.24" size="2.54" layer="94" align="center-left">0.12</text>
+<text x="330.2" y="15.24" size="2.54" layer="94" align="center-left">0.13</text>
 <wire x1="256.54" y1="73.66" x2="314.96" y2="73.66" width="0.2032" layer="94"/>
 <wire x1="256.54" y1="111.76" x2="256.54" y2="73.66" width="0.2032" layer="94"/>
 <wire x1="314.96" y1="111.76" x2="314.96" y2="73.66" width="0.2032" layer="94"/>
