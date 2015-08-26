@@ -8,7 +8,7 @@
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -25,12 +25,12 @@
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -1687,7 +1687,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <class number="1" name="power" width="0.3048" drill="0">
 </class>
 </classes>
-<designrules name="PaxInstrument-T400 *">
+<designrules name="PaxInstrument-T400">
 <description language="en">&lt;b&gt;LumberDAQ Design Rules&lt;/b&gt;
 &lt;p&gt;
 These are the default Design Rules for LumberDAQ.</description>
@@ -1753,7 +1753,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
-<param name="checkAngle" value="1"/>
+<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
@@ -2649,7 +2649,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="37.465" y="12.7" extent="1-16" drill="0.3302"/>
 <wire x1="73.109" y1="25.72" x2="72.9949" y2="25.72" width="0.3048" layer="1"/>
 <via x="60.86475" y="12.7" extent="1-16" drill="0.3302"/>
-<wire x1="56.8325" y1="23.28" x2="64.35" y2="23.28" width="0.6096" layer="16"/>
+<wire x1="56.8325" y1="23.28" x2="59.1575" y2="23.28" width="0.6096" layer="16"/>
+<wire x1="59.1575" y1="23.28" x2="59.3725" y2="23.495" width="0.6096" layer="16"/>
+<wire x1="60.325" y1="23.28" x2="64.35" y2="23.28" width="0.6096" layer="16"/>
 <via x="64.35" y="23.28" extent="1-16" drill="0.3302"/>
 <wire x1="55.5625" y1="23.28" x2="53.975" y2="23.28" width="0.6096" layer="1"/>
 <wire x1="45.6438" y1="25.4" x2="44.03" y2="25.4" width="0.6096" layer="1"/>
@@ -2757,6 +2759,8 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="63.261875" y="12.7" extent="1-16" drill="0.3302"/>
 <wire x1="17.83625" y1="16.51" x2="17.83625" y2="12.8895" width="0.3048" layer="1"/>
 <wire x1="17.83625" y1="12.8895" x2="15.86375" y2="10.917" width="0.3048" layer="1"/>
+<wire x1="59.3725" y1="23.495" x2="60.11" y2="23.495" width="0.6096" layer="16"/>
+<wire x1="60.11" y1="23.495" x2="60.325" y2="23.28" width="0.6096" layer="16"/>
 </signal>
 <signal name="3V3EN">
 <contactref element="U4" pad="3"/>
@@ -4700,16 +4704,56 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="19,16,040679c1232a8093"/>
 <approved hash="19,16,36a5342f30c7ec33"/>
 <approved hash="19,16,7508d419bf466036"/>
+<approved hash="4,1,57d0d9a68d824d2e"/>
+<approved hash="4,1,4739e9756d828dc7"/>
+<approved hash="4,1,8606a89ae58215f7"/>
+<approved hash="4,1,766fb89a85827590"/>
+<approved hash="4,1,b4b07a7ab98d4c4e"/>
+<approved hash="4,1,a4850ba6b9824c7b"/>
+<approved hash="4,1,e5d4daa7b9834c2b"/>
+<approved hash="4,1,d53e6a7479808cc0"/>
+<approved hash="4,1,19ebe508c22e20cd"/>
+<approved hash="4,1,951177ea50ccac37"/>
+<approved hash="4,1,8a2ee508c21f7976"/>
+<approved hash="4,1,cc9a77ea50fc3fc3"/>
 <approved hash="19,1,5fbeb36b0af42ff8"/>
 <approved hash="19,1,f81d281417bb0e6b"/>
+<approved hash="4,1,bf31da43f7db56e7"/>
+<approved hash="4,1,e3cb42ef6f770a1d"/>
+<approved hash="4,1,bfc1113a7a1c56e7"/>
+<approved hash="4,1,e33bcfd8a4fe0a1d"/>
+<approved hash="4,1,46e8181301355dce"/>
+<approved hash="4,1,fd631813012ae014"/>
+<approved hash="4,1,e812b4f1add7f334"/>
+<approved hash="4,1,55d7b4f1adc848a0"/>
 <approved hash="19,1,1fbef3b2a72d82f8"/>
 <approved hash="19,1,fa1d2aad2802316b"/>
+<approved hash="4,1,b2722d563e2ed544"/>
+<approved hash="4,1,60888bfa988207be"/>
+<approved hash="4,1,b2629e8e77a7d544"/>
+<approved hash="4,1,6097c2632b4507be"/>
+<approved hash="4,1,ae35c944339390ad"/>
+<approved hash="4,1,77bec94432620e99"/>
+<approved hash="4,1,bb4587a77c80c263"/>
+<approved hash="4,1,248087a77d711a19"/>
 <approved hash="19,1,63be8e07f198d5f8"/>
 <approved hash="19,1,3c22ed7a38d52054"/>
+<approved hash="4,1,9ca5fd8108d9a5b3"/>
+<approved hash="4,1,105fbd2d48752949"/>
+<approved hash="4,1,106ef295ddb22949"/>
+<approved hash="4,1,9c9468774750a5b3"/>
+<approved hash="4,1,5e9efbeee2f843c6"/>
+<approved hash="4,1,8bef570c4e29acca"/>
+<approved hash="4,1,1915fbeee2cb3e30"/>
+<approved hash="4,1,f62a570c4e1aeb72"/>
 <approved hash="19,1,43beae6e84f1a0f8"/>
 <approved hash="19,1,b21d63134bbc536b"/>
-<approved hash="19,16,f59380729bafb9bf"/>
+<approved hash="4,1,c3366c447bdfd8e3"/>
+<approved hash="4,1,6dcccee8d9737619"/>
+<approved hash="4,1,6d3f39dc10fa7619"/>
+<approved hash="4,1,c3c5a53e8c18d8e3"/>
 <approved hash="19,16,06a34c0b81b39cea"/>
+<approved hash="19,16,f59380729bafb9bf"/>
 <approved hash="19,16,9dc0b3052bbc647e"/>
 <approved hash="19,16,d549e7b5b009e3b3"/>
 <approved hash="19,16,8f2480460a266402"/>
