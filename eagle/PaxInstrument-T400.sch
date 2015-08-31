@@ -12082,6 +12082,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <wire x1="88.9" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="66.04" y1="25.4" x2="66.04" y2="73.66" width="0.1524" layer="94" style="shortdash"/>
 <text x="66.548" y="74.168" size="1.778" layer="94">See note</text>
+<text x="257.81" y="116.84" size="1.778" layer="91" align="top-left">Note: Battery = CR1220</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
