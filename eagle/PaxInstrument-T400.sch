@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -63,6 +63,10 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -96,11 +100,16 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -127,6 +136,12 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="no" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="no" active="yes"/>
 <layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="no" active="yes"/>
@@ -135,6 +150,7 @@
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -11363,83 +11379,60 @@ The latest version of this library can be downloaded from https://github.com/Pax
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing&lt;/b&gt;: To the extent possible under law, Pax Instruments has waived all copyright and related or neighboring rights to Pax Instruments Connectors Eagle Libraries. This work is published from: United States. For further information see http://creativecommons.org/about/cc0</description>
 <packages>
-<package name="TC-CLIP-OUTSIDE">
-<smd name="P$1" x="-4" y="0" dx="4.5" dy="8.4" layer="1"/>
-<wire x1="-0.8" y1="1.5" x2="-1.4" y2="1.5" width="0.1" layer="20"/>
-<wire x1="-1.4" y1="1.5" x2="-1.4" y2="-1.5" width="0.1" layer="20"/>
-<wire x1="-1.4" y1="-1.5" x2="-0.8" y2="-1.5" width="0.1" layer="20"/>
-<wire x1="-0.8" y1="-1.5" x2="-0.8" y2="1.5" width="0.1" layer="20"/>
-<wire x1="-4.9" y1="6.5" x2="-4.9" y2="4.5" width="0.1" layer="20"/>
-<wire x1="-4.9" y1="4.5" x2="-1.1" y2="4.5" width="0.1" layer="20"/>
-<wire x1="-1.1" y1="4.5" x2="-1.1" y2="6.5" width="0.1" layer="20"/>
-<wire x1="-1.1" y1="6.5" x2="-4.9" y2="6.5" width="0.1" layer="20"/>
-<wire x1="-4.9" y1="-4.5" x2="-4.9" y2="-6.5" width="0.1" layer="20"/>
-<wire x1="-4.9" y1="-6.5" x2="-1.1" y2="-6.5" width="0.1" layer="20"/>
-<wire x1="-1.1" y1="-6.5" x2="-1.1" y2="-4.5" width="0.1" layer="20"/>
-<wire x1="-1.1" y1="-4.5" x2="-4.9" y2="-4.5" width="0.1" layer="20"/>
-<wire x1="-6.5" y1="6.5" x2="-5.5" y2="6.5" width="0.1" layer="21"/>
-<wire x1="-0.5" y1="6.5" x2="-0.2" y2="6.5" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="6.5" x2="-0.2" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-6.5" x2="-0.5" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="-5.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.1" layer="21"/>
-<rectangle x1="-1.8" y1="-1.9" x2="-0.4" y2="1.9" layer="1"/>
-<rectangle x1="-1.8" y1="-1.9" x2="-0.4" y2="1.9" layer="16"/>
-<rectangle x1="-1.9" y1="-2" x2="-0.3" y2="2" layer="30"/>
-<rectangle x1="-1.9" y1="-2" x2="-0.3" y2="2" layer="29"/>
-<rectangle x1="-1.8" y1="-1.9" x2="-0.4" y2="1.9" layer="31"/>
-<rectangle x1="-1.8" y1="-1.9" x2="-1.4" y2="1.9" layer="32"/>
-<smd name="P$2" x="4" y="0" dx="4.5" dy="8.4" layer="1" rot="R180"/>
-<wire x1="0.8" y1="-1.5" x2="1.4" y2="-1.5" width="0.1" layer="20"/>
-<wire x1="1.4" y1="-1.5" x2="1.4" y2="1.5" width="0.1" layer="20"/>
-<wire x1="1.4" y1="1.5" x2="0.8" y2="1.5" width="0.1" layer="20"/>
-<wire x1="0.8" y1="1.5" x2="0.8" y2="-1.5" width="0.1" layer="20"/>
-<wire x1="4.9" y1="-6.5" x2="4.9" y2="-4.5" width="0.1" layer="20"/>
-<wire x1="4.9" y1="-4.5" x2="1.1" y2="-4.5" width="0.1" layer="20"/>
-<wire x1="1.1" y1="-4.5" x2="1.1" y2="-6.5" width="0.1" layer="20"/>
-<wire x1="1.1" y1="-6.5" x2="4.9" y2="-6.5" width="0.1" layer="20"/>
-<wire x1="4.9" y1="4.5" x2="4.9" y2="6.5" width="0.1" layer="20"/>
-<wire x1="4.9" y1="6.5" x2="1.1" y2="6.5" width="0.1" layer="20"/>
-<wire x1="1.1" y1="6.5" x2="1.1" y2="4.5" width="0.1" layer="20"/>
-<wire x1="1.1" y1="4.5" x2="4.9" y2="4.5" width="0.1" layer="20"/>
-<wire x1="6.5" y1="-6.5" x2="5.5" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="0.5" y1="-6.5" x2="0.2" y2="-6.5" width="0.1" layer="21"/>
-<wire x1="0.2" y1="-6.5" x2="0.2" y2="6.5" width="0.1" layer="21"/>
-<wire x1="0.2" y1="6.5" x2="0.5" y2="6.5" width="0.1" layer="21"/>
-<wire x1="5.5" y1="6.5" x2="6.5" y2="6.5" width="0.1" layer="21"/>
-<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.1" layer="21"/>
-<rectangle x1="0.4" y1="-1.9" x2="1.8" y2="1.9" layer="1" rot="R180"/>
-<rectangle x1="0.4" y1="-1.9" x2="1.8" y2="1.9" layer="16" rot="R180"/>
-<rectangle x1="0.3" y1="-2" x2="1.9" y2="2" layer="30" rot="R180"/>
-<rectangle x1="0.3" y1="-2" x2="1.9" y2="2" layer="29" rot="R180"/>
-<rectangle x1="0.4" y1="-1.9" x2="1.8" y2="1.9" layer="31" rot="R180"/>
-<rectangle x1="1.4" y1="-1.9" x2="1.8" y2="1.9" layer="32" rot="R180"/>
+<package name="TC-CLIP-SINGLE">
+<smd name="P$1" x="-0.5" y="0" dx="5" dy="8.4" layer="1"/>
+<rectangle x1="1.5" y1="-1.9" x2="2.9" y2="1.9" layer="1"/>
+<rectangle x1="1.5" y1="-1.9" x2="2.9" y2="1.9" layer="16"/>
+<rectangle x1="1.4" y1="-2" x2="3" y2="2" layer="30"/>
+<rectangle x1="1.4" y1="-2" x2="3" y2="2" layer="29"/>
+<rectangle x1="1.5" y1="-1.9" x2="2.9" y2="1.9" layer="31"/>
+<rectangle x1="1.5" y1="-1.9" x2="1.9" y2="1.9" layer="32"/>
+<wire x1="2.5" y1="1.49" x2="1.9" y2="1.49" width="0.1" layer="20"/>
+<wire x1="1.9" y1="1.49" x2="1.9" y2="-1.51" width="0.1" layer="20"/>
+<wire x1="1.9" y1="-1.51" x2="2.5" y2="-1.51" width="0.1" layer="20"/>
+<wire x1="2.5" y1="-1.51" x2="2.5" y2="1.49" width="0.1" layer="20"/>
+<wire x1="-2" y1="6.49" x2="-2" y2="4.49" width="0.1" layer="20"/>
+<wire x1="-2" y1="4.49" x2="2" y2="4.49" width="0.1" layer="20"/>
+<wire x1="2" y1="4.49" x2="2" y2="6.49" width="0.1" layer="20"/>
+<wire x1="2" y1="6.49" x2="-2" y2="6.49" width="0.1" layer="20"/>
+<wire x1="-2" y1="-4.51" x2="-2" y2="-6.51" width="0.1" layer="20"/>
+<wire x1="-2" y1="-6.51" x2="2" y2="-6.51" width="0.1" layer="20"/>
+<wire x1="2" y1="-6.51" x2="2" y2="-4.51" width="0.1" layer="20"/>
+<wire x1="2" y1="-4.51" x2="-2" y2="-4.51" width="0.1" layer="20"/>
+<wire x1="-3.5" y1="5.99" x2="-2.5" y2="5.99" width="0.1" layer="21"/>
+<wire x1="2.5" y1="5.99" x2="3.5" y2="5.99" width="0.1" layer="21"/>
+<wire x1="3.5" y1="5.99" x2="3.5" y2="-6.01" width="0.1" layer="21"/>
+<wire x1="3.5" y1="-6.01" x2="2.5" y2="-6.01" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-6.01" x2="-3.5" y2="-6.01" width="0.1" layer="21"/>
+<wire x1="-3.5" y1="-6.01" x2="-3.5" y2="5.99" width="0.1" layer="21"/>
+<wire x1="-7" y1="5.99" x2="-7" y2="-6.01" width="0.1" layer="48"/>
 </package>
 </packages>
 <symbols>
-<symbol name="THERMOCOUPLE">
-<wire x1="-12.7" y1="1.27" x2="-12.7" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.81" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-12.7" y2="1.27" width="0.254" layer="94"/>
-<pin name="P$1" x="5.08" y="0" length="middle" rot="R180"/>
-<pin name="P$2" x="5.08" y="-2.54" length="middle" rot="R180"/>
-<text x="-8.89" y="-1.27" size="2.286" layer="94" rot="R90" align="center">TC</text>
+<symbol name="PIN">
+<wire x1="0" y1="0.254" x2="0" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.254" x2="1.016" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-0.254" x2="1.27" y2="0.254" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.254" x2="0" y2="0.254" width="0.1524" layer="94"/>
+<text x="2.032" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TC-MINI-OUTSIDE">
+<deviceset name="TC-MINI-SINGLE">
 <gates>
-<gate name="G$1" symbol="THERMOCOUPLE" x="-5.08" y="0"/>
+<gate name="G$1" symbol="PIN" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="TC-CLIP-OUTSIDE">
+<device name="" package="TC-CLIP-SINGLE">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MF" value="Pax Instrument" constant="no"/>
+<attribute name="MPN" value="Thermo-clip2" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -11546,22 +11539,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S">
 <attribute name="MF" value="N/A"/>
 <attribute name="MPN" value="N/A"/>
-</part>
-<part name="U$10" library="PaxInstruments-Connectors" deviceset="TC-MINI-OUTSIDE" device="">
-<attribute name="MF" value="Pax Instrument"/>
-<attribute name="MPN" value="Thermo-clip2"/>
-</part>
-<part name="U$11" library="PaxInstruments-Connectors" deviceset="TC-MINI-OUTSIDE" device="">
-<attribute name="MF" value="Pax Instrument"/>
-<attribute name="MPN" value="Thermo-clip2"/>
-</part>
-<part name="U$12" library="PaxInstruments-Connectors" deviceset="TC-MINI-OUTSIDE" device="">
-<attribute name="MF" value="Pax Instrument"/>
-<attribute name="MPN" value="Thermo-clip2"/>
-</part>
-<part name="U$13" library="PaxInstruments-Connectors" deviceset="TC-MINI-OUTSIDE" device="">
-<attribute name="MF" value="Pax Instrument"/>
-<attribute name="MPN" value="Thermo-clip2"/>
 </part>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Z1" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="PGB1010603">
@@ -11976,6 +11953,14 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MPN" value=""/>
 </part>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="U$7" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
+<part name="U$8" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
+<part name="U$9" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
+<part name="U$15" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
+<part name="U$16" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
+<part name="U$17" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
+<part name="U$18" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
+<part name="U$19" library="PaxInstruments-Connectors" deviceset="TC-MINI-SINGLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12185,22 +12170,6 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <instance part="LOGO1" gate="G$1" x="370.84" y="35.56">
 <attribute name="MPN" x="370.84" y="35.56" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="370.84" y="35.56" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$10" gate="G$1" x="25.4" y="63.5" smashed="yes">
-<attribute name="MPN" x="25.4" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="25.4" y="63.5" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$11" gate="G$1" x="25.4" y="55.88" smashed="yes">
-<attribute name="MPN" x="25.4" y="55.88" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="25.4" y="55.88" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$12" gate="G$1" x="25.4" y="45.72" smashed="yes">
-<attribute name="MPN" x="25.4" y="45.72" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="25.4" y="45.72" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U$13" gate="G$1" x="25.4" y="38.1" smashed="yes">
-<attribute name="MPN" x="25.4" y="38.1" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="25.4" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND18" gate="1" x="363.22" y="162.56"/>
 <instance part="Z1" gate="G$1" x="33.02" y="215.9" smashed="yes" rot="R90">
@@ -12699,6 +12668,14 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MPN" x="88.9" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND37" gate="1" x="88.9" y="231.14"/>
+<instance part="U$7" gate="G$1" x="30.48" y="63.5" rot="R180"/>
+<instance part="U$8" gate="G$1" x="30.48" y="60.96" rot="R180"/>
+<instance part="U$9" gate="G$1" x="30.48" y="55.88" rot="R180"/>
+<instance part="U$15" gate="G$1" x="30.48" y="53.34" rot="R180"/>
+<instance part="U$16" gate="G$1" x="30.48" y="45.72" rot="R180"/>
+<instance part="U$17" gate="G$1" x="30.48" y="43.18" rot="R180"/>
+<instance part="U$18" gate="G$1" x="30.48" y="38.1" rot="R180"/>
+<instance part="U$19" gate="G$1" x="30.48" y="35.56" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -14136,13 +14113,13 @@ The latest version of this library can be downloaded from https://github.com/Pax
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$10" gate="G$1" pin="P$2"/>
 <pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="33.02" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
 <junction x="35.56" y="60.96"/>
-<wire x1="35.56" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -14150,51 +14127,51 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <pinref part="R35" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="68.58" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="63.5" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="P$1"/>
 <pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="66.04" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="63.5" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
 <junction x="35.56" y="63.5"/>
-<wire x1="35.56" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="P$1"/>
 <pinref part="R29" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="66.04" x2="50.8" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="45.72" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="45.72" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
 <junction x="50.8" y="45.72"/>
+<pinref part="U$16" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="P$2"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="33.02" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="43.18" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
 <junction x="50.8" y="43.18"/>
+<pinref part="U$17" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="43.18" x2="50.8" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U$13" gate="G$1" pin="P$2"/>
 <pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="35.56" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="33.02" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <junction x="58.42" y="35.56"/>
+<pinref part="U$19" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -14202,12 +14179,12 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="53.34" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="50.8" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="P$2"/>
-<wire x1="43.18" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="33.02" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 <junction x="43.18" y="53.34"/>
+<pinref part="U$15" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -14215,23 +14192,23 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="58.42" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="55.88" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="P$1"/>
 <pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="66.04" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <junction x="43.18" y="55.88"/>
+<pinref part="U$9" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
 <pinref part="R40" gate="G$1" pin="2"/>
-<pinref part="U$13" gate="G$1" pin="P$1"/>
 <wire x1="76.2" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="66.04" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 <junction x="58.42" y="38.1"/>
+<pinref part="U$18" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
