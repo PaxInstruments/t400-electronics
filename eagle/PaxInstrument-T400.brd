@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5589,10 +5589,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="ATMEGA32U4-MU" x="24.13" y="21.59" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MF" value="Atmel" x="24.13" y="21.59" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="J1" library="PaxInstrument-T400" package="9P-SMD-W-RING" value="MICRO-SDCARD-CONNECTOR-3300060P1" x="73.025" y="6.8" locked="yes" smashed="yes" rot="R270">
-<attribute name="NAME" x="66.363" y="13.716" size="0.4064" layer="25" ratio="12" rot="R180"/>
-<attribute name="MPN" value="ST-TF-003A" x="73.025" y="6.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="SUNTECH" x="73.025" y="6.8" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="J1" library="PaxInstrument-T400" package="9P-SMD-W-RING" value="MICRO-SDCARD-CONNECTOR-3300060P1" x="73.025" y="7.3" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="66.363" y="14.216" size="0.4064" layer="25" ratio="12" rot="R180"/>
+<attribute name="MPN" value="ST-TF-003A" x="73.025" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="SUNTECH" x="73.025" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP1" library="PaxInstrument-T400" package="TP_15TH" value="PWR_ONOFF" x="34.6075" y="23.1775">
 <attribute name="MPN" value="N/A" x="34.6075" y="23.1775" size="1.778" layer="27" display="off"/>
@@ -5645,10 +5645,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <attribute name="MPN" value="ATMEGA32U4-AU" x="24.13" y="21.59" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="MF" value="Atmel" x="24.13" y="21.59" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="C21" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="71.21525" y="16.51" smashed="yes">
-<attribute name="MPN" value="" x="71.21525" y="16.51" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="69.85" y="16.3195" size="0.4064" layer="25" font="vector"/>
-<attribute name="VALUE" x="70.19925" y="15.367" size="0.4064" layer="27" font="vector"/>
+<element name="C21" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="0.1uF" x="71.21525" y="17.018" smashed="yes">
+<attribute name="MPN" value="" x="71.21525" y="17.018" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="69.85" y="16.8275" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="70.19925" y="15.875" size="0.4064" layer="27" font="vector"/>
 </element>
 <element name="SJ2" library="SparkFun-Passives" package="PAD-JUMPER-2-NC_BY_TRACE_YES_SILK" value="JUMPER-PAD-2-NC_BY_TRACE" x="50.8" y="27.305" rot="MR90">
 <attribute name="MF" value="N/A" x="50.8" y="27.305" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -6042,10 +6042,10 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="93.306" y="34.925" extent="1-16" drill="0.3302"/>
 <wire x1="68.976875" y1="25.82" x2="68.976875" y2="23.28" width="0.6096" layer="1"/>
 <wire x1="60.86475" y1="12.7" x2="60.86475" y2="10.8865" width="0.3048" layer="1"/>
-<wire x1="72.139" y1="14.293" x2="72.139" y2="12.7" width="0.3048" layer="1"/>
+<wire x1="72.139" y1="14.793" x2="72.139" y2="12.7" width="0.3048" layer="1"/>
 <via x="72.139" y="12.7" extent="1-16" drill="0.3302"/>
-<wire x1="72.139" y1="14.293" x2="72.139" y2="16.51" width="0.3048" layer="1"/>
-<wire x1="72.139" y1="16.51" x2="72.06525" y2="16.51" width="0.3048" layer="1"/>
+<wire x1="72.139" y1="14.793" x2="72.139" y2="16.51" width="0.3048" layer="1"/>
+<wire x1="72.139" y1="16.51" x2="72.06525" y2="17.018" width="0.3048" layer="1"/>
 <wire x1="21.725834375" y1="19.185834375" x2="20.028778125" y2="17.488778125" width="0.3048" layer="1"/>
 <wire x1="26.5341625" y1="15.791721875" x2="28.575" y2="13.750884375" width="0.3048" layer="1"/>
 <wire x1="25.4735" y1="18.125175" x2="26.035" y2="17.563675" width="0.3048" layer="1"/>
@@ -6288,7 +6288,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="IC3" pad="1"/>
 <contactref element="IC3" pad="2"/>
 <via x="15.24" y="5.08" extent="1-16" drill="0.3302"/>
-<via x="79.21625" y="15.52575" extent="1-16" drill="0.3302"/>
+<via x="79.85125" y="16.16075" extent="1-16" drill="0.3302"/>
 <via x="59.59475" y="31.01975" extent="1-16" drill="0.3302"/>
 <via x="36.41725" y="26.416" extent="1-16" drill="0.3302"/>
 <via x="65.405" y="24.41575" extent="1-16" drill="0.3302"/>
@@ -6347,7 +6347,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="66.83375" y="10.44575" extent="1-16" drill="0.3302"/>
 <via x="72.0725" y="10.44575" extent="1-16" drill="0.3302"/>
 <via x="79.375" y="10.12825" extent="1-16" drill="0.3302"/>
-<via x="79.21625" y="17.43075" extent="1-16" drill="0.3302"/>
+<via x="79.34325" y="17.81175" extent="1-16" drill="0.3302"/>
 <via x="95.09125" y="19.01825" extent="1-16" drill="0.3302"/>
 <via x="95.09125" y="16.16075" extent="1-16" drill="0.3302"/>
 <via x="95.09125" y="21.87575" extent="1-16" drill="0.3302"/>
@@ -6397,7 +6397,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="22.098" y1="9.49325" x2="22.098" y2="11.7475" width="0.3048" layer="16"/>
 <via x="22.098" y="11.7475" extent="1-16" drill="0.3302"/>
 <contactref element="J1" pad="7"/>
-<wire x1="68.839" y1="8.85825" x2="68.839" y2="14.293" width="0.3048" layer="1"/>
+<wire x1="68.839" y1="8.85825" x2="68.839" y2="14.793" width="0.3048" layer="1"/>
 <contactref element="U$3" pad="11"/>
 <wire x1="22.85720625" y1="14.660353125" x2="23.493603125" y2="15.29675" width="0.3048" layer="1"/>
 <wire x1="23.493603125" y1="15.29675" x2="23.493603125" y2="17.41806875" width="0.3048" layer="1"/>
@@ -6442,7 +6442,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="22.780625" y1="15.715140625" x2="22.780625" y2="17.412196875" width="0.3048" layer="1"/>
 <wire x1="22.291521875" y1="15.2260375" x2="21.2725" y2="14.207015625" width="0.3048" layer="1"/>
 <wire x1="21.2725" y1="14.207015625" x2="21.2725" y2="12.3825" width="0.3048" layer="1"/>
-<wire x1="73.239" y1="14.293" x2="73.239" y2="8.94525" width="0.3048" layer="1"/>
+<wire x1="73.239" y1="14.793" x2="73.239" y2="8.94525" width="0.3048" layer="1"/>
 <wire x1="73.239" y1="8.94525" x2="72.39" y2="8.09625" width="0.3048" layer="1"/>
 <via x="72.39" y="8.09625" extent="1-16" drill="0.3302"/>
 <wire x1="11.41" y1="33.02" x2="9.2075" y2="33.02" width="0.3048" layer="16"/>
@@ -6470,7 +6470,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <contactref element="GND" pad="9"/>
 <via x="20.447" y="11.7475" extent="1-16" drill="0.3302"/>
 <contactref element="J1" pad="5"/>
-<wire x1="71.039" y1="7.33425" x2="71.039" y2="14.293" width="0.3048" layer="1"/>
+<wire x1="71.039" y1="7.33425" x2="71.039" y2="14.793" width="0.3048" layer="1"/>
 <via x="62.13475" y="7.33425" extent="1-16" drill="0.3302"/>
 <wire x1="62.13475" y1="7.33425" x2="62.13475" y2="10.8865" width="0.3048" layer="1"/>
 <contactref element="X1" pad="7"/>
@@ -6795,7 +6795,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <signal name="SD_CS">
 <contactref element="J1" pad="2"/>
 <contactref element="TP7" pad="P$1"/>
-<wire x1="74.339" y1="14.293" x2="74.339" y2="17.62125" width="0.3048" layer="1"/>
+<wire x1="74.339" y1="14.793" x2="74.339" y2="17.62125" width="0.3048" layer="1"/>
 <contactref element="U$3" pad="31"/>
 <contactref element="GND" pad="31"/>
 <wire x1="26.5341625" y1="27.388275" x2="28.0383875" y2="28.8925" width="0.3048" layer="1"/>
@@ -7030,9 +7030,9 @@ These are the default Design Rules for LumberDAQ.</description>
 <via x="39.37" y="37.465" extent="1-16" drill="0.3302"/>
 <via x="57.15" y="37.465" extent="1-16" drill="0.3302"/>
 <via x="74.93" y="37.465" extent="1-16" drill="0.3302"/>
-<via x="27.94" y="38.735" extent="1-16" drill="0.3302"/>
+<via x="28.829" y="39.878" extent="1-16" drill="0.3302"/>
 <via x="32.004" y="40.005" extent="1-16" drill="0.3302"/>
-<via x="63.5" y="38.735" extent="1-16" drill="0.3302"/>
+<via x="64.135" y="39.878" extent="1-16" drill="0.3302"/>
 <via x="67.564" y="39.751" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="BATT_STAT">
@@ -7281,14 +7281,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="17.34" y1="36.9325" x2="18.34" y2="37.9325" width="0.3048" layer="1"/>
 <wire x1="16.51" y1="36.9325" x2="16.51" y2="35.6625" width="0.6096" layer="1"/>
 <wire x1="16.51" y1="35.6625" x2="16.93" y2="35.2425" width="0.6096" layer="1"/>
-<wire x1="20.6375" y1="43.18" x2="20.955" y2="42.8625" width="0.3048" layer="1"/>
-<wire x1="20.955" y1="42.8625" x2="20.955" y2="40.3225" width="0.3048" layer="1"/>
-<wire x1="20.955" y1="40.3225" x2="20.6375" y2="40.005" width="0.3048" layer="1"/>
-<wire x1="20.6375" y1="40.005" x2="18.6575" y2="40.005" width="0.3048" layer="1"/>
+<wire x1="21.0185" y1="43.18" x2="21.336" y2="42.8625" width="0.3048" layer="1"/>
+<wire x1="21.336" y1="42.8625" x2="21.336" y2="40.3225" width="0.3048" layer="1"/>
+<wire x1="21.336" y1="40.3225" x2="21.0185" y2="40.005" width="0.3048" layer="1"/>
+<wire x1="21.0185" y1="40.005" x2="18.6575" y2="40.005" width="0.3048" layer="1"/>
 <wire x1="18.6575" y1="40.005" x2="18.34" y2="39.6875" width="0.3048" layer="1"/>
 <wire x1="18.34" y1="39.6875" x2="18.34" y2="37.9325" width="0.3048" layer="1"/>
 <contactref element="U$16" pad="P$1"/>
-<wire x1="20.6375" y1="43.18" x2="18.042" y2="43.18" width="0.3048" layer="1"/>
+<wire x1="21.0185" y1="43.18" x2="18.042" y2="43.18" width="0.3048" layer="1"/>
 <wire x1="18.042" y1="43.18" x2="18.042" y2="46.99" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$14">
@@ -7332,14 +7332,14 @@ These are the default Design Rules for LumberDAQ.</description>
 <wire x1="79.18" y1="36.9325" x2="80.01" y2="36.9325" width="0.3048" layer="1"/>
 <wire x1="80.01" y1="36.9325" x2="80.01" y2="35.6625" width="0.6096" layer="1"/>
 <wire x1="80.01" y1="35.6625" x2="79.59" y2="35.2425" width="0.6096" layer="1"/>
-<wire x1="75.8825" y1="43.18" x2="75.565" y2="42.8625" width="0.3048" layer="1"/>
-<wire x1="75.565" y1="42.8625" x2="75.565" y2="40.3225" width="0.3048" layer="1"/>
-<wire x1="75.565" y1="40.3225" x2="75.8825" y2="40.005" width="0.3048" layer="1"/>
-<wire x1="75.8825" y1="40.005" x2="77.8625" y2="40.005" width="0.3048" layer="1"/>
+<wire x1="75.5015" y1="43.18" x2="75.184" y2="42.8625" width="0.3048" layer="1"/>
+<wire x1="75.184" y1="42.8625" x2="75.184" y2="40.3225" width="0.3048" layer="1"/>
+<wire x1="75.184" y1="40.3225" x2="75.5015" y2="40.005" width="0.3048" layer="1"/>
+<wire x1="75.5015" y1="40.005" x2="77.8625" y2="40.005" width="0.3048" layer="1"/>
 <wire x1="77.8625" y1="40.005" x2="78.18" y2="39.6875" width="0.3048" layer="1"/>
 <wire x1="78.18" y1="39.6875" x2="78.18" y2="37.9325" width="0.3048" layer="1"/>
 <contactref element="U$15" pad="P$1"/>
-<wire x1="75.8825" y1="43.18" x2="78.478" y2="43.18" width="0.3048" layer="1"/>
+<wire x1="75.5015" y1="43.18" x2="78.478" y2="43.18" width="0.3048" layer="1"/>
 <wire x1="78.478" y1="43.18" x2="78.478" y2="46.99" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$35">
@@ -8063,8 +8063,66 @@ These are the default Design Rules for LumberDAQ.</description>
 <approved hash="4,1,c3366c447bdfd8e3"/>
 <approved hash="4,1,c3c5a53e8c18d8e3"/>
 <approved hash="4,1,6d3f39dc10fa7619"/>
-<approved hash="19,16,f59380729bafb9bf"/>
+<approved hash="4,1,d181bde192bcf86f"/>
+<approved hash="4,1,d90e14b66a3351b0"/>
+<approved hash="4,1,3f276fa6409392ee"/>
+<approved hash="4,1,3f276fa7810346a5"/>
+<approved hash="19,1,43beacccbfd49e70"/>
+<approved hash="4,1,f4fa284b79dd5867"/>
+<approved hash="4,1,f2c21d454fa75f4f"/>
+<approved hash="4,1,395d05230550392e"/>
+<approved hash="4,1,b713f7a78130de91"/>
+<approved hash="19,1,3ddcef7b765b6a2a"/>
+<approved hash="4,1,68afcaedb02fec44"/>
+<approved hash="4,1,6eeff9578565ebd4"/>
+<approved hash="4,1,749a5a4b59a1109e"/>
+<approved hash="4,1,749a5ab4a1a1109e"/>
+<approved hash="4,1,587c040206d05aae"/>
+<approved hash="4,1,fc65fefe90051062"/>
+<approved hash="4,1,e4d54aa783238857"/>
+<approved hash="4,1,e4d54aa7c092501c"/>
+<approved hash="19,1,8bbe641eda06fb70"/>
+<approved hash="4,1,e15f0d210d55e12b"/>
+<approved hash="4,1,f2fb2e98c60ee766"/>
+<approved hash="4,1,f4c31b96f074e04e"/>
+<approved hash="4,1,5cc1d2a783341040"/>
+<approved hash="19,1,fbdc29c953e94f2a"/>
+<approved hash="4,1,56aef45e4d9c1145"/>
+<approved hash="4,1,50eec7e478d616d5"/>
+<approved hash="4,1,2f287fab21a1902c"/>
+<approved hash="4,1,2f287fb8a9ae902c"/>
+<approved hash="4,1,3073100d12dc32a2"/>
+<approved hash="4,1,d737a3fee6059030"/>
+<approved hash="4,1,108c16a782c3980e"/>
+<approved hash="4,1,108c16a7c0954045"/>
+<approved hash="19,1,63be8da7e7bfc770"/>
+<approved hash="4,1,c4c32a3045d2544e"/>
+<approved hash="4,1,595c052205565928"/>
+<approved hash="4,1,c2fb1f3e73a85366"/>
+<approved hash="4,1,89789ea7833711fa"/>
+<approved hash="19,1,c3dc102e2e0e332a"/>
+<approved hash="4,1,06afa5b9b07bed44"/>
+<approved hash="4,1,00ef96038531ead4"/>
+<approved hash="4,1,9acf03a299a111ca"/>
+<approved hash="4,1,9acf03b711a111ca"/>
+<approved hash="4,1,787fb001b2d17aaf"/>
+<approved hash="4,1,02d8d7fec60511df"/>
+<approved hash="4,1,3c3a71a7811b5bb8"/>
+<approved hash="4,1,3c3a71a4409183f3"/>
+<approved hash="19,1,5fbeb1c9bcd19c70"/>
+<approved hash="4,1,e6fc087e489c5971"/>
+<approved hash="4,1,3163111d11683116"/>
+<approved hash="4,1,e0c43d707ee65e59"/>
+<approved hash="4,1,b416f9a78136d394"/>
+<approved hash="19,1,39dcea7c695c742a"/>
+<approved hash="4,1,6eeff8568264edd4"/>
+<approved hash="4,1,68afcbecb72eea44"/>
+<approved hash="4,1,779d24b6a5a11199"/>
+<approved hash="4,1,779d24435da11199"/>
+<approved hash="4,1,587c100212d45aaa"/>
+<approved hash="4,1,ff6afcfe9405116d"/>
 <approved hash="19,16,06a34c0b81b39cea"/>
+<approved hash="19,16,f59380729bafb9bf"/>
 <approved hash="19,16,9dc0b3052bbc647e"/>
 <approved hash="19,16,d549e7b5b009e3b3"/>
 <approved hash="19,16,8f2480460a266402"/>
