@@ -5725,7 +5725,7 @@ These are the default Design Rules for LumberDAQ.</description>
 <element name="C23" library="PaxInstrument-T400" package="SPARKFUN-CAPACITORS_0603-CAP" value="1uF" x="88.795" y="20.0025">
 <attribute name="MPN" value="" x="88.795" y="20.0025" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R25" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="10k" x="9.2075" y="3.81" rot="R270">
+<element name="R25" library="PaxInstrument-T400" package="SPARKFUN-RESISTORS_0603-RES" value="4.7k" x="9.2075" y="3.81" rot="R270">
 <attribute name="MPN" value="" x="9.2075" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$6" library="PaxInstruments-Aesthetics" package="PAX-LOGO-0.5IN" value="" x="73.3425" y="0.635" rot="MR0"/>

@@ -8257,7 +8257,7 @@ The latest version of this library can be downloaded from https://github.com/Pax
 <attribute name="MPN" value=""/>
 </part>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R25" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="10k">
+<part name="R25" library="PaxInstrument-T400" deviceset="SPARKFUN-RESISTORS_RESISTOR" device="0603-RES" value="4.7k">
 <attribute name="MPN" value=""/>
 </part>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
